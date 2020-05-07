@@ -11,7 +11,7 @@ services:
     restart: always
     networks:
       - nginx-load-balancer
-      - pls
+      - alt
   backend:
     build:
       context: ..
@@ -20,7 +20,7 @@ services:
       - ../:/opt/alt
     restart: always
     networks:
-      - pls
+      - alt
     command: /opt/alt/bin/backend.sh
   frontend:
     build:
@@ -30,7 +30,7 @@ services:
       - ../ocd_frontend:/opt/alt/ocd_frontend
     restart: always
     networks:
-      - pls
+      - alt
   redis:
     image: "redis:${REDIS_VERSION}"
     command: redis-server --appendonly no --save ''
@@ -38,7 +38,7 @@ services:
       - net.core.somaxconn=65535
     restart: always
     networks:
-      - pls
+      - alt
   elasticsearch:
     image: "docker.elastic.co/elasticsearch/elasticsearch:${ES_VERSION}"
     environment:
@@ -59,7 +59,7 @@ services:
       - esdata:/usr/share/elasticsearch/data
     restart: always
     networks:
-      - pls
+      - alt
   app:
     build:
       context: ../app
@@ -68,12 +68,12 @@ services:
       - ../app:/opt/app
     restart: always
     networks:
-      - pls
+      - alt
   node:
     image: node:12.9.1
     working_dir: /opt/app/static
     networks:
-      - pls
+      - alt
     volumes:
       - ../app/frontend:/opt/app
     restart: always
@@ -83,7 +83,7 @@ volumes:
   esdata:
     driver: local
 networks:
-  pls:
+  alt:
   nginx-load-balancer:
     external:
       name: docker_nginx-load-balancer

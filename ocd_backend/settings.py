@@ -66,7 +66,7 @@ SOURCES_CONFIG_FILE = os.path.join(ROOT_PATH, 'sources/*.json')
 COMBINED_INDEX = 'alt_combined_index'
 
 # The default prefix used for all data
-DEFAULT_INDEX_PREFIX = 'alt_'
+DEFAULT_INDEX_PREFIX = 'alt'
 
 RESOLVER_BASE_URL = 'https://api.poliflw.nl/v0/resolve'
 RESOLVER_URL_INDEX = 'alt_resolver'

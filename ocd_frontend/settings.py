@@ -19,7 +19,7 @@ MAX_SEARCH_SIZE = 500
 COMBINED_INDEX = 'alt_combined_index'
 
 # The default prefix used for all data
-DEFAULT_INDEX_PREFIX = 'alt_'
+DEFAULT_INDEX_PREFIX = 'alt'
 
 # The fields which can be used for sorting results via the REST API
 SORTABLE_FIELDS = {
