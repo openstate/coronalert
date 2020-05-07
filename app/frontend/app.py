@@ -568,8 +568,8 @@ def do_split(s, delim):
     return s.split(delim)
 
 
-@app.template_filter('pfl_link')
-def do_pfl_link(doc):
+@app.template_filter('alt_link')
+def do_alt_link(doc):
     hl,rl = get_languages()
     return url_for(
         'show', as2_type=doc['@type'], id=doc['@id'].split('/')[-1], rl=rl,
@@ -596,8 +596,8 @@ def do_as2_i18n_field(s, result, l):
             r = result
         return r
 
-@app.template_filter('pfl_id_for_html_attr')
-def do_pfl_id_for_html_attr(s):
+@app.template_filter('alt_id_for_html_attr')
+def do_alt_id_for_html_attr(s):
     parts = s.split('/')
     if len(parts) > 1:
         return '%s-%s' % (parts[-2], parts[-1],)

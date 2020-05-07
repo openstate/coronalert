@@ -3,7 +3,7 @@ from werkzeug.middleware.dispatcher import DispatcherMiddleware
 from werkzeug.serving import run_simple
 
 import sys
-sys.path.insert(0, '/opt/pfl')
+sys.path.insert(0, '/opt/alt')
 from ocd_frontend import rest
 
 application = DispatcherMiddleware(rest.create_app(), {

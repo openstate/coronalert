@@ -998,16 +998,16 @@ def generate_locations():
         x[2] for x in available_indices if not x[2].startswith('.')]
     results = []
     for selected_index in selected_indices:
-        if selected_index == 'pfl_usage_logs':
+        if selected_index == 'alt_usage_logs':
             continue
-        if selected_index == 'pfl_resolver':
+        if selected_index == 'alt_resolver':
             continue
         results.append({
             "extractor": "ocd_backend.extractors.es.ElasticsearchExtractor",
             "keep_index_on_update": True,
             "enrichers": [
             ],
-            "index_name": selected_index.replace('pfl_', '').split('_')[0],
+            "index_name": selected_index.replace('alt_', '').split('_')[0],
             "transformer": "ocd_backend.transformers.LocationTransformer",
             "loader": "ocd_backend.loaders.ElasticsearchUpsertLoader",
             "item": "ocd_backend.items.BaseItem",
@@ -1032,9 +1032,9 @@ def generate_enrichments():
         x[2] for x in available_indices if not x[2].startswith('.')]
     results = []
     for selected_index in selected_indices:
-        if selected_index == 'pfl_usage_logs':
+        if selected_index == 'alt_usage_logs':
             continue
-        if selected_index == 'pfl_resolver':
+        if selected_index == 'alt_resolver':
             continue
         results.append({
             "extractor": "ocd_backend.extractors.es.ElasticsearchExtractor",
@@ -1045,7 +1045,7 @@ def generate_enrichments():
                 {}
               ]
             ],
-            "index_name": selected_index.replace('pfl_', '').split('_')[0],
+            "index_name": selected_index.replace('alt_', '').split('_')[0],
             "transformer": "ocd_backend.transformers.NoneTransformer",
             "loader": "ocd_backend.loaders.ElasticsearchUpsertLoader",
             "item": "ocd_backend.items.BaseItem",

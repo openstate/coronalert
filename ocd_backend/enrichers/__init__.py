@@ -21,7 +21,7 @@ import sys
 
 log = get_source_logger('enricher')
 
-interestingness_path = '/opt/pfl/interestingness.model'
+interestingness_path = '/opt/alt/interestingness.model'
 if os.path.exists(interestingness_path):
     clf = pickle.load(open(interestingness_path, 'rb'))
 else:
@@ -124,7 +124,7 @@ class PoliTagsEnricher(BaseEnricher, HttpRequestMixin):
         sentiment = doc.get('sentiment', {})
 
         doc['id'] = unicode(doc_id)
-        doc['meta']['pfl_url'] = unicode("https://api.poliflw.nl/v0/%s/%s" % (
+        doc['meta']['alt_url'] = unicode("https://api.poliflw.nl/v0/%s/%s" % (
             doc['meta']['source_id'], doc_id,))
         try:
             resp = self.http_session.post(

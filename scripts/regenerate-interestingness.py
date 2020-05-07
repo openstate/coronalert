@@ -47,7 +47,7 @@ def regenerate_index(es_index):
         print "%s" % (es_index,)
 
 def main():
-    regenerate_index('pfl_combined_index')
+    regenerate_index('alt_combined_index')
     return 0
 
 if __name__ == '__main__':

@@ -63,13 +63,13 @@ TEMP_DIR_PATH = os.path.join(ROOT_PATH, 'temp')
 SOURCES_CONFIG_FILE = os.path.join(ROOT_PATH, 'sources/*.json')
 
 # The name of the index containing documents from all sources
-COMBINED_INDEX = 'pfl_combined_index'
+COMBINED_INDEX = 'alt_combined_index'
 
 # The default prefix used for all data
-DEFAULT_INDEX_PREFIX = 'pfl'
+DEFAULT_INDEX_PREFIX = 'alt_'
 
 RESOLVER_BASE_URL = 'https://api.poliflw.nl/v0/resolve'
-RESOLVER_URL_INDEX = 'pfl_resolver'
+RESOLVER_URL_INDEX = 'alt_resolver'
 
 # The User-Agent that is used when retrieving data from external sources
 USER_AGENT = 'Poliscoops API/0.1 (+https://poliscoops.eu/)'

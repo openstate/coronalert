@@ -1,2 +1,2 @@
 #!/bin/sh
-curl -XDELETE 'http://elasticsearch:9200/pfl_*/'
+curl -XDELETE 'http://elasticsearch:9200/alt_*/'

@@ -17,17 +17,17 @@ services:
       context: ..
       dockerfile: Dockerfile-backend
     volumes:
-      - ../:/opt/pfl
+      - ../:/opt/alt
     restart: always
     networks:
       - pls
-    command: /opt/pfl/bin/backend.sh
+    command: /opt/alt/bin/backend.sh
   frontend:
     build:
       context: ../ocd_frontend
       dockerfile: Dockerfile-frontend
     volumes:
-      - ../ocd_frontend:/opt/pfl/ocd_frontend
+      - ../ocd_frontend:/opt/alt/ocd_frontend
     restart: always
     networks:
       - pls

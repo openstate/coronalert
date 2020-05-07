@@ -91,18 +91,18 @@ RUN apt-get install -y ffmpeg
 
 ##########
 
-WORKDIR /opt/pfl
+WORKDIR /opt/alt
 # Create a virtualenv project
 RUN echo 'ok'
 RUN virtualenv -q /opt
-RUN echo "source /opt/bin/activate; cd /opt/pfl;" >> /etc/profile
+RUN echo "source /opt/bin/activate; cd /opt/alt;" >> /etc/profile
 
 # Temporarily add all pfl API files on the host to the container
 # as it contains files needed to finish the base installation
-ADD . /opt/pfl
+ADD . /opt/alt
 
 # Install Python requirements
-COPY ocd_backend/requirements.txt /opt/pfl/requirements.txt
+COPY ocd_backend/requirements.txt /opt/alt/requirements.txt
 RUN source /opt/bin/activate \
     && pip install --upgrade pip \
     && pip install --upgrade setuptools \
@@ -144,13 +144,13 @@ RUN rm -rf /tmp/pdfparser /tmp/poppler
 RUN adduser --disabled-password --gecos '' celery \
   && mkdir -p /var/run/celery \
   && chown celery:celery /var/run/celery \
-  && mkdir -p /opt/pfl/ocd_backend/temp \
-  && chown celery:celery /opt/pfl/ocd_backend/temp \
-  && touch /opt/pfl/backend.log \
-  && chown celery:celery /opt/pfl/backend.log \
-  && touch /opt/pfl/log/celery.log \
-  && chown celery:celery  /opt/pfl/log/celery.log
+  && mkdir -p /opt/alt/ocd_backend/temp \
+  && chown celery:celery /opt/alt/ocd_backend/temp \
+  && touch /opt/alt/backend.log \
+  && chown celery:celery /opt/alt/backend.log \
+  && touch /opt/alt/log/celery.log \
+  && chown celery:celery  /opt/alt/log/celery.log
 
 USER celery
-WORKDIR /opt/pfl/
+WORKDIR /opt/alt/
 CMD source /opt/bin/activate && /opt/bin/celery --app=ocd_backend:celery_app worker --loglevel=info --concurrency=1

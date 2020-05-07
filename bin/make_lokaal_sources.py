@@ -85,7 +85,7 @@ def convert_party(party, feed_type, locations):
 def _get_normalized_locations():
     loc_path = os.path.join(
         os.path.abspath(os.path.dirname(__file__)),
-        '/opt/pfl/ocd_backend/data/cbs-name2018-mapping.csv')
+        '/opt/alt/ocd_backend/data/cbs-name2018-mapping.csv')
     result = {}
     with open(loc_path) as locations_in:
         locations = reader = csv.reader(locations_in)
@@ -112,7 +112,7 @@ def main(argv):
     parties = []
 
     result = []
-    with open('/opt/pfl/ocd_backend/data/lokaal.json') as in_file:
+    with open('/opt/alt/ocd_backend/data/lokaal.json') as in_file:
         parties = json.load(in_file)
 
     for party in parties:

@@ -56,7 +56,7 @@ def _get_normalized_locations():
 def main():
     LOCATIONS = _get_normalized_locations()
     client = StrictRedis(host='redis')
-    client.hmset('pfl_locs_norm', LOCATIONS)
+    client.hmset('alt_locs_norm', LOCATIONS)
 
 if __name__ == '__main__':
     sys.exit(main())

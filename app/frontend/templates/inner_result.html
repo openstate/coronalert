@@ -1,6 +1,6 @@
 <div class="search-result">
   <h2>
-    <a href="{{ result_object |pfl_link }}" lang="{{ article_language }}">
+    <a href="{{ result_object |alt_link }}" lang="{{ article_language }}">
       {{ 'name' |as2_i18n_field(result_object, rl) }}
     </a>
   </h2>
@@ -54,7 +54,7 @@
         </li>
         {% endif %}
         <li class="list-inline-item ml-auto">
-          <a class="read-more-link" href="{{ result_object |pfl_link }}">{%trans%}Read more{%endtrans%}  <i class="fa fa-chevron-down"></i></a>
+          <a class="read-more-link" href="{{ result_object |alt_link }}">{%trans%}Read more{%endtrans%}  <i class="fa fa-chevron-down"></i></a>
         </li>
       </ul>
     </div>

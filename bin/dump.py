@@ -44,7 +44,7 @@ def main(argv):
         elasticsearch,
         query=es_query,
         scroll='5m',
-        raise_on_error=False, index='pfl_combined_index', doc_type='item')
+        raise_on_error=False, index='alt_combined_index', doc_type='item')
 
     print json.dumps(list(items))
     return 0

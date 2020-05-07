@@ -81,7 +81,7 @@ Generating documentation
 
 To generate the documentation run::
 
-   $ docker exec pfl_backend_1 sh -c "source ../bin/activate && cd docs && make html"
+   $ docker exec alt_backend_1 sh -c "source ../bin/activate && cd docs && make html"
 
 If you get permission errors then ``pls_nginx_1`` probably already created an empty ``_build/html`` directory. Simply delete this directory and run the command above again.
 
@@ -90,4 +90,4 @@ Automatic updating using cron
 
 The ``update.sh`` script contains the instructions to update indices. On the host machine run ``sudo crontab -e`` and add the following line::
 
-   $ 0 1,7,13,19 * * * sudo docker exec pls_backend_1 /opt/pfl/bin/update.sh
+   $ 0 1,7,13,19 * * * sudo docker exec pls_backend_1 /opt/alt/bin/update.sh

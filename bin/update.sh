@@ -1,7 +1,7 @@
 #!/bin/sh
 
 source /opt/bin/activate
-cd /opt/pfl
+cd /opt/alt
 
 # controls how often we get things. one cycle is 15 minutens
 PFL_FB_CYCLES=48

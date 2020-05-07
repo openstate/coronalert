@@ -306,7 +306,7 @@ def format_search_results(results, doc_type=u'item', expansions=0):
             '_external': True,
             '_scheme': 'https'
         }
-        hit['_source']['meta']['pfl_url'] = url_for('api.get_object', **kwargs)
+        hit['_source']['meta']['alt_url'] = url_for('api.get_object', **kwargs)
         for key in current_app.config['EXCLUDED_FIELDS_ALWAYS']:
             try:
                 del hit['_source'][key]

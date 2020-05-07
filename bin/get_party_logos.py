@@ -67,7 +67,7 @@ def main(argv):
     feed_type = 'Website'
     parties = []
 
-    with open('/opt/pfl/ocd_backend/data/lokaal.json') as in_file:
+    with open('/opt/alt/ocd_backend/data/lokaal.json') as in_file:
         parties = json.load(in_file)
 
     for party in parties:
