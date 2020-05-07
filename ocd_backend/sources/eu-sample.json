@@ -3,10 +3,6 @@
         "extractor": "ocd_backend.extractors.feed.FeedExtractor",
         "keep_index_on_update": true,
         "enrichers": [
-            [
-                "ocd_backend.enrichers.InterestingnessEnricher",
-                {}
-            ]
         ],
         "index_name": "el",
         "collection": "EL",
@@ -23,10 +19,6 @@
         "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
         "keep_index_on_update": true,
         "enrichers": [
-            [
-                "ocd_backend.enrichers.InterestingnessEnricher",
-                {}
-            ]
         ],
         "index_name": "ids",
         "collection": "IDS",
