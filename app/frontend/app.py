@@ -623,8 +623,8 @@ def do_pls_location(s):
 
 class BackendAPI(object):
     #URL = 'http://nginx/v0'
-    URL = 'https://api.poliscoops.com/v0'
-    HEADERS = {'Host': 'api.poliscoops.com'}
+    URL = 'https://api.coronalert.nl/v0'
+    HEADERS = {'Host': 'api.coronalert.nl'}
 
     def sources(self):
         return requests.get('%s/sources' % (self.URL,), headers=self.HEADERS).json()
