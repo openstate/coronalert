@@ -1,6 +1,7 @@
 from datetime import datetime
 import sys
 import re
+from urlparse import urljoin
 
 import iso8601
 
@@ -115,7 +116,11 @@ class FeedContentFromPageItem(FeedItem, HttpRequestMixin):
         combined_index_data = super(
             FeedContentFromPageItem, self).get_combined_index_data()
 
-        r = self.http_session.get(self.original_item['link'], timeout=5)
+        if re.match(r'^https?\:\/\/', self.original_item['link']):
+            page_link = self.original_item['link']
+        else:
+            page_link = urljoin(self.source_definition['file_url'], self.original_item['link'])
+        r = self.http_session.get(page_link, timeout=5)
         print >>sys.stderr, "Got %s with status code : %s" % (
             self.original_item['link'], r.status_code)
 

@@ -618,8 +618,8 @@ def do_pls_location(s):
 
 
 class BackendAPI(object):
-    #URL = 'http://nginx/v0'
-    URL = 'https://api.coronalert.nl/v0'
+    URL = 'http://nginx/v0'
+    #URL = 'https://api.coronalert.nl/v0'
     HEADERS = {'Host': 'api.coronalert.nl'}
 
     def sources(self):
@@ -958,8 +958,8 @@ def search():
 
     for facet, desc, is_displayed, is_filter, sub_attr in FACETS:
         search_params[facet] = request.args.get(facet, None)
-    if search_params['location'] is None:
-        search_params['location'] = locations
+    # if search_params['location'] is None:
+    #     search_params['location'] = locations
 
     sort_key = request.args.get('sort', 'relevancy')
     if sort_key is not None:

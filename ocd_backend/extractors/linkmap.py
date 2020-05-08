@@ -7,9 +7,11 @@ from ocd_backend.utils.linkmap import build_linkmap, save_linkmap, load_linkmap
 
 class LinkmapExtractor(StaticFileBaseExtractor):
     def extract_items(self, static_content):
+        #print static_content
         tree = etree.HTML(static_content)
         existing = load_linkmap(self.file_url)
         current = build_linkmap(self.file_url, tree)
+        print current
 
         new_links = []
         if existing is not None and current is not None:
@@ -18,5 +20,6 @@ class LinkmapExtractor(StaticFileBaseExtractor):
         # if not existing:
         #     save_linkmap(url, linkmap)
 
+        print len(new_links)
         for link in new_links:
             yield 'application/json', json.dumps({"link": link})
