@@ -49,7 +49,7 @@ CHUNK_SIZE = 1024
 
 REWRITE_IMAGE_LINKS_CHECK = 'http:'
 
-AS2_NAMESPACE = u'https://www.poliflw.nl/ns/voc/'
+AS2_NAMESPACE = u'https://www.coronalert.nl/ns/voc/1.0/'
 
 AS2_ACTIVITIES = [
     'Activity', 'InstransitiveActivity', 'Accept', 'Add', 'Announce',
@@ -106,17 +106,13 @@ INTERVALS = OrderedDict([
     ('1d', lazy_gettext('Daily')),
     ('1w', lazy_gettext('Weekly'))])
 
-DEFAULT_LANGUAGE = 'en'
+DEFAULT_LANGUAGE = 'nl'
 BABEL_DEFAULT_LOCALE = 'en'
 
 INTERFACE_LANGUAGES = OrderedDict([
-    ('en', lazy_gettext('English')),
-    ('de', lazy_gettext('German')),
-    ('fr', lazy_gettext('French'))])
+    ('nl', lazy_gettext('Dutch')),
+    ])
 ARTICLE_LANGUAGES = OrderedDict([
-    ('en', lazy_gettext('English')),
-    ('de', lazy_gettext('German')),
-    ('fr', lazy_gettext('French')),
     (None, lazy_gettext('Original language'))])
 
 COUNTRIES = OrderedDict([
