@@ -1,0 +1,776 @@
+# Dutch translations for PROJECT.
+# Copyright (C) 2020 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2020-04-29 15:18+0000\n"
+"PO-Revision-Date: 2020-05-08 10:11+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: nl\n"
+"Language-Team: nl <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: app.py:71
+msgid "Kind"
+msgstr "Soort"
+
+#: app.py:72
+msgid "Origin"
+msgstr "Oorsprong"
+
+#: app.py:73
+msgid "Date from"
+msgstr "Datum van"
+
+#: app.py:74
+msgid "Date until"
+msgstr "Datum tot"
+
+#: app.py:75
+msgid "Language"
+msgstr "Taal"
+
+#: app.py:76
+msgid "Location"
+msgstr "Lokatie"
+
+#: app.py:77 templates/inner_result.html:51 templates/inner_result.html:52
+#: templates/show.html:65
+msgid "Source"
+msgstr "Bron"
+
+#: app.py:79
+msgid "Mentions"
+msgstr "Noemt"
+
+#: app.py:84
+msgid "Created by"
+msgstr "Gemaakt door"
+
+#: app.py:86
+msgid "Polarity"
+msgstr "Polariteit"
+
+#: app.py:87
+msgid "Sentiment"
+msgstr "Sentiment"
+
+#: app.py:88
+msgid "Interestingness"
+msgstr "Interessantheid"
+
+#: app.py:92
+msgid "Low"
+msgstr "Laag"
+
+#: app.py:93
+msgid "High"
+msgstr "Hoog"
+
+#: app.py:94
+msgid "Party"
+msgstr "Partij"
+
+#: app.py:105
+msgid "Direct"
+msgstr "Direkt"
+
+#: app.py:106
+msgid "Daily"
+msgstr "Dagelijks"
+
+#: app.py:107
+msgid "Weekly"
+msgstr "Wekelijks"
+
+#: app.py:113 app.py:117 app.py:183
+msgid "English"
+msgstr "Engels"
+
+#: app.py:114 app.py:118 app.py:155 app.py:165
+msgid "German"
+msgstr "Frans"
+
+#: app.py:115 app.py:119 app.py:164
+msgid "French"
+msgstr "Duits"
+
+#: app.py:120
+msgid "Original language"
+msgstr "Oorspronkelijke taal"
+
+#: app.py:123
+msgid "Austria"
+msgstr "Oostenrijk"
+
+#: app.py:124
+msgid "Belgium"
+msgstr "Belgie"
+
+#: app.py:125
+msgid "Bulgaria"
+msgstr "Bulgarije"
+
+#: app.py:126
+msgid "Croatia"
+msgstr "Croatie"
+
+#: app.py:127
+msgid "Cyprus"
+msgstr "Cyprus"
+
+#: app.py:128
+msgid "Czech Republic"
+msgstr "Tsjechie"
+
+#: app.py:129
+msgid "Denmark"
+msgstr "Denemarken"
+
+#: app.py:130
+msgid "Estonia"
+msgstr "Estland"
+
+#: app.py:131
+msgid "Finland"
+msgstr "Finland"
+
+#: app.py:132
+msgid "France"
+msgstr "Frankrijk"
+
+#: app.py:133
+msgid "Germany"
+msgstr "Duitsland"
+
+#: app.py:134
+msgid "Greece"
+msgstr "Griekenland"
+
+#: app.py:135
+msgid "Hungary"
+msgstr "Hongarije"
+
+#: app.py:136
+msgid "Italy"
+msgstr "Italie"
+
+#: app.py:137
+msgid "Ireland"
+msgstr "Ierland"
+
+#: app.py:138
+msgid "Latvia"
+msgstr "Letland"
+
+#: app.py:139
+msgid "Lithuania"
+msgstr "Litouwen"
+
+#: app.py:140
+msgid "Luxembourg"
+msgstr "Luxemburg"
+
+#: app.py:141
+msgid "Malta"
+msgstr "Malta"
+
+#: app.py:142
+msgid "Netherlands"
+msgstr "Nederland"
+
+#: app.py:143
+msgid "Poland"
+msgstr "Polen"
+
+#: app.py:144
+msgid "Portugal"
+msgstr "Portugal"
+
+#: app.py:145
+msgid "Romania"
+msgstr "Roemenie"
+
+#: app.py:146
+msgid "Spain"
+msgstr "Spanje"
+
+#: app.py:147
+msgid "Slovakia"
+msgstr "Slowakije"
+
+#: app.py:148
+msgid "Slovenia"
+msgstr "Slovenie"
+
+#: app.py:149
+msgid "Sweden"
+msgstr "Zweden"
+
+#: app.py:150
+msgid "United Kingdom"
+msgstr "Verenigd Koninkrijk"
+
+#: app.py:151
+msgid "Eurpean Union"
+msgstr "Europese Unie"
+
+#: app.py:156 app.py:174
+msgid "Dutch"
+msgstr "Nederlands"
+
+#: app.py:157
+msgid "Bulgarian"
+msgstr "Bulgaars"
+
+#: app.py:158
+msgid "Croatian"
+msgstr "Kroatisch"
+
+#: app.py:159 app.py:166
+msgid "Greek"
+msgstr "Grieks"
+
+#: app.py:160
+msgid "Czech"
+msgstr "Tsjechisch"
+
+#: app.py:161
+msgid "Danish"
+msgstr "Deens"
+
+#: app.py:162
+msgid "Estonian"
+msgstr "Ests"
+
+#: app.py:163
+msgid "Finnish"
+msgstr "Fins"
+
+#: app.py:167
+msgid "Hungarian"
+msgstr "Hongaars"
+
+#: app.py:168
+msgid "Italan"
+msgstr "Italiaans"
+
+#: app.py:169
+msgid "Irish"
+msgstr "Iers"
+
+#: app.py:170
+msgid "Latvian"
+msgstr "Lets"
+
+#: app.py:171
+msgid "Lithuanian"
+msgstr "Litouws"
+
+#: app.py:172
+msgid "Luxembourgish"
+msgstr "Luxemburgs"
+
+#: app.py:173
+msgid "Maltese"
+msgstr "Maltees"
+
+#: app.py:175
+msgid "Polish"
+msgstr "Pools"
+
+#: app.py:176
+msgid "Portugese"
+msgstr "Portugees"
+
+#: app.py:177
+msgid "Romanian"
+msgstr "Roemeens"
+
+#: app.py:178
+msgid "Spanish"
+msgstr "Spaans"
+
+#: app.py:179
+msgid "Slovakian"
+msgstr "Slowaaks"
+
+#: app.py:180
+msgid "Slovenian"
+msgstr "Sloveens"
+
+#: app.py:181
+msgid "Swedish"
+msgstr "Zweeds"
+
+#: app.py:182
+msgid "Eurpean Unionish"
+msgstr "Eurpoees"
+
+#: app.py:501
+msgid "year"
+msgstr "jaar"
+
+#: app.py:501
+msgid "years"
+msgstr "jaar"
+
+#: app.py:502
+msgid "month"
+msgstr "maand"
+
+#: app.py:502
+msgid "months"
+msgstr "maanden"
+
+#: app.py:503
+msgid "week"
+msgstr "week"
+
+#: app.py:503
+msgid "weeks"
+msgstr "weken"
+
+#: app.py:504
+msgid "day"
+msgstr "dag"
+
+#: app.py:504
+msgid "days"
+msgstr "dagen"
+
+#: app.py:505
+msgid "hour"
+msgstr "uur"
+
+#: app.py:505
+msgid "hours"
+msgstr "uur"
+
+#: app.py:506
+msgid "minute"
+msgstr "minuut"
+
+#: app.py:506
+msgid "minutes"
+msgstr "minuten"
+
+#: app.py:507
+msgid "second"
+msgstr "seconde"
+
+#: app.py:507
+msgid "seconds"
+msgstr "seconden"
+
+#: templates/about.de.html:1 templates/about.en.html:1
+#: templates/about.fr.html:1 templates/about.html:7 templates/base.html:41
+#: templates/base.html:61
+msgid "About"
+msgstr "Over"
+
+#: templates/about.html:6 templates/countries.html:6
+#: templates/disclaimer.html:6 templates/feedback.html:6
+#: templates/languages.html:6 templates/privacy.html:6
+#: templates/search_results.html:20
+msgid "Home"
+msgstr "Home"
+
+#: templates/base.html:7 templates/base.html:17 templates/base.html:18
+#: templates/base.html:24 templates/base.html:40 templates/show.html:5
+msgid "Poliscoops"
+msgstr "CoronAlert"
+
+#: templates/base.html:42
+msgid "Toggle navigation"
+msgstr "Toon/verberg navigatie"
+
+#: templates/base.html:43
+msgid "Menu"
+msgstr "Menu"
+
+#: templates/base.html:49 templates/search.html:19
+#: templates/search_results.html:21
+msgid "Search"
+msgstr "Zoek"
+
+#: templates/base.html:52 templates/languages.html:7
+msgid "Languages"
+msgstr "Talen"
+
+#: templates/base.html:55 templates/countries.html:7
+msgid "Countries"
+msgstr "Landen"
+
+#: templates/base.html:58 templates/feedback.en.html:3
+#: templates/feedback.html:7 templates/index.html:60
+msgid "Feedback"
+msgstr "Feedback"
+
+#: templates/base.html:87
+#, python-format
+msgid ""
+"It looks like you have not selected any source countries. You can change "
+"this <a href=\"%(url)s\">here</a>."
+msgstr ""
+"Het lijkt alsof je nog geen landen hebt geselecteerd. Dit kan je"
+"<a href=\"%(url)s\">hier doen</a>."
+
+#: templates/base.html:103
+msgid "SIDN Fonds"
+msgstr ""
+
+#: templates/base.html:108
+msgid "DNI Fund"
+msgstr ""
+
+#: templates/base.html:114 templates/base.html:119
+msgid "NL Net"
+msgstr ""
+
+#: templates/base.html:124
+msgid "Open State Foundation"
+msgstr ""
+
+#: templates/base.html:132 templates/privacy.html:7
+msgid "Privacy"
+msgstr ""
+
+#: templates/base.html:137 templates/disclaimer.html:7
+msgid "Disclaimer"
+msgstr ""
+
+#: templates/base.html:164
+msgid "Collect &amp; Subscribe"
+msgstr "Verzamelen &amp; Abboneren"
+
+#: templates/base.html:173 templates/base.html:219
+#: templates/feedback.en.html:10 templates/index.html:63
+msgid "Mail"
+msgstr "Mail"
+
+#: templates/base.html:176
+msgid "Select which of the content you will receive"
+msgstr "Selecteer de inhoud die je wil krijgen"
+
+#: templates/base.html:222
+msgid "Subscribe &amp; receive email for your selected topics."
+msgstr "Abboneer &amp; ontvang mail voor je onderwerpen"
+
+#: templates/base.html:229
+msgid "Interval"
+msgstr "Interval"
+
+#: templates/base.html:245 templates/feedback.en.html:20
+msgid "Email address"
+msgstr "Email adres"
+
+#: templates/base.html:249
+msgid ""
+"We will only use this information to send you the alerts you set for "
+"yourself. You can unsubscribe at any time using the link in the mail."
+msgstr ""
+"We zullen deze informatie gebruiken om je alerts te mailen die je zelf"
+"ingesteld hebt. Je kan op elk moment opzeggen via de link in de mail."
+
+#: templates/base.html:254
+msgid "Subscribe"
+msgstr "Abbonneer"
+
+#: templates/base.html:255
+msgid "Cancel"
+msgstr "Annuleren"
+
+#: templates/countries.html:17
+msgid "Source countries"
+msgstr "Bron landen"
+
+#: templates/countries.html:21
+msgid "Set the source"
+msgstr "Zet de bron"
+
+#: templates/feedback.en.html:5 templates/index.html:62
+msgid "Help"
+msgstr "Help"
+
+#: templates/feedback.en.html:5
+msgid "Help us if we missed something or if you have a suggestion"
+msgstr "Help ons als je iets mist of een suggestie hebt"
+
+#: templates/feedback.en.html:13
+msgid ""
+"Please fill out the contact form  at the <a "
+"href=\"https://openstate.eu/en/contact/\" target=\"_blank\">openstate.eu "
+"website</a>."
+msgstr ""
+"Vul het formulier op de <a "
+"href=\"https://openstate.eu/en/contact/\" target=\"_blank\">openstate.eu "
+"website</a> alsjeblieft in."
+
+#: templates/feedback.en.html:22
+msgid "We'll never share your email with anyone else."
+msgstr "We zullen je email adres nooit met iemand delen"
+
+#: templates/feedback.en.html:25
+msgid "Message"
+msgstr "Bericht"
+
+#: templates/feedback.en.html:30
+msgid "I agree to the terms and conditons."
+msgstr "Ik stem in met de condities"
+
+#: templates/feedback.en.html:32
+msgid "Submit"
+msgstr "Versturen"
+
+#: templates/filter_bar.html:5 templates/filter_bar.html:15
+msgid "Most recent"
+msgstr "Meest recent"
+
+#: templates/filter_bar.html:7 templates/filter_bar.html:12
+msgid "Most relevant"
+msgstr "Meest relevant"
+
+#: templates/filter_bar.html:22
+msgid "Sort"
+msgstr "Sorteer"
+
+#: templates/filter_bar.html:25 templates/index.html:45 templates/index.html:52
+#: templates/index.html:53
+msgid "Collect"
+msgstr "Verzamel"
+
+#: templates/index.html:8
+msgid "broadcasting station"
+msgstr "verzend station"
+
+#: templates/index.html:10
+msgid "find and <span>collect</span>"
+msgstr "vind en <span>verzamel</span>"
+
+#: templates/index.html:11
+msgid "european <span>local</span>"
+msgstr "eurpoees <span>lokaal</span>"
+
+#: templates/index.html:12
+msgid "political <span>news</span>"
+msgstr "politiek <span>nieuws</span>"
+
+#: templates/index.html:16
+msgid "Discover"
+msgstr "Ontdek"
+
+#: templates/index.html:18 templates/index.html:19 templates/index.html:20
+#, python-format
+msgid "receiving city %(num)s"
+msgstr "ontvangende stad %(num)s"
+
+#: templates/index.html:25
+msgid "What can this do?"
+msgstr "Wat kan ik hiermee?"
+
+#: templates/index.html:27
+msgid "Find local news"
+msgstr "Vind lokaal nieuws"
+
+#: templates/index.html:29
+#, python-format
+msgid "Choose your <a href=\"%(url)s\">language</a> for articles and topics"
+msgstr "Kies je <a href=\"%(url)s\">taal</a> voor artikelen"
+
+#: templates/index.html:30
+#, python-format
+msgid ""
+"Find local news across Europe. Setup your <a href=\"%(url)s\">source "
+"country</a>"
+msgstr ""
+"Vind lokaal nieuws door heel Europa.Stel je <a href=\"%(url)s\">bron "
+"landen</a> in"
+
+#: templates/index.html:31
+#, python-format
+msgid ""
+"Collect the content of your selected <a href=\"%(url)s\">articles and "
+"topics</a>"
+msgstr ""
+"Verzamel je geselecteerde <a href=\"%(url)s\">artikelen en"
+" onderwerpen</a>"
+
+#: templates/index.html:39
+msgid "Contribute"
+msgstr "Doe mee"
+
+#: templates/index.html:42
+msgid "Your opinion matters"
+msgstr "Je mening is belangrijk"
+
+#: templates/index.html:44 templates/inner_result.html:13
+msgid "Verify"
+msgstr "Verifieer"
+
+#: templates/index.html:44
+msgid "Verify articles and help keep articles up to date"
+msgstr "Verifieeer artikelen en help om ze up to date te houden"
+
+#: templates/index.html:45
+msgid "Collect selected articles and topics"
+msgstr "Verzamel geselecteerde artikelen en onderwerpen"
+
+#: templates/index.html:50
+msgid "Collect local news"
+msgstr "Verzamel lokaal nieuws"
+
+#: templates/index.html:58
+msgid "Contact"
+msgstr "Contact"
+
+#: templates/index.html:62
+#, python-format
+msgid ""
+"<a href=\"%(url)s\">Help</a> us if we missed something or if you have a "
+"suggestion"
+msgstr ""
+"<a href=\"%(url)s\">Help</a> ons als je iets mist of een suggestie hebt"
+
+#: templates/index.html:63
+msgid ""
+"Any <a href=\"https://openstate.eu/contact\">questions</a>? We want to "
+"know your opinion"
+msgstr ""
+"Heb je <a href=\"https://openstate.eu/contact\">vragen</a>? We willen graag "
+"Weten wat je hier van vindt"
+
+#: templates/index.html:96
+msgid "Discover more scoops"
+msgstr "Ontdek meer verhalen"
+
+#: templates/inner_result.html:57
+msgid "Read more"
+msgstr "Lees meer"
+
+#: templates/languages.html:17
+msgid "Set your language"
+msgstr "Stel je taal in"
+
+#: templates/languages.html:20
+msgid "Website"
+msgstr "Website"
+
+#: templates/languages.html:30
+msgid "News articles"
+msgstr "Nieuws artikelen"
+
+#: templates/languages.html:40
+msgid "Go back"
+msgstr "Ga terug"
+
+#: templates/results_as_list.html:5
+#, python-format
+msgid "%(num_results)s results for:  %(query)s"
+msgstr "%(num_results)s resultaten voor:  %(query)s"
+
+#: templates/results_as_list.html:7
+#, python-format
+msgid "%(num_results)s results:"
+msgstr "%(num_results)s resultaten:"
+
+#: templates/results_as_list.html:38
+msgid "Pagination"
+msgstr "Paginatie"
+
+#: templates/results_as_list.html:42 templates/results_as_list.html:45
+msgid "Previous"
+msgstr "Vorige"
+
+#: templates/results_as_list.html:50 templates/results_as_list.html:53
+msgid "Next"
+msgstr "Volgende"
+
+#: templates/results_as_list.html:62
+msgid "Unfortunately we were not able to find any documents matching your query."
+msgstr "Helaas vonden we geen artikelen die overeenkamen met je zoekopdracht."
+
+#: templates/search.html:13 templates/search.html:14
+msgid "Find articles, parties, locations..."
+msgstr "Vind artikelen, partijen, lokaties..."
+
+#: templates/search_results.html:7 templates/search_results.html:10
+#, python-format
+msgid "Recent political news about %(query)s"
+msgstr "Recent politiek nieuws over %(query)s"
+
+#: templates/search_results.html:31
+msgid "Filters"
+msgstr "Filters"
+
+#: templates/search_results.html:37
+msgid "Period"
+msgstr "Periode"
+
+#: templates/search_results.html:77
+msgid "Show more"
+msgstr "Toon meer"
+
+#: templates/show.html:42
+#, python-format
+msgid ""
+"This article is shown in the language in which it was written, since we "
+"do not have the translated version for unknown reasons. You can change "
+"language settings <a href=\"%(url)s\">here</a>."
+msgstr ""
+"Dit artikel is in de oorspronkelijke taal getoond, omdat we de vertaling om "
+" onduidelijke redenenen niet hebben. Je kan de taalinstellingen"
+"<a href=\"%(url)s\">hier veranderen</a>."
+
+#: templates/show.html:47
+#, python-format
+msgid ""
+"This article is shown in the language in which it was written. You can "
+"change this <a href=\"%(url)s\">here</a>."
+msgstr ""
+"Dit artikel is getoond in de taal waarin het was geschreve. Je kan dit "
+"<a href=\"%(url)s\">hier veranderen</a>."
+
+#: templates/show.html:52
+#, python-format
+msgid ""
+"This article is shown in english, since we do not have the version in the"
+" original language for unknown reasons. You can change language settings "
+"<a href=\"%(url)s\">here</a>."
+msgstr ""
+"Dit artikel is in het engels getoond, omdat we de oorspronkelijke taal "
+"niet hebben. Je kan de taalinstellingen"
+"<a href=\"%(url)s\">hier veranderen</a>."
+
+#: templates/show.html:56
+msgid "Originallypublished on:"
+msgstr "Gepubliceerd op:"
+
+#: templates/show.html:70
+msgid "Share on Twitter"
+msgstr "Deel op Twitter"
+
+#: templates/show.html:73
+msgid "Share on Facebook"
+msgstr "Deel op Facebook"
+
+#: templates/subscribe.html:12
+msgid "You were succesfully subscribed to the alert."
+msgstr "Je bent succesvol geabonneerd op de alert."
+
+#: templates/subscribe.html:14 templates/subscribe.html:17
+#: templates/unsubscribe.html:13 templates/unsubscribe.html:16
+msgid "Something went wrong. Please try again"
+msgstr "Iets ging mis. Probeer het later nog een keer."
+
+#: templates/unsubscribe.html:11
+msgid "You were succesfully unsubscribed."
+msgstr "Je abbonnement is succesvol opgezegd."
