@@ -102,7 +102,7 @@ class HTMLPageItem(BaseItem, HttpRequestMixin, VocabularyMixin):
 
         output = self._extract_content(html, r.encoding)
 
-        if output.strip() != u'':
+        if output and output.strip() != u'':
             combined_index_data['description'] = output
 
         combined_index_data['title'] = self._extract_title(html)
@@ -113,6 +113,7 @@ class HTMLPageItem(BaseItem, HttpRequestMixin, VocabularyMixin):
             combined_index_data['location'] = unicode(self.source_definition[
                 'location'].decode('utf-8'))
 
+        print >>sys.stderr, combined_index_data
         return combined_index_data
 
     def get_index_data(self):
@@ -129,9 +130,28 @@ class HTMLWithContentOnPageItem(HTMLPageItem, HTMLContentExtractionMixin):
         return self.extract_content(etree.tostring(html), encoding)
 
     def _extract_title(self, html=None):
-        return u''.join(html.xpath('//title[0]/text()'))
+        title_meta = {
+            'og:title': 'property',
+            'twitter:title': 'name'
+        }
+        title = None
+        for p,a in title_meta.iteritems():
+            if not title:
+                title = u''.join(html.xpath('//meta[@%s="%s"]/@content' % (a, p,)))
+        if title:
+            return title
+        else:
+            return u''.join(html.xpath('//title//text()'))
 
     def _extract_date(self, html=None):
-        parsed_date = datetime.now()
         parsed_granularity = 12
+        date_str = None
+        for meta_term in ['DCTERMS.modified']:
+            if not date_str:
+                date_str = u''.join(
+                    html.xpath('//meta[@name="%s"]/@content' % (meta_term,)))
+        try:
+            parsed_date = iso8601.parse_date(date_str)
+        except LookupError:
+            parsed_date = datetime.now()
         return parsed_date, parsed_granularity

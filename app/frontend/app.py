@@ -694,7 +694,7 @@ class BackendAPI(object):
                     'terms': AS2_ENTITIES
                 },
                 "date": {
-                    "to": "now"
+                    "to": "now+2h/h"
                 }
             }
         }
