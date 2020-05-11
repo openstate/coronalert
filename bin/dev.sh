@@ -4,5 +4,5 @@ BINDIR=`dirname $FQPATH`
 cd $BINDIR/../docker
 docker-compose -f docker-compose.yml -f docker-compose-dev.yml up -d
 sleep 5
-docker exec alt__node_1 yarn watch
+docker exec alt_node_1 yarn watch
 cd -

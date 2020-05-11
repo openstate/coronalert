@@ -11,7 +11,6 @@ class LinkmapExtractor(StaticFileBaseExtractor):
         tree = etree.HTML(static_content)
         existing = load_linkmap(self.file_url)
         current = build_linkmap(self.file_url, tree)
-        print existing
 
         new_links = []
         if existing is not None and current is not None:
@@ -19,9 +18,8 @@ class LinkmapExtractor(StaticFileBaseExtractor):
         else:
             new_links = set(current['links'] or [])
 
-        # if not existing:
-        #     save_linkmap(url, linkmap)
+        if not existing:
+            save_linkmap(self.file_url, current)
 
-        print len(new_links)
         for link in new_links:
             yield 'application/json', json.dumps({"link": link})
