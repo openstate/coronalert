@@ -138,7 +138,7 @@ def get_source_info_from_url(file_url):
     if len(res.entries) > 0:  # this is an RSS feed
         result['file_url'] = file_url
         result['extractor'] = "ocd_backend.extractors.feed.FeedExtractor"
-        result['item'] = get_item_transformer_for_feed(result['file_url'])
+        # result['item'] = get_item_transformer_for_feed(result['file_url'])
         return result
 
     # parse the html and try to find the link to the RSS feed
@@ -183,10 +183,10 @@ def make_source_for(src, LOCATIONS):
         "extractor": "",  # depends if feed or not
         "keep_index_on_update": True,
         "enrichers": [
-            [
-                "ocd_backend.enrichers.AS2TranslationEnricher",
-                {}
-            ]
+            # [
+            #     "ocd_backend.enrichers.AS2TranslationEnricher",
+            #     {}
+            # ]
           # [
           #   "ocd_backend.enrichers.NEREnricher",
           #   {}

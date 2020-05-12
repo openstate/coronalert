@@ -1,0 +1,356 @@
+collection,location,file_url
+Gemeente,Amsterdam,https://www.amsterdam.nl/nieuws/
+Gemeente,Rotterdam,https://www.rotterdam.nl/nieuws/
+Gemeente,s-Gravenhage,https://www.denhaag.nl/nl/in-de-stad/nieuws.htm
+Gemeente,Utrecht,https://www.utrecht.nl/nieuws/
+Gemeente,Eindhoven,https://www.eindhoven.nl/nieuws
+Gemeente,Tilburg,https://www.tilburg.nl/actueel/
+Gemeente,Groningen,https://gemeente.groningen.nl/actueel/nieuws
+Gemeente,Almere,https://www.almere.nl/over-almere/actueel/
+Gemeente,Breda,https://www.breda.nl/nieuwsberichten
+Gemeente,Nijmegen,https://www.nijmegen.nl/nieuws/
+Gemeente,Apeldoorn,https://www.apeldoorn.nl/nieuws
+Gemeente,Haarlem,https://www.haarlem.nl/nieuws-en-actualiteiten/
+Gemeente,Enschede,https://www.enschede.nl/nieuws
+Gemeente,Arnhem,https://www.arnhem.nl/actueel/alle_nieuwsberichten
+Gemeente,Amersfoort,https://www.amersfoort.nl/nieuws.htm
+Gemeente,Zaanstad,https://www.zaanstad.nl/mozard/!suite05.scherm1069?mNwc=1
+Gemeente,s-Hertogenbosch,https://www.s-hertogenbosch.nl/actueel/nieuws.html
+Gemeente,Haarlemmermeer,https://haarlemmermeergemeente.nl/nieuwsoverzicht
+Gemeente,Zwolle,https://www.zwolle.nl/nieuws
+Gemeente,Zoetermeer,https://www.zoetermeer.nl/inwoners/nieuws_45887/
+Gemeente,Leiden,https://gemeente.leiden.nl/nieuws/
+Gemeente,Maastricht,https://www.gemeentemaastricht.nl/stad/actueel
+Gemeente,Dordrecht,https://cms.dordrecht.nl/Inwoners/Overzicht_Inwoners/Informatie_coronavirus
+Gemeente,Ede,https://www.ede.nl/nieuws
+Gemeente,Alphen Aan Den Rijn,https://www.allesinalphen.nl/gemeentenieuws.html
+Gemeente,Leeuwarden,https://www.leeuwarden.nl/nl/actueel
+Gemeente,Alkmaar,https://www.alkmaar.nl/actueel
+Gemeente,Emmen,https://gemeente.emmen.nl/nieuws
+Gemeente,Westland,https://www.gemeentewestland.nl/actueel/nieuws.html
+Gemeente,Delft,https://www.delft.nl/nieuws
+Gemeente,Venlo,https://www.venloonline.nl/
+Gemeente,Deventer,https://www.deventer.nl/nieuws
+Gemeente,Sittard-Geleen,https://www.sittard-geleen.nl/Inwoners/Actueel/Nieuws_en_persberichten
+Gemeente,Helmond,https://www.helmond.nl/nieuws
+Gemeente,Oss,https://www.oss.nl/inwoners/actueel/nieuwsberichten.htm
+Gemeente,Amstelveen,https://www.amstelveen.nl/home/publicatie/nieuws
+Gemeente,Hilversum,https://www.hilversum.nl/Home/Inwoner/Nieuws/Nieuwsitems
+Gemeente,Heerlen,https://www.heerlen.nl/actueel/nieuwsoverzicht.html
+Gemeente,Nissewaard,https://www.nissewaard.nl/nieuws.htm
+Gemeente,Súdwest-Fryslân,https://sudwestfryslan.nl/categorie/nieuws/
+Gemeente,Hengelo,https://www.hengelo.nl/Welkom-in-Hengelo/Beheer/Nieuwsoverzicht.html
+Gemeente,Purmerend,https://www.purmerend.nl/nieuwsoverzicht
+Gemeente,Meierijstad,https://www.meierijstad.nl/home/nieuws_3190/
+Gemeente,Schiedam,https://www.schiedam.nl/nieuws
+Gemeente,Roosendaal,https://roosendaal.nl/nieuwsoverzicht
+Gemeente,Lelystad,https://www.lelystad.nl/4/Lelystad/Nieuws
+Gemeente,Leidschendam-Voorburg,https://www.lv.nl/nieuwsoverzicht
+Gemeente,Hoorn,https://www.hoorn.nl/nieuws
+Gemeente,Almelo,https://www.almelo.nl/nieuwsoverzicht
+Gemeente,Vlaardingen,https://www.vlaardingen.nl/Onderwerpen/Onderwerpen_homepagina_inhoud/Nieuws
+Gemeente,Gouda,https://www.gouda.nl/Bestuur_en_organisatie/Publicaties_en_besluiten/Nieuwsberichten
+Gemeente,Velsen,https://www.velsen.nl/nieuws
+Gemeente,Assen,https://www.assen.nl/actueel/nieuws
+Gemeente,Capelle Aan Den Ijssel,https://www.capelleaandenijssel.nl/over-capelle/nieuwsberichten_42341/
+Gemeente,Bergen Op Zoom,https://www.bergenopzoom.nl/nieuws
+Gemeente,Katwijk,https://www.katwijk.nl/nieuws
+Gemeente,Stichtse Vecht,https://stichtsevecht.nl/nieuws/
+Gemeente,Veenendaal,https://www.veenendaal.nl/info-over-de-gemeente/actueel
+Gemeente,Zeist,https://www.zeist.nl/inwoner/uitgelicht/nieuws/
+Gemeente,Nieuwegein,https://www.nieuwegein.nl/actueel/nieuws
+Gemeente,Hardenberg,https://www.hardenberg.nl/actueel/
+Gemeente,Lansingerland,https://www.lansingerland.nl/actueel/
+Gemeente,Roermond,https://www.roermond.nl/nieuws
+Gemeente,Doetinchem,https://www.doetinchem.nl/home/nieuws_46547/
+Gemeente,Gooise Meren,https://gooisemeren.nl/nieuws/
+Gemeente,Barneveld,https://www.barneveld.nl/nieuws
+Gemeente,Den Helder,https://www.denhelder.nl/actueel/publicatie/nieuws
+Gemeente,Smallingerland,https://www.smallingerland.nl/Nieuwsarchief
+Gemeente,Hoogeveen,https://www.hoogeveen.nl/nieuwsoverzicht
+Gemeente,Krimpenerwaard,https://www.krimpenerwaard.nl/nieuws
+Gemeente,Heerhugowaard,https://www.heerhugowaard.nl/nieuws-en-actualiteiten/
+Gemeente,Oosterhout,https://oosterhout.nl/nieuws/nieuwsberichten/
+Gemeente,Terneuzen,https://www.terneuzen.nl/Inwoners_Terneuzen/Rij_1_inwoners/Nieuws
+Gemeente,Kampen,https://www.kampen.nl/nieuws
+Gemeente,De Fryske Marren,https://www.defryskemarren.nl/publicaties/nieuwsberichten_42743/
+Gemeente,Woerden,https://www.woerden.nl/nieuws
+Gemeente,Rijswijk,https://www.rijswijk.nl/actueel
+Gemeente,Heerenveen,https://www.heerenveen.nl/nieuws/
+Gemeente,Weert,https://www.weert.nl/nieuws
+Gemeente,Houten,https://www.houten.nl/nieuws/
+Gemeente,Utrechtse Heuvelrug,https://www.heuvelrug.nl/nieuwsoverzicht
+Gemeente,Barendrecht,https://www.barendrecht.nl/nieuws
+Gemeente,Middelburg (Z.),https://www.middelburg.nl/Inwoners/Nieuws
+Gemeente,Hollands Kroon,https://www.hollandskroon.nl/inwoners/nieuws
+Gemeente,Waalwijk,https://www.waalwijk.nl/inwoners/nieuws_3359/
+Gemeente,Overbetuwe,https://www.overbetuwe.nl/Inwoners/Inwoners/Nieuws
+Gemeente,Zutphen,https://www.zutphen.nl/Inwoners/Nieuws/Nieuwsberichten
+Gemeente,Noordoostpolder,https://www.noordoostpolder.nl/nieuws
+Gemeente,Harderwijk,https://www.harderwijk.nl/organisatie/actueel_219/
+Gemeente,Schagen,https://www.schagen.nl/home/nieuws_43640/
+Gemeente,Lingewaard,https://www.lingewaard.nl/nieuws
+Gemeente,Kerkrade,https://www.kerkrade.nl/wonen-en-leven/nieuws_3169/
+Gemeente,Soest,https://www.soest.nl/actueel
+Gemeente,Ridderkerk,https://www.ridderkerk.nl/nieuws
+Gemeente,Veldhoven,https://www.veldhoven.nl/inwoners-en-ondernemers/actueel
+Gemeente,Zwijndrecht,https://www.zwijndrecht.nl/Inwoners/Nieuws_en_bekendmakingen
+Gemeente,Aa en Hunze,https://www.aaenhunze.nl/Bestuur/Nieuws/Nieuws
+Gemeente,Aalsmeer,https://www.aalsmeer.nl/home/publicatie/nieuws
+Gemeente,Aalten,https://www.aalten.nl/in-de-gemeente/nieuwsberichten_42611/
+Gemeente,Achtkarspelen,https://www.achtkarspelen.nl/inwoners-achtkarspelen/nieuws_43791/
+Gemeente,Alblasserdam,https://www.alblasserdam.nl/Inwoners/Configuratie_inwoners/Uitgelicht/Nieuws
+Gemeente,Albrandswaard,https://www.albrandswaard.nl/nieuws
+Gemeente,Alphen-Chaam,https://www.alphen-chaam.nl/nieuws/nieuws.html
+Gemeente,Altena,https://www.gemeentealtena.nl/nieuws
+Gemeente,Ameland,https://www.ameland.nl/ameland-actueel/nieuws_42176/
+Gemeente,Appingedam,https://www.appingedam.nl/home/nieuws_43484/
+Gemeente,Asten,https://www.asten.nl/nieuws.html
+Gemeente,Baarle-Nassau,https://www.baarle-nassau.nl/nieuws/nieuws.html
+Gemeente,Baarn,https://www.baarn.nl/home/nieuws_42897/
+Gemeente,Beek,https://www.gemeentebeek.nl/home/landelijke-maatregelen_43778/
+Gemeente,Beekdaelen,https://www.beekdaelen.nl/contact-en-nieuws/nieuws_3247/
+Gemeente,Beemster,https://www.beemster.net/nieuwsoverzicht
+Gemeente,Beesel,https://www.beesel.nl/nieuws/
+Gemeente,Berg en Dal,https://www.bergendal.nl/inwoners/nieuws_45119/
+Gemeente,Bergeijk,https://www.bergeijk.nl/home/nieuwsberichten_47681/
+Gemeente,Bergen (L.),https://www.bergen.nl/home/nieuws_44193/
+Gemeente,Bergen (NH.),https://www.bergen-nh.nl/nieuwsoverzicht
+Gemeente,Berkelland,https://www.gemeenteberkelland.nl/Inwoners/Nieuwsberichten/Nieuws
+Gemeente,Bernheze,https://www.bernheze.org/nieuws/
+Gemeente,Best,https://www.gemeentebest.nl/nieuws/
+Gemeente,Beuningen,https://www.beuningen.nl/Nieuwsarchief/Nieuwsberichten_2020/Nieuwsberichten_mei
+Gemeente,Beverwijk,https://www.beverwijk.nl/inwoners-ondernemers/nieuwsarchief_41523/
+Gemeente,De Bilt,https://www.debilt.nl/nieuwsoverzicht
+Gemeente,Bladel,https://www.bladel.nl/contact-informatie/nieuws_42695/
+Gemeente,Blaricum,https://www.blaricum.nl/Bestuur/Nieuws_en_bekendmakingen/Nieuwsberichten
+Gemeente,Bloemendaal,https://www.bloemendaal.nl/actueel
+Gemeente,Bodegraven-Reeuwijk,https://gemeente.bodegraven-reeuwijk.nl/nieuwsoverzicht
+Gemeente,Boekel,https://www.boekel.nl/in-de-gemeente/nieuws/
+Gemeente,Borger-Odoorn,https://www.borger-odoorn.nl/actueel/actuele-themas/coronavirus.html
+Gemeente,Borne,https://www.borne.nl/nieuws
+Gemeente,Borsele,https://www.borsele.nl/home/nieuws_45002/
+Gemeente,Boxmeer,https://www.boxmeer.nl/inwoners/nieuwsberichten_41418/
+Gemeente,Boxtel,https://www.boxtel.nl/nieuws
+Gemeente,Brielle,https://www.brielle.nl/actueel/nieuwsberichten_42833/
+Gemeente,Bronckhorst,https://www.bronckhorst.nl/home/nieuws_45258/
+Gemeente,Brummen,https://www.brummen.nl/actueel/nieuws.html
+Gemeente,Brunssum,https://www.brunssum.nl/bestuur_en_organisatie/nieuws_en_actualiteit/nieuwsberichten
+Gemeente,Bunnik,https://www.bunnik.nl/nieuws/
+Gemeente,Bunschoten,https://www.bunschoten.nl/nieuws
+Gemeente,Buren,https://www.buren.nl/nieuws/
+Gemeente,Castricum,https://www.castricum.nl/nieuwsoverzicht
+Gemeente,Coevorden,https://www.coevorden.nl/nieuws
+Gemeente,Cranendonck,https://www.cranendonck.nl/inwoners/nieuws-en-actualiteiten_43826/
+Gemeente,Cuijk,https://www.cuijk.nl/nieuws
+Gemeente,Culemborg,https://www.culemborg.nl/nieuwsoverzicht
+Gemeente,Dalfsen,https://www.dalfsen.nl/home/nieuws_3169/
+Gemeente,Dantumadiel,https://www.dantumadiel.frl/nieuwsoverzicht-0
+Gemeente,Delfzijl,https://www.delfzijl.nl/home/nieuws_43898/
+Gemeente,Deurne,https://www.deurne.nl/home/nieuws_43091/
+Gemeente,Diemen,https://www.diemen.nl/Onderwerpen/Nieuwspagina_s/NIEUWS
+Gemeente,Dinkelland,https://www.dinkelland.nl/nieuwsoverzicht
+Gemeente,Doesburg,https://www.doesburg.nl/nieuws
+Gemeente,Dongen,https://www.dongen.nl/actueel/nieuws/page/2.html
+Gemeente,Drechterland,https://www.drechterland.nl/nieuwsoverzicht
+Gemeente,Drimmelen,https://drimmelen.nl/nieuwsoverzicht
+Gemeente,Dronten,https://www.dronten.nl/mozard/!suite05.scherm1069?mNwc=21
+Gemeente,Druten,https://www.druten.nl/nieuws
+Gemeente,Duiven,https://www.duiven.nl/nieuwsoverzicht
+Gemeente,Echt-Susteren,https://www.echt-susteren.nl/nieuwsoverzicht
+Gemeente,Edam-Volendam,https://www.edam-volendam.nl/portal-home/het-laatste-nieuws_43559/
+Gemeente,Eemnes,https://www.eemnes.nl/Bestuur/Nieuws_en_bekendmakingen/Nieuws
+Gemeente,Eersel,https://www.eersel.nl/nieuws
+Gemeente,Eijsden-Margraten,https://www.eijsden-margraten.nl/nieuws/
+Gemeente,Elburg,https://www.elburg.nl/Inwoners/Nieuws
+Gemeente,Enkhuizen,https://www.enkhuizen.nl/nieuwsoverzicht
+Gemeente,Epe,https://www.epe.nl/in-epe/nieuws_41625/
+Gemeente,Ermelo,
+Gemeente,Etten-Leur,https://www.etten-leur.nl/Inwoner/Nieuws/Nieuwsberichten
+Gemeente,Geertruidenberg,https://www.geertruidenberg.nl/nieuws
+Gemeente,Geldrop-Mierlo,https://www.geldrop-mierlo.nl/nieuws
+Gemeente,Gemert-Bakel,https://www.gemert-bakel.nl/actueel/nieuws
+Gemeente,Gennep,https://www.gennep.nl/bestuur-organisatie/nieuwsoverzicht_42648/
+Gemeente,Gilze en Rijen,https://www.gilzerijen.nl/nieuws.html
+Gemeente,Goeree-Overflakkee,
+Gemeente,Goes,https://www.goes.nl/in-de-gemeente/nieuws_43683/
+Gemeente,Goirle,https://www.goirle.nl/actueel/nieuws-van-de-gemeente.html
+Gemeente,Gorinchem,https://www.gorinchem.nl/nieuws
+Gemeente,Grave,https://www.grave.nl/inwoners/overzicht-inwoners/nieuws-en-actualiteiten/nieuws
+Gemeente,Gulpen-Wittem,https://www.gulpen-wittem.nl/nieuws/
+Gemeente,Haaksbergen,https://www.haaksbergen.nl/Actueel
+Gemeente,Haaren,https://www.haaren.nl/home/nieuws_41588/
+Gemeente,Halderberge,https://www.halderberge.nl/nieuwsoverzicht
+Gemeente,Hardinxveld-Giessendam,https://www.hardinxveld-giessendam.nl/Nieuws
+Gemeente,Harlingen,https://www.harlingen.nl/nieuws
+Gemeente,Hattem,https://www.hattem.nl/Inwoners/Actueel/Nieuwsberichten
+Gemeente,Heemskerk,https://www.heemskerk.nl/laatste-nieuws
+Gemeente,Heemstede,https://www.heemstede.nl/actueel
+Gemeente,Heerde,https://www.heerde.nl/Inwoners/Configuratie_homepage/Nieuws
+Gemeente,Heeze-Leende,https://www.heeze-leende.nl/in-en-over-heeze-leende/nieuws_42167
+Gemeente,Heiloo,https://www.heiloo.nl/nieuwsberichten
+Gemeente,Hellendoorn,https://www.hellendoorn.nl/home
+Gemeente,Hellevoetsluis,https://www.hellevoetsluis.nl/Inwoners/Actueel
+Gemeente,Hendrik-Ido-Ambacht,https://www.h-i-ambacht.nl/Gewoon_Ambacht/Overzicht/actueel/Actueel_2020/Coronavirus_update_woensdagavond
+Gemeente,Heumen,https://www.heumen.nl/inwoners/nieuwsberichten_42557/
+Gemeente,Heusden,https://www.heusden.nl/
+Gemeente,Hillegom,https://www.hillegom.nl/nieuws.html
+Gemeente,Hilvarenbeek,https://www.hilvarenbeek.nl/over-bestuur/nieuwsberichten_3393/
+Gemeente,Hoeksche Waard,
+Gemeente,Hof van Twente,
+Gemeente,Het Hogeland,
+Gemeente,Horst aan de Maas,
+Gemeente,Huizen,
+Gemeente,Hulst,
+Gemeente,IJsselstein,
+Gemeente,Kaag en Braassem,
+Gemeente,Kapelle,
+Gemeente,Koggenland,
+Gemeente,Krimpen aan den IJssel,
+Gemeente,Laarbeek,
+Gemeente,Landerd,
+Gemeente,Landgraaf,
+Gemeente,Landsmeer,
+Gemeente,Langedijk,
+Gemeente,Laren,
+Gemeente,Leiderdorp,
+Gemeente,Leudal,
+Gemeente,Leusden,
+Gemeente,Lisse,
+Gemeente,Lochem,
+Gemeente,Loon op Zand,
+Gemeente,Lopik,
+Gemeente,Loppersum,
+Gemeente,Losser,
+Gemeente,Maasdriel,
+Gemeente,Maasgouw,
+Gemeente,Maassluis,
+Gemeente,Medemblik,
+Gemeente,Meerssen,
+Gemeente,Meppel,
+Gemeente,Midden-Delfland,
+Gemeente,Midden-Drenthe,
+Gemeente,Midden-Groningen,
+Gemeente,Mill en Sint Hubert,
+Gemeente,Moerdijk,
+Gemeente,Molenlanden,
+Gemeente,Montferland,
+Gemeente,Montfoort,
+Gemeente,Mook en Middelaar,
+Gemeente,Neder-Betuwe,
+Gemeente,Nederweert,
+Gemeente,Nieuwkoop,
+Gemeente,Nijkerk,
+Gemeente,Noardeast-Fryslân,
+Gemeente,Noord-Beveland,
+Gemeente,Noordenveld,
+Gemeente,Noordwijk,
+Gemeente,"Nuenen, Gerwen en Nederwetten",
+Gemeente,Nunspeet,
+Gemeente,Oegstgeest,
+Gemeente,Oirschot,
+Gemeente,Oisterwijk,
+Gemeente,Oldambt,
+Gemeente,Oldebroek,
+Gemeente,Oldenzaal,
+Gemeente,Olst-Wijhe,
+Gemeente,Ommen,
+Gemeente,Oost Gelre,
+Gemeente,Ooststellingwerf,
+Gemeente,Oostzaan,
+Gemeente,Opmeer,
+Gemeente,Opsterland,
+Gemeente,Oude IJsselstreek,
+Gemeente,Ouder-Amstel,
+Gemeente,Oudewater,
+Gemeente,Papendrecht,
+Gemeente,Peel en Maas,
+Gemeente,Pekela,
+Gemeente,Pijnacker-Nootdorp,
+Gemeente,Putten,
+Gemeente,Raalte,
+Gemeente,Reimerswaal,
+Gemeente,Renkum,
+Gemeente,Renswoude,
+Gemeente,Reusel-De Mierden,
+Gemeente,Rheden,
+Gemeente,Rhenen,
+Gemeente,Rijssen-Holten,
+Gemeente,Roerdalen,
+Gemeente,De Ronde Venen,
+Gemeente,Rozendaal,
+Gemeente,Rucphen,
+Gemeente,Scherpenzeel,
+Gemeente,Schiermonnikoog,
+Gemeente,Schouwen-Duiveland,
+Gemeente,Simpelveld,
+Gemeente,Sint Anthonis,
+Gemeente,Sint-Michielsgestel,
+Gemeente,Sliedrecht,
+Gemeente,Sluis,
+Gemeente,Someren,
+Gemeente,Son en Breugel,
+Gemeente,Stadskanaal,
+Gemeente,Staphorst,
+Gemeente,Stede Broec,
+Gemeente,Steenbergen,
+Gemeente,Steenwijkerland,
+Gemeente,Stein,
+Gemeente,Terschelling,
+Gemeente,Texel,
+Gemeente,Teylingen,
+Gemeente,Tholen,
+Gemeente,Tiel,
+Gemeente,Tubbergen,
+Gemeente,Twenterand,
+Gemeente,Tynaarlo,
+Gemeente,Tytsjerksteradiel,
+Gemeente,Uden,
+Gemeente,Uitgeest,
+Gemeente,Uithoorn,
+Gemeente,Urk,
+Gemeente,Vaals,
+Gemeente,Valkenburg aan de Geul,
+Gemeente,Valkenswaard,
+Gemeente,Veendam,
+Gemeente,Veere,
+Gemeente,Venray,
+Gemeente,Vijfheerenlanden,
+Gemeente,Vlieland,
+Gemeente,Vlissingen,
+Gemeente,Voerendaal,
+Gemeente,Voorschoten,
+Gemeente,Voorst,
+Gemeente,Vught,
+Gemeente,Waadhoeke,
+Gemeente,Waalre,
+Gemeente,Waddinxveen,
+Gemeente,Wageningen,
+Gemeente,Wassenaar,
+Gemeente,Waterland,
+Gemeente,Weesp,
+Gemeente,West Betuwe,
+Gemeente,West Maas en Waal,
+Gemeente,Westerkwartier,
+Gemeente,Westerveld,
+Gemeente,Westervoort,
+Gemeente,Westerwolde,
+Gemeente,Weststellingwerf,
+Gemeente,Westvoorne,
+Gemeente,Wierden,
+Gemeente,Wijchen,
+Gemeente,Wijdemeren,
+Gemeente,Wijk bij Duurstede,
+Gemeente,Winterswijk,
+Gemeente,Woensdrecht,
+Gemeente,De Wolden,
+Gemeente,Wormerland,
+Gemeente,Woudenberg,
+Gemeente,Zaltbommel,
+Gemeente,Zandvoort,
+Gemeente,Zeewolde,
+Gemeente,Zevenaar,
+Gemeente,Zoeterwoude,
+Gemeente,Zuidplas,
+Gemeente,Zundert,
+Gemeente,Zwartewaterland,

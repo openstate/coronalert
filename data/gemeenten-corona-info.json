@@ -1,0 +1,2066 @@
+[
+  {
+    "collection": "Gemeente",
+    "location": "Amsterdam,Amsterdam-Amstelland",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Rotterdam,Rotterdam-Rijnmond",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Utrecht,Utrecht",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Eindhoven,Brabant-Zuidoost",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Tilburg,Midden- en West-Brabant",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Groningen,Groningen",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Almere,Flevoland",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Breda,Midden- en West-Brabant",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Nijmegen,Gelderland-Zuid",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Apeldoorn,Noord- en Oost-Gelderland",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Haarlem,Kennemerland",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Enschede,Twente",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Arnhem,Gelderland-Midden",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Amersfoort,Utrecht",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Zaanstad,Zaanstreek-Waterland",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Haarlemmermeer,Kennemerland",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Zwolle,IJsselland",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Zoetermeer,Haaglanden",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Leiden,Hollands-Midden",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Maastricht,Limburg-Zuid",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Dordrecht,Zuid-Holland-Zuid",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Ede,Gelderland-Midden",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Leeuwarden,Frysl&acirc n",
+    "file_url": "https://www.leeuwarden.nl/nl/coronavirus-covid-19",
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Alkmaar,Noord-Holland-Noord",
+    "file_url": "https://www.alkmaar.nl/coronavirus/",
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Emmen,Drenthe",
+    "file_url": "https://gemeente.emmen.nl/coronavirus",
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Westland,Haaglanden",
+    "file_url": "https://www.gemeentewestland.nl/coronavirus.html",
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Delft,Haaglanden",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Venlo,Limburg-Noord",
+    "file_url": "https://www.venlo.nl/informatie-coronavirus",
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Deventer,IJsselland",
+    "file_url": "https://coronavirus.deventer.nl/",
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Sittard-Geleen,Limburg-Zuid",
+    "file_url": "https://www.sittard-geleen.nl/Inwoners/Actueel/Coronavirus",
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Helmond,Brabant-Zuidoost",
+    "file_url": "https://www.helmond.nl/Coronavirus",
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Oss,Brabant-Noord",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Amstelveen,Amsterdam-Amstelland",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Hilversum,Gooi en Vechtstreek",
+    "file_url": "https://www.hilversum.nl/Home/Inwoner/Nieuws/Nieuwsitems/Corona_in_Hilversum",
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Heerlen,Limburg-Zuid",
+    "file_url": "https://www.heerlen.nl/corona.html",
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Nissewaard,Rotterdam-Rijnmond",
+    "file_url": "https://www.nissewaard.nl/coronavirus-1.htm",
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Purmerend,Zaanstreek-Waterland",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Meierijstad,Brabant-Noord",
+    "file_url": "https://www.meierijstad.nl/home/coronavirus-covid-19_43523/",
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Schiedam,Rotterdam-Rijnmond",
+    "file_url": "https://www.schiedam.nl/a-tot-z/coronavirus",
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Roosendaal,Midden- en West-Brabant",
+    "file_url": "https://roosendaal.nl/informatie-over-corona",
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Lelystad,Flevoland",
+    "file_url": "https://www.lelystad.nl/coronavirus",
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Leidschendam-Voorburg,Haaglanden",
+    "file_url": "https://www.lv.nl/alles-over-coronavirus",
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Hoorn,Noord-Holland-Noord",
+    "file_url": "https://www.hoorn.nl/coronavirus",
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Almelo,Twente",
+    "file_url": "https://www.almelo.nl/informatie-corona",
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Vlaardingen,Rotterdam-Rijnmond",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Gouda,Hollands-Midden",
+    "file_url": "https://www.gouda.nl/Bestuur_en_organisatie/Publicaties_en_besluiten/Nieuwsberichten/Coronavirus",
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Velsen,Kennemerland",
+    "file_url": "https://www.velsen.nl/corona",
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Assen,Drenthe",
+    "file_url": "https://www.assen.nl/coronavirus",
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Katwijk,Hollands-Midden",
+    "file_url": "https://www.katwijk.nl/gemeente-en-burgerzaken/faq-coronavirus",
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Stichtse Vecht,Utrecht",
+    "file_url": "https://stichtsevecht.nl/coronavirus/",
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Veenendaal,Utrecht",
+    "file_url": "https://www.veenendaal.nl/info-over-de-gemeente/informatie-over-coronavirus",
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Zeist,Utrecht",
+    "file_url": "https://www.zeist.nl/inwoner/uitgelicht/coronavirus/",
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Nieuwegein,Utrecht",
+    "file_url": "https://www.nieuwegein.nl/coronavirus",
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Hardenberg,IJsselland",
+    "file_url": "https://www.hardenberg.nl/coronavirus.html",
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Lansingerland,Rotterdam-Rijnmond",
+    "file_url": "https://www.lansingerland.nl/servicewijzer/alles-over-het-coronavirus/",
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Roermond,Limburg-Noord",
+    "file_url": "https://www.roermond.nl/corona",
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Doetinchem,Noord- en Oost-Gelderland",
+    "file_url": "https://www.doetinchem.nl/home/coronavirus_48312/",
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Gooise Meren,Gooi en Vechtstreek",
+    "file_url": "https://gooisemeren.nl/informatie-corona/",
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Barneveld,Gelderland-Midden",
+    "file_url": "https://www.barneveld.nl/over-barneveld/coronavirus",
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Den Helder,Noord-Holland-Noord",
+    "file_url": "https://www.denhelder.nl/actueel/nieuws/informatie-over-coronavirus",
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Smallingerland,Frysl&acirc n",
+    "file_url": "https://www.smallingerland.nl/Nieuwsarchief/Coronavirus",
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Hoogeveen,Drenthe",
+    "file_url": "https://www.hoogeveen.nl/dossiers/informatie-coronavirus",
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Krimpenerwaard,Hollands-Midden",
+    "file_url": "https://www.krimpenerwaard.nl/coronavirus",
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Heerhugowaard,Noord-Holland-Noord",
+    "file_url": "https://www.heerhugowaard.nl/coronaplein/",
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Oosterhout,Midden- en West-Brabant",
+    "file_url": "https://oosterhout.nl/inwoners/coronavirus/",
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Terneuzen,Zeeland",
+    "file_url": "https://www.terneuzen.nl/Onze_Organisatie/Informatie_Coronavirus_Covid_19",
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Kampen,IJsselland",
+    "file_url": "https://www.kampen.nl/nieuws/coronavirus",
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "De Fryske Marren,Frysl&acirc n",
+    "file_url": "https://www.defryskemarren.nl/publicaties/actuele-informatie-coronavirus_45695/",
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Woerden,Utrecht",
+    "file_url": "https://www.woerden.nl/inwoners/coronavirus",
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Rijswijk,Haaglanden",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Heerenveen,Frysl&acirc n",
+    "file_url": "https://www.heerenveen.nl/actueel/informatie-over-het-coronavirus/",
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Weert,Limburg-Noord",
+    "file_url": "https://www.weert.nl/coronavirus",
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Houten,Utrecht",
+    "file_url": "https://www.houten.nl/bestuur-organisatie/beleid-en-regelgeving/informatie-voor-inwoners-bedrijven-en-organisaties/",
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Utrechtse Heuvelrug,Utrecht",
+    "file_url": "https://www.heuvelrug.nl/coronavirus",
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Barendrecht,Rotterdam-Rijnmond",
+    "file_url": "https://www.barendrecht.nl/informatie-coronavirus",
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Hollands Kroon,Noord-Holland-Noord",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Waalwijk,Midden- en West-Brabant",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Overbetuwe,Gelderland-Midden",
+    "file_url": "https://www.overbetuwe.nl/Inwoners/Informatie_over_het_coronavirus",
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Zutphen,Noord- en Oost-Gelderland",
+    "file_url": "https://www.zutphen.nl/Inwoners/Nieuws/Nieuwsberichten/Coronavirus_nieuws_en_updates",
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Noordoostpolder,Flevoland",
+    "file_url": "https://www.noordoostpolder.nl/informatie-coronavirus-0",
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Harderwijk,Noord- en Oost-Gelderland",
+    "file_url": "https://www.harderwijk.nl/leven/coronavirus_43431/",
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Schagen,Noord-Holland-Noord",
+    "file_url": "https://www.schagen.nl/coronavirus",
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Lingewaard,Gelderland-Midden",
+    "file_url": "https://www.lingewaard.nl/corona",
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Kerkrade,Limburg-Zuid",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Soest,Utrecht",
+    "file_url": "https://www.soest.nl/in-de-gemeente-soest/coronavirus",
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Ridderkerk,Rotterdam-Rijnmond",
+    "file_url": "https://www.ridderkerk.nl/coronavirus",
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Veldhoven,Brabant-Zuidoost",
+    "file_url": "https://www.veldhoven.nl/corona",
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Zwijndrecht,Zuid-Holland-Zuid",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Aa en Hunze,Drenthe",
+    "file_url": "https://www.aaenhunze.nl/Inwoners_verenigingen/Corona",
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Aalsmeer,Amsterdam-Amstelland",
+    "file_url": "https://www.aalsmeer.nl/home/nieuws/informatie-coronavirus",
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Aalten,Noord- en Oost-Gelderland",
+    "file_url": "https://www.aalten.nl/inwoners/coronavirus_44676",
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Achtkarspelen,Frysl&acirc n",
+    "file_url": "https://www.achtkarspelen.nl/inwoners-achtkarspelen/corona_48044/",
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Alblasserdam,Zuid-Holland-Zuid",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Albrandswaard,Rotterdam-Rijnmond",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Alphen-Chaam,Midden- en West-Brabant",
+    "file_url": "https://www.alphen-chaam.nl/coronavirus.html",
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Altena,Midden- en West-Brabant",
+    "file_url": "https://www.gemeentealtena.nl/index.php?id=860",
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Ameland,Frysl&acirc n",
+    "file_url": "https://www.ameland.nl/ameland-actueel/coronavirus_46095/",
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Appingedam,Groningen",
+    "file_url": "https://www.appingedam.nl/home/coronavirus-informatie_44142/",
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Asten,Brabant-Zuidoost",
+    "file_url": "https://www.asten.nl/wonen/coronavirus-covid-19.html",
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Baarle-Nassau,Midden- en West-Brabant",
+    "file_url": "https://www.baarle-nassau.nl/coronavirus.html",
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Baarn,Utrecht",
+    "file_url": "https://www.baarn.nl/home/nieuws_42897/item/informatie-over-het-coronavirus_57379.html",
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Beek,Limburg-Zuid",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Beekdaelen,Limburg-Zuid",
+    "file_url": "https://www.beekdaelen.nl/home#",
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Beemster,Zaanstreek-Waterland",
+    "file_url": "https://www.purmerend.nl/actuele-informatie-over-het-coronavirus-purmerend",
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Beesel,Limburg-Noord",
+    "file_url": "https://www.beesel.nl/inwoners/coronavirus/landelijk/landelijk",
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Berg en Dal,Gelderland-Zuid",
+    "file_url": "https://www.bergendal.nl/inwoners/coronavirus-covid-19_48540/",
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Bergeijk,Brabant-Zuidoost",
+    "file_url": "https://www.bergeijk.nl/home/coronavirus-covid-19_48885/",
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Berkelland,Noord- en Oost-Gelderland",
+    "file_url": "https://www.gemeenteberkelland.nl/Inwoners/Coronavirus/",
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Bernheze,Brabant-Noord",
+    "file_url": "https://www.bernheze.org/inwoners-en-ondernemers/coronavirus/",
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Best,Brabant-Zuidoost",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Beuningen,Gelderland-Zuid",
+    "file_url": "https://www.beuningen.nl/Home/Coronavirus:NhDAQB7NQ-WEKPcoZBg58A",
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Beverwijk,Kennemerland",
+    "file_url": "https://corona.beverwijk.nl/",
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "De Bilt,Utrecht",
+    "file_url": "https://www.debilt.nl/coronavirus-1",
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Bladel,Brabant-Zuidoost",
+    "file_url": "https://www.bladel.nl/inwoner/corona_44100/",
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Blaricum,Gooi en Vechtstreek",
+    "file_url": "https://www.blaricum.nl/Corona",
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Bloemendaal,Kennemerland",
+    "file_url": "https://www.bloemendaal.nl/coronavirus",
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Bodegraven-Reeuwijk,Hollands-Midden",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Boekel,Brabant-Noord",
+    "file_url": "https://www.boekel.nl/inwoners-en-ondernemers/coronavirus/Index",
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Borger-Odoorn,Drenthe",
+    "file_url": "https://www.borger-odoorn.nl/actueel/nieuws/archive/2020.html",
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Borne,Twente",
+    "file_url": "https://www.borne.nl/nieuws/coronavirus",
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Borsele,Zeeland",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Boxmeer,Brabant-Noord",
+    "file_url": "https://www.boxmeer.nl/inwoners/coronavirus_42608/",
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Boxtel,Brabant-Noord",
+    "file_url": "https://www.boxtel.nl/nieuws/informatie-over-het-coronavirus",
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Brielle,Rotterdam-Rijnmond",
+    "file_url": "https://www.brielle.nl/actueel/coronavirus_45306/",
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Bronckhorst,Noord- en Oost-Gelderland",
+    "file_url": "https://www.bronckhorst.nl/home/informatie-over-het-coronavirus_46863/",
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Brummen,Noord- en Oost-Gelderland",
+    "file_url": "https://www.brummen.nl/actueel/algemene-informatie-over-corona.html",
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Brunssum,Limburg-Zuid",
+    "file_url": "https://www.brunssum.nl/bestuur_en_organisatie/nieuws_en_actualiteit/nieuwsberichten/Informatie_over_het_Coronavirus",
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Bunnik,Utrecht",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Bunschoten,Utrecht",
+    "file_url": "https://www.bunschoten.nl/coronavirus",
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Buren,Gelderland-Zuid",
+    "file_url": "https://www.buren.nl/coronavirus",
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Castricum,Noord-Holland-Noord",
+    "file_url": "https://www.castricum.nl/index.php?id=4496&MP=4496-4499",
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Coevorden,Drenthe",
+    "file_url": "https://www.coevorden.nl/informatie-coronavirus",
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Cranendonck,Brabant-Zuidoost",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Cuijk,Brabant-Noord",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Culemborg,Gelderland-Zuid",
+    "file_url": "https://www.culemborg.nl/coronavirus-informatie",
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Dalfsen,IJsselland",
+    "file_url": "https://www.dalfsen.nl/home/coronavirus-informatie-inwoners_42797/",
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Dantumadiel,Frysl&acirc n",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Delfzijl,Groningen",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Deurne,Brabant-Zuidoost",
+    "file_url": "https://www.deurne.nl/home/coronavirus_43743/",
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Diemen,Amsterdam-Amstelland",
+    "file_url": "https://www.diemen.nl/Onderwerpen/Diemen_Helpt_tijdens_de_coronacrisis",
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Dinkelland,Twente",
+    "file_url": "https://www.dinkelland.nl/informatie-coronavirus",
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Doesburg,Gelderland-Midden",
+    "file_url": "https://www.doesburg.nl/coronavirus",
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Dongen,Midden- en West-Brabant",
+    "file_url": "https://www.dongen.nl/actueel/coronavirus.html",
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Drechterland,Noord-Holland-Noord",
+    "file_url": "https://www.drechterland.nl/coronavirus",
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Drimmelen,Midden- en West-Brabant",
+    "file_url": "https://drimmelen.nl/informatie-over-het-coronavirus",
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Dronten,Flevoland",
+    "file_url": "https://www.dronten.nl/mozard/!suite86.scherm0325?mVrg=4752",
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Druten,Gelderland-Zuid",
+    "file_url": "https://www.druten.nl/corona ",
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Duiven,Gelderland-Midden",
+    "file_url": "https://www.duiven.nl/coronavirus-0",
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Echt-Susteren,Limburg-Noord",
+    "file_url": "https://www.echt-susteren.nl/coronavirus-covid-19",
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Edam-Volendam,Zaanstreek-Waterland",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Eemnes,Utrecht",
+    "file_url": "https://www.eemnes.nl/Corona",
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Eersel,Brabant-Zuidoost",
+    "file_url": "https://www.eersel.nl/corona",
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Eijsden-Margraten,Limburg-Zuid",
+    "file_url": "https://www.eijsden-margraten.nl/coronavirus/",
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Elburg,Noord- en Oost-Gelderland",
+    "file_url": "https://www.elburg.nl/Inwoners/Nieuws/Meer_nieuws/Informatie_Coronavirus",
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Enkhuizen,Noord-Holland-Noord",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Epe,Noord- en Oost-Gelderland",
+    "file_url": "https://www.epe.nl/in-epe/coronavirus_42696/",
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Ermelo,Noord- en Oost-Gelderland",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Etten-Leur,Midden- en West-Brabant",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Geertruidenberg,Midden- en West-Brabant",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Geldrop-Mierlo,Brabant-Zuidoost",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Gemert-Bakel,Brabant-Zuidoost",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Gennep,Limburg-Noord",
+    "file_url": "https://www.gennep.nl/bestuur-organisatie/coronavirus_43691/",
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Gilze en Rijen,Midden- en West-Brabant",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Goeree-Overflakkee,Rotterdam-Rijnmond",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Goes,Zeeland",
+    "file_url": "https://www.goes.nl/in-de-gemeente/informatie-over-het-coronavirus_45969",
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Goirle,Midden- en West-Brabant",
+    "file_url": "https://www.goirle.nl/in-de-gemeente-goirle/coronavirus.html",
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Gorinchem,Zuid-Holland-Zuid",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Grave,Brabant-Noord",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Gulpen-Wittem,Limburg-Zuid",
+    "file_url": "https://www.gulpen-wittem.nl/onderwerpen/corona/",
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Haaksbergen,Twente",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Haaren,Brabant-Noord",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Halderberge,Midden- en West-Brabant",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Hardinxveld-Giessendam,Zuid-Holland-Zuid",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Harlingen,Frysl&acirc n",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Hattem,Noord- en Oost-Gelderland",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Heemskerk,Kennemerland",
+    "file_url": "https://www.heemskerk.nl/laatste-nieuws/informatie-coronavirus-heemskerk",
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Heemstede,Kennemerland",
+    "file_url": "https://www.heemstede.nl/coronavirus",
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Heerde,Noord- en Oost-Gelderland",
+    "file_url": "https://www.heerde.nl/Bestuur_en_organisatie/Actueel/Coronavirus",
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Heeze-Leende,Brabant-Zuidoost",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Heiloo,Noord-Holland-Noord",
+    "file_url": "https://www.heiloo.nl/index.php?id=4496&MP=4496-4500",
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Hellendoorn,Twente",
+    "file_url": "https://www.hellendoorn.nl/wonen-leven/nieuws/informatie-over-coronavirus-covid-19-2",
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Hellevoetsluis,Rotterdam-Rijnmond",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Hendrik-Ido-Ambacht,Zuid-Holland-Zuid",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Heumen,Gelderland-Zuid",
+    "file_url": "https://www.heumen.nl/inwoners/coronavirus_45867",
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Heusden,Brabant-Noord",
+    "file_url": "https://www.heusden.nl/coronavirus",
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Hillegom,Hollands-Midden",
+    "file_url": "https://www.hillegom.nl/nieuws/nieuwsbericht/artikel/detail/News/actuele-informatie-over-het-coronavirus-827.html",
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Hilvarenbeek,Midden- en West-Brabant",
+    "file_url": "https://www.hilvarenbeek.nl/voor-bewoners/informatie-over-het-coronavirus_41277/",
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Hoeksche Waard,Zuid-Holland-Zuid",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Hof van Twente,Twente",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Het Hogeland,Groningen",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Horst aan de Maas,Limburg-Noord",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Huizen,Gooi en Vechtstreek",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Hulst,Zeeland",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "IJsselstein,Utrecht",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Kaag en Braassem,Hollands-Midden",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Kapelle,Zeeland",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Koggenland,Noord-Holland-Noord",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Krimpen aan den IJssel,Rotterdam-Rijnmond",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Laarbeek,Brabant-Zuidoost",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Landerd,Brabant-Noord",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Landgraaf,Limburg-Zuid",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Landsmeer,Zaanstreek-Waterland",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Langedijk,Noord-Holland-Noord",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Laren,Gooi en Vechtstreek",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Leiderdorp,Hollands-Midden",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Leudal,Limburg-Noord",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Leusden,Utrecht",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Lisse,Hollands-Midden",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Lochem,Noord- en Oost-Gelderland",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Loon op Zand,Midden- en West-Brabant",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Lopik,Utrecht",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Loppersum,Groningen",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Losser,Twente",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Maasdriel,Gelderland-Zuid",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Maasgouw,Limburg-Noord",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Maassluis,Rotterdam-Rijnmond",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Medemblik,Noord-Holland-Noord",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Meerssen,Limburg-Zuid",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Meppel,Drenthe",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Midden-Delfland,Haaglanden",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Midden-Drenthe,Drenthe",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Midden-Groningen,Groningen",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Mill en Sint Hubert,Brabant-Noord",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Moerdijk,Midden- en West-Brabant",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Molenlanden,Zuid-Holland-Zuid",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Montferland,Noord- en Oost-Gelderland",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Montfoort,Utrecht",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Mook en Middelaar,Limburg-Noord",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Neder-Betuwe,Gelderland-Zuid",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Nederweert,Limburg-Noord",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Nieuwkoop,Hollands-Midden",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Nijkerk,Gelderland-Midden",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Noord-Beveland,Zeeland",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Noordenveld,Drenthe",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Noordwijk,Hollands-Midden",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Nuenen, Gerwen en Nederwetten,Brabant-Zuidoost",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Nunspeet,Noord- en Oost-Gelderland",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Oegstgeest,Hollands-Midden",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Oirschot,Brabant-Zuidoost",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Oisterwijk,Midden- en West-Brabant",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Oldambt,Groningen",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Oldebroek,Noord- en Oost-Gelderland",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Oldenzaal,Twente",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Olst-Wijhe,IJsselland",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Ommen,IJsselland",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Oost Gelre,Noord- en Oost-Gelderland",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Ooststellingwerf,Frysl&acirc n",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Oostzaan,Zaanstreek-Waterland",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Opmeer,Noord-Holland-Noord",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Opsterland,Frysl&acirc n",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Oude IJsselstreek,Noord- en Oost-Gelderland",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Ouder-Amstel,Amsterdam-Amstelland",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Oudewater,Utrecht",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Papendrecht,Zuid-Holland-Zuid",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Peel en Maas,Limburg-Noord",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Pekela,Groningen",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Pijnacker-Nootdorp,Haaglanden",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Putten,Noord- en Oost-Gelderland",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Raalte,IJsselland",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Reimerswaal,Zeeland",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Renkum,Gelderland-Midden",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Renswoude,Utrecht",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Reusel-De Mierden,Brabant-Zuidoost",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Rheden,Gelderland-Midden",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Rhenen,Utrecht",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Rijssen-Holten,Twente",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Roerdalen,Limburg-Noord",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "De Ronde Venen,Utrecht",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Rozendaal,Gelderland-Midden",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Rucphen,Midden- en West-Brabant",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Scherpenzeel,Gelderland-Midden",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Schiermonnikoog,Frysl&acirc n",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Schouwen-Duiveland,Zeeland",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Simpelveld,Limburg-Zuid",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Sint Anthonis,Brabant-Noord",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Sint-Michielsgestel,Brabant-Noord",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Sliedrecht,Zuid-Holland-Zuid",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Sluis,Zeeland",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Someren,Brabant-Zuidoost",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Son en Breugel,Brabant-Zuidoost",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Stadskanaal,Groningen",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Staphorst,IJsselland",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Stede Broec,Noord-Holland-Noord",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Steenbergen,Midden- en West-Brabant",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Steenwijkerland,IJsselland",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Stein,Limburg-Zuid",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Terschelling,Frysl&acirc n",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Texel,Noord-Holland-Noord",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Teylingen,Hollands-Midden",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Tholen,Zeeland",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Tiel,Gelderland-Zuid",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Tubbergen,Twente",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Twenterand,Twente",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Tynaarlo,Drenthe",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Tytsjerksteradiel,Frysl&acirc n",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Uden,Brabant-Noord",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Uitgeest,Kennemerland",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Uithoorn,Amsterdam-Amstelland",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Urk,Flevoland",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Vaals,Limburg-Zuid",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Valkenburg aan de Geul,Limburg-Zuid",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Valkenswaard,Brabant-Zuidoost",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Veendam,Groningen",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Veere,Zeeland",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Venray,Limburg-Noord",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Vijfheerenlanden,Utrecht",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Vlieland,Frysl&acirc n",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Vlissingen,Zeeland",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Voerendaal,Limburg-Zuid",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Voorschoten,Hollands-Midden",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Voorst,Noord- en Oost-Gelderland",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Vught,Brabant-Noord",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Waadhoeke,Frysl&acirc n",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Waalre,Brabant-Zuidoost",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Waddinxveen,Hollands-Midden",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Wageningen,Gelderland-Midden",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Wassenaar,Haaglanden",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Waterland,Zaanstreek-Waterland",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Weesp,Gooi en Vechtstreek",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "West Betuwe,Gelderland-Zuid",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "West Maas en Waal,Gelderland-Zuid",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Westerkwartier,Groningen",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Westerveld,Drenthe",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Westervoort,Gelderland-Midden",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Westerwolde,Groningen",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Weststellingwerf,Frysl&acirc n",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Westvoorne,Rotterdam-Rijnmond",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Wierden,Twente",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Wijchen,Gelderland-Zuid",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Wijdemeren,Gooi en Vechtstreek",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Wijk bij Duurstede,Utrecht",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Winterswijk,Noord- en Oost-Gelderland",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Woensdrecht,Midden- en West-Brabant",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "De Wolden,Drenthe",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Wormerland,Zaanstreek-Waterland",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Woudenberg,Utrecht",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Zaltbommel,Gelderland-Zuid",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Zandvoort,Kennemerland",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Zeewolde,Flevoland",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Zevenaar,Gelderland-Midden",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Zoeterwoude,Hollands-Midden",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Zuidplas,Hollands-Midden",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Zundert,Midden- en West-Brabant",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Zwartewaterland,IJsselland",
+    "file_url": null,
+    "type": "Maatregelen"
+  }
+]
