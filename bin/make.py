@@ -120,7 +120,7 @@ def get_item_transformer_for_feed(feed_url):
     return "ocd_backend.items.feed.FeedItem"
 
 
-def get_source_info_from_url(file_url):
+def get_source_info_from_url(file_url, no_rss):
     result = {
         'extractor': "ocd_backend.extractors.linkmap.LinkmapExtractor",
         'item': "ocd_backend.items.html.HTMLWithContentOnPageItem"
@@ -147,7 +147,7 @@ def get_source_info_from_url(file_url):
     except Exception as e:
         html = None
 
-    if html is not None:
+    if (html is not None) and (not no_rss):
         try:
             feed_link = html.xpath('//link[@rel="alternate" and (@type="application/atom+xml" or @type="application/rss+xml")]/@href')[0]
         except Exception as e:
@@ -170,14 +170,14 @@ def is_facebook(url):
     return False
 
 
-def make_source_for(src, LOCATIONS):
+def make_source_for(src, LOCATIONS, suffix, no_rss):
     slug = slugify(src['collection']).replace('-', '_')
     slug_location = slugify(src['location'])
 
     if is_facebook(src['file_url']):
-        feed_id = "%s_%s_fb_1" % (slug, slug_location,)
+        feed_id = "%s_%s_fb_%s" % (slug, slug_location,suffix,)
     else:
-        feed_id = "%s_%s_1" % (slug, slug_location,)
+        feed_id = "%s_%s_%s" % (slug, slug_location,suffix,)
 
     result = {
         "extractor": "",  # depends if feed or not
@@ -208,7 +208,7 @@ def make_source_for(src, LOCATIONS):
     }
 
     if not is_facebook(src['file_url']):
-        additional = get_source_info_from_url(src['file_url'])
+        additional = get_source_info_from_url(src['file_url'], no_rss)
         for k, v in additional.iteritems():
             result[k] = v
     else:
@@ -229,10 +229,10 @@ def make_source_for(src, LOCATIONS):
     return result
 
 
-def make_sources_for(srcs):
+def make_sources_for(srcs, suffix, no_rss):
     LOCATIONS = _get_normalized_locations()
 
-    sources = [make_source_for(src, LOCATIONS) for src in srcs if src['file_url'] is not None]
+    sources = [make_source_for(src, LOCATIONS, suffix, no_rss) for src in srcs if src['file_url'] is not None]
     return json.dumps(sources, indent=4)
 
 
@@ -269,7 +269,9 @@ def sources():
 
 @command('list')
 @click.argument('file')
-def generate_source_from_file(file):
+@click.option('--suffix', '-s', default='1')
+@click.option('--no-rss', is_flag=True, default=False)
+def generate_source_from_file(file, suffix, no_rss):
     """
     This generate the sources for a list of urls in a JSON file
 
@@ -279,7 +281,7 @@ def generate_source_from_file(file):
     srcs = []
     with open(file) as in_file:
         srcs = json.load(in_file)
-    print make_sources_for(srcs)
+    print make_sources_for(srcs, suffix, no_rss)
 
 sources.add_command(generate_source_from_file)
 
