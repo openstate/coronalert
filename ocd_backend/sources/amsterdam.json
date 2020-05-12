@@ -12,7 +12,8 @@
         "file_url": "https://www.amsterdam.nl/nieuws/nieuwsoverzicht/?rss=true",
         "item": "ocd_backend.items.feed.FeedContentFromPageItem",
         "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
-        "location": "Amsterdam",
+        "location": "Amsterdam,Amsterdam-Amstelland",
+        "type": "Nieuws",
         "hidden": false
     },
     {
@@ -28,7 +29,8 @@
         "file_url": "https://www.amsterdam.nl/coronavirus/",
         "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
         "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
-        "location": "Amsterdam",
+        "location": "Amsterdam,Amsterdam-Amstelland",
+        "type": "Maatregelen",
         "hidden": false
     }
 ]

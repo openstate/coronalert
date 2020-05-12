@@ -274,6 +274,14 @@ def modify_query(**new_values):
     return '{}?{}'.format(request.path, url_encode(args))
 
 
+@app.template_filter('always_array')
+def do_always_array(s):
+    if isinstance(s, list):
+        return s
+    else:
+        return list(s)
+
+
 @app.template_filter('make_https')
 def do_make_https(s):
     return re.sub(r'^http:\/\/', 'https://', s)

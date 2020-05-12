@@ -29,14 +29,17 @@ class AS2ConverterMixin(object):
             # 'parties': [unicode(self.source_definition['collection'])]
         }
         language = actual_combined_index_data.get('language', 'nl')
-        loc = actual_combined_index_data.get('location', u'NL')
-        location = {
-            "@id": self.get_identifier('Place', loc),
-            "@type": "Place",
-            "nameMap": {
-                language: loc
+        loc_as_str = actual_combined_index_data.get('location', u'NL')
+        locations = []
+        for loc in loc_as_str.split(","):
+            location = {
+                "@id": self.get_identifier('Place', loc),
+                "@type": "Place",
+                "nameMap": {
+                    language: loc
+                }
             }
-        }
+            locations.append(location)
         generator_name = actual_combined_index_data.get('source', 'PoliScoops')
         generator_url = "https://poliscoops.com/#%s" % (generator_name,)
         generator = {
@@ -56,7 +59,7 @@ class AS2ConverterMixin(object):
         actual_link = actual_combined_index_data.get('link', None) or actual_combined_index_data['meta']['original_object_urls']['html']
         interestingness = self.get_interestingness(actual_combined_index_data.get('interestingness', 'laag'))
         news_type = self.get_type(actual_combined_index_data.get('type', 'Partij'))
-        all_items = [interestingness, news_type, location, generator]
+        all_items = [interestingness, news_type, generator] + [l for l in locations]
         note_actor = self.get_organization(
             party_name, loc)['@id']
         note = {
@@ -69,7 +72,7 @@ class AS2ConverterMixin(object):
             },
             "created": pub_date,
             "@id": self.get_identifier('Note', actual_link),
-            "location": location['@id'],
+            "location": [l['@id'] for l in locations],
             "generator": generator['@id'],
             "tag": [p['@id'] for p in parties] + [p['@id'] for p in persons] + [s['@id'] for s in sentiments] + [interestingness['@id'], news_type['@id']],
             "origin": [t['@id'] for t in topics],

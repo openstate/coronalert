@@ -152,6 +152,6 @@ class HTMLWithContentOnPageItem(HTMLPageItem, HTMLContentExtractionMixin):
                     html.xpath('//meta[@name="%s"]/@content' % (meta_term,)))
         try:
             parsed_date = iso8601.parse_date(date_str)
-        except LookupError:
+        except iso8601.ParseError:
             parsed_date = datetime.now()
         return parsed_date, parsed_granularity
