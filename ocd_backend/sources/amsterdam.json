@@ -32,5 +32,22 @@
         "location": "Amsterdam,Amsterdam-Amstelland",
         "type": "Maatregelen",
         "hidden": false
+    },
+    {
+        "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+        "keep_index_on_update": true,
+        "enrichers": [
+        ],
+        "index_name": "veiligheidsregio",
+        "collection": "Veiligheidsregio",
+        "loader": "ocd_backend.loaders.AS2Loader",
+        "id": "vr_amsterdam_amstelland_1",
+        "transformer": "ocd_backend.transformers.BaseTransformer",
+        "file_url": "https://www.amsterdam.nl/veiligheidsregio/",
+        "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+        "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+        "location": "Amsterdam-Amstelland",
+        "type": "Maatregelen",
+        "hidden": false
     }
 ]
