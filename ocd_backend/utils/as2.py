@@ -130,7 +130,7 @@ class AS2ConverterMixin(object):
                     log.info(translations)
                     d['@language'] = translations[-1]['detectedLanguage']['language']
                 else:
-                    d['@language'] = 'en'
+                    d['@language'] = 'nl'
 
                 # only add interestingness for types that are translatable
                 interestingness = combined_index_doc.get('interestingness', {}).get(d.get('@id', ''), 'laag')
