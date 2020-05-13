@@ -68,16 +68,16 @@ AS2_ENTITIES = [
 FACETS = (
     # facet, label, display?, filter?, sub filter attribute
     # ('hl', 'Display taal', False, False, False,),
-    ('type', lazy_gettext('Kind'), True, True, False,),
-    ('generator', lazy_gettext('Origin'), True, True, False,),
+    ('type', lazy_gettext('Kind'), False, True, False,),
+    ('generator', lazy_gettext('Origin'), False, True, False,),
     ('date_from', lazy_gettext('Date from'), False, True, False,),
     ('date_to', lazy_gettext('Date until'), False, True, False,),
-    ('language', lazy_gettext('Language'), True, True, False,),
+    ('language', lazy_gettext('Language'), False, True, False,),
     ('location', lazy_gettext('Location'), True, True, False,),
-    ('sources', lazy_gettext('Source'), True, True, False,),
+    ('sources', lazy_gettext('Source'), False, True, False,),
     # TODO: magic sorting shit (see Joplin) below
     ('tag', lazy_gettext('Mentions'), True, True, {
-        'rel': ['type', 'interestingness', 'polarity', 'subjectivity']
+        'rel': ['type', 'interestingness']  #, 'polarity', 'subjectivity']
     },),
     # ('politicians', 'Politici', True, True,),
     # ('parties', 'Partijen', True, True,),

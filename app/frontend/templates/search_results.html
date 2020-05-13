@@ -49,7 +49,7 @@
         {% endif %}
         " />
         {% for key, desc, is_displayed, is_filter, sub_attr in facets %}
-          {% if key in result_facets %}
+          {% if is_displayed and key in result_facets %}
             {% if result_facets[key].buckets|length > 0 %}
               {% if sub_attr %}
                 {% for obj_attr in sub_attr.keys() %}
