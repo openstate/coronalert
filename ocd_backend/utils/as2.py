@@ -50,8 +50,9 @@ class AS2ConverterMixin(object):
             "rel": "canonical"
         }
         party_name = unicode(actual_combined_index_data['parties'][0])
-        parties = [self.get_organization(p, loc) for p in actual_combined_index_data.get('parties', [])]
-        persons = [self.get_person(p, loc) for p in actual_combined_index_data.get('politicians', [])]
+        org_loc = ""  # organization location
+        parties = [self.get_organization(p, org_loc) for p in actual_combined_index_data.get('parties', [])]
+        persons = [self.get_person(p, org_loc) for p in actual_combined_index_data.get('politicians', [])]
         topics = [self.get_topic(t.get('name', '-'), loc) for t in actual_combined_index_data.get('topics', [])]
         sentiments = self.get_sentiment(actual_combined_index_data.get('sentiment', {}))
         content = actual_combined_index_data.get('description', None)
@@ -61,7 +62,7 @@ class AS2ConverterMixin(object):
         news_type = self.get_type(actual_combined_index_data.get('type', 'Partij'))
         all_items = [interestingness, news_type, generator] + [l for l in locations]
         note_actor = self.get_organization(
-            party_name, loc)['@id']
+            party_name, org_loc)['@id']
         note = {
             "@type": "Note",
             "nameMap": {
