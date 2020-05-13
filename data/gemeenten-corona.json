@@ -1,2065 +1,2065 @@
 [
   {
     "collection": "Gemeente",
-    "location": "Amsterdam,Amsterdam-Amstelland",
+    "location": "Amsterdam,Veiligheidsregio Amsterdam-Amstelland",
     "file_url": "https://www.amsterdam.nl/coronavirus",
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Rotterdam,Rotterdam-Rijnmond",
+    "location": "Rotterdam,Veiligheidsregio Rotterdam-Rijnmond",
     "file_url": "https://www.rotterdam.nl/wonen-leven/coronanieuws/",
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Utrecht,Utrecht",
+    "location": "Utrecht,Veiligheidsregio Utrecht",
     "file_url": "https://www.utrecht.nl/bestuur-en-organisatie/coronavirus/",
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Eindhoven,Brabant-Zuidoost",
+    "location": "Eindhoven,Veiligheidsregio Brabant-Zuidoost",
     "file_url": "https://www.eindhoven.nl/stad-en-wonen/stad/informatie-over-coronavirus",
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Tilburg,Midden- en West-Brabant",
+    "location": "Tilburg,Veiligheidsregio Midden- en West-Brabant",
     "file_url": "https://www.tilburg.nl/actueel/crisis/",
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Groningen,Groningen",
+    "location": "Groningen,Veiligheidsregio Groningen",
     "file_url": "https://gemeente.groningen.nl/coronavirus",
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Almere,Flevoland",
+    "location": "Almere,Veiligheidsregio Flevoland",
     "file_url": "https://www.almere.nl/nc/wonen/zorg-en-welzijn/maatregelen-in-almere-tegen-coronavirus/",
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Breda,Midden- en West-Brabant",
+    "location": "Breda,Veiligheidsregio Midden- en West-Brabant",
     "file_url": "https://www.breda.nl/coronavirus",
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Nijmegen,Gelderland-Zuid",
+    "location": "Nijmegen,Veiligheidsregio Gelderland-Zuid",
     "file_url": "https://www.nijmegen.nl/nieuws/nieuwsdossiers/dossier-coronavirus-covid-19/",
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Apeldoorn,Noord- en Oost-Gelderland",
+    "location": "Apeldoorn,Veiligheidsregio Noord- en Oost-Gelderland",
     "file_url": "https://www.apeldoorn.nl/coronanieuws",
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Haarlem,Kennemerland",
+    "location": "Haarlem,Veiligheidsregio Kennemerland",
     "file_url": "https://www.haarlem.nl/corona-nieuws-overzicht/",
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Enschede,Twente",
+    "location": "Enschede,Veiligheidsregio Twente",
     "file_url": "https://www.enschede.nl/nieuws/actuele-informatie-over-coronavirus",
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Arnhem,Gelderland-Midden",
+    "location": "Arnhem,Veiligheidsregio Gelderland-Midden",
     "file_url": "https://www.arnhem.nl/actueel/alle_nieuwsberichten/Informatie_over_het_Coronavirus",
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Amersfoort,Utrecht",
+    "location": "Amersfoort,Veiligheidsregio Utrecht",
     "file_url": "https://www.amersfoort.nl/zorg-en-ondersteuning/to-2/actuele-informatie-corona.htm",
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Zaanstad,Zaanstreek-Waterland",
+    "location": "Zaanstad,Veiligheidsregio Zaanstreek-Waterland",
     "file_url": "https://www.zaanstad.nl/mozard/!suite86.scherm0325?mPag=1731&mLok=1",
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Haarlemmermeer,Kennemerland",
+    "location": "Haarlemmermeer,Veiligheidsregio Kennemerland",
     "file_url": "https://haarlemmermeergemeente.nl/taak/corona",
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Zwolle,IJsselland",
+    "location": "Zwolle,Veiligheidsregio IJsselland",
     "file_url": "https://www.zwolle.nl/nieuws-over-coronavirus",
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Zoetermeer,Haaglanden",
+    "location": "Zoetermeer,Veiligheidsregio Haaglanden",
     "file_url": "https://www.zoetermeer.nl/inwoners/coronavirus-in-zoetermeer_48552?pk_campaign=Redirects&pk_kwd=corona",
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Leiden,Hollands-Midden",
+    "location": "Leiden,Veiligheidsregio Hollands-Midden",
     "file_url": "https://gemeente.leiden.nl/veelgestelde-vragen-en-nieuws-over-het-coronavirus/",
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Maastricht,Limburg-Zuid",
+    "location": "Maastricht,Veiligheidsregio Limburg-Zuid",
     "file_url": "https://www.gemeentemaastricht.nl/stad/steunpunt-corona",
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Dordrecht,Zuid-Holland-Zuid",
+    "location": "Dordrecht,Veiligheidsregio Zuid-Holland-Zuid",
     "file_url": "https://cms.dordrecht.nl/Inwoners/Overzicht_Inwoners/Nieuws/Nieuws",
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Ede,Gelderland-Midden",
+    "location": "Ede,Veiligheidsregio Gelderland-Midden",
     "file_url": "https://www.ede.nl/corona-nieuws",
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Leeuwarden,Frysl&acirc n",
+    "location": "Leeuwarden,Veiligheidsregio Frysl&acirc n",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Alkmaar,Noord-Holland-Noord",
+    "location": "Alkmaar,Veiligheidsregio Noord-Holland-Noord",
     "file_url": "https://www.alkmaar.nl/actueel/15662/coronavirus-in-noord-holland-noord/",
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Emmen,Drenthe",
+    "location": "Emmen,Veiligheidsregio Drenthe",
     "file_url": "https://gemeente.emmen.nl/informatie-coronavirus/nieuws-coronavirus",
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Westland,Haaglanden",
+    "location": "Westland,Veiligheidsregio Haaglanden",
     "file_url": "https://www.gemeentewestland.nl/coronavirus/nieuws.html",
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Delft,Haaglanden",
+    "location": "Delft,Veiligheidsregio Haaglanden",
     "file_url": "https://www.delft.nl/nieuws-over-coronavirus",
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Venlo,Limburg-Noord",
+    "location": "Venlo,Veiligheidsregio Limburg-Noord",
     "file_url": "https://www.venloonline.nl/nieuws/tag/coronavirus",
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Deventer,IJsselland",
+    "location": "Deventer,Veiligheidsregio IJsselland",
     "file_url": "https://coronavirus.deventer.nl/updates",
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Sittard-Geleen,Limburg-Zuid",
+    "location": "Sittard-Geleen,Veiligheidsregio Limburg-Zuid",
     "file_url": "https://www.sittard-geleen.nl/Inwoners/Actueel/Coronavirus",
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Helmond,Brabant-Zuidoost",
+    "location": "Helmond,Veiligheidsregio Brabant-Zuidoost",
     "file_url": "https://www.helmond.nl/coronavirus-nieuws-gemeente-helmond",
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Oss,Brabant-Noord",
+    "location": "Oss,Veiligheidsregio Brabant-Noord",
     "file_url": "https://www.oss.nl/inwoners/actueel/Coronavirus-1.htm",
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Amstelveen,Amsterdam-Amstelland",
+    "location": "Amstelveen,Veiligheidsregio Amsterdam-Amstelland",
     "file_url": "https://www.amstelveen.nl/home/nieuws/informatie-coronavirus",
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Hilversum,Gooi en Vechtstreek",
+    "location": "Hilversum,Veiligheidsregio Gooi en Vechtstreek",
     "file_url": "https://www.hilversum.nl/Home/Inwoner/Nieuws/Nieuwsitems/Corona",
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Heerlen,Limburg-Zuid",
+    "location": "Heerlen,Veiligheidsregio Limburg-Zuid",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Nissewaard,Rotterdam-Rijnmond",
+    "location": "Nissewaard,Veiligheidsregio Rotterdam-Rijnmond",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Purmerend,Zaanstreek-Waterland",
+    "location": "Purmerend,Veiligheidsregio Zaanstreek-Waterland",
     "file_url": "https://www.purmerend.nl/actuele-informatie-over-het-coronavirus-purmerend",
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Meierijstad,Brabant-Noord",
+    "location": "Meierijstad,Veiligheidsregio Brabant-Noord",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Schiedam,Rotterdam-Rijnmond",
+    "location": "Schiedam,Veiligheidsregio Rotterdam-Rijnmond",
     "file_url": "https://www.schiedam.nl/a-tot-z/laatste-nieuws",
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Roosendaal,Midden- en West-Brabant",
+    "location": "Roosendaal,Veiligheidsregio Midden- en West-Brabant",
     "file_url": "https://roosendaal.nl/laatste-nieuws",
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Lelystad,Flevoland",
+    "location": "Lelystad,Veiligheidsregio Flevoland",
     "file_url": "https://www.lelystad.nl/4/coronavirus/Nieuwsoverzicht-coronavirus.html",
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Leidschendam-Voorburg,Haaglanden",
+    "location": "Leidschendam-Voorburg,Veiligheidsregio Haaglanden",
     "file_url": "https://www.lv.nl/nieuws-over-coronavirus",
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Hoorn,Noord-Holland-Noord",
+    "location": "Hoorn,Veiligheidsregio Noord-Holland-Noord",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Almelo,Twente",
+    "location": "Almelo,Veiligheidsregio Twente",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Vlaardingen,Rotterdam-Rijnmond",
+    "location": "Vlaardingen,Veiligheidsregio Rotterdam-Rijnmond",
     "file_url": "https://www.vlaardingen.nl/Organisatie/Nieuws_en_actualiteiten/Nieuws/Coronavirus_in_Vlaardingen",
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Gouda,Hollands-Midden",
+    "location": "Gouda,Veiligheidsregio Hollands-Midden",
     "file_url": "https://www.gouda.nl/Bestuur_en_organisatie/Publicaties_en_besluiten/Nieuwsberichten/Coronavirus/Informatie_coronavirus/Nieuwsberichten_coronavirus",
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Velsen,Kennemerland",
+    "location": "Velsen,Veiligheidsregio Kennemerland",
     "file_url": "https://www.velsen.nl/corona/nieuwsarchief",
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Assen,Drenthe",
+    "location": "Assen,Veiligheidsregio Drenthe",
     "file_url": "https://www.assen.nl/nieuwsoverzicht-corona",
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Katwijk,Hollands-Midden",
+    "location": "Katwijk,Veiligheidsregio Hollands-Midden",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Stichtse Vecht,Utrecht",
+    "location": "Stichtse Vecht,Veiligheidsregio Utrecht",
     "file_url": "https://stichtsevecht.nl/onderwerp/4696/coronavirus/",
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Veenendaal,Utrecht",
+    "location": "Veenendaal,Veiligheidsregio Utrecht",
     "file_url": "https://www.veenendaal.nl/info-over-de-gemeente/informatie-over-coronavirus/actuele-berichten-over-coronavirus",
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Zeist,Utrecht",
+    "location": "Zeist,Veiligheidsregio Utrecht",
     "file_url": "https://www.zeist.nl/inwoner/uitgelicht/coronavirus/nieuws-coronavirus/",
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Nieuwegein,Utrecht",
+    "location": "Nieuwegein,Veiligheidsregio Utrecht",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Hardenberg,IJsselland",
+    "location": "Hardenberg,Veiligheidsregio IJsselland",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Lansingerland,Rotterdam-Rijnmond",
+    "location": "Lansingerland,Veiligheidsregio Rotterdam-Rijnmond",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Roermond,Limburg-Noord",
+    "location": "Roermond,Veiligheidsregio Limburg-Noord",
     "file_url": "https://www.roermond.nl/nieuws/coronaupdates",
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Doetinchem,Noord- en Oost-Gelderland",
+    "location": "Doetinchem,Veiligheidsregio Noord- en Oost-Gelderland",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Gooise Meren,Gooi en Vechtstreek",
+    "location": "Gooise Meren,Veiligheidsregio Gooi en Vechtstreek",
     "file_url": "https://gooisemeren.nl/informatie-corona/nieuwsberichten-corona/",
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Barneveld,Gelderland-Midden",
+    "location": "Barneveld,Veiligheidsregio Gelderland-Midden",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Den Helder,Noord-Holland-Noord",
+    "location": "Den Helder,Veiligheidsregio Noord-Holland-Noord",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Smallingerland,Frysl&acirc n",
+    "location": "Smallingerland,Veiligheidsregio Frysl&acirc n",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Hoogeveen,Drenthe",
+    "location": "Hoogeveen,Veiligheidsregio Drenthe",
     "file_url": "https://www.hoogeveen.nl/dossiers/informatie-coronavirus/nieuwsoverzicht",
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Krimpenerwaard,Hollands-Midden",
+    "location": "Krimpenerwaard,Veiligheidsregio Hollands-Midden",
     "file_url": "https://www.krimpenerwaard.nl/coronavirus-gemeente-krimpenerwaard",
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Heerhugowaard,Noord-Holland-Noord",
+    "location": "Heerhugowaard,Veiligheidsregio Noord-Holland-Noord",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Oosterhout,Midden- en West-Brabant",
+    "location": "Oosterhout,Veiligheidsregio Midden- en West-Brabant",
     "file_url": "https://oosterhout.nl/inwoners/coronavirus/coronanieuws-inwoners/",
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Terneuzen,Zeeland",
+    "location": "Terneuzen,Veiligheidsregio Zeeland",
     "file_url": "https://www.terneuzen.nl/Onze_Organisatie/Actueel/Nieuws/Nieuwsberichten_Coronavirus",
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Kampen,IJsselland",
+    "location": "Kampen,Veiligheidsregio IJsselland",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "De Fryske Marren,Frysl&acirc n",
+    "location": "De Fryske Marren,Veiligheidsregio Frysl&acirc n",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Woerden,Utrecht",
+    "location": "Woerden,Veiligheidsregio Utrecht",
     "file_url": "https://www.woerden.nl/inwoners/liveblog-coronavirus-woerden",
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Rijswijk,Haaglanden",
+    "location": "Rijswijk,Veiligheidsregio Haaglanden",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Heerenveen,Frysl&acirc n",
+    "location": "Heerenveen,Veiligheidsregio Frysl&acirc n",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Weert,Limburg-Noord",
+    "location": "Weert,Veiligheidsregio Limburg-Noord",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Houten,Utrecht",
+    "location": "Houten,Veiligheidsregio Utrecht",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Utrechtse Heuvelrug,Utrecht",
+    "location": "Utrechtse Heuvelrug,Veiligheidsregio Utrecht",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Barendrecht,Rotterdam-Rijnmond",
+    "location": "Barendrecht,Veiligheidsregio Rotterdam-Rijnmond",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Hollands Kroon,Noord-Holland-Noord",
+    "location": "Hollands Kroon,Veiligheidsregio Noord-Holland-Noord",
     "file_url": "https://www.hollandskroon.nl/inwoners/nieuws/hollands-kroon-neemt-maatregelen-tegen-verspreiding-coronavirus",
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Waalwijk,Midden- en West-Brabant",
+    "location": "Waalwijk,Veiligheidsregio Midden- en West-Brabant",
     "file_url": "https://www.waalwijk.nl/inwoners/nieuws_3359/item/laatste-nieuws-coronavirus_11390.html",
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Overbetuwe,Gelderland-Midden",
+    "location": "Overbetuwe,Veiligheidsregio Gelderland-Midden",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Zutphen,Noord- en Oost-Gelderland",
+    "location": "Zutphen,Veiligheidsregio Noord- en Oost-Gelderland",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Noordoostpolder,Flevoland",
+    "location": "Noordoostpolder,Veiligheidsregio Flevoland",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Harderwijk,Noord- en Oost-Gelderland",
+    "location": "Harderwijk,Veiligheidsregio Noord- en Oost-Gelderland",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Schagen,Noord-Holland-Noord",
+    "location": "Schagen,Veiligheidsregio Noord-Holland-Noord",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Lingewaard,Gelderland-Midden",
+    "location": "Lingewaard,Veiligheidsregio Gelderland-Midden",
     "file_url": "https://www.lingewaard.nl/coronainwoners",
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Kerkrade,Limburg-Zuid",
+    "location": "Kerkrade,Veiligheidsregio Limburg-Zuid",
     "file_url": "https://www.kerkrade.nl/wonen-en-leven/coronavirus-covid-19_41910/",
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Soest,Utrecht",
+    "location": "Soest,Veiligheidsregio Utrecht",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Ridderkerk,Rotterdam-Rijnmond",
+    "location": "Ridderkerk,Veiligheidsregio Rotterdam-Rijnmond",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Veldhoven,Brabant-Zuidoost",
+    "location": "Veldhoven,Veiligheidsregio Brabant-Zuidoost",
     "file_url": "https://www.veldhoven.nl/corona#nieuwsberichten",
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Zwijndrecht,Zuid-Holland-Zuid",
+    "location": "Zwijndrecht,Veiligheidsregio Zuid-Holland-Zuid",
     "file_url": "https://www.zwijndrecht.nl/Bestuur/Nieuws_en_bekendmakingen/Nieuws/Update_Corona_virus_regio_Zuid_Holland_Zuid",
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Aa en Hunze,Drenthe",
+    "location": "Aa en Hunze,Veiligheidsregio Drenthe",
     "file_url": "https://www.aaenhunze.nl/Inwoners_verenigingen/Corona/Nieuwsberichten",
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Aalsmeer,Amsterdam-Amstelland",
+    "location": "Aalsmeer,Veiligheidsregio Amsterdam-Amstelland",
     "file_url": "https://www.aalsmeer.nl/home/nieuws/informatie-coronavirus",
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Aalten,Noord- en Oost-Gelderland",
+    "location": "Aalten,Veiligheidsregio Noord- en Oost-Gelderland",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Achtkarspelen,Frysl&acirc n",
+    "location": "Achtkarspelen,Veiligheidsregio Frysl&acirc n",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Alblasserdam,Zuid-Holland-Zuid",
+    "location": "Alblasserdam,Veiligheidsregio Zuid-Holland-Zuid",
     "file_url": "https://www.alblasserdam.nl/Inwoners/Alle_onderwerpen/Informatie_over_coronavirus",
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Albrandswaard,Rotterdam-Rijnmond",
+    "location": "Albrandswaard,Veiligheidsregio Rotterdam-Rijnmond",
     "file_url": "https://www.albrandswaard.nl/actuele-informatie-coronavirus",
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Alphen-Chaam,Midden- en West-Brabant",
+    "location": "Alphen-Chaam,Veiligheidsregio Midden- en West-Brabant",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Altena,Midden- en West-Brabant",
+    "location": "Altena,Veiligheidsregio Midden- en West-Brabant",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Ameland,Frysl&acirc n",
+    "location": "Ameland,Veiligheidsregio Frysl&acirc n",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Appingedam,Groningen",
+    "location": "Appingedam,Veiligheidsregio Groningen",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Asten,Brabant-Zuidoost",
+    "location": "Asten,Veiligheidsregio Brabant-Zuidoost",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Baarle-Nassau,Midden- en West-Brabant",
+    "location": "Baarle-Nassau,Veiligheidsregio Midden- en West-Brabant",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Baarn,Utrecht",
+    "location": "Baarn,Veiligheidsregio Utrecht",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Beek,Limburg-Zuid",
+    "location": "Beek,Veiligheidsregio Limburg-Zuid",
     "file_url": "https://www.gemeentebeek.nl/#home/slide2",
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Beekdaelen,Limburg-Zuid",
+    "location": "Beekdaelen,Veiligheidsregio Limburg-Zuid",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Beemster,Zaanstreek-Waterland",
+    "location": "Beemster,Veiligheidsregio Zaanstreek-Waterland",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Beesel,Limburg-Noord",
+    "location": "Beesel,Veiligheidsregio Limburg-Noord",
     "file_url": "https://www.beesel.nl/inwoners/coronavirus/lokaal/lokaal",
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Berg en Dal,Gelderland-Zuid",
+    "location": "Berg en Dal,Veiligheidsregio Gelderland-Zuid",
     "file_url": "https://www.bergendal.nl/inwoners/nieuws-corona-algemeen_48561/",
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Bergeijk,Brabant-Zuidoost",
+    "location": "Bergeijk,Veiligheidsregio Brabant-Zuidoost",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Berkelland,Noord- en Oost-Gelderland",
+    "location": "Berkelland,Veiligheidsregio Noord- en Oost-Gelderland",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Bernheze,Brabant-Noord",
+    "location": "Bernheze,Veiligheidsregio Brabant-Noord",
     "file_url": "https://www.bernheze.org/inwoners-en-ondernemers/coronavirus/maatregelen/",
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Best,Brabant-Zuidoost",
+    "location": "Best,Veiligheidsregio Brabant-Zuidoost",
     "file_url": "https://www.gemeentebest.nl/coronavirus",
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Beuningen,Gelderland-Zuid",
+    "location": "Beuningen,Veiligheidsregio Gelderland-Zuid",
     "file_url": "https://www.beuningen.nl/Home/Coronanieuws",
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Beverwijk,Kennemerland",
+    "location": "Beverwijk,Veiligheidsregio Kennemerland",
     "file_url": "https://corona.beverwijk.nl/laatste-nieuws",
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "De Bilt,Utrecht",
+    "location": "De Bilt,Veiligheidsregio Utrecht",
     "file_url": "https://www.debilt.nl/nieuwsoverzicht/actuele-informatie-coronavirus-in-gemeente-de-bilt",
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Bladel,Brabant-Zuidoost",
+    "location": "Bladel,Veiligheidsregio Brabant-Zuidoost",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Blaricum,Gooi en Vechtstreek",
+    "location": "Blaricum,Veiligheidsregio Gooi en Vechtstreek",
     "file_url": "https://www.blaricum.nl/Corona/Informatie_coronavirus/Nieuws",
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Bloemendaal,Kennemerland",
+    "location": "Bloemendaal,Veiligheidsregio Kennemerland",
     "file_url": "https://www.bloemendaal.nl/coronavirus/actuele-informatie-over-coronavirus-in-gemeente-bloemendaal",
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Bodegraven-Reeuwijk,Hollands-Midden",
+    "location": "Bodegraven-Reeuwijk,Veiligheidsregio Hollands-Midden",
     "file_url": "https://gemeente.bodegraven-reeuwijk.nl/corona",
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Boekel,Brabant-Noord",
+    "location": "Boekel,Veiligheidsregio Brabant-Noord",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Borger-Odoorn,Drenthe",
+    "location": "Borger-Odoorn,Veiligheidsregio Drenthe",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Borne,Twente",
+    "location": "Borne,Veiligheidsregio Twente",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Borsele,Zeeland",
+    "location": "Borsele,Veiligheidsregio Zeeland",
     "file_url": "https://www.borsele.nl/home/corona_46008/",
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Boxmeer,Brabant-Noord",
+    "location": "Boxmeer,Veiligheidsregio Brabant-Noord",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Boxtel,Brabant-Noord",
+    "location": "Boxtel,Veiligheidsregio Brabant-Noord",
     "file_url": "https://www.boxtel.nl/corona",
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Brielle,Rotterdam-Rijnmond",
+    "location": "Brielle,Veiligheidsregio Rotterdam-Rijnmond",
     "file_url": "https://www.brielle.nl/actueel/nieuwsberichten_45327/?",
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Bronckhorst,Noord- en Oost-Gelderland",
+    "location": "Bronckhorst,Veiligheidsregio Noord- en Oost-Gelderland",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Brummen,Noord- en Oost-Gelderland",
+    "location": "Brummen,Veiligheidsregio Noord- en Oost-Gelderland",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Brunssum,Limburg-Zuid",
+    "location": "Brunssum,Veiligheidsregio Limburg-Zuid",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Bunnik,Utrecht",
+    "location": "Bunnik,Veiligheidsregio Utrecht",
     "file_url": "https://www.bunnik.nl/nieuws/liveblog-corona/",
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Bunschoten,Utrecht",
+    "location": "Bunschoten,Veiligheidsregio Utrecht",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Buren,Gelderland-Zuid",
+    "location": "Buren,Veiligheidsregio Gelderland-Zuid",
     "file_url": "https://www.buren.nl/onderwerp/maatregelen-coronavirus/",
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Castricum,Noord-Holland-Noord",
+    "location": "Castricum,Veiligheidsregio Noord-Holland-Noord",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Coevorden,Drenthe",
+    "location": "Coevorden,Veiligheidsregio Drenthe",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Cranendonck,Brabant-Zuidoost",
+    "location": "Cranendonck,Veiligheidsregio Brabant-Zuidoost",
     "file_url": "https://www.cranendonck.nl/inwoners/nieuws-en-actualiteiten_43826/item/updates-coronavirus_50776.html",
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Cuijk,Brabant-Noord",
+    "location": "Cuijk,Veiligheidsregio Brabant-Noord",
     "file_url": "https://www.cuijk.nl/corona",
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Culemborg,Gelderland-Zuid",
+    "location": "Culemborg,Veiligheidsregio Gelderland-Zuid",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Dalfsen,IJsselland",
+    "location": "Dalfsen,Veiligheidsregio IJsselland",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Dantumadiel,Frysl&acirc n",
+    "location": "Dantumadiel,Veiligheidsregio Frysl&acirc n",
     "file_url": "https://www.dantumadiel.frl/coronavirus-covid-19-0",
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Delfzijl,Groningen",
+    "location": "Delfzijl,Veiligheidsregio Groningen",
     "file_url": "https://www.delfzijl.nl/home/coronavirus-informatie_44562/",
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Deurne,Brabant-Zuidoost",
+    "location": "Deurne,Veiligheidsregio Brabant-Zuidoost",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Diemen,Amsterdam-Amstelland",
+    "location": "Diemen,Veiligheidsregio Amsterdam-Amstelland",
     "file_url": "https://www.diemen.nl/Onderwerpen/Laatste_nieuws_Coronacrisis/Nieuws_over_de_coronacrisis",
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Dinkelland,Twente",
+    "location": "Dinkelland,Veiligheidsregio Twente",
     "file_url": "https://www.dinkelland.nl/overzicht-nieuwsberichten-coronavirus",
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Doesburg,Gelderland-Midden",
+    "location": "Doesburg,Veiligheidsregio Gelderland-Midden",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Dongen,Midden- en West-Brabant",
+    "location": "Dongen,Veiligheidsregio Midden- en West-Brabant",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Drechterland,Noord-Holland-Noord",
+    "location": "Drechterland,Veiligheidsregio Noord-Holland-Noord",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Drimmelen,Midden- en West-Brabant",
+    "location": "Drimmelen,Veiligheidsregio Midden- en West-Brabant",
     "file_url": "https://drimmelen.nl/updates-coronavirus-en-de-gemeente-drimmelen",
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Dronten,Flevoland",
+    "location": "Dronten,Veiligheidsregio Flevoland",
     "file_url": "https://www.dronten.nl/mozard/!suite86.scherm0325?mVrg=4952",
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Druten,Gelderland-Zuid",
+    "location": "Druten,Veiligheidsregio Gelderland-Zuid",
     "file_url": "https://www.druten.nl/nieuws-corona",
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Duiven,Gelderland-Midden",
+    "location": "Duiven,Veiligheidsregio Gelderland-Midden",
     "file_url": "https://www.duiven.nl/informatie-rondom-activiteiten",
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Echt-Susteren,Limburg-Noord",
+    "location": "Echt-Susteren,Veiligheidsregio Limburg-Noord",
     "file_url": "https://www.echt-susteren.nl/maatregelen-tegen-het-coronavirus",
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Edam-Volendam,Zaanstreek-Waterland",
+    "location": "Edam-Volendam,Veiligheidsregio Zaanstreek-Waterland",
     "file_url": "https://www.edam-volendam.nl/portal-home/corona_44699/",
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Eemnes,Utrecht",
+    "location": "Eemnes,Veiligheidsregio Utrecht",
     "file_url": "https://www.eemnes.nl/Corona/Informatie_coronavirus/Nieuws",
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Eersel,Brabant-Zuidoost",
+    "location": "Eersel,Veiligheidsregio Brabant-Zuidoost",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Eijsden-Margraten,Limburg-Zuid",
+    "location": "Eijsden-Margraten,Veiligheidsregio Limburg-Zuid",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Elburg,Noord- en Oost-Gelderland",
+    "location": "Elburg,Veiligheidsregio Noord- en Oost-Gelderland",
     "file_url": "https://www.elburg.nl/Inwoners/Nieuws/Meer_nieuws/Informatie_Coronavirus/Liveblog_Coronavirus",
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Enkhuizen,Noord-Holland-Noord",
+    "location": "Enkhuizen,Veiligheidsregio Noord-Holland-Noord",
     "file_url": "https://www.enkhuizen.nl/coronavirus",
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Epe,Noord- en Oost-Gelderland",
+    "location": "Epe,Veiligheidsregio Noord- en Oost-Gelderland",
     "file_url": "https://www.epe.nl/in-epe/coronavirus-laatste-nieuws_42720/item/coronavirus-laatste-nieuws_41663.html",
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Ermelo,Noord- en Oost-Gelderland",
+    "location": "Ermelo,Veiligheidsregio Noord- en Oost-Gelderland",
     "file_url": "https://www.ermelo.nl/portal-ermelo/nieuws-over-het-coronavirus_43181/",
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Etten-Leur,Midden- en West-Brabant",
+    "location": "Etten-Leur,Veiligheidsregio Midden- en West-Brabant",
     "file_url": "https://www.etten-leur.nl/Inwoner/Nieuws/Nieuwsberichten/Coronavirus_COVID_19",
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Geertruidenberg,Midden- en West-Brabant",
+    "location": "Geertruidenberg,Veiligheidsregio Midden- en West-Brabant",
     "file_url": "https://www.geertruidenberg.nl/het-coronavirus",
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Geldrop-Mierlo,Brabant-Zuidoost",
+    "location": "Geldrop-Mierlo,Veiligheidsregio Brabant-Zuidoost",
     "file_url": "https://www.geldrop-mierlo.nl/corona",
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Gemert-Bakel,Brabant-Zuidoost",
+    "location": "Gemert-Bakel,Veiligheidsregio Brabant-Zuidoost",
     "file_url": "https://www.gemert-bakel.nl/meest-gevraagd/coronavirus",
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Gennep,Limburg-Noord",
+    "location": "Gennep,Veiligheidsregio Limburg-Noord",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Gilze en Rijen,Midden- en West-Brabant",
+    "location": "Gilze en Rijen,Veiligheidsregio Midden- en West-Brabant",
     "file_url": "https://www.gilzerijen.nl/coronavirus.html",
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Goeree-Overflakkee,Rotterdam-Rijnmond",
+    "location": "Goeree-Overflakkee,Veiligheidsregio Rotterdam-Rijnmond",
     "file_url": "https://www.goeree-overflakkee.nl/portal/informatie-coronacrisis_47567/",
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Goes,Zeeland",
+    "location": "Goes,Veiligheidsregio Zeeland",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Goirle,Midden- en West-Brabant",
+    "location": "Goirle,Veiligheidsregio Midden- en West-Brabant",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Gorinchem,Zuid-Holland-Zuid",
+    "location": "Gorinchem,Veiligheidsregio Zuid-Holland-Zuid",
     "file_url": "https://www.gorinchem.nl/coronavirus",
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Grave,Brabant-Noord",
+    "location": "Grave,Veiligheidsregio Brabant-Noord",
     "file_url": "https://www.grave.nl/corona",
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Gulpen-Wittem,Limburg-Zuid",
+    "location": "Gulpen-Wittem,Veiligheidsregio Limburg-Zuid",
     "file_url": "https://www.gulpen-wittem.nl/onderwerpen/corona/maatregelen-voor-gulpen-wittem",
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Haaksbergen,Twente",
+    "location": "Haaksbergen,Veiligheidsregio Twente",
     "file_url": "https://www.haaksbergen.nl/coronavirus",
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Haaren,Brabant-Noord",
+    "location": "Haaren,Veiligheidsregio Brabant-Noord",
     "file_url": "https://www.haaren.nl/home/coronavirus_42239",
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Halderberge,Midden- en West-Brabant",
+    "location": "Halderberge,Veiligheidsregio Midden- en West-Brabant",
     "file_url": "https://www.halderberge.nl/coronavirus",
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Hardinxveld-Giessendam,Zuid-Holland-Zuid",
+    "location": "Hardinxveld-Giessendam,Veiligheidsregio Zuid-Holland-Zuid",
     "file_url": "https://www.hardinxveld-giessendam.nl/Zorg_en_onderwijs/Zorg/Updates_Coronavirus",
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Harlingen,Frysl&acirc n",
+    "location": "Harlingen,Veiligheidsregio Frysl&acirc n",
     "file_url": "https://www.harlingen.nl/corona",
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Hattem,Noord- en Oost-Gelderland",
+    "location": "Hattem,Veiligheidsregio Noord- en Oost-Gelderland",
     "file_url": "https://www.hattem.nl/Inwoners/Actueel/coronavirus",
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Heemskerk,Kennemerland",
+    "location": "Heemskerk,Veiligheidsregio Kennemerland",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Heemstede,Kennemerland",
+    "location": "Heemstede,Veiligheidsregio Kennemerland",
     "file_url": "https://www.heemstede.nl/coronavirus/actuele-informatie-over-coronavirus-in-gemeente-heemstede",
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Heerde,Noord- en Oost-Gelderland",
+    "location": "Heerde,Veiligheidsregio Noord- en Oost-Gelderland",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Heeze-Leende,Brabant-Zuidoost",
+    "location": "Heeze-Leende,Veiligheidsregio Brabant-Zuidoost",
     "file_url": "https://www.heeze-leende.nl/in-en-over-heeze-leende/nieuws_42167/item/het-coronavirus-alle-updates_78122.html",
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Heiloo,Noord-Holland-Noord",
+    "location": "Heiloo,Veiligheidsregio Noord-Holland-Noord",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Hellendoorn,Twente",
+    "location": "Hellendoorn,Veiligheidsregio Twente",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Hellevoetsluis,Rotterdam-Rijnmond",
+    "location": "Hellevoetsluis,Veiligheidsregio Rotterdam-Rijnmond",
     "file_url": "https://www.hellevoetsluis.nl/Inwoners/Zorg_en_hulp/Coronavirus",
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Hendrik-Ido-Ambacht,Zuid-Holland-Zuid",
+    "location": "Hendrik-Ido-Ambacht,Veiligheidsregio Zuid-Holland-Zuid",
     "file_url": "https://www.h-i-ambacht.nl/Gewoon_Ambacht/Overzicht/actueel/Actueel_2020/Coronavirus_update_woensdagavond",
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Heumen,Gelderland-Zuid",
+    "location": "Heumen,Veiligheidsregio Gelderland-Zuid",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Heusden,Brabant-Noord",
+    "location": "Heusden,Veiligheidsregio Brabant-Noord",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Hillegom,Hollands-Midden",
+    "location": "Hillegom,Veiligheidsregio Hollands-Midden",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Hilvarenbeek,Midden- en West-Brabant",
+    "location": "Hilvarenbeek,Veiligheidsregio Midden- en West-Brabant",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Hoeksche Waard,Zuid-Holland-Zuid",
+    "location": "Hoeksche Waard,Veiligheidsregio Zuid-Holland-Zuid",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Hof van Twente,Twente",
+    "location": "Hof van Twente,Veiligheidsregio Twente",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Het Hogeland,Groningen",
+    "location": "Het Hogeland,Veiligheidsregio Groningen",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Horst aan de Maas,Limburg-Noord",
+    "location": "Horst aan de Maas,Veiligheidsregio Limburg-Noord",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Huizen,Gooi en Vechtstreek",
+    "location": "Huizen,Veiligheidsregio Gooi en Vechtstreek",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Hulst,Zeeland",
+    "location": "Hulst,Veiligheidsregio Zeeland",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "IJsselstein,Utrecht",
+    "location": "IJsselstein,Veiligheidsregio Utrecht",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Kaag en Braassem,Hollands-Midden",
+    "location": "Kaag en Braassem,Veiligheidsregio Hollands-Midden",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Kapelle,Zeeland",
+    "location": "Kapelle,Veiligheidsregio Zeeland",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Koggenland,Noord-Holland-Noord",
+    "location": "Koggenland,Veiligheidsregio Noord-Holland-Noord",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Krimpen aan den IJssel,Rotterdam-Rijnmond",
+    "location": "Krimpen aan den IJssel,Veiligheidsregio Rotterdam-Rijnmond",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Laarbeek,Brabant-Zuidoost",
+    "location": "Laarbeek,Veiligheidsregio Brabant-Zuidoost",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Landerd,Brabant-Noord",
+    "location": "Landerd,Veiligheidsregio Brabant-Noord",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Landgraaf,Limburg-Zuid",
+    "location": "Landgraaf,Veiligheidsregio Limburg-Zuid",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Landsmeer,Zaanstreek-Waterland",
+    "location": "Landsmeer,Veiligheidsregio Zaanstreek-Waterland",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Langedijk,Noord-Holland-Noord",
+    "location": "Langedijk,Veiligheidsregio Noord-Holland-Noord",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Laren,Gooi en Vechtstreek",
+    "location": "Laren,Veiligheidsregio Gooi en Vechtstreek",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Leiderdorp,Hollands-Midden",
+    "location": "Leiderdorp,Veiligheidsregio Hollands-Midden",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Leudal,Limburg-Noord",
+    "location": "Leudal,Veiligheidsregio Limburg-Noord",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Leusden,Utrecht",
+    "location": "Leusden,Veiligheidsregio Utrecht",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Lisse,Hollands-Midden",
+    "location": "Lisse,Veiligheidsregio Hollands-Midden",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Lochem,Noord- en Oost-Gelderland",
+    "location": "Lochem,Veiligheidsregio Noord- en Oost-Gelderland",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Loon op Zand,Midden- en West-Brabant",
+    "location": "Loon op Zand,Veiligheidsregio Midden- en West-Brabant",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Lopik,Utrecht",
+    "location": "Lopik,Veiligheidsregio Utrecht",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Loppersum,Groningen",
+    "location": "Loppersum,Veiligheidsregio Groningen",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Losser,Twente",
+    "location": "Losser,Veiligheidsregio Twente",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Maasdriel,Gelderland-Zuid",
+    "location": "Maasdriel,Veiligheidsregio Gelderland-Zuid",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Maasgouw,Limburg-Noord",
+    "location": "Maasgouw,Veiligheidsregio Limburg-Noord",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Maassluis,Rotterdam-Rijnmond",
+    "location": "Maassluis,Veiligheidsregio Rotterdam-Rijnmond",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Medemblik,Noord-Holland-Noord",
+    "location": "Medemblik,Veiligheidsregio Noord-Holland-Noord",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Meerssen,Limburg-Zuid",
+    "location": "Meerssen,Veiligheidsregio Limburg-Zuid",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Meppel,Drenthe",
+    "location": "Meppel,Veiligheidsregio Drenthe",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Midden-Delfland,Haaglanden",
+    "location": "Midden-Delfland,Veiligheidsregio Haaglanden",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Midden-Drenthe,Drenthe",
+    "location": "Midden-Drenthe,Veiligheidsregio Drenthe",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Midden-Groningen,Groningen",
+    "location": "Midden-Groningen,Veiligheidsregio Groningen",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Mill en Sint Hubert,Brabant-Noord",
+    "location": "Mill en Sint Hubert,Veiligheidsregio Brabant-Noord",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Moerdijk,Midden- en West-Brabant",
+    "location": "Moerdijk,Veiligheidsregio Midden- en West-Brabant",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Molenlanden,Zuid-Holland-Zuid",
+    "location": "Molenlanden,Veiligheidsregio Zuid-Holland-Zuid",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Montferland,Noord- en Oost-Gelderland",
+    "location": "Montferland,Veiligheidsregio Noord- en Oost-Gelderland",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Montfoort,Utrecht",
+    "location": "Montfoort,Veiligheidsregio Utrecht",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Mook en Middelaar,Limburg-Noord",
+    "location": "Mook en Middelaar,Veiligheidsregio Limburg-Noord",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Neder-Betuwe,Gelderland-Zuid",
+    "location": "Neder-Betuwe,Veiligheidsregio Gelderland-Zuid",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Nederweert,Limburg-Noord",
+    "location": "Nederweert,Veiligheidsregio Limburg-Noord",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Nieuwkoop,Hollands-Midden",
+    "location": "Nieuwkoop,Veiligheidsregio Hollands-Midden",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Nijkerk,Gelderland-Midden",
+    "location": "Nijkerk,Veiligheidsregio Gelderland-Midden",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Noord-Beveland,Zeeland",
+    "location": "Noord-Beveland,Veiligheidsregio Zeeland",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Noordenveld,Drenthe",
+    "location": "Noordenveld,Veiligheidsregio Drenthe",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Noordwijk,Hollands-Midden",
+    "location": "Noordwijk,Veiligheidsregio Hollands-Midden",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Nuenen, Gerwen en Nederwetten,Brabant-Zuidoost",
+    "location": "Nuenen, Gerwen en Nederwetten,Veiligheidsregio Brabant-Zuidoost",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Nunspeet,Noord- en Oost-Gelderland",
+    "location": "Nunspeet,Veiligheidsregio Noord- en Oost-Gelderland",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Oegstgeest,Hollands-Midden",
+    "location": "Oegstgeest,Veiligheidsregio Hollands-Midden",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Oirschot,Brabant-Zuidoost",
+    "location": "Oirschot,Veiligheidsregio Brabant-Zuidoost",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Oisterwijk,Midden- en West-Brabant",
+    "location": "Oisterwijk,Veiligheidsregio Midden- en West-Brabant",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Oldambt,Groningen",
+    "location": "Oldambt,Veiligheidsregio Groningen",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Oldebroek,Noord- en Oost-Gelderland",
+    "location": "Oldebroek,Veiligheidsregio Noord- en Oost-Gelderland",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Oldenzaal,Twente",
+    "location": "Oldenzaal,Veiligheidsregio Twente",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Olst-Wijhe,IJsselland",
+    "location": "Olst-Wijhe,Veiligheidsregio IJsselland",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Ommen,IJsselland",
+    "location": "Ommen,Veiligheidsregio IJsselland",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Oost Gelre,Noord- en Oost-Gelderland",
+    "location": "Oost Gelre,Veiligheidsregio Noord- en Oost-Gelderland",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Ooststellingwerf,Frysl&acirc n",
+    "location": "Ooststellingwerf,Veiligheidsregio Frysl&acirc n",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Oostzaan,Zaanstreek-Waterland",
+    "location": "Oostzaan,Veiligheidsregio Zaanstreek-Waterland",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Opmeer,Noord-Holland-Noord",
+    "location": "Opmeer,Veiligheidsregio Noord-Holland-Noord",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Opsterland,Frysl&acirc n",
+    "location": "Opsterland,Veiligheidsregio Frysl&acirc n",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Oude IJsselstreek,Noord- en Oost-Gelderland",
+    "location": "Oude IJsselstreek,Veiligheidsregio Noord- en Oost-Gelderland",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Ouder-Amstel,Amsterdam-Amstelland",
+    "location": "Ouder-Amstel,Veiligheidsregio Amsterdam-Amstelland",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Oudewater,Utrecht",
+    "location": "Oudewater,Veiligheidsregio Utrecht",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Papendrecht,Zuid-Holland-Zuid",
+    "location": "Papendrecht,Veiligheidsregio Zuid-Holland-Zuid",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Peel en Maas,Limburg-Noord",
+    "location": "Peel en Maas,Veiligheidsregio Limburg-Noord",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Pekela,Groningen",
+    "location": "Pekela,Veiligheidsregio Groningen",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Pijnacker-Nootdorp,Haaglanden",
+    "location": "Pijnacker-Nootdorp,Veiligheidsregio Haaglanden",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Putten,Noord- en Oost-Gelderland",
+    "location": "Putten,Veiligheidsregio Noord- en Oost-Gelderland",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Raalte,IJsselland",
+    "location": "Raalte,Veiligheidsregio IJsselland",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Reimerswaal,Zeeland",
+    "location": "Reimerswaal,Veiligheidsregio Zeeland",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Renkum,Gelderland-Midden",
+    "location": "Renkum,Veiligheidsregio Gelderland-Midden",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Renswoude,Utrecht",
+    "location": "Renswoude,Veiligheidsregio Utrecht",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Reusel-De Mierden,Brabant-Zuidoost",
+    "location": "Reusel-De Mierden,Veiligheidsregio Brabant-Zuidoost",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Rheden,Gelderland-Midden",
+    "location": "Rheden,Veiligheidsregio Gelderland-Midden",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Rhenen,Utrecht",
+    "location": "Rhenen,Veiligheidsregio Utrecht",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Rijssen-Holten,Twente",
+    "location": "Rijssen-Holten,Veiligheidsregio Twente",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Roerdalen,Limburg-Noord",
+    "location": "Roerdalen,Veiligheidsregio Limburg-Noord",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "De Ronde Venen,Utrecht",
+    "location": "De Ronde Venen,Veiligheidsregio Utrecht",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Rozendaal,Gelderland-Midden",
+    "location": "Rozendaal,Veiligheidsregio Gelderland-Midden",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Rucphen,Midden- en West-Brabant",
+    "location": "Rucphen,Veiligheidsregio Midden- en West-Brabant",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Scherpenzeel,Gelderland-Midden",
+    "location": "Scherpenzeel,Veiligheidsregio Gelderland-Midden",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Schiermonnikoog,Frysl&acirc n",
+    "location": "Schiermonnikoog,Veiligheidsregio Frysl&acirc n",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Schouwen-Duiveland,Zeeland",
+    "location": "Schouwen-Duiveland,Veiligheidsregio Zeeland",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Simpelveld,Limburg-Zuid",
+    "location": "Simpelveld,Veiligheidsregio Limburg-Zuid",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Sint Anthonis,Brabant-Noord",
+    "location": "Sint Anthonis,Veiligheidsregio Brabant-Noord",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Sint-Michielsgestel,Brabant-Noord",
+    "location": "Sint-Michielsgestel,Veiligheidsregio Brabant-Noord",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Sliedrecht,Zuid-Holland-Zuid",
+    "location": "Sliedrecht,Veiligheidsregio Zuid-Holland-Zuid",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Sluis,Zeeland",
+    "location": "Sluis,Veiligheidsregio Zeeland",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Someren,Brabant-Zuidoost",
+    "location": "Someren,Veiligheidsregio Brabant-Zuidoost",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Son en Breugel,Brabant-Zuidoost",
+    "location": "Son en Breugel,Veiligheidsregio Brabant-Zuidoost",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Stadskanaal,Groningen",
+    "location": "Stadskanaal,Veiligheidsregio Groningen",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Staphorst,IJsselland",
+    "location": "Staphorst,Veiligheidsregio IJsselland",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Stede Broec,Noord-Holland-Noord",
+    "location": "Stede Broec,Veiligheidsregio Noord-Holland-Noord",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Steenbergen,Midden- en West-Brabant",
+    "location": "Steenbergen,Veiligheidsregio Midden- en West-Brabant",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Steenwijkerland,IJsselland",
+    "location": "Steenwijkerland,Veiligheidsregio IJsselland",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Stein,Limburg-Zuid",
+    "location": "Stein,Veiligheidsregio Limburg-Zuid",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Terschelling,Frysl&acirc n",
+    "location": "Terschelling,Veiligheidsregio Frysl&acirc n",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Texel,Noord-Holland-Noord",
+    "location": "Texel,Veiligheidsregio Noord-Holland-Noord",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Teylingen,Hollands-Midden",
+    "location": "Teylingen,Veiligheidsregio Hollands-Midden",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Tholen,Zeeland",
+    "location": "Tholen,Veiligheidsregio Zeeland",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Tiel,Gelderland-Zuid",
+    "location": "Tiel,Veiligheidsregio Gelderland-Zuid",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Tubbergen,Twente",
+    "location": "Tubbergen,Veiligheidsregio Twente",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Twenterand,Twente",
+    "location": "Twenterand,Veiligheidsregio Twente",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Tynaarlo,Drenthe",
+    "location": "Tynaarlo,Veiligheidsregio Drenthe",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Tytsjerksteradiel,Frysl&acirc n",
+    "location": "Tytsjerksteradiel,Veiligheidsregio Frysl&acirc n",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Uden,Brabant-Noord",
+    "location": "Uden,Veiligheidsregio Brabant-Noord",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Uitgeest,Kennemerland",
+    "location": "Uitgeest,Veiligheidsregio Kennemerland",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Uithoorn,Amsterdam-Amstelland",
+    "location": "Uithoorn,Veiligheidsregio Amsterdam-Amstelland",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Urk,Flevoland",
+    "location": "Urk,Veiligheidsregio Flevoland",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Vaals,Limburg-Zuid",
+    "location": "Vaals,Veiligheidsregio Limburg-Zuid",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Valkenburg aan de Geul,Limburg-Zuid",
+    "location": "Valkenburg aan de Geul,Veiligheidsregio Limburg-Zuid",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Valkenswaard,Brabant-Zuidoost",
+    "location": "Valkenswaard,Veiligheidsregio Brabant-Zuidoost",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Veendam,Groningen",
+    "location": "Veendam,Veiligheidsregio Groningen",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Veere,Zeeland",
+    "location": "Veere,Veiligheidsregio Zeeland",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Venray,Limburg-Noord",
+    "location": "Venray,Veiligheidsregio Limburg-Noord",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Vijfheerenlanden,Utrecht",
+    "location": "Vijfheerenlanden,Veiligheidsregio Utrecht",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Vlieland,Frysl&acirc n",
+    "location": "Vlieland,Veiligheidsregio Frysl&acirc n",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Vlissingen,Zeeland",
+    "location": "Vlissingen,Veiligheidsregio Zeeland",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Voerendaal,Limburg-Zuid",
+    "location": "Voerendaal,Veiligheidsregio Limburg-Zuid",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Voorschoten,Hollands-Midden",
+    "location": "Voorschoten,Veiligheidsregio Hollands-Midden",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Voorst,Noord- en Oost-Gelderland",
+    "location": "Voorst,Veiligheidsregio Noord- en Oost-Gelderland",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Vught,Brabant-Noord",
+    "location": "Vught,Veiligheidsregio Brabant-Noord",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Waadhoeke,Frysl&acirc n",
+    "location": "Waadhoeke,Veiligheidsregio Frysl&acirc n",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Waalre,Brabant-Zuidoost",
+    "location": "Waalre,Veiligheidsregio Brabant-Zuidoost",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Waddinxveen,Hollands-Midden",
+    "location": "Waddinxveen,Veiligheidsregio Hollands-Midden",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Wageningen,Gelderland-Midden",
+    "location": "Wageningen,Veiligheidsregio Gelderland-Midden",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Wassenaar,Haaglanden",
+    "location": "Wassenaar,Veiligheidsregio Haaglanden",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Waterland,Zaanstreek-Waterland",
+    "location": "Waterland,Veiligheidsregio Zaanstreek-Waterland",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Weesp,Gooi en Vechtstreek",
+    "location": "Weesp,Veiligheidsregio Gooi en Vechtstreek",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "West Betuwe,Gelderland-Zuid",
+    "location": "West Betuwe,Veiligheidsregio Gelderland-Zuid",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "West Maas en Waal,Gelderland-Zuid",
+    "location": "West Maas en Waal,Veiligheidsregio Gelderland-Zuid",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Westerkwartier,Groningen",
+    "location": "Westerkwartier,Veiligheidsregio Groningen",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Westerveld,Drenthe",
+    "location": "Westerveld,Veiligheidsregio Drenthe",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Westervoort,Gelderland-Midden",
+    "location": "Westervoort,Veiligheidsregio Gelderland-Midden",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Westerwolde,Groningen",
+    "location": "Westerwolde,Veiligheidsregio Groningen",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Weststellingwerf,Frysl&acirc n",
+    "location": "Weststellingwerf,Veiligheidsregio Frysl&acirc n",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Westvoorne,Rotterdam-Rijnmond",
+    "location": "Westvoorne,Veiligheidsregio Rotterdam-Rijnmond",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Wierden,Twente",
+    "location": "Wierden,Veiligheidsregio Twente",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Wijchen,Gelderland-Zuid",
+    "location": "Wijchen,Veiligheidsregio Gelderland-Zuid",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Wijdemeren,Gooi en Vechtstreek",
+    "location": "Wijdemeren,Veiligheidsregio Gooi en Vechtstreek",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Wijk bij Duurstede,Utrecht",
+    "location": "Wijk bij Duurstede,Veiligheidsregio Utrecht",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Winterswijk,Noord- en Oost-Gelderland",
+    "location": "Winterswijk,Veiligheidsregio Noord- en Oost-Gelderland",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Woensdrecht,Midden- en West-Brabant",
+    "location": "Woensdrecht,Veiligheidsregio Midden- en West-Brabant",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "De Wolden,Drenthe",
+    "location": "De Wolden,Veiligheidsregio Drenthe",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Wormerland,Zaanstreek-Waterland",
+    "location": "Wormerland,Veiligheidsregio Zaanstreek-Waterland",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Woudenberg,Utrecht",
+    "location": "Woudenberg,Veiligheidsregio Utrecht",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Zaltbommel,Gelderland-Zuid",
+    "location": "Zaltbommel,Veiligheidsregio Gelderland-Zuid",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Zandvoort,Kennemerland",
+    "location": "Zandvoort,Veiligheidsregio Kennemerland",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Zeewolde,Flevoland",
+    "location": "Zeewolde,Veiligheidsregio Flevoland",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Zevenaar,Gelderland-Midden",
+    "location": "Zevenaar,Veiligheidsregio Gelderland-Midden",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Zoeterwoude,Hollands-Midden",
+    "location": "Zoeterwoude,Veiligheidsregio Hollands-Midden",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Zuidplas,Hollands-Midden",
+    "location": "Zuidplas,Veiligheidsregio Hollands-Midden",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Zundert,Midden- en West-Brabant",
+    "location": "Zundert,Veiligheidsregio Midden- en West-Brabant",
     "file_url": null,
     "type": "Maatregelen"
   },
   {
     "collection": "Gemeente",
-    "location": "Zwartewaterland,IJsselland",
+    "location": "Zwartewaterland,Veiligheidsregio IJsselland",
     "file_url": null,
     "type": "Maatregelen"
   }
