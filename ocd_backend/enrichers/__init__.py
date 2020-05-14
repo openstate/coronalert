@@ -255,7 +255,7 @@ class AS2TranslationEnricher(BaseEnricher, AzureTranslationMixin, HttpRequestMix
 class BinoasEnricher(BaseEnricher, HttpRequestMixin):
     def enrich_item(self, enrichments, object_id, combined_index_doc, doc):
         for item in combined_index_doc.get('item', {}).get('items', []):
-            if item.get('@type', 'Note') not in settings.AS2_TRANSLATION_TYPES:
+            if item.get('@type', 'Note') not in settings.BINOAS_AS2_TYPES:
                 # log.info(
                 #     'Document %s is not a translatable type (%s)' % (
                 #         item.get('@id', '???'), item['@type'],))
@@ -265,8 +265,8 @@ class BinoasEnricher(BaseEnricher, HttpRequestMixin):
                 log.info(
                     'Document has no date information, not enriching for binoas')
                 return enrichments
-            log.info('created: %s' % (item['created'],))
-            amsterdam_tz = pytz.timezone('Europe/Amsterdam')
+            # log.info('created: %s' % (item['created'],))
+            amsterdam_tz = pytz.timezone(settings.BINOAS_TZ)
             current_dt = datetime.datetime.now(tz=amsterdam_tz)
             adjusted_dt = item['created']
             try:
@@ -282,34 +282,22 @@ class BinoasEnricher(BaseEnricher, HttpRequestMixin):
                 delay = current_dt - adjusted_dt
 
             #log.info('Delay: %s (%s vs %s)' % (delay, current_dt, adjusted_dt))
-            if delay.total_seconds() > (6 * 3600.0):
+            if delay.total_seconds() > settings.BINOAS_ALLOWED_DELAY:
                 log.info('Document delayed for %s so we have seen it before' % (
                     str(delay),))
                 return enrichments
 
-            translations = enrichments.get('translations', {}).get(item.get('@id', ''), [])
-            if len(translations) == 0:
-                translation_keys = {}
-            if len(translations) == 1:
-                translation_keys = {0: 'contentMap'}
-            if len(translations) == 2:
-                translation_keys = {0: 'nameMap', 1: 'contentMap'}
-            for t_idx, t_key in translation_keys.iteritems():
-                item[t_key] = {x['to']: x['text'] for x in translations[t_idx]['translations']}
+            # TODO: figure out howto include classifications here ...
 
-                # always take the language of the content, since content tends to
-                # be longer than the title
-                item['@language'] = translations[-1]['detectedLanguage']['language']
+            url = '%s/posts/new' (settings.BINOAS_BASE_URL,)
 
-            url = 'http://binoas.openstate.eu/posts/new'
-            #url = 'http://binoas_app-binoas_1:5000/posts/new'
             r = {}
             resp = None
             log.info('sending to binoas: ' + str(item))
             try:
                 resp = self.http_session.post(
                     url, data=json_encoder.encode({
-                        'application': 'poliscoops',
+                        'application': settings.BINOAS_APPLICATION,
                         'payload': item}))
                 r = resp.json()
             except Exception as e:

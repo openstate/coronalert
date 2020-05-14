@@ -137,6 +137,13 @@ AZURE_TEXT_MAX_LENGTH = 5000
 AZURE_TEXT_TRANSLATOR_KEY = ""
 AZURE_TEXT_MAX_LENGTH = ""
 
+#url = 'http://binoas_app-binoas_1:5000'
+BINOAS_BASE_URL = 'http://binoas.openstate.eu' # exclude trailing /
+BINOAS_APPLICATION = 'coronalert'
+BINOAS_AS2_TYPES = ['Note']
+BINOAS_TZ = 'Europe/Amsterdam'
+BINOAS_ALLOWED_DELAY = 21600.0
+
 # Allow any settings to be defined in local_settings.py which should be
 # ignored in your version control system allowing for settings to be
 # defined per machine.
