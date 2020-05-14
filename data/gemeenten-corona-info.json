@@ -133,7 +133,7 @@
   },
   {
     "collection": "Gemeente",
-    "location": "Leeuwarden, Veiligheidsregio Frysl&acirc n, Provincie Friesland",
+    "location": "Leeuwarden, Veiligheidsregio Fryslân, Provincie Friesland",
     "file_url": "https://www.leeuwarden.nl/nl/coronavirus-covid-19",
     "type": "Maatregelen"
   },
@@ -361,7 +361,7 @@
   },
   {
     "collection": "Gemeente",
-    "location": "Smallingerland, Veiligheidsregio Frysl&acirc n, Provincie Friesland",
+    "location": "Smallingerland, Veiligheidsregio Fryslân, Provincie Friesland",
     "file_url": "https://www.smallingerland.nl/Nieuwsarchief/Coronavirus",
     "type": "Maatregelen"
   },
@@ -403,7 +403,7 @@
   },
   {
     "collection": "Gemeente",
-    "location": "De Fryske Marren, Veiligheidsregio Frysl&acirc n, Provincie Friesland",
+    "location": "De Fryske Marren, Veiligheidsregio Fryslân, Provincie Friesland",
     "file_url": "https://www.defryskemarren.nl/publicaties/actuele-informatie-coronavirus_45695/",
     "type": "Maatregelen"
   },
@@ -421,7 +421,7 @@
   },
   {
     "collection": "Gemeente",
-    "location": "Heerenveen, Veiligheidsregio Frysl&acirc n, Provincie Friesland",
+    "location": "Heerenveen, Veiligheidsregio Fryslân, Provincie Friesland",
     "file_url": "https://www.heerenveen.nl/actueel/informatie-over-het-coronavirus/",
     "type": "Maatregelen"
   },
@@ -547,7 +547,7 @@
   },
   {
     "collection": "Gemeente",
-    "location": "Achtkarspelen, Veiligheidsregio Frysl&acirc n, Provincie Friesland",
+    "location": "Achtkarspelen, Veiligheidsregio Fryslân, Provincie Friesland",
     "file_url": "https://www.achtkarspelen.nl/inwoners-achtkarspelen/corona_48044/",
     "type": "Maatregelen"
   },
@@ -577,7 +577,7 @@
   },
   {
     "collection": "Gemeente",
-    "location": "Ameland, Veiligheidsregio Frysl&acirc n, Provincie Friesland",
+    "location": "Ameland, Veiligheidsregio Fryslân, Provincie Friesland",
     "file_url": "https://www.ameland.nl/ameland-actueel/coronavirus_46095/",
     "type": "Maatregelen"
   },
@@ -817,7 +817,7 @@
   },
   {
     "collection": "Gemeente",
-    "location": "Dantumadiel, Veiligheidsregio Frysl&acirc n, Provincie Friesland",
+    "location": "Dantumadiel, Veiligheidsregio Fryslân, Provincie Friesland",
     "file_url": null,
     "type": "Maatregelen"
   },
@@ -1039,7 +1039,7 @@
   },
   {
     "collection": "Gemeente",
-    "location": "Harlingen, Veiligheidsregio Frysl&acirc n, Provincie Friesland",
+    "location": "Harlingen, Veiligheidsregio Fryslân, Provincie Friesland",
     "file_url": null,
     "type": "Maatregelen"
   },
@@ -1477,7 +1477,7 @@
   },
   {
     "collection": "Gemeente",
-    "location": "Ooststellingwerf, Veiligheidsregio Frysl&acirc n, Provincie Friesland",
+    "location": "Ooststellingwerf, Veiligheidsregio Fryslân, Provincie Friesland",
     "file_url": null,
     "type": "Maatregelen"
   },
@@ -1495,7 +1495,7 @@
   },
   {
     "collection": "Gemeente",
-    "location": "Opsterland, Veiligheidsregio Frysl&acirc n, Provincie Friesland",
+    "location": "Opsterland, Veiligheidsregio Fryslân, Provincie Friesland",
     "file_url": null,
     "type": "Maatregelen"
   },
@@ -1627,7 +1627,7 @@
   },
   {
     "collection": "Gemeente",
-    "location": "Schiermonnikoog, Veiligheidsregio Frysl&acirc n, Provincie Friesland",
+    "location": "Schiermonnikoog, Veiligheidsregio Fryslân, Provincie Friesland",
     "file_url": null,
     "type": "Maatregelen"
   },
@@ -1717,7 +1717,7 @@
   },
   {
     "collection": "Gemeente",
-    "location": "Terschelling, Veiligheidsregio Frysl&acirc n, Provincie Friesland",
+    "location": "Terschelling, Veiligheidsregio Fryslân, Provincie Friesland",
     "file_url": null,
     "type": "Maatregelen"
   },
@@ -1765,7 +1765,7 @@
   },
   {
     "collection": "Gemeente",
-    "location": "Tytsjerksteradiel, Veiligheidsregio Frysl&acirc n, Provincie Friesland",
+    "location": "Tytsjerksteradiel, Veiligheidsregio Fryslân, Provincie Friesland",
     "file_url": null,
     "type": "Maatregelen"
   },
@@ -1837,7 +1837,7 @@
   },
   {
     "collection": "Gemeente",
-    "location": "Vlieland, Veiligheidsregio Frysl&acirc n, Provincie Friesland",
+    "location": "Vlieland, Veiligheidsregio Fryslân, Provincie Friesland",
     "file_url": null,
     "type": "Maatregelen"
   },
@@ -1873,7 +1873,7 @@
   },
   {
     "collection": "Gemeente",
-    "location": "Waadhoeke, Veiligheidsregio Frysl&acirc n, Provincie Friesland",
+    "location": "Waadhoeke, Veiligheidsregio Fryslân, Provincie Friesland",
     "file_url": null,
     "type": "Maatregelen"
   },
@@ -1951,7 +1951,7 @@
   },
   {
     "collection": "Gemeente",
-    "location": "Weststellingwerf, Veiligheidsregio Frysl&acirc n, Provincie Friesland",
+    "location": "Weststellingwerf, Veiligheidsregio Fryslân, Provincie Friesland",
     "file_url": null,
     "type": "Maatregelen"
   },

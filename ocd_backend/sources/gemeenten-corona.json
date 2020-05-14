@@ -1291,7 +1291,7 @@
         "file_url": "https://www.dantumadiel.frl/coronavirus-covid-19-0", 
         "item": "ocd_backend.items.html.HTMLWithContentOnPageItem", 
         "cleanup": "ocd_backend.tasks.CleanupElasticsearch", 
-        "location": "Dantumadiel, Veiligheidsregio Frysl&acirc n, Provincie Friesland", 
+        "location": "Dantumadiel, Veiligheidsregio Fryslân, Provincie Friesland", 
         "hidden": false, 
         "type": "Nieuws"
     }, 
@@ -1739,7 +1739,7 @@
         "file_url": "https://www.harlingen.nl/corona", 
         "item": "ocd_backend.items.html.HTMLWithContentOnPageItem", 
         "cleanup": "ocd_backend.tasks.CleanupElasticsearch", 
-        "location": "Harlingen, Veiligheidsregio Frysl&acirc n, Provincie Friesland", 
+        "location": "Harlingen, Veiligheidsregio Fryslân, Provincie Friesland", 
         "hidden": false, 
         "type": "Nieuws"
     }, 
