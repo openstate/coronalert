@@ -1,2065 +1,2065 @@
 [
   {
     "collection": "Gemeente",
-    "location": "Amsterdam,Veiligheidsregio Amsterdam-Amstelland",
+    "location": "Amsterdam, Veiligheidsregio Amsterdam-Amstelland, Provincie Noord-Holland",
     "file_url": "https://www.amsterdam.nl/nieuws/",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Rotterdam,Veiligheidsregio Rotterdam-Rijnmond",
+    "location": "Rotterdam, Veiligheidsregio Rotterdam-Rijnmond, Provincie Zuid-Holland",
     "file_url": "https://www.rotterdam.nl/nieuws/",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Utrecht,Veiligheidsregio Utrecht",
+    "location": "Utrecht, Veiligheidsregio Utrecht, Provincie Utrecht",
     "file_url": "https://www.utrecht.nl/nieuws/",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Eindhoven,Veiligheidsregio Brabant-Zuidoost",
+    "location": "Eindhoven, Veiligheidsregio Brabant-Zuidoost, Provincie Noord-Brabant",
     "file_url": "https://www.eindhoven.nl/nieuws",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Tilburg,Veiligheidsregio Midden- en West-Brabant",
+    "location": "Tilburg, Veiligheidsregio Midden- en West-Brabant, Provincie Noord-Brabant",
     "file_url": "https://www.tilburg.nl/actueel/",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Groningen,Veiligheidsregio Groningen",
+    "location": "Groningen, Veiligheidsregio Groningen, Provincie Groningen",
     "file_url": "https://gemeente.groningen.nl/actueel/nieuws",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Almere,Veiligheidsregio Flevoland",
+    "location": "Almere, Veiligheidsregio Flevoland, Provincie Flevoland",
     "file_url": "https://www.almere.nl/over-almere/actueel/",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Breda,Veiligheidsregio Midden- en West-Brabant",
+    "location": "Breda, Veiligheidsregio Midden- en West-Brabant, Provincie Noord-Brabant",
     "file_url": "https://www.breda.nl/nieuwsberichten",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Nijmegen,Veiligheidsregio Gelderland-Zuid",
+    "location": "Nijmegen, Veiligheidsregio Gelderland-Zuid, Provincie Gelderland",
     "file_url": "https://www.nijmegen.nl/nieuws/",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Apeldoorn,Veiligheidsregio Noord- en Oost-Gelderland",
+    "location": "Apeldoorn, Veiligheidsregio Noord- en Oost-Gelderland, Provincie Gelderland",
     "file_url": "https://www.apeldoorn.nl/nieuws",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Haarlem,Veiligheidsregio Kennemerland",
+    "location": "Haarlem, Veiligheidsregio Kennemerland, Provincie Noord-Holland",
     "file_url": "https://www.haarlem.nl/nieuws-en-actualiteiten/",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Enschede,Veiligheidsregio Twente",
+    "location": "Enschede, Veiligheidsregio Twente, Provincie Overijssel",
     "file_url": "https://www.enschede.nl/nieuws",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Arnhem,Veiligheidsregio Gelderland-Midden",
+    "location": "Arnhem, Veiligheidsregio Gelderland-Midden, Provincie Gelderland",
     "file_url": "https://www.arnhem.nl/actueel/alle_nieuwsberichten",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Amersfoort,Veiligheidsregio Utrecht",
+    "location": "Amersfoort, Veiligheidsregio Utrecht, Provincie Utrecht",
     "file_url": "https://www.amersfoort.nl/nieuws.htm",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Zaanstad,Veiligheidsregio Zaanstreek-Waterland",
+    "location": "Zaanstad, Veiligheidsregio Zaanstreek-Waterland, Provincie Noord-Holland",
     "file_url": "https://www.zaanstad.nl/mozard/!suite05.scherm1069?mNwc=1",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Haarlemmermeer,Veiligheidsregio Kennemerland",
+    "location": "Haarlemmermeer, Veiligheidsregio Kennemerland, Provincie Noord-Holland",
     "file_url": "https://haarlemmermeergemeente.nl/nieuwsoverzicht",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Zwolle,Veiligheidsregio IJsselland",
+    "location": "Zwolle, Veiligheidsregio IJsselland, Provincie Overijssel",
     "file_url": "https://www.zwolle.nl/nieuws",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Zoetermeer,Veiligheidsregio Haaglanden",
+    "location": "Zoetermeer, Veiligheidsregio Haaglanden, Provincie Zuid-Holland",
     "file_url": "https://www.zoetermeer.nl/inwoners/nieuws_45887/",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Leiden,Veiligheidsregio Hollands-Midden",
+    "location": "Leiden, Veiligheidsregio Hollands-Midden, Provincie Zuid-Holland",
     "file_url": "https://gemeente.leiden.nl/nieuws/",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Maastricht,Veiligheidsregio Limburg-Zuid",
+    "location": "Maastricht, Veiligheidsregio Limburg-Zuid, Provincie Limburg",
     "file_url": "https://www.gemeentemaastricht.nl/stad/actueel",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Dordrecht,Veiligheidsregio Zuid-Holland-Zuid",
+    "location": "Dordrecht, Veiligheidsregio Zuid-Holland-Zuid, Provincie Zuid-Holland",
     "file_url": "https://cms.dordrecht.nl/Inwoners/Overzicht_Inwoners/Informatie_coronavirus",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Ede,Veiligheidsregio Gelderland-Midden",
+    "location": "Ede, Veiligheidsregio Gelderland-Midden, Provincie Gelderland",
     "file_url": "https://www.ede.nl/nieuws",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Leeuwarden,Veiligheidsregio Frysl&acirc n",
+    "location": "Leeuwarden, Veiligheidsregio Frysl&acirc n, Provincie Friesland",
     "file_url": "https://www.leeuwarden.nl/nl/actueel",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Alkmaar,Veiligheidsregio Noord-Holland-Noord",
+    "location": "Alkmaar, Veiligheidsregio Noord-Holland-Noord, Provincie Noord-Holland",
     "file_url": "https://www.alkmaar.nl/actueel",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Emmen,Veiligheidsregio Drenthe",
+    "location": "Emmen, Veiligheidsregio Drenthe, Provincie Drenthe",
     "file_url": "https://gemeente.emmen.nl/nieuws",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Westland,Veiligheidsregio Haaglanden",
+    "location": "Westland, Veiligheidsregio Haaglanden, Provincie Zuid-Holland",
     "file_url": "https://www.gemeentewestland.nl/actueel/nieuws.html",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Delft,Veiligheidsregio Haaglanden",
+    "location": "Delft, Veiligheidsregio Haaglanden, Provincie Zuid-Holland",
     "file_url": "https://www.delft.nl/nieuws",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Venlo,Veiligheidsregio Limburg-Noord",
+    "location": "Venlo, Veiligheidsregio Limburg-Noord, Provincie Limburg",
     "file_url": "https://www.venloonline.nl/",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Deventer,Veiligheidsregio IJsselland",
+    "location": "Deventer, Veiligheidsregio IJsselland, Provincie Overijssel",
     "file_url": "https://www.deventer.nl/nieuws",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Sittard-Geleen,Veiligheidsregio Limburg-Zuid",
+    "location": "Sittard-Geleen, Veiligheidsregio Limburg-Zuid, Provincie Limburg",
     "file_url": "https://www.sittard-geleen.nl/Inwoners/Actueel/Nieuws_en_persberichten",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Helmond,Veiligheidsregio Brabant-Zuidoost",
+    "location": "Helmond, Veiligheidsregio Brabant-Zuidoost, Provincie Noord-Brabant",
     "file_url": "https://www.helmond.nl/nieuws",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Oss,Veiligheidsregio Brabant-Noord",
+    "location": "Oss, Veiligheidsregio Brabant-Noord, Provincie Noord-Brabant",
     "file_url": "https://www.oss.nl/inwoners/actueel/nieuwsberichten.htm",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Amstelveen,Veiligheidsregio Amsterdam-Amstelland",
+    "location": "Amstelveen, Veiligheidsregio Amsterdam-Amstelland, Provincie Noord-Holland",
     "file_url": "https://www.amstelveen.nl/home/publicatie/nieuws",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Hilversum,Veiligheidsregio Gooi en Vechtstreek",
+    "location": "Hilversum, Veiligheidsregio Gooi en Vechtstreek, Provincie Noord-Holland",
     "file_url": "https://www.hilversum.nl/Home/Inwoner/Nieuws/Nieuwsitems",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Heerlen,Veiligheidsregio Limburg-Zuid",
+    "location": "Heerlen, Veiligheidsregio Limburg-Zuid, Provincie Limburg",
     "file_url": "https://www.heerlen.nl/actueel/nieuwsoverzicht.html",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Nissewaard,Veiligheidsregio Rotterdam-Rijnmond",
+    "location": "Nissewaard, Veiligheidsregio Rotterdam-Rijnmond, Provincie Zuid-Holland",
     "file_url": "https://www.nissewaard.nl/nieuws.htm",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Purmerend,Veiligheidsregio Zaanstreek-Waterland",
+    "location": "Purmerend, Veiligheidsregio Zaanstreek-Waterland, Provincie Noord-Holland",
     "file_url": "https://www.purmerend.nl/nieuwsoverzicht",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Meierijstad,Veiligheidsregio Brabant-Noord",
+    "location": "Meierijstad, Veiligheidsregio Brabant-Noord, Provincie Noord-Brabant",
     "file_url": "https://www.meierijstad.nl/home/nieuws_3190/",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Schiedam,Veiligheidsregio Rotterdam-Rijnmond",
+    "location": "Schiedam, Veiligheidsregio Rotterdam-Rijnmond, Provincie Zuid-Holland",
     "file_url": "https://www.schiedam.nl/nieuws",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Roosendaal,Veiligheidsregio Midden- en West-Brabant",
+    "location": "Roosendaal, Veiligheidsregio Midden- en West-Brabant, Provincie Noord-Brabant",
     "file_url": "https://roosendaal.nl/nieuwsoverzicht",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Lelystad,Veiligheidsregio Flevoland",
+    "location": "Lelystad, Veiligheidsregio Flevoland, Provincie Flevoland",
     "file_url": "https://www.lelystad.nl/4/Lelystad/Nieuws",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Leidschendam-Voorburg,Veiligheidsregio Haaglanden",
+    "location": "Leidschendam-Voorburg, Veiligheidsregio Haaglanden, Provincie Zuid-Holland",
     "file_url": "https://www.lv.nl/nieuwsoverzicht",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Hoorn,Veiligheidsregio Noord-Holland-Noord",
+    "location": "Hoorn, Veiligheidsregio Noord-Holland-Noord, Provincie Noord-Holland",
     "file_url": "https://www.hoorn.nl/nieuws",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Almelo,Veiligheidsregio Twente",
+    "location": "Almelo, Veiligheidsregio Twente, Provincie Overijssel",
     "file_url": "https://www.almelo.nl/nieuwsoverzicht",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Vlaardingen,Veiligheidsregio Rotterdam-Rijnmond",
+    "location": "Vlaardingen, Veiligheidsregio Rotterdam-Rijnmond, Provincie Zuid-Holland",
     "file_url": "https://www.vlaardingen.nl/Onderwerpen/Onderwerpen_homepagina_inhoud/Nieuws",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Gouda,Veiligheidsregio Hollands-Midden",
+    "location": "Gouda, Veiligheidsregio Hollands-Midden, Provincie Zuid-Holland",
     "file_url": "https://www.gouda.nl/Bestuur_en_organisatie/Publicaties_en_besluiten/Nieuwsberichten",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Velsen,Veiligheidsregio Kennemerland",
+    "location": "Velsen, Veiligheidsregio Kennemerland, Provincie Noord-Holland",
     "file_url": "https://www.velsen.nl/nieuws",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Assen,Veiligheidsregio Drenthe",
+    "location": "Assen, Veiligheidsregio Drenthe, Provincie Drenthe",
     "file_url": "https://www.assen.nl/actueel/nieuws",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Katwijk,Veiligheidsregio Hollands-Midden",
+    "location": "Katwijk, Veiligheidsregio Hollands-Midden, Provincie Zuid-Holland",
     "file_url": "https://www.katwijk.nl/nieuws",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Stichtse Vecht,Veiligheidsregio Utrecht",
+    "location": "Stichtse Vecht, Veiligheidsregio Utrecht, Provincie Utrecht",
     "file_url": "https://stichtsevecht.nl/nieuws/",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Veenendaal,Veiligheidsregio Utrecht",
+    "location": "Veenendaal, Veiligheidsregio Utrecht, Provincie Utrecht",
     "file_url": "https://www.veenendaal.nl/info-over-de-gemeente/actueel",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Zeist,Veiligheidsregio Utrecht",
+    "location": "Zeist, Veiligheidsregio Utrecht, Provincie Utrecht",
     "file_url": "https://www.zeist.nl/inwoner/uitgelicht/nieuws/",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Nieuwegein,Veiligheidsregio Utrecht",
+    "location": "Nieuwegein, Veiligheidsregio Utrecht, Provincie Utrecht",
     "file_url": "https://www.nieuwegein.nl/actueel/nieuws",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Hardenberg,Veiligheidsregio IJsselland",
+    "location": "Hardenberg, Veiligheidsregio IJsselland, Provincie Overijssel",
     "file_url": "https://www.hardenberg.nl/actueel/",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Lansingerland,Veiligheidsregio Rotterdam-Rijnmond",
+    "location": "Lansingerland, Veiligheidsregio Rotterdam-Rijnmond, Provincie Zuid-Holland",
     "file_url": "https://www.lansingerland.nl/actueel/",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Roermond,Veiligheidsregio Limburg-Noord",
+    "location": "Roermond, Veiligheidsregio Limburg-Noord, Provincie Limburg",
     "file_url": "https://www.roermond.nl/nieuws",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Doetinchem,Veiligheidsregio Noord- en Oost-Gelderland",
+    "location": "Doetinchem, Veiligheidsregio Noord- en Oost-Gelderland, Provincie Gelderland",
     "file_url": "https://www.doetinchem.nl/home/nieuws_46547/",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Gooise Meren,Veiligheidsregio Gooi en Vechtstreek",
+    "location": "Gooise Meren, Veiligheidsregio Gooi en Vechtstreek, Provincie Noord-Holland",
     "file_url": "https://gooisemeren.nl/nieuws/",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Barneveld,Veiligheidsregio Gelderland-Midden",
+    "location": "Barneveld, Veiligheidsregio Gelderland-Midden, Provincie Gelderland",
     "file_url": "https://www.barneveld.nl/nieuws",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Den Helder,Veiligheidsregio Noord-Holland-Noord",
+    "location": "Den Helder, Veiligheidsregio Noord-Holland-Noord, Provincie Noord-Holland",
     "file_url": "https://www.denhelder.nl/actueel/publicatie/nieuws",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Smallingerland,Veiligheidsregio Frysl&acirc n",
+    "location": "Smallingerland, Veiligheidsregio Frysl&acirc n, Provincie Friesland",
     "file_url": "https://www.smallingerland.nl/Nieuwsarchief",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Hoogeveen,Veiligheidsregio Drenthe",
+    "location": "Hoogeveen, Veiligheidsregio Drenthe, Provincie Drenthe",
     "file_url": "https://www.hoogeveen.nl/nieuwsoverzicht",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Krimpenerwaard,Veiligheidsregio Hollands-Midden",
+    "location": "Krimpenerwaard, Veiligheidsregio Hollands-Midden, Provincie Zuid-Holland",
     "file_url": "https://www.krimpenerwaard.nl/nieuws",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Heerhugowaard,Veiligheidsregio Noord-Holland-Noord",
+    "location": "Heerhugowaard, Veiligheidsregio Noord-Holland-Noord, Provincie Noord-Holland",
     "file_url": "https://www.heerhugowaard.nl/nieuws-en-actualiteiten/",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Oosterhout,Veiligheidsregio Midden- en West-Brabant",
+    "location": "Oosterhout, Veiligheidsregio Midden- en West-Brabant, Provincie Noord-Brabant",
     "file_url": "https://oosterhout.nl/nieuws/nieuwsberichten/",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Terneuzen,Veiligheidsregio Zeeland",
+    "location": "Terneuzen, Veiligheidsregio Zeeland, Provincie Zeeland",
     "file_url": "https://www.terneuzen.nl/Inwoners_Terneuzen/Rij_1_inwoners/Nieuws",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Kampen,Veiligheidsregio IJsselland",
+    "location": "Kampen, Veiligheidsregio IJsselland, Provincie Overijssel",
     "file_url": "https://www.kampen.nl/nieuws",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "De Fryske Marren,Veiligheidsregio Frysl&acirc n",
+    "location": "De Fryske Marren, Veiligheidsregio Frysl&acirc n, Provincie Friesland",
     "file_url": "https://www.defryskemarren.nl/publicaties/nieuwsberichten_42743/",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Woerden,Veiligheidsregio Utrecht",
+    "location": "Woerden, Veiligheidsregio Utrecht, Provincie Utrecht",
     "file_url": "https://www.woerden.nl/nieuws",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Rijswijk,Veiligheidsregio Haaglanden",
+    "location": "Rijswijk, Veiligheidsregio Haaglanden, Provincie Zuid-Holland",
     "file_url": "https://www.rijswijk.nl/actueel",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Heerenveen,Veiligheidsregio Frysl&acirc n",
+    "location": "Heerenveen, Veiligheidsregio Frysl&acirc n, Provincie Friesland",
     "file_url": "https://www.heerenveen.nl/nieuws/",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Weert,Veiligheidsregio Limburg-Noord",
+    "location": "Weert, Veiligheidsregio Limburg-Noord, Provincie Limburg",
     "file_url": "https://www.weert.nl/nieuws",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Houten,Veiligheidsregio Utrecht",
+    "location": "Houten, Veiligheidsregio Utrecht, Provincie Utrecht",
     "file_url": "https://www.houten.nl/nieuws/",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Utrechtse Heuvelrug,Veiligheidsregio Utrecht",
+    "location": "Utrechtse Heuvelrug, Veiligheidsregio Utrecht, Provincie Utrecht",
     "file_url": "https://www.heuvelrug.nl/nieuwsoverzicht",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Barendrecht,Veiligheidsregio Rotterdam-Rijnmond",
+    "location": "Barendrecht, Veiligheidsregio Rotterdam-Rijnmond, Provincie Zuid-Holland",
     "file_url": "https://www.barendrecht.nl/nieuws",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Hollands Kroon,Veiligheidsregio Noord-Holland-Noord",
+    "location": "Hollands Kroon, Veiligheidsregio Noord-Holland-Noord, Provincie Noord-Holland",
     "file_url": "https://www.hollandskroon.nl/inwoners/nieuws",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Waalwijk,Veiligheidsregio Midden- en West-Brabant",
+    "location": "Waalwijk, Veiligheidsregio Midden- en West-Brabant, Provincie Noord-Brabant",
     "file_url": "https://www.waalwijk.nl/inwoners/nieuws_3359/",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Overbetuwe,Veiligheidsregio Gelderland-Midden",
+    "location": "Overbetuwe, Veiligheidsregio Gelderland-Midden, Provincie Gelderland",
     "file_url": "https://www.overbetuwe.nl/Inwoners/Inwoners/Nieuws",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Zutphen,Veiligheidsregio Noord- en Oost-Gelderland",
+    "location": "Zutphen, Veiligheidsregio Noord- en Oost-Gelderland, Provincie Gelderland",
     "file_url": "https://www.zutphen.nl/Inwoners/Nieuws/Nieuwsberichten",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Noordoostpolder,Veiligheidsregio Flevoland",
+    "location": "Noordoostpolder, Veiligheidsregio Flevoland, Provincie Flevoland",
     "file_url": "https://www.noordoostpolder.nl/nieuws",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Harderwijk,Veiligheidsregio Noord- en Oost-Gelderland",
+    "location": "Harderwijk, Veiligheidsregio Noord- en Oost-Gelderland, Provincie Gelderland",
     "file_url": "https://www.harderwijk.nl/organisatie/actueel_219/",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Schagen,Veiligheidsregio Noord-Holland-Noord",
+    "location": "Schagen, Veiligheidsregio Noord-Holland-Noord, Provincie Noord-Holland",
     "file_url": "https://www.schagen.nl/home/nieuws_43640/",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Lingewaard,Veiligheidsregio Gelderland-Midden",
+    "location": "Lingewaard, Veiligheidsregio Gelderland-Midden, Provincie Gelderland",
     "file_url": "https://www.lingewaard.nl/nieuws",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Kerkrade,Veiligheidsregio Limburg-Zuid",
+    "location": "Kerkrade, Veiligheidsregio Limburg-Zuid, Provincie Limburg",
     "file_url": "https://www.kerkrade.nl/wonen-en-leven/nieuws_3169/",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Soest,Veiligheidsregio Utrecht",
+    "location": "Soest, Veiligheidsregio Utrecht, Provincie Utrecht",
     "file_url": "https://www.soest.nl/actueel",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Ridderkerk,Veiligheidsregio Rotterdam-Rijnmond",
+    "location": "Ridderkerk, Veiligheidsregio Rotterdam-Rijnmond, Provincie Zuid-Holland",
     "file_url": "https://www.ridderkerk.nl/nieuws",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Veldhoven,Veiligheidsregio Brabant-Zuidoost",
+    "location": "Veldhoven, Veiligheidsregio Brabant-Zuidoost, Provincie Noord-Brabant",
     "file_url": "https://www.veldhoven.nl/inwoners-en-ondernemers/actueel",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Zwijndrecht,Veiligheidsregio Zuid-Holland-Zuid",
+    "location": "Zwijndrecht, Veiligheidsregio Zuid-Holland-Zuid, Provincie Zuid-Holland",
     "file_url": "https://www.zwijndrecht.nl/Inwoners/Nieuws_en_bekendmakingen",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Aa en Hunze,Veiligheidsregio Drenthe",
+    "location": "Aa en Hunze, Veiligheidsregio Drenthe, Provincie Drenthe",
     "file_url": "https://www.aaenhunze.nl/Bestuur/Nieuws/Nieuws",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Aalsmeer,Veiligheidsregio Amsterdam-Amstelland",
+    "location": "Aalsmeer, Veiligheidsregio Amsterdam-Amstelland, Provincie Noord-Holland",
     "file_url": "https://www.aalsmeer.nl/home/publicatie/nieuws",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Aalten,Veiligheidsregio Noord- en Oost-Gelderland",
+    "location": "Aalten, Veiligheidsregio Noord- en Oost-Gelderland, Provincie Gelderland",
     "file_url": "https://www.aalten.nl/in-de-gemeente/nieuwsberichten_42611/",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Achtkarspelen,Veiligheidsregio Frysl&acirc n",
+    "location": "Achtkarspelen, Veiligheidsregio Frysl&acirc n, Provincie Friesland",
     "file_url": "https://www.achtkarspelen.nl/inwoners-achtkarspelen/nieuws_43791/",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Alblasserdam,Veiligheidsregio Zuid-Holland-Zuid",
+    "location": "Alblasserdam, Veiligheidsregio Zuid-Holland-Zuid, Provincie Zuid-Holland",
     "file_url": "https://www.alblasserdam.nl/Inwoners/Configuratie_inwoners/Uitgelicht/Nieuws",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Albrandswaard,Veiligheidsregio Rotterdam-Rijnmond",
+    "location": "Albrandswaard, Veiligheidsregio Rotterdam-Rijnmond, Provincie Zuid-Holland",
     "file_url": "https://www.albrandswaard.nl/nieuws",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Alphen-Chaam,Veiligheidsregio Midden- en West-Brabant",
+    "location": "Alphen-Chaam, Veiligheidsregio Midden- en West-Brabant, Provincie Noord-Brabant",
     "file_url": "https://www.alphen-chaam.nl/nieuws/nieuws.html",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Altena,Veiligheidsregio Midden- en West-Brabant",
+    "location": "Altena, Veiligheidsregio Midden- en West-Brabant, Provincie Noord-Brabant",
     "file_url": "https://www.gemeentealtena.nl/nieuws",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Ameland,Veiligheidsregio Frysl&acirc n",
+    "location": "Ameland, Veiligheidsregio Frysl&acirc n, Provincie Friesland",
     "file_url": "https://www.ameland.nl/ameland-actueel/nieuws_42176/",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Appingedam,Veiligheidsregio Groningen",
+    "location": "Appingedam, Veiligheidsregio Groningen, Provincie Groningen",
     "file_url": "https://www.appingedam.nl/home/nieuws_43484/",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Asten,Veiligheidsregio Brabant-Zuidoost",
+    "location": "Asten, Veiligheidsregio Brabant-Zuidoost, Provincie Noord-Brabant",
     "file_url": "https://www.asten.nl/nieuws.html",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Baarle-Nassau,Veiligheidsregio Midden- en West-Brabant",
+    "location": "Baarle-Nassau, Veiligheidsregio Midden- en West-Brabant, Provincie Noord-Brabant",
     "file_url": "https://www.baarle-nassau.nl/nieuws/nieuws.html",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Baarn,Veiligheidsregio Utrecht",
+    "location": "Baarn, Veiligheidsregio Utrecht, Provincie Utrecht",
     "file_url": "https://www.baarn.nl/home/nieuws_42897/",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Beek,Veiligheidsregio Limburg-Zuid",
+    "location": "Beek, Veiligheidsregio Limburg-Zuid, Provincie Limburg",
     "file_url": "https://www.gemeentebeek.nl/home/landelijke-maatregelen_43778/",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Beekdaelen,Veiligheidsregio Limburg-Zuid",
+    "location": "Beekdaelen, Veiligheidsregio Limburg-Zuid, Provincie Limburg",
     "file_url": "https://www.beekdaelen.nl/contact-en-nieuws/nieuws_3247/",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Beemster,Veiligheidsregio Zaanstreek-Waterland",
+    "location": "Beemster, Veiligheidsregio Zaanstreek-Waterland, Provincie Noord-Holland",
     "file_url": "https://www.beemster.net/nieuwsoverzicht",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Beesel,Veiligheidsregio Limburg-Noord",
+    "location": "Beesel, Veiligheidsregio Limburg-Noord, Provincie Limburg",
     "file_url": "https://www.beesel.nl/nieuws/",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Berg en Dal,Veiligheidsregio Gelderland-Zuid",
+    "location": "Berg en Dal, Veiligheidsregio Gelderland-Zuid, Provincie Gelderland",
     "file_url": "https://www.bergendal.nl/inwoners/nieuws_45119/",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Bergeijk,Veiligheidsregio Brabant-Zuidoost",
+    "location": "Bergeijk, Veiligheidsregio Brabant-Zuidoost, Provincie Noord-Brabant",
     "file_url": "https://www.bergeijk.nl/home/nieuwsberichten_47681/",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Berkelland,Veiligheidsregio Noord- en Oost-Gelderland",
+    "location": "Berkelland, Veiligheidsregio Noord- en Oost-Gelderland, Provincie Gelderland",
     "file_url": "https://www.gemeenteberkelland.nl/Inwoners/Nieuwsberichten/Nieuws",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Bernheze,Veiligheidsregio Brabant-Noord",
+    "location": "Bernheze, Veiligheidsregio Brabant-Noord, Provincie Noord-Brabant",
     "file_url": "https://www.bernheze.org/nieuws/",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Best,Veiligheidsregio Brabant-Zuidoost",
+    "location": "Best, Veiligheidsregio Brabant-Zuidoost, Provincie Noord-Brabant",
     "file_url": "https://www.gemeentebest.nl/nieuws/",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Beuningen,Veiligheidsregio Gelderland-Zuid",
+    "location": "Beuningen, Veiligheidsregio Gelderland-Zuid, Provincie Gelderland",
     "file_url": "https://www.beuningen.nl/Nieuwsarchief/Nieuwsberichten_2020/Nieuwsberichten_mei",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Beverwijk,Veiligheidsregio Kennemerland",
+    "location": "Beverwijk, Veiligheidsregio Kennemerland, Provincie Noord-Holland",
     "file_url": "https://www.beverwijk.nl/inwoners-ondernemers/nieuwsarchief_41523/",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "De Bilt,Veiligheidsregio Utrecht",
+    "location": "De Bilt, Veiligheidsregio Utrecht, Provincie Utrecht",
     "file_url": "https://www.debilt.nl/nieuwsoverzicht",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Bladel,Veiligheidsregio Brabant-Zuidoost",
+    "location": "Bladel, Veiligheidsregio Brabant-Zuidoost, Provincie Noord-Brabant",
     "file_url": "https://www.bladel.nl/contact-informatie/nieuws_42695/",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Blaricum,Veiligheidsregio Gooi en Vechtstreek",
+    "location": "Blaricum, Veiligheidsregio Gooi en Vechtstreek, Provincie Noord-Holland",
     "file_url": "https://www.blaricum.nl/Bestuur/Nieuws_en_bekendmakingen/Nieuwsberichten",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Bloemendaal,Veiligheidsregio Kennemerland",
+    "location": "Bloemendaal, Veiligheidsregio Kennemerland, Provincie Noord-Holland",
     "file_url": "https://www.bloemendaal.nl/actueel",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Bodegraven-Reeuwijk,Veiligheidsregio Hollands-Midden",
+    "location": "Bodegraven-Reeuwijk, Veiligheidsregio Hollands-Midden, Provincie Zuid-Holland",
     "file_url": "https://gemeente.bodegraven-reeuwijk.nl/nieuwsoverzicht",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Boekel,Veiligheidsregio Brabant-Noord",
+    "location": "Boekel, Veiligheidsregio Brabant-Noord, Provincie Noord-Brabant",
     "file_url": "https://www.boekel.nl/in-de-gemeente/nieuws/",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Borger-Odoorn,Veiligheidsregio Drenthe",
+    "location": "Borger-Odoorn, Veiligheidsregio Drenthe, Provincie Drenthe",
     "file_url": "https://www.borger-odoorn.nl/actueel/actuele-themas/coronavirus.html",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Borne,Veiligheidsregio Twente",
+    "location": "Borne, Veiligheidsregio Twente, Provincie Overijssel",
     "file_url": "https://www.borne.nl/nieuws",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Borsele,Veiligheidsregio Zeeland",
+    "location": "Borsele, Veiligheidsregio Zeeland, Provincie Zeeland",
     "file_url": "https://www.borsele.nl/home/nieuws_45002/",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Boxmeer,Veiligheidsregio Brabant-Noord",
+    "location": "Boxmeer, Veiligheidsregio Brabant-Noord, Provincie Noord-Brabant",
     "file_url": "https://www.boxmeer.nl/inwoners/nieuwsberichten_41418/",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Boxtel,Veiligheidsregio Brabant-Noord",
+    "location": "Boxtel, Veiligheidsregio Brabant-Noord, Provincie Noord-Brabant",
     "file_url": "https://www.boxtel.nl/nieuws",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Brielle,Veiligheidsregio Rotterdam-Rijnmond",
+    "location": "Brielle, Veiligheidsregio Rotterdam-Rijnmond, Provincie Zuid-Holland",
     "file_url": "https://www.brielle.nl/actueel/nieuwsberichten_42833/",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Bronckhorst,Veiligheidsregio Noord- en Oost-Gelderland",
+    "location": "Bronckhorst, Veiligheidsregio Noord- en Oost-Gelderland, Provincie Gelderland",
     "file_url": "https://www.bronckhorst.nl/home/nieuws_45258/",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Brummen,Veiligheidsregio Noord- en Oost-Gelderland",
+    "location": "Brummen, Veiligheidsregio Noord- en Oost-Gelderland, Provincie Gelderland",
     "file_url": "https://www.brummen.nl/actueel/nieuws.html",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Brunssum,Veiligheidsregio Limburg-Zuid",
+    "location": "Brunssum, Veiligheidsregio Limburg-Zuid, Provincie Limburg",
     "file_url": "https://www.brunssum.nl/bestuur_en_organisatie/nieuws_en_actualiteit/nieuwsberichten",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Bunnik,Veiligheidsregio Utrecht",
+    "location": "Bunnik, Veiligheidsregio Utrecht, Provincie Utrecht",
     "file_url": "https://www.bunnik.nl/nieuws/",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Bunschoten,Veiligheidsregio Utrecht",
+    "location": "Bunschoten, Veiligheidsregio Utrecht, Provincie Utrecht",
     "file_url": "https://www.bunschoten.nl/nieuws",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Buren,Veiligheidsregio Gelderland-Zuid",
+    "location": "Buren, Veiligheidsregio Gelderland-Zuid, Provincie Gelderland",
     "file_url": "https://www.buren.nl/nieuws/",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Castricum,Veiligheidsregio Noord-Holland-Noord",
+    "location": "Castricum, Veiligheidsregio Noord-Holland-Noord, Provincie Noord-Holland",
     "file_url": "https://www.castricum.nl/nieuwsoverzicht",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Coevorden,Veiligheidsregio Drenthe",
+    "location": "Coevorden, Veiligheidsregio Drenthe, Provincie Drenthe",
     "file_url": "https://www.coevorden.nl/nieuws",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Cranendonck,Veiligheidsregio Brabant-Zuidoost",
+    "location": "Cranendonck, Veiligheidsregio Brabant-Zuidoost, Provincie Noord-Brabant",
     "file_url": "https://www.cranendonck.nl/inwoners/nieuws-en-actualiteiten_43826/",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Cuijk,Veiligheidsregio Brabant-Noord",
+    "location": "Cuijk, Veiligheidsregio Brabant-Noord, Provincie Noord-Brabant",
     "file_url": "https://www.cuijk.nl/nieuws",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Culemborg,Veiligheidsregio Gelderland-Zuid",
+    "location": "Culemborg, Veiligheidsregio Gelderland-Zuid, Provincie Gelderland",
     "file_url": "https://www.culemborg.nl/nieuwsoverzicht",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Dalfsen,Veiligheidsregio IJsselland",
+    "location": "Dalfsen, Veiligheidsregio IJsselland, Provincie Overijssel",
     "file_url": "https://www.dalfsen.nl/home/nieuws_3169/",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Dantumadiel,Veiligheidsregio Frysl&acirc n",
+    "location": "Dantumadiel, Veiligheidsregio Frysl&acirc n, Provincie Friesland",
     "file_url": "https://www.dantumadiel.frl/nieuwsoverzicht-0",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Delfzijl,Veiligheidsregio Groningen",
+    "location": "Delfzijl, Veiligheidsregio Groningen, Provincie Groningen",
     "file_url": "https://www.delfzijl.nl/home/nieuws_43898/",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Deurne,Veiligheidsregio Brabant-Zuidoost",
+    "location": "Deurne, Veiligheidsregio Brabant-Zuidoost, Provincie Noord-Brabant",
     "file_url": "https://www.deurne.nl/home/nieuws_43091/",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Diemen,Veiligheidsregio Amsterdam-Amstelland",
+    "location": "Diemen, Veiligheidsregio Amsterdam-Amstelland, Provincie Noord-Holland",
     "file_url": "https://www.diemen.nl/Onderwerpen/Nieuwspagina_s/NIEUWS",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Dinkelland,Veiligheidsregio Twente",
+    "location": "Dinkelland, Veiligheidsregio Twente, Provincie Overijssel",
     "file_url": "https://www.dinkelland.nl/nieuwsoverzicht",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Doesburg,Veiligheidsregio Gelderland-Midden",
+    "location": "Doesburg, Veiligheidsregio Gelderland-Midden, Provincie Gelderland",
     "file_url": "https://www.doesburg.nl/nieuws",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Dongen,Veiligheidsregio Midden- en West-Brabant",
+    "location": "Dongen, Veiligheidsregio Midden- en West-Brabant, Provincie Noord-Brabant",
     "file_url": "https://www.dongen.nl/actueel/nieuws/page/2.html",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Drechterland,Veiligheidsregio Noord-Holland-Noord",
+    "location": "Drechterland, Veiligheidsregio Noord-Holland-Noord, Provincie Noord-Holland",
     "file_url": "https://www.drechterland.nl/nieuwsoverzicht",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Drimmelen,Veiligheidsregio Midden- en West-Brabant",
+    "location": "Drimmelen, Veiligheidsregio Midden- en West-Brabant, Provincie Noord-Brabant",
     "file_url": "https://drimmelen.nl/nieuwsoverzicht",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Dronten,Veiligheidsregio Flevoland",
+    "location": "Dronten, Veiligheidsregio Flevoland, Provincie Flevoland",
     "file_url": "https://www.dronten.nl/mozard/!suite05.scherm1069?mNwc=21",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Druten,Veiligheidsregio Gelderland-Zuid",
+    "location": "Druten, Veiligheidsregio Gelderland-Zuid, Provincie Gelderland",
     "file_url": "https://www.druten.nl/nieuws",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Duiven,Veiligheidsregio Gelderland-Midden",
+    "location": "Duiven, Veiligheidsregio Gelderland-Midden, Provincie Gelderland",
     "file_url": "https://www.duiven.nl/nieuwsoverzicht",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Echt-Susteren,Veiligheidsregio Limburg-Noord",
+    "location": "Echt-Susteren, Veiligheidsregio Limburg-Noord, Provincie Limburg",
     "file_url": "https://www.echt-susteren.nl/nieuwsoverzicht",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Edam-Volendam,Veiligheidsregio Zaanstreek-Waterland",
+    "location": "Edam-Volendam, Veiligheidsregio Zaanstreek-Waterland, Provincie Noord-Holland",
     "file_url": "https://www.edam-volendam.nl/portal-home/het-laatste-nieuws_43559/",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Eemnes,Veiligheidsregio Utrecht",
+    "location": "Eemnes, Veiligheidsregio Utrecht, Provincie Utrecht",
     "file_url": "https://www.eemnes.nl/Bestuur/Nieuws_en_bekendmakingen/Nieuws",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Eersel,Veiligheidsregio Brabant-Zuidoost",
+    "location": "Eersel, Veiligheidsregio Brabant-Zuidoost, Provincie Noord-Brabant",
     "file_url": "https://www.eersel.nl/nieuws",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Eijsden-Margraten,Veiligheidsregio Limburg-Zuid",
+    "location": "Eijsden-Margraten, Veiligheidsregio Limburg-Zuid, Provincie Limburg",
     "file_url": "https://www.eijsden-margraten.nl/nieuws/",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Elburg,Veiligheidsregio Noord- en Oost-Gelderland",
+    "location": "Elburg, Veiligheidsregio Noord- en Oost-Gelderland, Provincie Gelderland",
     "file_url": "https://www.elburg.nl/Inwoners/Nieuws",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Enkhuizen,Veiligheidsregio Noord-Holland-Noord",
+    "location": "Enkhuizen, Veiligheidsregio Noord-Holland-Noord, Provincie Noord-Holland",
     "file_url": "https://www.enkhuizen.nl/nieuwsoverzicht",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Epe,Veiligheidsregio Noord- en Oost-Gelderland",
+    "location": "Epe, Veiligheidsregio Noord- en Oost-Gelderland, Provincie Gelderland",
     "file_url": "https://www.epe.nl/in-epe/nieuws_41625/",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Ermelo,Veiligheidsregio Noord- en Oost-Gelderland",
+    "location": "Ermelo, Veiligheidsregio Noord- en Oost-Gelderland, Provincie Gelderland",
     "file_url": null,
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Etten-Leur,Veiligheidsregio Midden- en West-Brabant",
+    "location": "Etten-Leur, Veiligheidsregio Midden- en West-Brabant, Provincie Noord-Brabant",
     "file_url": "https://www.etten-leur.nl/Inwoner/Nieuws/Nieuwsberichten",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Geertruidenberg,Veiligheidsregio Midden- en West-Brabant",
+    "location": "Geertruidenberg, Veiligheidsregio Midden- en West-Brabant, Provincie Noord-Brabant",
     "file_url": "https://www.geertruidenberg.nl/nieuws",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Geldrop-Mierlo,Veiligheidsregio Brabant-Zuidoost",
+    "location": "Geldrop-Mierlo, Veiligheidsregio Brabant-Zuidoost, Provincie Noord-Brabant",
     "file_url": "https://www.geldrop-mierlo.nl/nieuws",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Gemert-Bakel,Veiligheidsregio Brabant-Zuidoost",
+    "location": "Gemert-Bakel, Veiligheidsregio Brabant-Zuidoost, Provincie Noord-Brabant",
     "file_url": "https://www.gemert-bakel.nl/actueel/nieuws",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Gennep,Veiligheidsregio Limburg-Noord",
+    "location": "Gennep, Veiligheidsregio Limburg-Noord, Provincie Limburg",
     "file_url": "https://www.gennep.nl/bestuur-organisatie/nieuwsoverzicht_42648/",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Gilze en Rijen,Veiligheidsregio Midden- en West-Brabant",
+    "location": "Gilze en Rijen, Veiligheidsregio Midden- en West-Brabant, Provincie Noord-Brabant",
     "file_url": "https://www.gilzerijen.nl/nieuws.html",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Goeree-Overflakkee,Veiligheidsregio Rotterdam-Rijnmond",
+    "location": "Goeree-Overflakkee, Veiligheidsregio Rotterdam-Rijnmond, Provincie Zuid-Holland",
     "file_url": null,
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Goes,Veiligheidsregio Zeeland",
+    "location": "Goes, Veiligheidsregio Zeeland, Provincie Zeeland",
     "file_url": "https://www.goes.nl/in-de-gemeente/nieuws_43683/",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Goirle,Veiligheidsregio Midden- en West-Brabant",
+    "location": "Goirle, Veiligheidsregio Midden- en West-Brabant, Provincie Noord-Brabant",
     "file_url": "https://www.goirle.nl/actueel/nieuws-van-de-gemeente.html",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Gorinchem,Veiligheidsregio Zuid-Holland-Zuid",
+    "location": "Gorinchem, Veiligheidsregio Zuid-Holland-Zuid, Provincie Zuid-Holland",
     "file_url": "https://www.gorinchem.nl/nieuws",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Grave,Veiligheidsregio Brabant-Noord",
+    "location": "Grave, Veiligheidsregio Brabant-Noord, Provincie Noord-Brabant",
     "file_url": "https://www.grave.nl/inwoners/overzicht-inwoners/nieuws-en-actualiteiten/nieuws",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Gulpen-Wittem,Veiligheidsregio Limburg-Zuid",
+    "location": "Gulpen-Wittem, Veiligheidsregio Limburg-Zuid, Provincie Limburg",
     "file_url": "https://www.gulpen-wittem.nl/nieuws/",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Haaksbergen,Veiligheidsregio Twente",
+    "location": "Haaksbergen, Veiligheidsregio Twente, Provincie Overijssel",
     "file_url": "https://www.haaksbergen.nl/Actueel",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Haaren,Veiligheidsregio Brabant-Noord",
+    "location": "Haaren, Veiligheidsregio Brabant-Noord, Provincie Noord-Brabant",
     "file_url": "https://www.haaren.nl/home/nieuws_41588/",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Halderberge,Veiligheidsregio Midden- en West-Brabant",
+    "location": "Halderberge, Veiligheidsregio Midden- en West-Brabant, Provincie Noord-Brabant",
     "file_url": "https://www.halderberge.nl/nieuwsoverzicht",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Hardinxveld-Giessendam,Veiligheidsregio Zuid-Holland-Zuid",
+    "location": "Hardinxveld-Giessendam, Veiligheidsregio Zuid-Holland-Zuid, Provincie Zuid-Holland",
     "file_url": "https://www.hardinxveld-giessendam.nl/Nieuws",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Harlingen,Veiligheidsregio Frysl&acirc n",
+    "location": "Harlingen, Veiligheidsregio Frysl&acirc n, Provincie Friesland",
     "file_url": "https://www.harlingen.nl/nieuws",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Hattem,Veiligheidsregio Noord- en Oost-Gelderland",
+    "location": "Hattem, Veiligheidsregio Noord- en Oost-Gelderland, Provincie Gelderland",
     "file_url": "https://www.hattem.nl/Inwoners/Actueel/Nieuwsberichten",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Heemskerk,Veiligheidsregio Kennemerland",
+    "location": "Heemskerk, Veiligheidsregio Kennemerland, Provincie Noord-Holland",
     "file_url": "https://www.heemskerk.nl/laatste-nieuws",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Heemstede,Veiligheidsregio Kennemerland",
+    "location": "Heemstede, Veiligheidsregio Kennemerland, Provincie Noord-Holland",
     "file_url": "https://www.heemstede.nl/actueel",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Heerde,Veiligheidsregio Noord- en Oost-Gelderland",
+    "location": "Heerde, Veiligheidsregio Noord- en Oost-Gelderland, Provincie Gelderland",
     "file_url": "https://www.heerde.nl/Inwoners/Configuratie_homepage/Nieuws",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Heeze-Leende,Veiligheidsregio Brabant-Zuidoost",
+    "location": "Heeze-Leende, Veiligheidsregio Brabant-Zuidoost, Provincie Noord-Brabant",
     "file_url": "https://www.heeze-leende.nl/in-en-over-heeze-leende/nieuws_42167",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Heiloo,Veiligheidsregio Noord-Holland-Noord",
+    "location": "Heiloo, Veiligheidsregio Noord-Holland-Noord, Provincie Noord-Holland",
     "file_url": "https://www.heiloo.nl/nieuwsberichten",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Hellendoorn,Veiligheidsregio Twente",
+    "location": "Hellendoorn, Veiligheidsregio Twente, Provincie Overijssel",
     "file_url": "https://www.hellendoorn.nl/home",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Hellevoetsluis,Veiligheidsregio Rotterdam-Rijnmond",
+    "location": "Hellevoetsluis, Veiligheidsregio Rotterdam-Rijnmond, Provincie Zuid-Holland",
     "file_url": "https://www.hellevoetsluis.nl/Inwoners/Actueel",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Hendrik-Ido-Ambacht,Veiligheidsregio Zuid-Holland-Zuid",
+    "location": "Hendrik-Ido-Ambacht, Veiligheidsregio Zuid-Holland-Zuid, Provincie Zuid-Holland",
     "file_url": "https://www.h-i-ambacht.nl/Gewoon_Ambacht/Overzicht/actueel/Actueel_2020/Coronavirus_update_woensdagavond",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Heumen,Veiligheidsregio Gelderland-Zuid",
+    "location": "Heumen, Veiligheidsregio Gelderland-Zuid, Provincie Gelderland",
     "file_url": "https://www.heumen.nl/inwoners/nieuwsberichten_42557/",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Heusden,Veiligheidsregio Brabant-Noord",
+    "location": "Heusden, Veiligheidsregio Brabant-Noord, Provincie Noord-Brabant",
     "file_url": "https://www.heusden.nl/",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Hillegom,Veiligheidsregio Hollands-Midden",
+    "location": "Hillegom, Veiligheidsregio Hollands-Midden, Provincie Zuid-Holland",
     "file_url": "https://www.hillegom.nl/nieuws.html",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Hilvarenbeek,Veiligheidsregio Midden- en West-Brabant",
+    "location": "Hilvarenbeek, Veiligheidsregio Midden- en West-Brabant, Provincie Noord-Brabant",
     "file_url": "https://www.hilvarenbeek.nl/over-bestuur/nieuwsberichten_3393/",
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Hoeksche Waard,Veiligheidsregio Zuid-Holland-Zuid",
+    "location": "Hoeksche Waard, Veiligheidsregio Zuid-Holland-Zuid, Provincie Zuid-Holland",
     "file_url": null,
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Hof van Twente,Veiligheidsregio Twente",
+    "location": "Hof van Twente, Veiligheidsregio Twente, Provincie Overijssel",
     "file_url": null,
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Het Hogeland,Veiligheidsregio Groningen",
+    "location": "Het Hogeland, Veiligheidsregio Groningen, Provincie Groningen",
     "file_url": null,
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Horst aan de Maas,Veiligheidsregio Limburg-Noord",
+    "location": "Horst aan de Maas, Veiligheidsregio Limburg-Noord, Provincie Limburg",
     "file_url": null,
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Huizen,Veiligheidsregio Gooi en Vechtstreek",
+    "location": "Huizen, Veiligheidsregio Gooi en Vechtstreek, Provincie Noord-Holland",
     "file_url": null,
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Hulst,Veiligheidsregio Zeeland",
+    "location": "Hulst, Veiligheidsregio Zeeland, Provincie Zeeland",
     "file_url": null,
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "IJsselstein,Veiligheidsregio Utrecht",
+    "location": "IJsselstein, Veiligheidsregio Utrecht, Provincie Utrecht",
     "file_url": null,
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Kaag en Braassem,Veiligheidsregio Hollands-Midden",
+    "location": "Kaag en Braassem, Veiligheidsregio Hollands-Midden, Provincie Zuid-Holland",
     "file_url": null,
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Kapelle,Veiligheidsregio Zeeland",
+    "location": "Kapelle, Veiligheidsregio Zeeland, Provincie Zeeland",
     "file_url": null,
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Koggenland,Veiligheidsregio Noord-Holland-Noord",
+    "location": "Koggenland, Veiligheidsregio Noord-Holland-Noord, Provincie Noord-Holland",
     "file_url": null,
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Krimpen aan den IJssel,Veiligheidsregio Rotterdam-Rijnmond",
+    "location": "Krimpen aan den IJssel, Veiligheidsregio Rotterdam-Rijnmond, Provincie Zuid-Holland",
     "file_url": null,
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Laarbeek,Veiligheidsregio Brabant-Zuidoost",
+    "location": "Laarbeek, Veiligheidsregio Brabant-Zuidoost, Provincie Noord-Brabant",
     "file_url": null,
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Landerd,Veiligheidsregio Brabant-Noord",
+    "location": "Landerd, Veiligheidsregio Brabant-Noord, Provincie Noord-Brabant",
     "file_url": null,
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Landgraaf,Veiligheidsregio Limburg-Zuid",
+    "location": "Landgraaf, Veiligheidsregio Limburg-Zuid, Provincie Limburg",
     "file_url": null,
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Landsmeer,Veiligheidsregio Zaanstreek-Waterland",
+    "location": "Landsmeer, Veiligheidsregio Zaanstreek-Waterland, Provincie Noord-Holland",
     "file_url": null,
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Langedijk,Veiligheidsregio Noord-Holland-Noord",
+    "location": "Langedijk, Veiligheidsregio Noord-Holland-Noord, Provincie Noord-Holland",
     "file_url": null,
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Laren,Veiligheidsregio Gooi en Vechtstreek",
+    "location": "Laren, Veiligheidsregio Gooi en Vechtstreek, Provincie Noord-Holland",
     "file_url": null,
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Leiderdorp,Veiligheidsregio Hollands-Midden",
+    "location": "Leiderdorp, Veiligheidsregio Hollands-Midden, Provincie Zuid-Holland",
     "file_url": null,
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Leudal,Veiligheidsregio Limburg-Noord",
+    "location": "Leudal, Veiligheidsregio Limburg-Noord, Provincie Limburg",
     "file_url": null,
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Leusden,Veiligheidsregio Utrecht",
+    "location": "Leusden, Veiligheidsregio Utrecht, Provincie Utrecht",
     "file_url": null,
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Lisse,Veiligheidsregio Hollands-Midden",
+    "location": "Lisse, Veiligheidsregio Hollands-Midden, Provincie Zuid-Holland",
     "file_url": null,
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Lochem,Veiligheidsregio Noord- en Oost-Gelderland",
+    "location": "Lochem, Veiligheidsregio Noord- en Oost-Gelderland, Provincie Gelderland",
     "file_url": null,
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Loon op Zand,Veiligheidsregio Midden- en West-Brabant",
+    "location": "Loon op Zand, Veiligheidsregio Midden- en West-Brabant, Provincie Noord-Brabant",
     "file_url": null,
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Lopik,Veiligheidsregio Utrecht",
+    "location": "Lopik, Veiligheidsregio Utrecht, Provincie Utrecht",
     "file_url": null,
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Loppersum,Veiligheidsregio Groningen",
+    "location": "Loppersum, Veiligheidsregio Groningen, Provincie Groningen",
     "file_url": null,
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Losser,Veiligheidsregio Twente",
+    "location": "Losser, Veiligheidsregio Twente, Provincie Overijssel",
     "file_url": null,
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Maasdriel,Veiligheidsregio Gelderland-Zuid",
+    "location": "Maasdriel, Veiligheidsregio Gelderland-Zuid, Provincie Gelderland",
     "file_url": null,
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Maasgouw,Veiligheidsregio Limburg-Noord",
+    "location": "Maasgouw, Veiligheidsregio Limburg-Noord, Provincie Limburg",
     "file_url": null,
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Maassluis,Veiligheidsregio Rotterdam-Rijnmond",
+    "location": "Maassluis, Veiligheidsregio Rotterdam-Rijnmond, Provincie Zuid-Holland",
     "file_url": null,
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Medemblik,Veiligheidsregio Noord-Holland-Noord",
+    "location": "Medemblik, Veiligheidsregio Noord-Holland-Noord, Provincie Noord-Holland",
     "file_url": null,
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Meerssen,Veiligheidsregio Limburg-Zuid",
+    "location": "Meerssen, Veiligheidsregio Limburg-Zuid, Provincie Limburg",
     "file_url": null,
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Meppel,Veiligheidsregio Drenthe",
+    "location": "Meppel, Veiligheidsregio Drenthe, Provincie Drenthe",
     "file_url": null,
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Midden-Delfland,Veiligheidsregio Haaglanden",
+    "location": "Midden-Delfland, Veiligheidsregio Haaglanden, Provincie Zuid-Holland",
     "file_url": null,
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Midden-Drenthe,Veiligheidsregio Drenthe",
+    "location": "Midden-Drenthe, Veiligheidsregio Drenthe, Provincie Drenthe",
     "file_url": null,
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Midden-Groningen,Veiligheidsregio Groningen",
+    "location": "Midden-Groningen, Veiligheidsregio Groningen, Provincie Groningen",
     "file_url": null,
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Mill en Sint Hubert,Veiligheidsregio Brabant-Noord",
+    "location": "Mill en Sint Hubert, Veiligheidsregio Brabant-Noord, Provincie Noord-Brabant",
     "file_url": null,
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Moerdijk,Veiligheidsregio Midden- en West-Brabant",
+    "location": "Moerdijk, Veiligheidsregio Midden- en West-Brabant, Provincie Noord-Brabant",
     "file_url": null,
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Molenlanden,Veiligheidsregio Zuid-Holland-Zuid",
+    "location": "Molenlanden, Veiligheidsregio Zuid-Holland-Zuid, Provincie Zuid-Holland",
     "file_url": null,
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Montferland,Veiligheidsregio Noord- en Oost-Gelderland",
+    "location": "Montferland, Veiligheidsregio Noord- en Oost-Gelderland, Provincie Gelderland",
     "file_url": null,
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Montfoort,Veiligheidsregio Utrecht",
+    "location": "Montfoort, Veiligheidsregio Utrecht, Provincie Utrecht",
     "file_url": null,
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Mook en Middelaar,Veiligheidsregio Limburg-Noord",
+    "location": "Mook en Middelaar, Veiligheidsregio Limburg-Noord, Provincie Limburg",
     "file_url": null,
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Neder-Betuwe,Veiligheidsregio Gelderland-Zuid",
+    "location": "Neder-Betuwe, Veiligheidsregio Gelderland-Zuid, Provincie Gelderland",
     "file_url": null,
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Nederweert,Veiligheidsregio Limburg-Noord",
+    "location": "Nederweert, Veiligheidsregio Limburg-Noord, Provincie Limburg",
     "file_url": null,
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Nieuwkoop,Veiligheidsregio Hollands-Midden",
+    "location": "Nieuwkoop, Veiligheidsregio Hollands-Midden, Provincie Zuid-Holland",
     "file_url": null,
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Nijkerk,Veiligheidsregio Gelderland-Midden",
+    "location": "Nijkerk, Veiligheidsregio Gelderland-Midden, Provincie Gelderland",
     "file_url": null,
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Noord-Beveland,Veiligheidsregio Zeeland",
+    "location": "Noord-Beveland, Veiligheidsregio Zeeland, Provincie Zeeland",
     "file_url": null,
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Noordenveld,Veiligheidsregio Drenthe",
+    "location": "Noordenveld, Veiligheidsregio Drenthe, Provincie Drenthe",
     "file_url": null,
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Noordwijk,Veiligheidsregio Hollands-Midden",
+    "location": "Noordwijk, Veiligheidsregio Hollands-Midden, Provincie Zuid-Holland",
     "file_url": null,
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Nuenen, Gerwen en Nederwetten,Veiligheidsregio Brabant-Zuidoost",
+    "location": "Nuenen, Gerwen en Nederwetten, Veiligheidsregio Brabant-Zuidoost, Provincie Noord-Brabant",
     "file_url": null,
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Nunspeet,Veiligheidsregio Noord- en Oost-Gelderland",
+    "location": "Nunspeet, Veiligheidsregio Noord- en Oost-Gelderland, Provincie Gelderland",
     "file_url": null,
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Oegstgeest,Veiligheidsregio Hollands-Midden",
+    "location": "Oegstgeest, Veiligheidsregio Hollands-Midden, Provincie Zuid-Holland",
     "file_url": null,
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Oirschot,Veiligheidsregio Brabant-Zuidoost",
+    "location": "Oirschot, Veiligheidsregio Brabant-Zuidoost, Provincie Noord-Brabant",
     "file_url": null,
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Oisterwijk,Veiligheidsregio Midden- en West-Brabant",
+    "location": "Oisterwijk, Veiligheidsregio Midden- en West-Brabant, Provincie Noord-Brabant",
     "file_url": null,
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Oldambt,Veiligheidsregio Groningen",
+    "location": "Oldambt, Veiligheidsregio Groningen, Provincie Groningen",
     "file_url": null,
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Oldebroek,Veiligheidsregio Noord- en Oost-Gelderland",
+    "location": "Oldebroek, Veiligheidsregio Noord- en Oost-Gelderland, Provincie Gelderland",
     "file_url": null,
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Oldenzaal,Veiligheidsregio Twente",
+    "location": "Oldenzaal, Veiligheidsregio Twente, Provincie Overijssel",
     "file_url": null,
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Olst-Wijhe,Veiligheidsregio IJsselland",
+    "location": "Olst-Wijhe, Veiligheidsregio IJsselland, Provincie Overijssel",
     "file_url": null,
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Ommen,Veiligheidsregio IJsselland",
+    "location": "Ommen, Veiligheidsregio IJsselland, Provincie Overijssel",
     "file_url": null,
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Oost Gelre,Veiligheidsregio Noord- en Oost-Gelderland",
+    "location": "Oost Gelre, Veiligheidsregio Noord- en Oost-Gelderland, Provincie Gelderland",
     "file_url": null,
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Ooststellingwerf,Veiligheidsregio Frysl&acirc n",
+    "location": "Ooststellingwerf, Veiligheidsregio Frysl&acirc n, Provincie Friesland",
     "file_url": null,
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Oostzaan,Veiligheidsregio Zaanstreek-Waterland",
+    "location": "Oostzaan, Veiligheidsregio Zaanstreek-Waterland, Provincie Noord-Holland",
     "file_url": null,
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Opmeer,Veiligheidsregio Noord-Holland-Noord",
+    "location": "Opmeer, Veiligheidsregio Noord-Holland-Noord, Provincie Noord-Holland",
     "file_url": null,
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Opsterland,Veiligheidsregio Frysl&acirc n",
+    "location": "Opsterland, Veiligheidsregio Frysl&acirc n, Provincie Friesland",
     "file_url": null,
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Oude IJsselstreek,Veiligheidsregio Noord- en Oost-Gelderland",
+    "location": "Oude IJsselstreek, Veiligheidsregio Noord- en Oost-Gelderland, Provincie Gelderland",
     "file_url": null,
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Ouder-Amstel,Veiligheidsregio Amsterdam-Amstelland",
+    "location": "Ouder-Amstel, Veiligheidsregio Amsterdam-Amstelland, Provincie Noord-Holland",
     "file_url": null,
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Oudewater,Veiligheidsregio Utrecht",
+    "location": "Oudewater, Veiligheidsregio Utrecht, Provincie Utrecht",
     "file_url": null,
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Papendrecht,Veiligheidsregio Zuid-Holland-Zuid",
+    "location": "Papendrecht, Veiligheidsregio Zuid-Holland-Zuid, Provincie Zuid-Holland",
     "file_url": null,
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Peel en Maas,Veiligheidsregio Limburg-Noord",
+    "location": "Peel en Maas, Veiligheidsregio Limburg-Noord, Provincie Limburg",
     "file_url": null,
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Pekela,Veiligheidsregio Groningen",
+    "location": "Pekela, Veiligheidsregio Groningen, Provincie Groningen",
     "file_url": null,
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Pijnacker-Nootdorp,Veiligheidsregio Haaglanden",
+    "location": "Pijnacker-Nootdorp, Veiligheidsregio Haaglanden, Provincie Zuid-Holland",
     "file_url": null,
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Putten,Veiligheidsregio Noord- en Oost-Gelderland",
+    "location": "Putten, Veiligheidsregio Noord- en Oost-Gelderland, Provincie Gelderland",
     "file_url": null,
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Raalte,Veiligheidsregio IJsselland",
+    "location": "Raalte, Veiligheidsregio IJsselland, Provincie Overijssel",
     "file_url": null,
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Reimerswaal,Veiligheidsregio Zeeland",
+    "location": "Reimerswaal, Veiligheidsregio Zeeland, Provincie Zeeland",
     "file_url": null,
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Renkum,Veiligheidsregio Gelderland-Midden",
+    "location": "Renkum, Veiligheidsregio Gelderland-Midden, Provincie Gelderland",
     "file_url": null,
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Renswoude,Veiligheidsregio Utrecht",
+    "location": "Renswoude, Veiligheidsregio Utrecht, Provincie Utrecht",
     "file_url": null,
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Reusel-De Mierden,Veiligheidsregio Brabant-Zuidoost",
+    "location": "Reusel-De Mierden, Veiligheidsregio Brabant-Zuidoost, Provincie Noord-Brabant",
     "file_url": null,
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Rheden,Veiligheidsregio Gelderland-Midden",
+    "location": "Rheden, Veiligheidsregio Gelderland-Midden, Provincie Gelderland",
     "file_url": null,
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Rhenen,Veiligheidsregio Utrecht",
+    "location": "Rhenen, Veiligheidsregio Utrecht, Provincie Utrecht",
     "file_url": null,
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Rijssen-Holten,Veiligheidsregio Twente",
+    "location": "Rijssen-Holten, Veiligheidsregio Twente, Provincie Overijssel",
     "file_url": null,
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Roerdalen,Veiligheidsregio Limburg-Noord",
+    "location": "Roerdalen, Veiligheidsregio Limburg-Noord, Provincie Limburg",
     "file_url": null,
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "De Ronde Venen,Veiligheidsregio Utrecht",
+    "location": "De Ronde Venen, Veiligheidsregio Utrecht, Provincie Utrecht",
     "file_url": null,
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Rozendaal,Veiligheidsregio Gelderland-Midden",
+    "location": "Rozendaal, Veiligheidsregio Gelderland-Midden, Provincie Gelderland",
     "file_url": null,
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Rucphen,Veiligheidsregio Midden- en West-Brabant",
+    "location": "Rucphen, Veiligheidsregio Midden- en West-Brabant, Provincie Noord-Brabant",
     "file_url": null,
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Scherpenzeel,Veiligheidsregio Gelderland-Midden",
+    "location": "Scherpenzeel, Veiligheidsregio Gelderland-Midden, Provincie Gelderland",
     "file_url": null,
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Schiermonnikoog,Veiligheidsregio Frysl&acirc n",
+    "location": "Schiermonnikoog, Veiligheidsregio Frysl&acirc n, Provincie Friesland",
     "file_url": null,
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Schouwen-Duiveland,Veiligheidsregio Zeeland",
+    "location": "Schouwen-Duiveland, Veiligheidsregio Zeeland, Provincie Zeeland",
     "file_url": null,
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Simpelveld,Veiligheidsregio Limburg-Zuid",
+    "location": "Simpelveld, Veiligheidsregio Limburg-Zuid, Provincie Limburg",
     "file_url": null,
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Sint Anthonis,Veiligheidsregio Brabant-Noord",
+    "location": "Sint Anthonis, Veiligheidsregio Brabant-Noord, Provincie Noord-Brabant",
     "file_url": null,
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Sint-Michielsgestel,Veiligheidsregio Brabant-Noord",
+    "location": "Sint-Michielsgestel, Veiligheidsregio Brabant-Noord, Provincie Noord-Brabant",
     "file_url": null,
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Sliedrecht,Veiligheidsregio Zuid-Holland-Zuid",
+    "location": "Sliedrecht, Veiligheidsregio Zuid-Holland-Zuid, Provincie Zuid-Holland",
     "file_url": null,
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Sluis,Veiligheidsregio Zeeland",
+    "location": "Sluis, Veiligheidsregio Zeeland, Provincie Zeeland",
     "file_url": null,
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Someren,Veiligheidsregio Brabant-Zuidoost",
+    "location": "Someren, Veiligheidsregio Brabant-Zuidoost, Provincie Noord-Brabant",
     "file_url": null,
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Son en Breugel,Veiligheidsregio Brabant-Zuidoost",
+    "location": "Son en Breugel, Veiligheidsregio Brabant-Zuidoost, Provincie Noord-Brabant",
     "file_url": null,
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Stadskanaal,Veiligheidsregio Groningen",
+    "location": "Stadskanaal, Veiligheidsregio Groningen, Provincie Groningen",
     "file_url": null,
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Staphorst,Veiligheidsregio IJsselland",
+    "location": "Staphorst, Veiligheidsregio IJsselland, Provincie Overijssel",
     "file_url": null,
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Stede Broec,Veiligheidsregio Noord-Holland-Noord",
+    "location": "Stede Broec, Veiligheidsregio Noord-Holland-Noord, Provincie Noord-Holland",
     "file_url": null,
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Steenbergen,Veiligheidsregio Midden- en West-Brabant",
+    "location": "Steenbergen, Veiligheidsregio Midden- en West-Brabant, Provincie Noord-Brabant",
     "file_url": null,
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Steenwijkerland,Veiligheidsregio IJsselland",
+    "location": "Steenwijkerland, Veiligheidsregio IJsselland, Provincie Overijssel",
     "file_url": null,
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Stein,Veiligheidsregio Limburg-Zuid",
+    "location": "Stein, Veiligheidsregio Limburg-Zuid, Provincie Limburg",
     "file_url": null,
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Terschelling,Veiligheidsregio Frysl&acirc n",
+    "location": "Terschelling, Veiligheidsregio Frysl&acirc n, Provincie Friesland",
     "file_url": null,
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Texel,Veiligheidsregio Noord-Holland-Noord",
+    "location": "Texel, Veiligheidsregio Noord-Holland-Noord, Provincie Noord-Holland",
     "file_url": null,
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Teylingen,Veiligheidsregio Hollands-Midden",
+    "location": "Teylingen, Veiligheidsregio Hollands-Midden, Provincie Zuid-Holland",
     "file_url": null,
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Tholen,Veiligheidsregio Zeeland",
+    "location": "Tholen, Veiligheidsregio Zeeland, Provincie Zeeland",
     "file_url": null,
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Tiel,Veiligheidsregio Gelderland-Zuid",
+    "location": "Tiel, Veiligheidsregio Gelderland-Zuid, Provincie Gelderland",
     "file_url": null,
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Tubbergen,Veiligheidsregio Twente",
+    "location": "Tubbergen, Veiligheidsregio Twente, Provincie Overijssel",
     "file_url": null,
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Twenterand,Veiligheidsregio Twente",
+    "location": "Twenterand, Veiligheidsregio Twente, Provincie Overijssel",
     "file_url": null,
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Tynaarlo,Veiligheidsregio Drenthe",
+    "location": "Tynaarlo, Veiligheidsregio Drenthe, Provincie Drenthe",
     "file_url": null,
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Tytsjerksteradiel,Veiligheidsregio Frysl&acirc n",
+    "location": "Tytsjerksteradiel, Veiligheidsregio Frysl&acirc n, Provincie Friesland",
     "file_url": null,
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Uden,Veiligheidsregio Brabant-Noord",
+    "location": "Uden, Veiligheidsregio Brabant-Noord, Provincie Noord-Brabant",
     "file_url": null,
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Uitgeest,Veiligheidsregio Kennemerland",
+    "location": "Uitgeest, Veiligheidsregio Kennemerland, Provincie Noord-Holland",
     "file_url": null,
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Uithoorn,Veiligheidsregio Amsterdam-Amstelland",
+    "location": "Uithoorn, Veiligheidsregio Amsterdam-Amstelland, Provincie Noord-Holland",
     "file_url": null,
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Urk,Veiligheidsregio Flevoland",
+    "location": "Urk, Veiligheidsregio Flevoland, Provincie Flevoland",
     "file_url": null,
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Vaals,Veiligheidsregio Limburg-Zuid",
+    "location": "Vaals, Veiligheidsregio Limburg-Zuid, Provincie Limburg",
     "file_url": null,
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Valkenburg aan de Geul,Veiligheidsregio Limburg-Zuid",
+    "location": "Valkenburg aan de Geul, Veiligheidsregio Limburg-Zuid, Provincie Limburg",
     "file_url": null,
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Valkenswaard,Veiligheidsregio Brabant-Zuidoost",
+    "location": "Valkenswaard, Veiligheidsregio Brabant-Zuidoost, Provincie Noord-Brabant",
     "file_url": null,
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Veendam,Veiligheidsregio Groningen",
+    "location": "Veendam, Veiligheidsregio Groningen, Provincie Groningen",
     "file_url": null,
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Veere,Veiligheidsregio Zeeland",
+    "location": "Veere, Veiligheidsregio Zeeland, Provincie Zeeland",
     "file_url": null,
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Venray,Veiligheidsregio Limburg-Noord",
+    "location": "Venray, Veiligheidsregio Limburg-Noord, Provincie Limburg",
     "file_url": null,
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Vijfheerenlanden,Veiligheidsregio Utrecht",
+    "location": "Vijfheerenlanden, Veiligheidsregio Utrecht, Provincie Utrecht",
     "file_url": null,
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Vlieland,Veiligheidsregio Frysl&acirc n",
+    "location": "Vlieland, Veiligheidsregio Frysl&acirc n, Provincie Friesland",
     "file_url": null,
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Vlissingen,Veiligheidsregio Zeeland",
+    "location": "Vlissingen, Veiligheidsregio Zeeland, Provincie Zeeland",
     "file_url": null,
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Voerendaal,Veiligheidsregio Limburg-Zuid",
+    "location": "Voerendaal, Veiligheidsregio Limburg-Zuid, Provincie Limburg",
     "file_url": null,
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Voorschoten,Veiligheidsregio Hollands-Midden",
+    "location": "Voorschoten, Veiligheidsregio Hollands-Midden, Provincie Zuid-Holland",
     "file_url": null,
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Voorst,Veiligheidsregio Noord- en Oost-Gelderland",
+    "location": "Voorst, Veiligheidsregio Noord- en Oost-Gelderland, Provincie Gelderland",
     "file_url": null,
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Vught,Veiligheidsregio Brabant-Noord",
+    "location": "Vught, Veiligheidsregio Brabant-Noord, Provincie Noord-Brabant",
     "file_url": null,
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Waadhoeke,Veiligheidsregio Frysl&acirc n",
+    "location": "Waadhoeke, Veiligheidsregio Frysl&acirc n, Provincie Friesland",
     "file_url": null,
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Waalre,Veiligheidsregio Brabant-Zuidoost",
+    "location": "Waalre, Veiligheidsregio Brabant-Zuidoost, Provincie Noord-Brabant",
     "file_url": null,
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Waddinxveen,Veiligheidsregio Hollands-Midden",
+    "location": "Waddinxveen, Veiligheidsregio Hollands-Midden, Provincie Zuid-Holland",
     "file_url": null,
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Wageningen,Veiligheidsregio Gelderland-Midden",
+    "location": "Wageningen, Veiligheidsregio Gelderland-Midden, Provincie Gelderland",
     "file_url": null,
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Wassenaar,Veiligheidsregio Haaglanden",
+    "location": "Wassenaar, Veiligheidsregio Haaglanden, Provincie Zuid-Holland",
     "file_url": null,
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Waterland,Veiligheidsregio Zaanstreek-Waterland",
+    "location": "Waterland, Veiligheidsregio Zaanstreek-Waterland, Provincie Noord-Holland",
     "file_url": null,
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Weesp,Veiligheidsregio Gooi en Vechtstreek",
+    "location": "Weesp, Veiligheidsregio Gooi en Vechtstreek, Provincie Noord-Holland",
     "file_url": null,
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "West Betuwe,Veiligheidsregio Gelderland-Zuid",
+    "location": "West Betuwe, Veiligheidsregio Gelderland-Zuid, Provincie Gelderland",
     "file_url": null,
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "West Maas en Waal,Veiligheidsregio Gelderland-Zuid",
+    "location": "West Maas en Waal, Veiligheidsregio Gelderland-Zuid, Provincie Gelderland",
     "file_url": null,
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Westerkwartier,Veiligheidsregio Groningen",
+    "location": "Westerkwartier, Veiligheidsregio Groningen, Provincie Groningen",
     "file_url": null,
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Westerveld,Veiligheidsregio Drenthe",
+    "location": "Westerveld, Veiligheidsregio Drenthe, Provincie Drenthe",
     "file_url": null,
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Westervoort,Veiligheidsregio Gelderland-Midden",
+    "location": "Westervoort, Veiligheidsregio Gelderland-Midden, Provincie Gelderland",
     "file_url": null,
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Westerwolde,Veiligheidsregio Groningen",
+    "location": "Westerwolde, Veiligheidsregio Groningen, Provincie Groningen",
     "file_url": null,
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Weststellingwerf,Veiligheidsregio Frysl&acirc n",
+    "location": "Weststellingwerf, Veiligheidsregio Frysl&acirc n, Provincie Friesland",
     "file_url": null,
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Westvoorne,Veiligheidsregio Rotterdam-Rijnmond",
+    "location": "Westvoorne, Veiligheidsregio Rotterdam-Rijnmond, Provincie Zuid-Holland",
     "file_url": null,
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Wierden,Veiligheidsregio Twente",
+    "location": "Wierden, Veiligheidsregio Twente, Provincie Overijssel",
     "file_url": null,
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Wijchen,Veiligheidsregio Gelderland-Zuid",
+    "location": "Wijchen, Veiligheidsregio Gelderland-Zuid, Provincie Gelderland",
     "file_url": null,
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Wijdemeren,Veiligheidsregio Gooi en Vechtstreek",
+    "location": "Wijdemeren, Veiligheidsregio Gooi en Vechtstreek, Provincie Noord-Holland",
     "file_url": null,
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Wijk bij Duurstede,Veiligheidsregio Utrecht",
+    "location": "Wijk bij Duurstede, Veiligheidsregio Utrecht, Provincie Utrecht",
     "file_url": null,
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Winterswijk,Veiligheidsregio Noord- en Oost-Gelderland",
+    "location": "Winterswijk, Veiligheidsregio Noord- en Oost-Gelderland, Provincie Gelderland",
     "file_url": null,
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Woensdrecht,Veiligheidsregio Midden- en West-Brabant",
+    "location": "Woensdrecht, Veiligheidsregio Midden- en West-Brabant, Provincie Noord-Brabant",
     "file_url": null,
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "De Wolden,Veiligheidsregio Drenthe",
+    "location": "De Wolden, Veiligheidsregio Drenthe, Provincie Drenthe",
     "file_url": null,
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Wormerland,Veiligheidsregio Zaanstreek-Waterland",
+    "location": "Wormerland, Veiligheidsregio Zaanstreek-Waterland, Provincie Noord-Holland",
     "file_url": null,
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Woudenberg,Veiligheidsregio Utrecht",
+    "location": "Woudenberg, Veiligheidsregio Utrecht, Provincie Utrecht",
     "file_url": null,
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Zaltbommel,Veiligheidsregio Gelderland-Zuid",
+    "location": "Zaltbommel, Veiligheidsregio Gelderland-Zuid, Provincie Gelderland",
     "file_url": null,
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Zandvoort,Veiligheidsregio Kennemerland",
+    "location": "Zandvoort, Veiligheidsregio Kennemerland, Provincie Noord-Holland",
     "file_url": null,
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Zeewolde,Veiligheidsregio Flevoland",
+    "location": "Zeewolde, Veiligheidsregio Flevoland, Provincie Flevoland",
     "file_url": null,
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Zevenaar,Veiligheidsregio Gelderland-Midden",
+    "location": "Zevenaar, Veiligheidsregio Gelderland-Midden, Provincie Gelderland",
     "file_url": null,
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Zoeterwoude,Veiligheidsregio Hollands-Midden",
+    "location": "Zoeterwoude, Veiligheidsregio Hollands-Midden, Provincie Zuid-Holland",
     "file_url": null,
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Zuidplas,Veiligheidsregio Hollands-Midden",
+    "location": "Zuidplas, Veiligheidsregio Hollands-Midden, Provincie Zuid-Holland",
     "file_url": null,
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Zundert,Veiligheidsregio Midden- en West-Brabant",
+    "location": "Zundert, Veiligheidsregio Midden- en West-Brabant, Provincie Noord-Brabant",
     "file_url": null,
     "type": "Nieuws"
   },
   {
     "collection": "Gemeente",
-    "location": "Zwartewaterland,Veiligheidsregio IJsselland",
+    "location": "Zwartewaterland, Veiligheidsregio IJsselland, Provincie Overijssel",
     "file_url": null,
     "type": "Nieuws"
   }
