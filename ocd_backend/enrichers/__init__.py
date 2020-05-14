@@ -289,7 +289,7 @@ class BinoasEnricher(BaseEnricher, HttpRequestMixin):
 
             # TODO: figure out howto include classifications here ...
 
-            url = '%s/posts/new' (settings.BINOAS_BASE_URL,)
+            url = '%s/posts/new' % (settings.BINOAS_BASE_URL,)
 
             r = {}
             resp = None
