@@ -39,6 +39,13 @@
         }
     },
     "mappings": {
+        "queries": {
+            "properties": {
+                "query": {
+                    "type": "percolator"
+                }
+            }
+        },
         "_default_": {
             "_all": {
                 "enabled": false
