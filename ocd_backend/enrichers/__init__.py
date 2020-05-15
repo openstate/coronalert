@@ -2,6 +2,7 @@
 
 from ocd_backend import celery_app
 from ocd_backend import settings
+from ocd_backend.es import elasticsearch as es
 from ocd_backend.exceptions import SkipEnrichment
 from ocd_backend.log import get_source_logger
 from ocd_backend.extractors import HttpRequestMixin
@@ -179,6 +180,37 @@ class InterestingnessEnricher(BaseEnricher, HttpRequestMixin):
         return enrichments
 
 
+class PercolatorEnricher(BaseEnricher):
+    def enrich_item(self, enrichments, object_id, combined_index_doc, doc):
+        enrichments['percolations'] = {}
+        for item in combined_index_doc.get('item', {}).get('items', []):
+            if item.get('@type', 'Note') not in settings.ENRICHER_PERCOLATOR_AS2_TYPES:
+                # log.info(
+                #     'Document %s is not a translatable type (%s)' % (
+                #         item.get('@id', '???'), item['@type'],))
+                continue
+
+
+            #result = self._perform_interestingness(item['@id'], item)
+            #enrichments['interestingness'][item['@id']] = result
+            result = es.search(
+                index=settings.COMBINED_INDEX,
+                body={
+                    "query": {
+                        "percolate": {
+                            "field": "query",
+                            "document_type": item.get('@type', 'Note'),
+                            "document": { 'item': item }
+                        }
+                    }
+                })
+            log.info('Percolated item:')
+            log.info(item)
+            log.info('Percolating result:')
+            log.info(result)
+        return enrichments
+
+
 # NEREnricher is merely an alias for another class, in order to avoid having
 # to edit all source files.
 class NEREnricher(InterestingnessEnricher):
@@ -293,7 +325,7 @@ class BinoasEnricher(BaseEnricher, HttpRequestMixin):
 
             r = {}
             resp = None
-            log.info('sending to binoas: ' + str(item))
+            #log.info('sending to binoas: ' + str(item))
             try:
                 resp = self.http_session.post(
                     url, data=json_encoder.encode({

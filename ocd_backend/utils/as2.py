@@ -127,7 +127,7 @@ class AS2ConverterMixin(object):
                 # always take the language of the content, since content tends to
                 # be longer than the title
                 if len(translations) > 0:
-                    log.info(translations)
+                    #log.info(translations)
                     d['@language'] = translations[-1]['detectedLanguage']['language']
                 else:
                     d['@language'] = 'nl'
@@ -206,7 +206,7 @@ class AS2ConverterMixin(object):
                     '_index': settings.COMBINED_INDEX,
                     '_type': d['@type']})
                 other_to_index.append(item_doc)
-        log.info(items_to_index.values() + other_to_index)
+        #log.info(items_to_index.values() + other_to_index)
 
         try:
             bulk(elasticsearch, items_to_index.values() + other_to_index)
