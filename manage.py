@@ -255,6 +255,33 @@ def create_queries(mapping_dir, doc_type, index_name):
             click.echo(error_msg)
 
 
+@command('delete_queries')
+@click.argument('mapping_dir', type=click.Path(exists=True, resolve_path=True))
+@click.argument('doc_type', default='queries')
+@click.argument('index_name', default=COMBINED_INDEX)
+def delete_queries(mapping_dir, doc_type, index_name):
+    """
+    Delete queries for which a json file is available.
+    """
+    click.echo('Deleting queries for ES queries in index %s (%s) (doc type: %s)' % (
+        index_name, mapping_dir, doc_type,))
+
+    for mapping_file_path in glob('%s/*.json' % mapping_dir):
+        # Extract the index name from the filename
+        query_id = os.path.split(mapping_file_path)[-1].split('.')[0]
+        click.echo('Deleting ES query %s' % query_id)
+
+        try:
+            r = es.delete(index=index_name, doc_type=doc_type, id=query_id)
+            click.echo('Query %s was %s' % (query_id, r['result'],))
+        except ConflictError as e:
+            click.echo('Query already existed')
+        except RequestError as e:
+            error_msg = click.style('Failed to create query %s due to ES '
+                                    'error: %s' % (query_id, e.error),
+                                    fg='red')
+            click.echo(error_msg)
+
 @command('create_indexes')
 @click.argument('mapping_dir', type=click.Path(exists=True, resolve_path=True))
 def create_indexes(mapping_dir):
@@ -638,6 +665,7 @@ dumps.add_command(download_dumps)
 elasticsearch.add_command(es_put_template)
 elasticsearch.add_command(es_put_mapping)
 elasticsearch.add_command(create_queries)
+elasticsearch.add_command(delete_queries)
 elasticsearch.add_command(create_indexes)
 elasticsearch.add_command(delete_indexes)
 elasticsearch.add_command(available_indices)
