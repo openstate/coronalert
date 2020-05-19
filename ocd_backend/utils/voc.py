@@ -74,6 +74,18 @@ class VocabularyMixin(object):
             'rel': 'interestingness'
         }
 
+    def get_percolation(self, identifier, additional={}):
+        ns_identifier = self.get_identifier(
+            'Link', identifier, additional={
+                'classification': 'percolation'})
+        return {
+            "@type": u"Link",
+            "name": identifier.split('/')[-1].capitalize(),
+            "@id": ns_identifier,
+            "href": ns_identifier,
+            'rel': 'percolation'
+        }
+
     def get_type(self, identifier, additional={}):
         ns_identifier = self.get_identifier(
             'Link', identifier, additional={

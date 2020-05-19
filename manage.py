@@ -234,6 +234,11 @@ def create_queries(mapping_dir, doc_type, index_name):
     click.echo('Creating queries for ES queries in index %s (%s) (doc type: %s)' % (
         index_name, mapping_dir, doc_type,))
 
+    try:
+        es.indices.create(index=index_name)  # use templae
+    except Exception:
+        pass
+
     for mapping_file_path in glob('%s/*.json' % mapping_dir):
         # Extract the index name from the filename
         query_id = os.path.split(mapping_file_path)[-1].split('.')[0]
@@ -253,6 +258,7 @@ def create_queries(mapping_dir, doc_type, index_name):
                                     'error: %s' % (query_id, e.error),
                                     fg='red')
             click.echo(error_msg)
+            click.echo(e)
 
 
 @command('delete_queries')

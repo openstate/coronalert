@@ -165,6 +165,45 @@ class AS2ConverterMixin(object):
                 if should_add_int:
                     d['tag'].append(interestingness_obj['@id'])
 
+                # TODO: add percolation results here ...
+                log.info('Tag before percolations: %s', d['tag'])
+                topics = combined_index_doc.get('percolations', {}).get(d.get('@id', ''), [])
+                for topic in topics:
+                    log.info('Getting link obj for %s' % (topic,))
+                    topic_obj = self.get_percolation(topic)
+                    log.info(topic_obj)
+                    if topic_obj['@id'] not in items_to_index:
+                        topic_doc = {
+                            '_op_type': 'create',
+                            '_index': settings.COMBINED_INDEX,
+                            '_type': topic_obj['@type'],
+                            '_id': topic_obj['@id'].split('/')[-1],
+                            'hidden': combined_index_doc.get('hidden', False),
+                            'item': topic_obj,
+                            #'enrichments': {'translations': translations},
+                            'meta': {
+                                'processing_started': datetime.datetime.now(),
+                                'processing_finished': datetime.datetime.now(),
+                                'source_id': 'whatever',
+                                'collection': 'whatever',
+                                'rights': u'unknown',
+                                'original_object_id': d_id,
+                                'original_object_urls': {
+                                    'html': urljoin(
+                                        urljoin(settings.AS2_NAMESPACE, d['@type']), d_id)
+                                },
+                            }
+                        }
+                        items_to_index[topic_obj['@id']] = topic_doc
+                    try:
+                        should_add_int = not (d['tag'].index(topic_obj['@id']) >= 0)
+                    except ValueError:
+                        should_add_int = True
+                    if should_add_int:
+                        d['tag'].append(topic_obj['@id'])
+                log.info('Tag AFTER percolations: %s', d['tag'])
+
+
             item_doc = {
                 'hidden': combined_index_doc.get('hidden', False),
                 'item': d,
@@ -193,13 +232,24 @@ class AS2ConverterMixin(object):
             # 3 create object 1 (again)
             # also: need to weed out objects that appear twice in the array below
             if d_id is not None:
-                item_doc.update({
-                    '_op_type': 'create',
+                # item_doc.update({
+                #     '_op_type': 'create',
+                #     '_index': settings.COMBINED_INDEX,
+                #     '_type': d['@type'],
+                #     '_id': d_id,
+                #     "_retry_on_conflict": 5})
+                item_doc = {
+                    '_op_type': 'update',
                     '_index': settings.COMBINED_INDEX,
                     '_type': d['@type'],
-                    '_id': d_id,})
-                if item_doc['item']['@id'] not in items_to_index:
-                    items_to_index[item_doc['item']['@id']] = item_doc
+                    '_id': d_id,
+                    "_retry_on_conflict": 5,
+                    '_detect_noop': True,
+                    'doc': item_doc,
+                    'doc_as_upsert': True
+                }
+                if item_doc['doc']['item']['@id'] not in items_to_index:
+                    items_to_index[item_doc['doc']['item']['@id']] = item_doc
             else:
                 item_doc.update({
                     '_op_type': 'index',
@@ -223,3 +273,4 @@ class AS2ConverterMixin(object):
                 except LookupError:
                     type_counts[err['create']['_type']] = 1
             log.error('Bulk indexing resulted in: %s - %s', counts, type_counts)
+            log.error(e.errors)

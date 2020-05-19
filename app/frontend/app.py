@@ -77,7 +77,7 @@ FACETS = (
     ('sources', lazy_gettext('Source'), False, True, False,),
     # TODO: magic sorting shit (see Joplin) below
     ('tag', lazy_gettext('Mentions'), True, True, {
-        'rel': ['type', 'interestingness']  #, 'polarity', 'subjectivity']
+        'rel': ['type', 'interestingness', 'percolation']  #, 'polarity', 'subjectivity']
     },),
     # ('politicians', 'Politici', True, True,),
     # ('parties', 'Partijen', True, True,),
@@ -85,7 +85,8 @@ FACETS = (
     # ('topics', 'Onderwerpen', True, True,),
     ('polarity', lazy_gettext('Polarity'), False, False, False,),
     ('subjectivity', lazy_gettext('Sentiment'),False, False, False,),
-    ('interestingness', lazy_gettext('Interestingness'), False, False, False,)
+    ('interestingness', lazy_gettext('Interestingness'), False, False, False,),
+    ('percolation', lazy_gettext('Topic'), False, False, False,)
 )
 
 TAGS = {

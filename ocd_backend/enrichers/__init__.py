@@ -185,14 +185,8 @@ class PercolatorEnricher(BaseEnricher):
         enrichments['percolations'] = {}
         for item in combined_index_doc.get('item', {}).get('items', []):
             if item.get('@type', 'Note') not in settings.ENRICHER_PERCOLATOR_AS2_TYPES:
-                # log.info(
-                #     'Document %s is not a translatable type (%s)' % (
-                #         item.get('@id', '???'), item['@type'],))
                 continue
 
-
-            #result = self._perform_interestingness(item['@id'], item)
-            #enrichments['interestingness'][item['@id']] = result
             result = es.search(
                 index=settings.COMBINED_INDEX,
                 body={
@@ -204,10 +198,16 @@ class PercolatorEnricher(BaseEnricher):
                         }
                     }
                 })
-            log.info('Percolated item:')
-            log.info(item)
-            log.info('Percolating result:')
-            log.info(result)
+            # log.info('Percolated item:')
+            # log.info(item)
+            # log.info('Percolating result:')
+            # log.info(result)
+            if result.get('hits', {}).get('total', 0) > 0:
+                tags = ['%s/%s' % (settings.ENRICHER_PERCOLATOR_BASE_HREF, h['_id'],) for h in result['hits']['hits']]
+                enrichments['percolations'][item['@id']] = tags
+
+        log.info('Percolation final results:')
+        log.info(enrichments['percolations'])
         return enrichments
 
 

@@ -1,7 +1,10 @@
 {
-  "query":{
-    "match":{
-      "item.contentMap.nl":"steun"
+  "query": {
+    "simple_query_string" : {
+        "query": "inkomen* -inkomende corona",
+        "analyzer": "snowball",
+        "fields": ["item.nameMap.nl^2","item.contentMap.nl"],
+        "default_operator": "or"
     }
   }
 }
