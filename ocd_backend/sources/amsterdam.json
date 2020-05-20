@@ -56,6 +56,10 @@
       [
         "ocd_backend.enrichers.BinoasEnricher",
         {}
+      ],
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
       ]
     ],
     "index_name": "veiligheidsregio",

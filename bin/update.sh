@@ -18,7 +18,9 @@ then
   PFL_NUM_SOURCES=`cat .updating-sources |wc -l`
   # Aim to crawl everything every 6 hours. At 4 times per hour this is 24 cycles
   PFL_BLOCK_SIZE=`expr $PFL_NUM_SOURCES / $PFL_WEB_CYCLES + 1`
+  echo "$PFL_BLOCK_SIZE"
   split -l $PFL_BLOCK_SIZE .updating-sources .updating-sources-
+  ls -la .updating-sources*
 fi
 
 
