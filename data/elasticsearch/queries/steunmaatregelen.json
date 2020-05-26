@@ -4,7 +4,7 @@
         "query": "inkomen* -inkomende corona",
         "analyzer": "snowball",
         "fields": ["item.nameMap.nl^2","item.contentMap.nl"],
-        "default_operator": "or"
+        "default_operator": "and"
     }
   }
 }

@@ -1,8 +1,8 @@
 version: "2.1"
 services:
   nginx:
-#    ports:
-#      - "80:80"
+    ports:
+      - "80:80"
     volumes:
       - ./nginx-dev/:/etc/nginx/
     restart: "no"
@@ -15,7 +15,7 @@ services:
       dockerfile: Dockerfile-frontend-dev
     restart: "no"
   redis:
-    mem_limit: 4g
+    mem_limit: 1g
     restart: "no"
   elasticsearch:
     mem_limit: 1g
