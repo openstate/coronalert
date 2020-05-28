@@ -23,3 +23,4 @@ class LinkmapExtractor(StaticFileBaseExtractor):
 
         for link in new_links:
             yield 'application/json', json.dumps({"link": link})
+        print "Yielded %d new links" % (len(new_links),)
