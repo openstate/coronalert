@@ -1,3 +1,26 @@
+{% for key in quick_facets_results %}
+  {% if key in quick_facets %}
+  <div class="row">
+    <div class="col-xs-12 facets-quick mt-4">
+      <ul class="nav nav-pills">
+      {% for bucket in quick_facets_results[key].buckets|sort(attribute="object.name") %}
+        <li class="nav-item">
+          <a class="nav-link {{ bucket |active_bucket(key) }} w-100  d-flex align-items-center ml-4" href="{{ bucket |link_bucket(key) }}" title="{{ bucket |format_bucket(key) }} ({{ bucket.doc_count}})" role="button">
+            {{ bucket |format_bucket(key) }} <!-- ({{ bucket.doc_count}}) -->
+          </a>
+        </li>
+      {% endfor %}
+      <li class="nav-item">
+        <a class="nav-link {{ {'key': None} |inactive_bucket(key) }} w-100  d-flex align-items-center ml-4" href="{{ {'key': None} |link_bucket(key) }}" title="{%trans%}All{%endtrans%}" role="button">
+          {%trans%}All{%endtrans%}
+        </a>
+      </li>
+      </ul>
+    </div>
+  </div>
+  {% endif %}
+{% endfor %}
+
 <div class="row">
   <div class="col-xs-12">
     <h3 class="ml-4">

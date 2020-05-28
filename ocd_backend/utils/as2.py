@@ -264,6 +264,7 @@ class AS2ConverterMixin(object):
             counts = {}
             type_counts = {}
             for err in e.errors:
+                log.error(err)
                 try:
                     counts[err['create']['status']] += 1
                 except LookupError:

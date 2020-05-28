@@ -20,7 +20,7 @@ def get_news_page_url_path(news_page_url):
 def is_internal_link(l, news_page_url):
     # TODO: can be the full url is hardcoded
     # see https://stackoverflow.com/questions/32314304/check-if-an-url-is-relative-to-another-ie-they-are-on-the-same-host
-    lp = urlparse(l)
+    lp = urlparse(normalize_url(news_page_url, l))
     np = urlparse(news_page_url)
     return not (
         # (urljoin(news_page_url, l) == l) or

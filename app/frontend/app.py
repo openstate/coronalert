@@ -89,6 +89,10 @@ FACETS = (
     ('percolation', lazy_gettext('Topic'), False, False, False,)
 )
 
+QUICK_FACETS = [
+    'actor'
+]
+
 TAGS = {
     'laag': lazy_gettext('Low'),
     'hoog': lazy_gettext('High'),
@@ -263,7 +267,8 @@ def inject_intervals():
         cookie_rl_set=is_cookie_set('rl'),
         cookie_countries_set=is_cookie_set('countries'),
         interface_languages=INTERFACE_LANGUAGES.items(),
-        countries=COUNTRIES, selected_countries=selected_countries)
+        countries=COUNTRIES, selected_countries=selected_countries,
+        quick_facets=QUICK_FACETS)
 
 @app.template_global()
 def modify_query(**new_values):
@@ -407,6 +412,14 @@ def do_active_bucket(bucket, facet):
         return u''
     if unicode(request.args[facet]) == unicode(bucket['key']):
         return u'active'
+    return u''
+
+@app.template_filter('inactive_bucket')
+def do_inactive_bucket(bucket, facet):
+    if facet not in request.args:
+        return u'active'
+    if unicode(request.args[facet]) == unicode(bucket['key']):
+        return u''
     return u''
 
 
@@ -760,6 +773,11 @@ class BackendAPI(object):
         result['query'] = es_query
         return result
 
+    def quick_facets(self, **args):
+        kwargs = {"size": 0, "page": 1}
+        kwargs.update(args)
+        return self.bare_search(**kwargs)
+
     def locations(self, **args):
         es_query = {
             "filters": {
@@ -960,6 +978,7 @@ def order_facets(facets):
 
 @app.route("/search")
 def search():
+    quick_facets_results = api.quick_facets()
     locations = [urljoin(urljoin(AS2_NAMESPACE, 'Place/'), l) for l in  get_locations()]
     search_params = {
         'page': int(request.args.get('page', '1')),
@@ -989,7 +1008,9 @@ def search():
         query=search_params['query'], page=search_params['page'],
         max_pages=max_pages, search_params=search_params,
         dt_now=datetime.datetime.now(), locations=locations,
-        sort_key=sort_key)
+        sort_key=sort_key,
+        quick_facets_results=order_facets(
+            get_facets_from_results(quick_facets_results)))
 
 
 @app.route("/<as2_type>/<id>")

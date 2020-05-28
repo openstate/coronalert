@@ -73,5 +73,30 @@
     "location": "Amsterdam-Amstelland",
     "type": "Maatregelen",
     "hidden": false
+  },
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ]
+    ],
+    "index_name": "provincie",
+    "collection": "Provincie",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "provincie_noord_holland_1",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "https://www.noord-holland.nl/Actueel/Coronavirus",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "Provincie Noord-Holland",
+    "type": "Maatregelen",
+    "hidden": false
   }
 ]
