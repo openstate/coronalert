@@ -414,6 +414,14 @@ def do_active_bucket(bucket, facet):
         return u'active'
     return u''
 
+@app.template_filter('inactive_bucket')
+def do_inactive_bucket(bucket, facet):
+    if facet not in request.args:
+        return u'active'
+    if unicode(request.args[facet]) == unicode(bucket['key']):
+        return u''
+    return u''
+
 
 @app.template_filter('url_for_search_page')
 def do_url_for_search_page(params, gov_slug):
@@ -765,6 +773,11 @@ class BackendAPI(object):
         result['query'] = es_query
         return result
 
+    def quick_facets(self, **args):
+        kwargs = {"size": 0, "page": 1}
+        kwargs.update(args)
+        return self.bare_search(**kwargs)
+
     def locations(self, **args):
         es_query = {
             "filters": {
@@ -965,6 +978,7 @@ def order_facets(facets):
 
 @app.route("/search")
 def search():
+    quick_facets_results = api.quick_facets()
     locations = [urljoin(urljoin(AS2_NAMESPACE, 'Place/'), l) for l in  get_locations()]
     search_params = {
         'page': int(request.args.get('page', '1')),
@@ -994,7 +1008,9 @@ def search():
         query=search_params['query'], page=search_params['page'],
         max_pages=max_pages, search_params=search_params,
         dt_now=datetime.datetime.now(), locations=locations,
-        sort_key=sort_key)
+        sort_key=sort_key,
+        quick_facets_results=order_facets(
+            get_facets_from_results(quick_facets_results)))
 
 
 @app.route("/<as2_type>/<id>")
