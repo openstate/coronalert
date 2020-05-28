@@ -89,6 +89,10 @@ FACETS = (
     ('percolation', lazy_gettext('Topic'), False, False, False,)
 )
 
+QUICK_FACETS = [
+    'actor'
+]
+
 TAGS = {
     'laag': lazy_gettext('Low'),
     'hoog': lazy_gettext('High'),
@@ -263,7 +267,8 @@ def inject_intervals():
         cookie_rl_set=is_cookie_set('rl'),
         cookie_countries_set=is_cookie_set('countries'),
         interface_languages=INTERFACE_LANGUAGES.items(),
-        countries=COUNTRIES, selected_countries=selected_countries)
+        countries=COUNTRIES, selected_countries=selected_countries,
+        quick_facets=QUICK_FACETS)
 
 @app.template_global()
 def modify_query(**new_values):
