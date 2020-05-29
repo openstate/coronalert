@@ -995,6 +995,7 @@ def order_facets(facets):
 
 @app.route("/search")
 def search():
+    percolations = {p['name']: p['@id'] for p in api.percolations()['as:items']}
     quick_facets_results = api.quick_facets()
     locations = [urljoin(urljoin(AS2_NAMESPACE, 'Place/'), l) for l in  get_locations()]
     search_params = {
@@ -1005,6 +1006,9 @@ def search():
         search_params[facet] = request.args.get(facet, None)
     # if search_params['location'] is None:
     #     search_params['location'] = locations
+
+    if search_params['tag'] is None:
+        search_params['tag'] = percolations.values()
 
     sort_key = request.args.get('sort', 'relevancy')
     if sort_key is not None:
