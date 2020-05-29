@@ -778,6 +778,23 @@ class BackendAPI(object):
         kwargs.update(args)
         return self.bare_search(**kwargs)
 
+    def percolations(self, **args):
+        es_query = {
+            "filters": {
+                "type": {"terms": ["Link"]},
+                "rel": {"terms": ["percolation"]}
+            },
+            "expansions": 3,
+            "size": 400  # FIXME: increase size in the future
+        }
+        es_query.update(args)
+
+        result = requests.post(
+            '%s/search' % (self.URL,),
+            headers=self.HEADERS,
+            data=json.dumps(es_query))
+        return result.json()
+
     def locations(self, **args):
         es_query = {
             "filters": {
