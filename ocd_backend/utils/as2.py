@@ -33,10 +33,10 @@ class AS2ConverterMixin(object):
         locations = []
         for loc in loc_as_str.split(","):
             location = {
-                "@id": self.get_identifier('Place', loc),
+                "@id": self.get_identifier('Place', loc.strip()),
                 "@type": "Place",
                 "nameMap": {
-                    language: loc
+                    language: loc.strip()
                 }
             }
             locations.append(location)
