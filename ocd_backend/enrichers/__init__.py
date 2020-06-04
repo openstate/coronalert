@@ -286,6 +286,10 @@ class AS2TranslationEnricher(BaseEnricher, AzureTranslationMixin, HttpRequestMix
 
 class BinoasEnricher(BaseEnricher, HttpRequestMixin):
     def enrich_item(self, enrichments, object_id, combined_index_doc, doc):
+        if settings.BINOAS_BASE_URL is None:
+            log.info('Binoas not configured, so skipping')
+            return enrichments
+
         for item in combined_index_doc.get('item', {}).get('items', []):
             if item.get('@type', 'Note') not in settings.BINOAS_AS2_TYPES:
                 # log.info(
