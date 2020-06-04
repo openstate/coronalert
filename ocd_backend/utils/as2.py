@@ -264,14 +264,15 @@ class AS2ConverterMixin(object):
             counts = {}
             type_counts = {}
             for err in e.errors:
-                log.error(err)
-                try:
-                    counts[err['create']['status']] += 1
-                except LookupError:
-                    counts[err['create']['status']] = 1
-                try:
-                    type_counts[err['create']['_type']] += 1
-                except LookupError:
-                    type_counts[err['create']['_type']] = 1
+                # log.error(err)
+                for index_op in err.keys():
+                    try:
+                        counts[err[index_op]['status']] += 1
+                    except LookupError:
+                        counts[err[index_op]['status']] = 1
+                    try:
+                        type_counts[err[index_op]['_type']] += 1
+                    except LookupError:
+                        type_counts[err[index_op]['_type']] = 1
             log.error('Bulk indexing resulted in: %s - %s', counts, type_counts)
             log.error(e.errors)
