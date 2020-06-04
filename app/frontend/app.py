@@ -774,7 +774,34 @@ class BackendAPI(object):
         return result
 
     def quick_facets(self, **args):
-        kwargs = {"size": 0, "page": 1}
+        kwargs = {
+            "facets": {
+                "date": {
+                    "order": {"_key": "asc"},
+                    "interval": "month"  # for now ...
+                },
+                "location": {
+                    "size": 10000
+                },
+                "sources": {},
+                "actor": {},
+                "type": {},
+                "generator": {},
+                "tag": {
+                    "size": 10
+                },
+                "language": {},
+                # "politicians": {"size": 100},
+                # "parties": {"size": 10000},
+                # "collection": {"size": 10000},
+                # "topics": {"size": 100},
+                # "polarity": {},
+                # "subjectivity": {},
+                # "interestingness": {}
+            },
+            "size": 0,
+            "page": 1
+        }
         kwargs.update(args)
         return self.bare_search(**kwargs)
 
