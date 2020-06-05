@@ -800,7 +800,8 @@ class BackendAPI(object):
                 # "interestingness": {}
             },
             "size": 0,
-            "page": 1
+            "page": 1,
+            "expansions": 3
         }
         kwargs.update(args)
         return self.bare_search(**kwargs)

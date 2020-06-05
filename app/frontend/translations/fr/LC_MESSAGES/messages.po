@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-05-28 15:41+0000\n"
+"POT-Creation-Date: 2020-06-05 13:54+0000\n"
 "PO-Revision-Date: 2020-04-06 14:50+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: fr\n"
@@ -405,7 +405,7 @@ msgstr "Basculer la navigation"
 msgid "Menu"
 msgstr ""
 
-#: templates/base.html:51 templates/search.html:19
+#: templates/base.html:51 templates/search.html:84
 #: templates/search_results.html:21
 msgid "Search"
 msgstr "Chercher"
@@ -419,7 +419,7 @@ msgid "Countries"
 msgstr "Des pays"
 
 #: templates/base.html:60 templates/feedback.en.html:3
-#: templates/feedback.html:7 templates/index.html:60
+#: templates/feedback.html:7
 msgid "Feedback"
 msgstr "Réaction"
 
@@ -461,7 +461,7 @@ msgid "Collect &amp; Subscribe"
 msgstr "Collectez et abonnez-vous"
 
 #: templates/base.html:175 templates/base.html:221
-#: templates/feedback.en.html:10 templates/index.html:63
+#: templates/feedback.en.html:10
 msgid "Mail"
 msgstr "Email"
 
@@ -506,7 +506,7 @@ msgstr "Pays d'origine"
 msgid "Set the source"
 msgstr "Définissez la source"
 
-#: templates/feedback.en.html:5 templates/index.html:62
+#: templates/feedback.en.html:5
 msgid "Help"
 msgstr "Aidez"
 
@@ -538,7 +538,7 @@ msgstr "Message"
 msgid "I agree to the terms and conditons."
 msgstr "J'accepte les termes et conditions."
 
-#: templates/feedback.en.html:32
+#: templates/feedback.en.html:32 templates/search.html:61
 msgid "Submit"
 msgstr "Soumettre"
 
@@ -554,117 +554,33 @@ msgstr "Le plus pertinent"
 msgid "Sort"
 msgstr "Trier"
 
-#: templates/filter_bar.html:26 templates/index.html:45 templates/index.html:52
-#: templates/index.html:53
+#: templates/filter_bar.html:26
 msgid "Collect"
 msgstr "Collecte"
 
-#: templates/index.html:8
-msgid "broadcasting station"
+#: templates/index.html:9
+msgid "collect up-to-date"
 msgstr ""
 
 #: templates/index.html:10
-msgid "find and <span>collect</span>"
-msgstr "rechercher et <span>collecter</span>"
-
-#: templates/index.html:11
-msgid "european <span>local</span>"
-msgstr "<span>local</span> européen"
-
-#: templates/index.html:12
-msgid "political <span>news</span>"
-msgstr "<span>actualités</span> politiques"
-
-#: templates/index.html:16
-msgid "Discover"
-msgstr "Découvrir"
-
-#: templates/index.html:18 templates/index.html:19 templates/index.html:20
-#, python-format
-msgid "receiving city %(num)s"
+msgid "corona policy from your region"
 msgstr ""
 
-#: templates/index.html:25
-msgid "What can this do?"
-msgstr "Qu'est-ce que cela peut faire?"
-
-#: templates/index.html:27
-msgid "Find local news"
-msgstr "Trouvez les nouvelles locales"
-
-#: templates/index.html:29
-#, python-format
-msgid "Choose your <a href=\"%(url)s\">language</a> for articles and topics"
+#: templates/index.html:18
+msgid "I am a journalist or researcher"
 msgstr ""
-"Choisissez votre <a href=\"%(url)s\">langue</a> pour les articles et les "
-"sujets"
 
-#: templates/index.html:30
-#, python-format
-msgid ""
-"Find local news across Europe. Setup your <a href=\"%(url)s\">source "
-"country</a>"
+#: templates/index.html:21
+msgid "Check my hometown"
 msgstr ""
-"Trouvez les actualités locales à travers l'Europe. Configurez votre <a "
-"href=\"%(url)s\"> source pays</a>"
 
-#: templates/index.html:31
-#, python-format
-msgid ""
-"Collect the content of your selected <a href=\"%(url)s\">articles and "
-"topics</a>"
-msgstr ""
-"Collectez le contenu de vos <a href=\"%(url)s\"> articles sélectionnés "
-"etsujets </a>"
-
-#: templates/index.html:39
-msgid "Contribute"
-msgstr "Contribuer"
-
-#: templates/index.html:42
-msgid "Your opinion matters"
-msgstr "Votre opinion compte"
-
-#: templates/index.html:44 templates/inner_result.html:13
-msgid "Verify"
-msgstr "Vérifier"
-
-#: templates/index.html:44
-msgid "Verify articles and help keep articles up to date"
-msgstr "Vérifier les articles et aider à maintenir les articles à jour"
-
-#: templates/index.html:45
-msgid "Collect selected articles and topics"
-msgstr "Recueillir des articles et des sujets sélectionnés"
-
-#: templates/index.html:50
-msgid "Collect local news"
-msgstr "Recueillir des nouvelles locales"
-
-#: templates/index.html:58
-msgid "Contact"
-msgstr "Contact"
-
-#: templates/index.html:62
-#, python-format
-msgid ""
-"<a href=\"%(url)s\">Help</a> us if we missed something or if you have a "
-"suggestion"
-msgstr ""
-"<a href=\"%(url)s\">Aidez-nous</a> si nous avons manqué quelque chose ou "
-"si vous avez une suggestion"
-
-#: templates/index.html:63
-msgid ""
-"Any <a href=\"https://openstate.eu/contact\">questions</a>? We want to "
-"know your opinion"
-msgstr ""
-"Des <a href=\"https://openstate.eu/contact\">questions</a>? Nous voulons "
-"connaître votre opinion"
-
-#: templates/index.html:96
+#: templates/index.html:54
 msgid "Discover more scoops"
 msgstr "Découvrez plus de scoops"
+
+#: templates/inner_result.html:13
+msgid "Verify"
+msgstr "Vérifier"
 
 #: templates/inner_result.html:59
 msgid "Read more"
@@ -718,7 +634,34 @@ msgstr ""
 "Malheureusement, nous n'avons trouvé aucun document correspondant à votre"
 " requête."
 
-#: templates/search.html:13 templates/search.html:14
+#: templates/search.html:3
+msgid "Select your municipality"
+msgstr ""
+
+#: templates/search.html:8
+msgid "Municipality"
+msgstr ""
+
+#: templates/search.html:22
+msgid "Province"
+msgstr ""
+
+#: templates/search.html:39
+msgid "Safety regio"
+msgstr ""
+
+#: templates/search.html:50
+msgid "I accept the terms and conditions"
+msgstr ""
+
+#: templates/search.html:58
+#, python-format
+msgid ""
+"Receive mail from %(municipality)s, as well as %(provincie)s and "
+"%(safetyregion)s"
+msgstr ""
+
+#: templates/search.html:78 templates/search.html:79
 msgid "Find articles, parties, locations..."
 msgstr "Trouver des articles, des parties, des lieux ..."
 
@@ -825,4 +768,85 @@ msgstr "Vous vous êtes bien désabonné."
 #~ "Collectez le contenu de vos <a "
 #~ "href=\"/search\"> articles sélectionnés etsujets "
 #~ "</a>"
+
+#~ msgid "broadcasting station"
+#~ msgstr ""
+
+#~ msgid "find and <span>collect</span>"
+#~ msgstr "rechercher et <span>collecter</span>"
+
+#~ msgid "european <span>local</span>"
+#~ msgstr "<span>local</span> européen"
+
+#~ msgid "political <span>news</span>"
+#~ msgstr "<span>actualités</span> politiques"
+
+#~ msgid "Discover"
+#~ msgstr "Découvrir"
+
+#~ msgid "receiving city %(num)s"
+#~ msgstr ""
+
+#~ msgid "What can this do?"
+#~ msgstr "Qu'est-ce que cela peut faire?"
+
+#~ msgid "Find local news"
+#~ msgstr "Trouvez les nouvelles locales"
+
+#~ msgid "Choose your <a href=\"%(url)s\">language</a> for articles and topics"
+#~ msgstr ""
+#~ "Choisissez votre <a href=\"%(url)s\">langue</a> "
+#~ "pour les articles et les sujets"
+
+#~ msgid ""
+#~ "Find local news across Europe. Setup "
+#~ "your <a href=\"%(url)s\">source country</a>"
+#~ msgstr ""
+#~ "Trouvez les actualités locales à travers"
+#~ " l'Europe. Configurez votre <a "
+#~ "href=\"%(url)s\"> source pays</a>"
+
+#~ msgid ""
+#~ "Collect the content of your selected "
+#~ "<a href=\"%(url)s\">articles and topics</a>"
+#~ msgstr ""
+#~ "Collectez le contenu de vos <a "
+#~ "href=\"%(url)s\"> articles sélectionnés etsujets "
+#~ "</a>"
+
+#~ msgid "Contribute"
+#~ msgstr "Contribuer"
+
+#~ msgid "Your opinion matters"
+#~ msgstr "Votre opinion compte"
+
+#~ msgid "Verify articles and help keep articles up to date"
+#~ msgstr "Vérifier les articles et aider à maintenir les articles à jour"
+
+#~ msgid "Collect selected articles and topics"
+#~ msgstr "Recueillir des articles et des sujets sélectionnés"
+
+#~ msgid "Collect local news"
+#~ msgstr "Recueillir des nouvelles locales"
+
+#~ msgid "Contact"
+#~ msgstr "Contact"
+
+#~ msgid ""
+#~ "<a href=\"%(url)s\">Help</a> us if we "
+#~ "missed something or if you have a"
+#~ " suggestion"
+#~ msgstr ""
+#~ "<a href=\"%(url)s\">Aidez-nous</a> si nous "
+#~ "avons manqué quelque chose ou si "
+#~ "vous avez une suggestion"
+
+#~ msgid ""
+#~ "Any <a "
+#~ "href=\"https://openstate.eu/contact\">questions</a>? We "
+#~ "want to know your opinion"
+#~ msgstr ""
+#~ "Des <a "
+#~ "href=\"https://openstate.eu/contact\">questions</a>? Nous "
+#~ "voulons connaître votre opinion"
 

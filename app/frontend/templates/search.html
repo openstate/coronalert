@@ -7,11 +7,11 @@
       <div class="form-group row">
           <label for="exampleFormControlSelect1" class="col-sm-2 col-form-label">{%trans%}Municipality{%endtrans%}</label>
           <select class="form-control col-sm-10" id="exampleFormControlSelect1">
-            <option>1</option>
-            <option>2</option>
-            <option>3</option>
-            <option>4</option>
-            <option>5</option>
+            {% for bucket in quick_facets_results.location.buckets|sort(attribute="object.nameMap.nl") %}
+              {% if not (bucket.object.nameMap[hl].startswith(_("Province")) or bucket.object.nameMap[hl].startswith(_("Safety regio"))) %}
+                <option value="{{ bucket.object["@id"] }}">{{ bucket.object.nameMap[hl] }}</option>
+              {% endif %}
+            {% endfor %}
           </select>
         </div>
     </div>
@@ -86,3 +86,11 @@
               </span>
         </div>
     </form>
+
+{% block additional_scripts %}
+<script>
+console.log('hi js from search include');
+var municipalities = window.municipalities || {};
+municipalities = {{ quick_facets_results.location.buckets |tojson }};
+</script>
+{% endblock %}

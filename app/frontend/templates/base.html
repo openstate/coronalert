@@ -269,6 +269,9 @@
     var $SCRIPT_ROOT = {{ request.script_root|tojson|safe }};
     </script>
 
+    {% block additional_scripts %}
+    {% endblock %}
+
     <!-- Matomo -->
     <script type="text/javascript">
       var _paq = window._paq || [];

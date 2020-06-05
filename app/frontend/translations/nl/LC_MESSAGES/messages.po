@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-05-28 15:41+0000\n"
+"POT-Creation-Date: 2020-06-05 13:54+0000\n"
 "PO-Revision-Date: 2020-05-08 10:11+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: nl\n"
@@ -405,7 +405,7 @@ msgstr "Toon/verberg navigatie"
 msgid "Menu"
 msgstr "Menu"
 
-#: templates/base.html:51 templates/search.html:19
+#: templates/base.html:51 templates/search.html:84
 #: templates/search_results.html:21
 msgid "Search"
 msgstr "Zoek"
@@ -419,7 +419,7 @@ msgid "Countries"
 msgstr "Landen"
 
 #: templates/base.html:60 templates/feedback.en.html:3
-#: templates/feedback.html:7 templates/index.html:60
+#: templates/feedback.html:7
 msgid "Feedback"
 msgstr "Feedback"
 
@@ -461,7 +461,7 @@ msgid "Collect &amp; Subscribe"
 msgstr "Verzamelen &amp; Abboneren"
 
 #: templates/base.html:175 templates/base.html:221
-#: templates/feedback.en.html:10 templates/index.html:63
+#: templates/feedback.en.html:10
 msgid "Mail"
 msgstr "Mail"
 
@@ -505,7 +505,7 @@ msgstr "Bron landen"
 msgid "Set the source"
 msgstr "Zet de bron"
 
-#: templates/feedback.en.html:5 templates/index.html:62
+#: templates/feedback.en.html:5
 msgid "Help"
 msgstr "Help"
 
@@ -534,7 +534,7 @@ msgstr "Bericht"
 msgid "I agree to the terms and conditons."
 msgstr "Ik stem in met de condities"
 
-#: templates/feedback.en.html:32
+#: templates/feedback.en.html:32 templates/search.html:61
 msgid "Submit"
 msgstr "Versturen"
 
@@ -550,111 +550,33 @@ msgstr "Meest relevant"
 msgid "Sort"
 msgstr "Sorteer"
 
-#: templates/filter_bar.html:26 templates/index.html:45 templates/index.html:52
-#: templates/index.html:53
+#: templates/filter_bar.html:26
 msgid "Collect"
 msgstr "Verzamel"
 
-#: templates/index.html:8
-msgid "broadcasting station"
-msgstr "verzend station"
+#: templates/index.html:9
+msgid "collect up-to-date"
+msgstr "verzamel up to date"
 
 #: templates/index.html:10
-msgid "find and <span>collect</span>"
-msgstr "vind en <span>verzamel</span>"
+msgid "corona policy from your region"
+msgstr "Coronabeleid in jouw regio"
 
-#: templates/index.html:11
-msgid "european <span>local</span>"
-msgstr "eurpoees <span>lokaal</span>"
+#: templates/index.html:18
+msgid "I am a journalist or researcher"
+msgstr "Ik ben een journalist of onderzoeker"
 
-#: templates/index.html:12
-msgid "political <span>news</span>"
-msgstr "politiek <span>nieuws</span>"
+#: templates/index.html:21
+msgid "Check my hometown"
+msgstr "Bekijk mijn gemeente"
 
-#: templates/index.html:16
-msgid "Discover"
-msgstr "Ontdek"
-
-#: templates/index.html:18 templates/index.html:19 templates/index.html:20
-#, python-format
-msgid "receiving city %(num)s"
-msgstr "ontvangende stad %(num)s"
-
-#: templates/index.html:25
-msgid "What can this do?"
-msgstr "Wat kan ik hiermee?"
-
-#: templates/index.html:27
-msgid "Find local news"
-msgstr "Vind lokaal nieuws"
-
-#: templates/index.html:29
-#, python-format
-msgid "Choose your <a href=\"%(url)s\">language</a> for articles and topics"
-msgstr "Kies je <a href=\"%(url)s\">taal</a> voor artikelen"
-
-#: templates/index.html:30
-#, python-format
-msgid ""
-"Find local news across Europe. Setup your <a href=\"%(url)s\">source "
-"country</a>"
-msgstr ""
-"Vind lokaal nieuws door heel Europa.Stel je <a href=\"%(url)s\">bron "
-"landen</a> in"
-
-#: templates/index.html:31
-#, python-format
-msgid ""
-"Collect the content of your selected <a href=\"%(url)s\">articles and "
-"topics</a>"
-msgstr "Verzamel je geselecteerde <a href=\"%(url)s\">artikelen en onderwerpen</a>"
-
-#: templates/index.html:39
-msgid "Contribute"
-msgstr "Doe mee"
-
-#: templates/index.html:42
-msgid "Your opinion matters"
-msgstr "Je mening is belangrijk"
-
-#: templates/index.html:44 templates/inner_result.html:13
-msgid "Verify"
-msgstr "Verifieer"
-
-#: templates/index.html:44
-msgid "Verify articles and help keep articles up to date"
-msgstr "Verifieeer artikelen en help om ze up to date te houden"
-
-#: templates/index.html:45
-msgid "Collect selected articles and topics"
-msgstr "Verzamel geselecteerde artikelen en onderwerpen"
-
-#: templates/index.html:50
-msgid "Collect local news"
-msgstr "Verzamel lokaal nieuws"
-
-#: templates/index.html:58
-msgid "Contact"
-msgstr "Contact"
-
-#: templates/index.html:62
-#, python-format
-msgid ""
-"<a href=\"%(url)s\">Help</a> us if we missed something or if you have a "
-"suggestion"
-msgstr "<a href=\"%(url)s\">Help</a> ons als je iets mist of een suggestie hebt"
-
-#: templates/index.html:63
-msgid ""
-"Any <a href=\"https://openstate.eu/contact\">questions</a>? We want to "
-"know your opinion"
-msgstr ""
-"Heb je <a href=\"https://openstate.eu/contact\">vragen</a>? We willen "
-"graag Weten wat je hier van vindt"
-
-#: templates/index.html:96
+#: templates/index.html:54
 msgid "Discover more scoops"
 msgstr "Ontdek meer verhalen"
+
+#: templates/inner_result.html:13
+msgid "Verify"
+msgstr "Verifieer"
 
 #: templates/inner_result.html:59
 msgid "Read more"
@@ -706,7 +628,36 @@ msgstr "Volgende"
 msgid "Unfortunately we were not able to find any documents matching your query."
 msgstr "Helaas vonden we geen artikelen die overeenkamen met je zoekopdracht."
 
-#: templates/search.html:13 templates/search.html:14
+#: templates/search.html:3
+msgid "Select your municipality"
+msgstr "Selecteer je gemeente"
+
+#: templates/search.html:8
+msgid "Municipality"
+msgstr "Gemeente"
+
+#: templates/search.html:22
+msgid "Province"
+msgstr "Provincie"
+
+#: templates/search.html:39
+msgid "Safety regio"
+msgstr "Veiligheidsregio"
+
+#: templates/search.html:50
+msgid "I accept the terms and conditions"
+msgstr "Ik accepteer doe condities"
+
+#: templates/search.html:58
+#, python-format
+msgid ""
+"Receive mail from %(municipality)s, as well as %(provincie)s and "
+"%(safetyregion)s"
+msgstr ""
+"Ontvang email van %(municipality)s, maar ook %(provincie)s en "
+"%(safetyregion)s"
+
+#: templates/search.html:78 templates/search.html:79
 msgid "Find articles, parties, locations..."
 msgstr "Vind artikelen, partijen, lokaties..."
 
@@ -782,3 +733,78 @@ msgstr "Iets ging mis. Probeer het later nog een keer."
 #: templates/unsubscribe.html:11
 msgid "You were succesfully unsubscribed."
 msgstr "Je abbonnement is succesvol opgezegd."
+
+#~ msgid "broadcasting station"
+#~ msgstr "verzend station"
+
+#~ msgid "find and <span>collect</span>"
+#~ msgstr "vind en <span>verzamel</span>"
+
+#~ msgid "european <span>local</span>"
+#~ msgstr "eurpoees <span>lokaal</span>"
+
+#~ msgid "political <span>news</span>"
+#~ msgstr "politiek <span>nieuws</span>"
+
+#~ msgid "Discover"
+#~ msgstr "Ontdek"
+
+#~ msgid "receiving city %(num)s"
+#~ msgstr "ontvangende stad %(num)s"
+
+#~ msgid "What can this do?"
+#~ msgstr "Wat kan ik hiermee?"
+
+#~ msgid "Find local news"
+#~ msgstr "Vind lokaal nieuws"
+
+#~ msgid "Choose your <a href=\"%(url)s\">language</a> for articles and topics"
+#~ msgstr "Kies je <a href=\"%(url)s\">taal</a> voor artikelen"
+
+#~ msgid ""
+#~ "Find local news across Europe. Setup "
+#~ "your <a href=\"%(url)s\">source country</a>"
+#~ msgstr ""
+#~ "Vind lokaal nieuws door heel Europa.Stel"
+#~ " je <a href=\"%(url)s\">bron landen</a> in"
+
+#~ msgid ""
+#~ "Collect the content of your selected "
+#~ "<a href=\"%(url)s\">articles and topics</a>"
+#~ msgstr ""
+#~ "Verzamel je geselecteerde <a "
+#~ "href=\"%(url)s\">artikelen en onderwerpen</a>"
+
+#~ msgid "Contribute"
+#~ msgstr "Doe mee"
+
+#~ msgid "Your opinion matters"
+#~ msgstr "Je mening is belangrijk"
+
+#~ msgid "Verify articles and help keep articles up to date"
+#~ msgstr "Verifieeer artikelen en help om ze up to date te houden"
+
+#~ msgid "Collect selected articles and topics"
+#~ msgstr "Verzamel geselecteerde artikelen en onderwerpen"
+
+#~ msgid "Collect local news"
+#~ msgstr "Verzamel lokaal nieuws"
+
+#~ msgid "Contact"
+#~ msgstr "Contact"
+
+#~ msgid ""
+#~ "<a href=\"%(url)s\">Help</a> us if we "
+#~ "missed something or if you have a"
+#~ " suggestion"
+#~ msgstr "<a href=\"%(url)s\">Help</a> ons als je iets mist of een suggestie hebt"
+
+#~ msgid ""
+#~ "Any <a "
+#~ "href=\"https://openstate.eu/contact\">questions</a>? We "
+#~ "want to know your opinion"
+#~ msgstr ""
+#~ "Heb je <a "
+#~ "href=\"https://openstate.eu/contact\">vragen</a>? We "
+#~ "willen graag Weten wat je hier van"
+#~ " vindt"
