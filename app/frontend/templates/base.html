@@ -30,7 +30,7 @@
     <meta name="google-site-verification" content="YvPuaR2sNzCGEcQQIWhoDkN0HE6yD8Z3c3A4yRW-erY" />
 
     <link rel="stylesheet" href="{{ url_for('static', filename='styles/font-awesome.min.css') }}" />
-    <link rel="stylesheet" href="{{ url_for('static', filename='dist/dist/styles/poliscoops.css') }}" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='dist/dist/styles/app.css') }}" />
   </head>
   <body>
     <!--[if lte IE 9]>
@@ -263,7 +263,7 @@
     <!-- SCRIPTS -->
 
     {% block scripts %}
-      <script src="{{ url_for('static', filename='dist/dist/dist/scripts/poliscoops.js') }}"></script>
+      <script src="{{ url_for('static', filename='dist/dist/dist/scripts/app.js') }}"></script>
     {% endblock %}
     <script>
     var $SCRIPT_ROOT = {{ request.script_root|tojson|safe }};

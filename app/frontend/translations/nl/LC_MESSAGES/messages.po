@@ -657,8 +657,8 @@ msgid ""
 "subscribe-show-safety-region\">%(safetyregion)s</span>"
 msgstr ""
 "Ontvang email van <span id=\"form-subscribe-show-"
-"municipality\">%(municipality)s</span> en ook van <span id=\\\"form-"
-"subscribe-show-province\\\">%(provincie)s</span> en <span id=\"form-"
+"municipality\">%(municipality)s</span> en ook van <span id=\"form-"
+"subscribe-show-province\">%(provincie)s</span> en <span id=\"form-"
 "subscribe-show-safety-region\">%(safetyregion)s</span>"
 
 #: templates/search.html:81 templates/search.html:82
