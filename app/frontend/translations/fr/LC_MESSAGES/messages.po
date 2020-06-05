@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-06-05 13:54+0000\n"
+"POT-Creation-Date: 2020-06-05 15:03+0000\n"
 "PO-Revision-Date: 2020-04-06 14:50+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: fr\n"
@@ -405,7 +405,7 @@ msgstr "Basculer la navigation"
 msgid "Menu"
 msgstr ""
 
-#: templates/base.html:51 templates/search.html:84
+#: templates/base.html:51 templates/search.html:87
 #: templates/search_results.html:21
 msgid "Search"
 msgstr "Chercher"
@@ -538,7 +538,7 @@ msgstr "Message"
 msgid "I agree to the terms and conditons."
 msgstr "J'accepte les termes et conditions."
 
-#: templates/feedback.en.html:32 templates/search.html:61
+#: templates/feedback.en.html:32 templates/search.html:64
 msgid "Submit"
 msgstr "Soumettre"
 
@@ -642,11 +642,11 @@ msgstr ""
 msgid "Municipality"
 msgstr ""
 
-#: templates/search.html:22
+#: templates/search.html:11 templates/search.html:22
 msgid "Province"
 msgstr ""
 
-#: templates/search.html:39
+#: templates/search.html:11 templates/search.html:39
 msgid "Safety regio"
 msgstr ""
 
@@ -657,11 +657,13 @@ msgstr ""
 #: templates/search.html:58
 #, python-format
 msgid ""
-"Receive mail from %(municipality)s, as well as %(provincie)s and "
-"%(safetyregion)s"
+"Receive mail from <span id=\"form-subscribe-show-"
+"municipality\">%(municipality)s</span>, as well as <span id=\\\"form-"
+"subscribe-show-province\\\">%(provincie)s</span> and <span id=\"form-"
+"subscribe-show-safety-region\">%(safetyregion)s</span>"
 msgstr ""
 
-#: templates/search.html:78 templates/search.html:79
+#: templates/search.html:81 templates/search.html:82
 msgid "Find articles, parties, locations..."
 msgstr "Trouver des articles, des parties, des lieux ..."
 
@@ -849,4 +851,9 @@ msgstr "Vous vous êtes bien désabonné."
 #~ "Des <a "
 #~ "href=\"https://openstate.eu/contact\">questions</a>? Nous "
 #~ "voulons connaître votre opinion"
+
+#~ msgid ""
+#~ "Receive mail from %(municipality)s, as "
+#~ "well as %(provincie)s and %(safetyregion)s"
+#~ msgstr ""
 
