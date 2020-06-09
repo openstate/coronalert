@@ -11,7 +11,16 @@
 {% endblock %}
 
 {% block search %}
-{% include 'search.html' %}
+<h1>Here be an advanced form</h1>
+{% endblock %}
+
+{% block additional_scripts %}
+<script>
+console.log('hi js from search include');
+
+var CurrentApp = window.CurrentApp || {};
+CurrentApp.places = {{ quick_facets_results.location.buckets |tojson }};
+</script>
 {% endblock %}
 
 {%block breadcrumb %}
@@ -24,96 +33,9 @@
 {%endblock%}
 
 {% block content %}
-<div class="modal fade" id="modal-filters" tabindex="-1" role="dialog" aria-labelledby="modal-filters" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title">{%trans%}Filters{%endtrans%}</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <h3>{%trans%}Period{%endtrans%}</h3>
-        <input type="text" name="daterange" class="form-control btn-category btn-block" value="
-        {% if search_params.date_from %}
-        {{ search_params.date_from |timestamp_to_str('%d-%m-%Y') }}
-        {% else %}
-        01-01-1980
-        {% endif %}
-         -
-        {% if search_params.date_to %}
-        {{ search_params.date_to |timestamp_to_str('%d-%m-%Y') }}
-        {% else %}
-        {{ dt_now.strftime('%d-%m-%Y') }}
-        {% endif %}
-        " />
-        {% for key, desc, is_displayed, is_filter, sub_attr in facets %}
-          {% if is_displayed and key in result_facets %}
-            {% if result_facets[key].buckets|length > 0 %}
-              {% if sub_attr %}
-                {% for obj_attr in sub_attr.keys() %}
-                  {% for sub_facet in sub_attr[obj_attr] %}
-                    {% for k,d,i,f,s in facets %}
-                      {% if k == sub_facet %}
-                      <h3>{{ d }}</h3>
-                      {% endif %}
-                    {% endfor %}
-                    {% for bucket in result_facets[key].buckets %}
-                      {% if bucket.object[obj_attr] == sub_facet %}
-                          {% include "inner_facet_button.html" %}
-                      {% endif %}
-                    {% endfor %}
-                  {% endfor %}
-                {% endfor %}
-              {% endif %}
-              {% if sub_attr %}
-                {% set obj_attr = sub_attr.keys()[0] %}
-              {% endif %}
-              <h3 id="facet-{{ key }}">{{ desc }}</h3>
-              {% for bucket in result_facets[key].buckets %}
-                  {% if loop.index == 11 %}
-                  <button class="btn btn-primary btn-category btn-block btn-large toggle-hide-after" type="button" data-toggle="collapse" data-target="#collapse-{{ key }}" aria-expanded="false" aria-controls="collapse-{{ key }}" style=" color: white !important;">
-                    {%trans%}Show more{%endtrans%}
-                  </button>
-                  <div class="collapse" id="collapse-{{ key }}">
-                  {% endif %}
-                  {% if sub_attr %}
-                    {% if bucket.object[obj_attr] not in sub_attr[obj_attr] %}
-                      {% include "inner_facet_button.html" %}
-                    {% endif %}
-                  {% else %}
-                    {% include "inner_facet_button.html" %}
-                  {% endif %}
-              {% endfor %}
-              </ul>
-              {% if result_facets[key].buckets|length > 10 %}
-                </div> <!-- collapse-{{ key }} -->
-              {% endif %}
-            {% endif %}
-          {% endif %}
-        {% endfor %}
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
-    </div>
-  </div>
-</div>
-
-{% set filter_bar_homepage = False %}
-{% set filter_bar_relevance_link = dict(sort='relevancy', hl=hl, rl=rl) |url_for_search_page(gov_slug) %}
-{% set filter_bar_recent_link = dict(sort='recency', hl=hl, rl=rl) |url_for_search_page(gov_slug) %}
-{% if sort_key == "recency" %}
-  {% set filter_bar_sort = "recent" %}
-{% else %}
-  {% set filter_bar_sort = "relevant" %}
-{% endif %}
-{% include "filter_bar.html" %}
 
 <section id="content-search-results">
-        {% include 'results_as_list.html' %}
+  <h1>Here be results</h1>
 </section>
 
 {% endblock %}

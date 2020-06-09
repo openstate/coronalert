@@ -33,6 +33,7 @@ CurrentApp.get_countries = function() {
 
 CurrentApp.init = function() {
   console.log('CurrentApp inited correctly!');
+  console.dir(CurrentApp.places);
 
   CurrentApp.get_countries();
 
