@@ -1021,8 +1021,62 @@ def order_facets(facets):
     return facets
 
 
+def _render_interface(interface_name):
+    layout = request.args.get('layout', 'base')
+    layout_file = "%s.html" % (layout,)
+    percolations = {p['name']: p['@id'] for p in api.percolations()['as:items']}
+    quick_facets_results = api.quick_facets()
+    locations = [urljoin(urljoin(AS2_NAMESPACE, 'Place/'), l) for l in  get_locations()]
+    search_params = {
+        'page': int(request.args.get('page', '1')),
+        'query': request.args.get('query', None)}
+
+    for facet, desc, is_displayed, is_filter, sub_attr in FACETS:
+        search_params[facet] = request.args.get(facet, None)
+    # if search_params['location'] is None:
+    #     search_params['location'] = locations
+
+    if search_params['tag'] is None:
+        search_params['tag'] = percolations.values()
+
+    sort_key = request.args.get('sort', 'relevancy')
+    if sort_key is not None:
+        try:
+            search_params.update(SORTING[sort_key])
+        except LookupError as e:
+            pass
+    results = api.search(**search_params)
+    try:
+        max_pages = int(math.floor(results['as:totalItems'] / PAGE_SIZE))
+        if (results['as:totalItems'] % PAGE_SIZE) > 0:
+            max_pages += 1
+    except LookupError:
+        max_pages = 0
+    interface_template = "%s.html" % (interface_name,)
+    return render_template(
+        interface_template, facets=FACETS, results=results,
+        result_facets=order_facets(get_facets_from_results(results)),
+        query=search_params['query'], page=search_params['page'],
+        max_pages=max_pages, search_params=search_params,
+        dt_now=datetime.datetime.now(), locations=locations,
+        sort_key=sort_key, layout_file=layout_file,
+        quick_facets_results=order_facets(
+            get_facets_from_results(quick_facets_results)))
+
+@app.route('/basic')
+def interface_basic():
+    return _render_interface('basic')
+
+
+@app.route('/advanced')
+def interface_advanced():
+    return _render_interface('advanced')
+
+
 @app.route("/search")
 def search():
+    layout = request.args.get('layout', 'base')
+    layout_file = "%s.html" % (layout,)
     percolations = {p['name']: p['@id'] for p in api.percolations()['as:items']}
     quick_facets_results = api.quick_facets()
     locations = [urljoin(urljoin(AS2_NAMESPACE, 'Place/'), l) for l in  get_locations()]
@@ -1057,7 +1111,7 @@ def search():
         query=search_params['query'], page=search_params['page'],
         max_pages=max_pages, search_params=search_params,
         dt_now=datetime.datetime.now(), locations=locations,
-        sort_key=sort_key,
+        sort_key=sort_key, layout_file=layout_file,
         quick_facets_results=order_facets(
             get_facets_from_results(quick_facets_results)))
 

@@ -1,0 +1,234 @@
+{% extends layout_file %}
+
+{% block lead %}
+{% endblock %}
+
+{% block og %}
+<meta property="og:title" content="{%trans query=query %}Recent political news about {{ query }}{%endtrans%}" />
+<meta property="og:type" content="article"/>
+<meta property="og:image" content="{{ url_for('static', filename='images/local-news-bg-2x.png', _external=True) }}" />
+<meta property="og:description" content="{%trans query=query %}Recent political news about {{ query }}{%endtrans%}" />
+{% endblock %}
+
+{% block search %}
+<form name="form-subscribe" id="form-subscribe">
+  <div class="form-row mt-4">
+    <div class="col mr-4 align-self-center">
+          <label for="exampleFormControlSelect1" class="">1. {%trans%}Select your municipality{%endtrans%}}</label>
+    </div>
+    <div class="col align-self-center">
+      <select id="form-subscribe-municipality" class="form-control" id="exampleFormControlSelect1">
+        {% for bucket in quick_facets_results.location.buckets|sort(attribute="object.nameMap.nl") %}
+          {% if not (bucket.object.nameMap[hl].startswith(_("Province")) or bucket.object.nameMap[hl].startswith(_("Safety regio"))) %}
+            <option value="{{ bucket.object["@id"] }}">{{ bucket.object.nameMap[hl] }}</option>
+          {% endif %}
+        {% endfor %}
+      </select>
+    </div>
+    <div class="col ml-4 align-self-center">
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+        <label class="form-check-label" for="defaultCheck1">
+          {%trans%}Include province{%endtrans%}
+        </label>
+      </div>
+    </div>
+  </div>
+
+  <!--
+  <div class="form-row mt-4">
+    <div class="col mr-4 align-self-center">
+      <label for="exampleFormControlInput1" class="">2. {%trans%}Specify a query{%endtrans%}</label>
+    </div>
+    <div class="col align-self-center">
+      <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="{%trans%}Street, park or activity{%endtrans%}...">
+    </div>
+    <div class="col ml-4 align-self-center">
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+        <label class="form-check-label" for="defaultCheck1">
+          {%trans%}Include safety region{%endtrans%}
+        </label>
+      </div>
+    </div>
+  </div>
+-->
+
+  <div class="form-row mt-4">
+    <div class="col mr-4 align-self-center">
+      <label for="exampleFormControlInput1" class="">2. {%trans%}Specify an email address{%endtrans%}</label>
+    </div>
+    <div class="col align-self-center">
+      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+    </div>
+    <div class="col ml-4 align-self-center">
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+        <label class="form-check-label" for="defaultCheck1">
+          {%trans%}Include safety region{%endtrans%}
+        </label>
+      </div>
+    </div>
+  </div>
+
+  <div class="form-row mt-4">
+    <div class="col align-self-center">
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+        <label class="form-check-label" for="defaultCheck1">
+          {%trans%}I accept the terms and conditions{%endtrans%}
+        </label>
+      </div>
+    </div>
+  </div>
+
+  <div class="form-row mt-4">
+    <div class="col-sm-10 form-subscribe-selected-options">
+      {%trans
+        municipality="Gemeente",
+        provincie="Provincie",
+        safetyregion="Veiligheidsregio" %}Receive mail from <span id="form-subscribe-show-municipality">{{ municipality }}</span>, as well as <span id=\"form-subscribe-show-province\">{{ provincie }}</span> and <span id="form-subscribe-show-safety-region">{{ safetyregion }}</span>{%endtrans%}
+    </div>
+    <div class="col">
+      <button type="submit" class="btn btn-primary">{%trans%}Submit{%endtrans%}</button>
+    </div>
+  </div>
+</form>
+{%endblock%}
+
+    <form action="{{ url_for('search') }}" method="get" class="form-inline w-100 form-search" id="form-search" name="form-search" role="search">
+      {% if hl %}
+      <input type="hidden" name="hl" value="{{ hl }}" />
+      {% endif %}
+      {% if rl %}
+      <input type="hidden" name="rl" value="{{ hl }}" />
+      {% endif %}
+        <div class="input-group w-100">
+              <input
+                id="form-search-query"
+                class="form-control py-2" type="search" value="{%if query %}{{ query }}{% endif %}"
+                name="query"
+                placeholder="{%trans%}Find articles, parties, locations...{%endtrans%}"
+                aria-label="{%trans%}Find articles, parties, locations...{%endtrans%}"
+                aria-required="true"
+              >
+              <span class="input-group-append">
+                <button class="btn btn-outline-secondary" type="button">
+                    <label for="form-search-query" class="sr-only">{%trans%}Search{%endtrans%}</label><i class="fa fa-search"></i>
+                </button>
+              </span>
+        </div>
+    </form>
+
+{% block additional_scripts %}
+<script>
+console.log('hi js from search include');
+
+var CurrentApp = window.CurrentApp || {};
+CurrentApp.places = {{ quick_facets_results.location.buckets |tojson }};
+</script>
+{% endblock %}
+
+{%block breadcrumb %}
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="/">{%trans%}Home{%endtrans%}</a></li>
+    <li class="breadcrumb-item active" aria-current="page">{%trans%}Check my hometown{%endtrans%}</li>
+  </ol>
+</nav>
+{%endblock%}
+
+{% block content %}
+<div class="modal fade" id="modal-filters" tabindex="-1" role="dialog" aria-labelledby="modal-filters" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">{%trans%}Filters{%endtrans%}</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <h3>{%trans%}Period{%endtrans%}</h3>
+        <input type="text" name="daterange" class="form-control btn-category btn-block" value="
+        {% if search_params.date_from %}
+        {{ search_params.date_from |timestamp_to_str('%d-%m-%Y') }}
+        {% else %}
+        01-01-1980
+        {% endif %}
+         -
+        {% if search_params.date_to %}
+        {{ search_params.date_to |timestamp_to_str('%d-%m-%Y') }}
+        {% else %}
+        {{ dt_now.strftime('%d-%m-%Y') }}
+        {% endif %}
+        " />
+        {% for key, desc, is_displayed, is_filter, sub_attr in facets %}
+          {% if is_displayed and key in result_facets %}
+            {% if result_facets[key].buckets|length > 0 %}
+              {% if sub_attr %}
+                {% for obj_attr in sub_attr.keys() %}
+                  {% for sub_facet in sub_attr[obj_attr] %}
+                    {% for k,d,i,f,s in facets %}
+                      {% if k == sub_facet %}
+                      <h3>{{ d }}</h3>
+                      {% endif %}
+                    {% endfor %}
+                    {% for bucket in result_facets[key].buckets %}
+                      {% if bucket.object[obj_attr] == sub_facet %}
+                          {% include "inner_facet_button.html" %}
+                      {% endif %}
+                    {% endfor %}
+                  {% endfor %}
+                {% endfor %}
+              {% endif %}
+              {% if sub_attr %}
+                {% set obj_attr = sub_attr.keys()[0] %}
+              {% endif %}
+              <h3 id="facet-{{ key }}">{{ desc }}</h3>
+              {% for bucket in result_facets[key].buckets %}
+                  {% if loop.index == 11 %}
+                  <button class="btn btn-primary btn-category btn-block btn-large toggle-hide-after" type="button" data-toggle="collapse" data-target="#collapse-{{ key }}" aria-expanded="false" aria-controls="collapse-{{ key }}" style=" color: white !important;">
+                    {%trans%}Show more{%endtrans%}
+                  </button>
+                  <div class="collapse" id="collapse-{{ key }}">
+                  {% endif %}
+                  {% if sub_attr %}
+                    {% if bucket.object[obj_attr] not in sub_attr[obj_attr] %}
+                      {% include "inner_facet_button.html" %}
+                    {% endif %}
+                  {% else %}
+                    {% include "inner_facet_button.html" %}
+                  {% endif %}
+              {% endfor %}
+              </ul>
+              {% if result_facets[key].buckets|length > 10 %}
+                </div> <!-- collapse-{{ key }} -->
+              {% endif %}
+            {% endif %}
+          {% endif %}
+        {% endfor %}
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% set filter_bar_homepage = False %}
+{% set filter_bar_relevance_link = dict(sort='relevancy', hl=hl, rl=rl) |url_for_search_page(gov_slug) %}
+{% set filter_bar_recent_link = dict(sort='recency', hl=hl, rl=rl) |url_for_search_page(gov_slug) %}
+{% if sort_key == "recency" %}
+  {% set filter_bar_sort = "recent" %}
+{% else %}
+  {% set filter_bar_sort = "relevant" %}
+{% endif %}
+{% include "filter_bar.html" %}
+
+<section id="content-search-results">
+        {% include 'results_as_list.html' %}
+</section>
+
+{% endblock %}
