@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-06-05 15:03+0000\n"
+"POT-Creation-Date: 2020-06-09 15:03+0000\n"
 "PO-Revision-Date: 2020-05-08 10:11+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: nl\n"
@@ -405,7 +405,7 @@ msgstr "Toon/verberg navigatie"
 msgid "Menu"
 msgstr "Menu"
 
-#: templates/base.html:51 templates/search.html:87
+#: templates/base.html:51 templates/search.html:90
 #: templates/search_results.html:21
 msgid "Search"
 msgstr "Zoek"
@@ -534,7 +534,7 @@ msgstr "Bericht"
 msgid "I agree to the terms and conditons."
 msgstr "Ik stem in met de condities"
 
-#: templates/feedback.en.html:32 templates/search.html:64
+#: templates/feedback.en.html:32 templates/search.html:67
 msgid "Submit"
 msgstr "Versturen"
 
@@ -570,7 +570,7 @@ msgstr "Ik ben een journalist of onderzoeker"
 msgid "Check my hometown"
 msgstr "Bekijk mijn gemeente"
 
-#: templates/index.html:54
+#: templates/index.html:51
 msgid "Discover more scoops"
 msgstr "Ontdek meer verhalen"
 
@@ -628,27 +628,43 @@ msgstr "Volgende"
 msgid "Unfortunately we were not able to find any documents matching your query."
 msgstr "Helaas vonden we geen artikelen die overeenkamen met je zoekopdracht."
 
-#: templates/search.html:3
+#: templates/search.html:4
 msgid "Select your municipality"
-msgstr "Selecteer je gemeente"
+msgstr "Je gemeente"
 
-#: templates/search.html:8
-msgid "Municipality"
-msgstr "Gemeente"
-
-#: templates/search.html:11 templates/search.html:22
+#: templates/search.html:9
 msgid "Province"
 msgstr "Provincie"
 
-#: templates/search.html:11 templates/search.html:39
+#: templates/search.html:9
 msgid "Safety regio"
 msgstr "Veiligheidsregio"
 
-#: templates/search.html:50
-msgid "I accept the terms and conditions"
-msgstr "Ik accepteer doe condities"
+#: templates/search.html:19
+msgid "Include province"
+msgstr "Ook van de provincie"
 
-#: templates/search.html:58
+#: templates/search.html:27
+msgid "Specify a query"
+msgstr "Zoekopdracht"
+
+#: templates/search.html:30
+msgid "Street, park or activity"
+msgstr "Straat, park of activiteit"
+
+#: templates/search.html:36
+msgid "Include safety region"
+msgstr "Ook van de veiligheidsregio"
+
+#: templates/search.html:44
+msgid "Specify an email address"
+msgstr "Email"
+
+#: templates/search.html:53
+msgid "I accept the terms and conditions"
+msgstr "Ik accepteer de condities"
+
+#: templates/search.html:61
 #, python-format
 msgid ""
 "Receive mail from <span id=\"form-subscribe-show-"
@@ -661,7 +677,7 @@ msgstr ""
 "subscribe-show-province\">%(provincie)s</span> en <span id=\"form-"
 "subscribe-show-safety-region\">%(safetyregion)s</span>"
 
-#: templates/search.html:81 templates/search.html:82
+#: templates/search.html:84 templates/search.html:85
 msgid "Find articles, parties, locations..."
 msgstr "Vind artikelen, partijen, lokaties..."
 
@@ -819,3 +835,6 @@ msgstr "Je abbonnement is succesvol opgezegd."
 #~ msgstr ""
 #~ "Ontvang email van %(municipality)s, maar "
 #~ "ook %(provincie)s en %(safetyregion)s"
+
+#~ msgid "Municipality"
+#~ msgstr "Gemeente"

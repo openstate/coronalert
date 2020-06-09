@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-06-05 15:03+0000\n"
+"POT-Creation-Date: 2020-06-09 15:03+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -404,7 +404,7 @@ msgstr ""
 msgid "Menu"
 msgstr ""
 
-#: templates/base.html:51 templates/search.html:87
+#: templates/base.html:51 templates/search.html:90
 #: templates/search_results.html:21
 msgid "Search"
 msgstr ""
@@ -527,7 +527,7 @@ msgstr ""
 msgid "I agree to the terms and conditons."
 msgstr ""
 
-#: templates/feedback.en.html:32 templates/search.html:64
+#: templates/feedback.en.html:32 templates/search.html:67
 msgid "Submit"
 msgstr ""
 
@@ -563,7 +563,7 @@ msgstr ""
 msgid "Check my hometown"
 msgstr ""
 
-#: templates/index.html:54
+#: templates/index.html:51
 msgid "Discover more scoops"
 msgstr ""
 
@@ -621,27 +621,43 @@ msgstr ""
 msgid "Unfortunately we were not able to find any documents matching your query."
 msgstr ""
 
-#: templates/search.html:3
+#: templates/search.html:4
 msgid "Select your municipality"
 msgstr ""
 
-#: templates/search.html:8
-msgid "Municipality"
-msgstr ""
-
-#: templates/search.html:11 templates/search.html:22
+#: templates/search.html:9
 msgid "Province"
 msgstr ""
 
-#: templates/search.html:11 templates/search.html:39
+#: templates/search.html:9
 msgid "Safety regio"
 msgstr ""
 
-#: templates/search.html:50
+#: templates/search.html:19
+msgid "Include province"
+msgstr ""
+
+#: templates/search.html:27
+msgid "Specify a query"
+msgstr ""
+
+#: templates/search.html:30
+msgid "Street, park or activity"
+msgstr ""
+
+#: templates/search.html:36
+msgid "Include safety region"
+msgstr ""
+
+#: templates/search.html:44
+msgid "Specify an email address"
+msgstr ""
+
+#: templates/search.html:53
 msgid "I accept the terms and conditions"
 msgstr ""
 
-#: templates/search.html:58
+#: templates/search.html:61
 #, python-format
 msgid ""
 "Receive mail from <span id=\"form-subscribe-show-"
@@ -650,7 +666,7 @@ msgid ""
 "subscribe-show-safety-region\">%(safetyregion)s</span>"
 msgstr ""
 
-#: templates/search.html:81 templates/search.html:82
+#: templates/search.html:84 templates/search.html:85
 msgid "Find articles, parties, locations..."
 msgstr ""
 
