@@ -37,6 +37,16 @@
       <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
 
+    <script>
+    var CurrentApp = window.CurrentApp || {};
+    CurrentApp.countries = {
+        raw: undefined,
+        id2name: {},
+        name2id: {}
+    };
+    CurrentApp.places = [];
+    </script>
+
     <header>
       <nav class="navbar navbar-expand-xxl navbar-light container" style="background-color: #ffffff;" role="navigation">
         <a class="navbar-brand" href="/"><img src="{{ url_for('static', filename='dist/images/logo-desktop.svg') }}" alt="{%trans%}Poliscoops{%endtrans%}" style="width: 200px;" /></a>
