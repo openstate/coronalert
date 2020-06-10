@@ -422,6 +422,47 @@ def list_sources():
     return jsonify(format_sources_results(es_r))
 
 
+@bp.route('/query', methods=['POST', 'GET'])
+@bp.route('/query/<doc_type>', methods=['POST', 'GET'])
+@decode_json_post_data
+def search_query(doc_type=u'item'):
+    es_q = request.data or request.args
+
+    if doc_type != settings.DOC_TYPE_DEFAULT:
+        request_doc_type = doc_type
+    else:
+        request_doc_type = None
+
+    print >>sys.stderr, es_q
+    es_r = current_app.es.search(body=es_q,
+                                 index=current_app.config['COMBINED_INDEX'],
+                                 doc_type=request_doc_type)
+    scroll = es_q.get('scroll', None)
+    scroll_id = es_q.get('scroll_id', None)
+    expansions = es_q.get('expansions', None)
+    if expansions is None:
+        expansions = 3
+    else:
+        del es_q['expansions']
+    if scroll is not None:
+        del es_q['scroll']
+        if scroll_id is None:
+            es_r = current_app.es.search(
+                body=es_q,
+                index=current_app.config['COMBINED_INDEX'],
+                doc_type=request_doc_type, scroll=scroll)
+            scroll_id = es_r['_scroll_id']
+        else:
+            del es_q['scroll_id']
+        es_r = current_app.es._es.scroll(scroll=scroll, scroll_id=scroll_id)
+    else:
+        es_r = current_app.es.search(
+            body=es_q,
+            index=current_app.config['COMBINED_INDEX'],
+            doc_type=request_doc_type)
+
+    return jsonify(format_search_results(es_r, doc_type, expansions))
+
 @bp.route('/search', methods=['POST', 'GET'])
 @bp.route('/search/<doc_type>', methods=['POST', 'GET'])
 @decode_json_post_data
