@@ -682,7 +682,7 @@ class BackendAPI(object):
                     "interval": "month"  # for now ...
                 },
                 "location": {
-                    "size": 10
+                    "size": kwargs.get('facets', {}).get('location', {}).get('size', 10)
                 },
                 "sources": {},
                 "actor": {},
