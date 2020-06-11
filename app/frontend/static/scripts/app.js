@@ -46,9 +46,27 @@ CurrentApp.generate_es_query = function(clause) {
           ]}}
         ]
       }
-    },
-    "size": 0
+    }
   }
+};
+
+CurrentApp.generate_full_eq_query = function(queries) {
+  var result = {};
+  if (queries.length >1) {
+    result = {
+      "query": {
+        "bool": {
+          "should": queries.map(function (q) { return q['query']; }),
+          "minimum_should_match": 1
+        }
+      }
+    };
+
+  } else {
+    result = queries[0];
+  }
+  result['size'] = 10;
+  return result;
 };
 
 CurrentApp.init = function() {
@@ -96,11 +114,15 @@ CurrentApp.init = function() {
     console.log(selected_place);
     $('#form-subscribe-show-municipality').text(selected_place.object.nameMap.nl);
     $('#form-subscribe-show-province').text(selected_place.object.tag[0].nameMap.nl);
-    $('#form-subscribe-show-safety-region').text(selected_place.object.tag[1].nameMap.nl);
+    if (selected_place.object.tag.length > 1) {
+      $('#form-subscribe-show-safety-region').text(selected_place.object.tag[1].nameMap.nl);
+    }
 
     $('#search-results-types-municipality').attr('href', selected_place.object['@id']);
     $('#search-results-types-province').attr('href', selected_place.object.tag[0]['@id']);
-    $('#search-results-types-safety-region').attr('href', selected_place.object.tag[1]['@id']);
+    if (selected_place.object.tag.length > 1) {
+      $('#search-results-types-safety-region').attr('href', selected_place.object.tag[1]['@id']);
+    }
 
     $('#search-results-types-all').click();
   });
@@ -128,6 +150,17 @@ CurrentApp.init = function() {
     });
     console.log('clauses:');
     console.dir(clauses);
+    var full_query = CurrentApp.generate_full_eq_query(clauses);
+    console.log('full query:');
+    console.dir(full_query);
+    $.ajax({
+      type: 'POST',
+      url: '/query',
+      data: JSON.stringify(full_query), // or JSON.stringify ({name: 'jonas'}),
+      success: function(data) { console.log('got data!'); $('#content-search-results').html(data); },
+      contentType: "application/json",
+      dataType: 'html'
+    });
     return false;
   });
 
