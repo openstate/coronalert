@@ -133,6 +133,7 @@ console.dir({{ quick_facets_results.location.buckets |tojson }});
 var CurrentApp = window.CurrentApp || {};
 CurrentApp.places = {{ quick_facets_results.location.buckets |tojson }};
 CurrentApp.actor_types = {{ actor_types |tojson }};
+CurrentApp.percolations = {{ percolations |tojson }};
 window.CurrentApp = CurrentApp;
 </script>
 {% endblock %}

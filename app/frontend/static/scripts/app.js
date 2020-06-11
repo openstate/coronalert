@@ -31,6 +31,26 @@ CurrentApp.get_countries = function() {
   });
 };
 
+CurrentApp.generate_es_query = function(clause) {
+  return {
+    "query": {
+      "bool": {
+        "filter": [
+          {"terms": {"_type": ["Note"]}},
+          {"terms": {"item.tag.raw": clause.percolations}},
+          {"terms":{"item.location.raw": [
+            clause.location
+          ]}},
+          {"terms":{"item.attributedTo.raw": [
+            clause.attributedTo
+          ]}}
+        ]
+      }
+    },
+    "size": 0
+  }
+};
+
 CurrentApp.init = function() {
   console.log('CurrentApp inited correctly!');
   console.dir(CurrentApp.places);
@@ -95,11 +115,16 @@ CurrentApp.init = function() {
     console.log('should do the following actor types:');
     console.log(actor_types);
     var clauses = [];
+    var percolations = [];
+    for (var p in CurrentApp.percolations) {
+      percolations.push(CurrentApp.percolations[p]);
+    }
     actor_types.forEach(function (a) {
-      clauses.push({
+      clauses.push(CurrentApp.generate_es_query({
         'location': $('#search-results-types-'+a).attr('href'),
-        'attributedTo': CurrentApp.actor_types[$('#search-results-types-'+a).attr('title')]
-      });
+        'attributedTo': CurrentApp.actor_types[$('#search-results-types-'+a).attr('title')],
+        'percolations': percolations
+      }));
     });
     console.log('clauses:');
     console.dir(clauses);

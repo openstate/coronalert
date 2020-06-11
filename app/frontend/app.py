@@ -1149,9 +1149,11 @@ def _render_interface(interface_name):
         get_facets_from_results(quick_facets_results))
     interface_template = "%s.html" % (interface_name,)
     actor_types = {b['object']['name']: b['object']['@id'] for b in processed_quick_facets_results['actor']['buckets']}
+    percolations = {p['name']: p['@id'] for p in api.percolations()['as:items']}
     return render_template(
         interface_template, layout_file=layout_file,
-        quick_facets_results=processed_quick_facets_results, actor_types=actor_types)
+        quick_facets_results=processed_quick_facets_results,
+        actor_types=actor_types, percolations=percolations)
 
 @app.route('/basic')
 def interface_basic():
@@ -1205,6 +1207,7 @@ def perform_query():
         max_pages=max_pages, search_params=search_params,
         dt_now=datetime.datetime.now(), locations=locations,
         sort_key=sort_key, layout_file=layout_file,
+        percolations=percolations,
         quick_facets_results=order_facets(
             get_facets_from_results(quick_facets_results)))
 
