@@ -99,22 +99,22 @@
     <div class="col facets-quick mt-4">
       <ul class="nav nav-pills" id="search-results-types">
         <li class="nav-item">
-          <a class="nav-link w-100 align-items-center ml-4" id="search-results-types-municipality" data-actor-types="municipality" href="#" title="{%trans%}Municipality{%endtrans%}" role="button">
+          <a class="nav-link w-100 align-items-center ml-4" id="search-results-types-municipality" data-location="" data-actor-types="municipality" href="#" title="{%trans%}Municipality{%endtrans%}" role="button">
             {%trans%}Municipality{%endtrans%}
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link w-100 align-items-center ml-4" id="search-results-types-province" data-actor-types="province" href="#" title="{%trans%}Province{%endtrans%}" role="button">
+          <a class="nav-link w-100 align-items-center ml-4" id="search-results-types-province" data-location="" data-actor-types="province" href="#" title="{%trans%}Province{%endtrans%}" role="button">
             {%trans%}Province{%endtrans%}
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link w-100 align-items-center ml-4" id="search-results-types-safety-region"  data-actor-types="safety-region" href="#" title="{%trans%}Safety Region{%endtrans%}" role="button">
+          <a class="nav-link w-100 align-items-center ml-4" id="search-results-types-safety-region" data-location="" data-actor-types="safety-region" href="#" title="{%trans%}Safety Region{%endtrans%}" role="button">
             {%trans%}Safety Region{%endtrans%}
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active w-100  align-items-center ml-4" id="search-results-types-all" data-actor-types="municipality,province,safety-region" href="#" title="{%trans%}All{%endtrans%}" role="button">
+          <a class="nav-link active w-100  align-items-center ml-4" id="search-results-types-all" data-location="" data-actor-types="municipality,province,safety-region" href="#" title="{%trans%}All{%endtrans%}" role="button">
             {%trans%}All{%endtrans%}
           </a>
         </li>
@@ -127,7 +127,7 @@
 {% block additional_scripts %}
 <script>
 console.log('hi js from basic search include');
-console.dir({{ quick_facets_results.location.buckets |tojson }});
+// console.dir({{ quick_facets_results.location.buckets |tojson }});
 var CurrentApp = window.CurrentApp || {};
 CurrentApp.places = {{ quick_facets_results.location.buckets |tojson }};
 CurrentApp.actor_types = {{ actor_types |tojson }};

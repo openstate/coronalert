@@ -71,7 +71,7 @@ CurrentApp.generate_full_eq_query = function(queries) {
 
 CurrentApp.init = function() {
   console.log('CurrentApp inited correctly!');
-  console.dir(CurrentApp.places);
+  // console.dir(CurrentApp.places);
 
   CurrentApp.get_countries();
 
@@ -87,7 +87,7 @@ CurrentApp.init = function() {
 
   $('.form-countries .form-check').keydown(function (e) {
     console.log('countrie checkbox thingie keydown!');
-    console.dir(e);
+    // console.dir(e);
     if (e.originalEvent.key == "x") {
       console.log('x pressed!');
       $(e.target.firstElementChild).click();
@@ -112,16 +112,31 @@ CurrentApp.init = function() {
       return i['object']['@id'] == selected_place_id;
     })[0];
     console.log(selected_place);
+
+    var pidx = 0;
+    var vidx = 1;
+    if (!selected_place.object.tag[0].nameMap.nl.startsWith($('#search-results-types-province').attr('title')+' ')) {
+      pidx = 1;
+      vidx = 0;
+    }
+
     $('#form-subscribe-show-municipality').text(selected_place.object.nameMap.nl);
-    $('#form-subscribe-show-province').text(selected_place.object.tag[0].nameMap.nl);
+    $('#form-subscribe-show-province').text(selected_place.object.tag[pidx].nameMap.nl);
     if (selected_place.object.tag.length > 1) {
-      $('#form-subscribe-show-safety-region').text(selected_place.object.tag[1].nameMap.nl);
+      $('#form-subscribe-show-safety-region').text(selected_place.object.tag[vidx].nameMap.nl);
+    }
+
+    $('#search-results-types-municipality').attr('data-location', selected_place.object.nameMap.nl);
+
+    $('#search-results-types-province').attr('data-location', selected_place.object.tag[pidx].nameMap.nl);
+    if (selected_place.object.tag.length > 1) {
+      $('#search-results-types-safety-region').attr('data-location', selected_place.object.tag[vidx].nameMap.nl);
     }
 
     $('#search-results-types-municipality').attr('href', selected_place.object['@id']);
-    $('#search-results-types-province').attr('href', selected_place.object.tag[0]['@id']);
+    $('#search-results-types-province').attr('href', selected_place.object.tag[pidx]['@id']);
     if (selected_place.object.tag.length > 1) {
-      $('#search-results-types-safety-region').attr('href', selected_place.object.tag[1]['@id']);
+      $('#search-results-types-safety-region').attr('href', selected_place.object.tag[vidx]['@id']);
     }
 
     $('#search-results-types-all').click();
@@ -149,7 +164,7 @@ CurrentApp.init = function() {
       }));
     });
     console.log('clauses:');
-    console.dir(clauses);
+    // console.dir(clauses);
     var full_query = CurrentApp.generate_full_eq_query(clauses);
     console.log('full query:');
     console.dir(full_query);
