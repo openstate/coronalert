@@ -77,6 +77,11 @@ CurrentApp.init = function() {
     $('#form-subscribe-show-municipality').text(selected_place.object.nameMap.nl);
     $('#form-subscribe-show-province').text(selected_place.object.tag[0].nameMap.nl);
     $('#form-subscribe-show-safety-region').text(selected_place.object.tag[1].nameMap.nl);
+
+    $('#search-results-types-municipality').attr('href', selected_place.object['@id']);
+    $('#search-results-types-province').attr('href', selected_place.object.tag[0]['@id']);
+    $('#search-results-types-safety-region').attr('href', selected_place.object.tag[1]['@id']);
+
   });
   $('#form-subscribe-municipality').change();
 
