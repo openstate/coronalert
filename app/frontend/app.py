@@ -695,6 +695,60 @@ class BackendAPI(object):
         return requests.get('%s/sources' % (self.URL,), headers=self.HEADERS).json()
 
     def query(self, es_query):
+        default_aggs = {
+            "date": {
+                'date_histogram': {
+                    'field': 'item.created',
+                    "order": {"_key": "asc"},
+                    "interval": "month"  # for now ...
+                }
+            },
+            "location": {
+                'terms': {
+                    'field': 'item.location.raw',
+                    "size": 10
+                }
+            },
+            "sources": {
+                'terms': {
+                    'field': 'item.generator.raw',
+                    "size": 10
+                }
+            },
+            "actor": {
+                'terms': {
+                    'field': 'item.attributedTo.raw',
+                    "size": 10
+                }
+            },
+            "type": {
+                'terms': {
+                    'field': 'item.@type.raw',
+                    "size": 10
+                }
+            },
+            "generator": {
+                'terms': {
+                    'field': 'item.generator.raw',
+                    "size": 10
+                }
+            },
+            "tag": {
+                'terms': {
+                    'field': 'item.tag.raw',
+                    "size": 10
+                }
+            },
+            "language": {
+                'terms': {
+                    'field': 'item.@language.raw',
+                    "size": 10
+                }
+            },
+        }
+
+        if "aggs" not in es_query:
+            es_query['aggs'] = default_aggs
         plain_result = requests.post(
             '%s/query' % (self.URL,),
             headers=self.HEADERS,
