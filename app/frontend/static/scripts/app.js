@@ -82,16 +82,22 @@ CurrentApp.init = function() {
     $('#search-results-types-province').attr('href', selected_place.object.tag[0]['@id']);
     $('#search-results-types-safety-region').attr('href', selected_place.object.tag[1]['@id']);
 
+    $('#search-results-types-all').click();
   });
-  $('#form-subscribe-municipality').change();
 
   // search resuts types functionality
   $('#search-results-types li a').on('click', function (e) {
+    console.log('clicked!');
     $('#search-results-types li a').removeClass('active');
     $(this).addClass('active');
     e.preventDefault();
+    var actor_types = $(this).attr('data-actor-types').split(',');
+    console.log('should do the following actor types:');
+    console.log(actor_types);
     return false;
-  })
+  });
+
+  $('#form-subscribe-municipality').change();
 };
 
 $(function() {
