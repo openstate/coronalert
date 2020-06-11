@@ -79,6 +79,14 @@ CurrentApp.init = function() {
     $('#form-subscribe-show-safety-region').text(selected_place.object.tag[1].nameMap.nl);
   });
   $('#form-subscribe-municipality').change();
+
+  // search resuts types functionality
+  $('#search-results-types li a').on('click', function (e) {
+    $('#search-results-types li a').removeClass('active');
+    $(this).addClass('active');
+    e.preventDefault();
+    return false;
+  })
 };
 
 $(function() {
