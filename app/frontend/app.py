@@ -15,6 +15,7 @@ import os
 from copy import deepcopy
 from operator import itemgetter, attrgetter
 from collections import OrderedDict
+from functools import wraps
 
 from html5lib.filters.base import Filter
 
@@ -195,6 +196,52 @@ SORTING = {
 }
 
 app.config['JSONIFY_PRETTYPRINT_REGULAR'] = True
+
+
+class CurrentAppError(Exception):
+    """API error class.
+
+    :param msg: the message that should be returned to the API user.
+    :param status_code: the HTTP status code of the response
+    """
+
+    def __init__(self, msg, status_code):
+        self.msg = msg
+        self.status_code = status_code
+
+    def __str__(self):
+        return repr(self.msg)
+
+    @staticmethod
+    def serialize_error(e):
+        return jsonify(dict(status='error', error=e.msg)), e.status_code
+
+
+def decode_json_post_data(fn):
+    """Decorator that parses POSTed JSON and attaches it to the request
+    object (:obj:`request.data`)."""
+
+    @wraps(fn)
+    def wrapped_function(*args, **kwargs):
+        if request.method == 'POST':
+            data = request.get_data(cache=False)
+            if not data:
+                raise CurrentAppError('No data was POSTed', 400)
+
+            try:
+                request_charset = request.mimetype_params.get('charset')
+                if request_charset is not None:
+                    data = json.loads(data, encoding=request_charset)
+                else:
+                    data = json.loads(data)
+            except:
+                raise CurrentAppError('Unable to parse POSTed JSON', 400)
+
+            request.data = data
+
+        return fn(*args, **kwargs)
+
+    return wrapped_function
 
 
 def is_cookie_set(cookie_name):
@@ -647,6 +694,25 @@ class BackendAPI(object):
     def sources(self):
         return requests.get('%s/sources' % (self.URL,), headers=self.HEADERS).json()
 
+    def query(self, es_query):
+        plain_result = requests.post(
+            '%s/query' % (self.URL,),
+            headers=self.HEADERS,
+            data=json.dumps(es_query))
+        try:
+            result = plain_result.json()
+            # print >>sys.stderr, plain_result.content
+        except Exception as e:
+            print >>sys.stderr, "ERROR (%s): %s" % (e.__class__, e)
+            result = {
+                'hits': {
+                    'hits': [],
+                    'total': 0
+                }
+            }
+        result['query'] = es_query
+        return result
+
     def search(self, *args, **kwargs):
         results = self.bare_search(*args, **kwargs)
         print >>sys.stderr, "Got %s results bare search" % (
@@ -1039,6 +1105,13 @@ def interface_basic():
 @app.route('/advanced')
 def interface_advanced():
     return _render_interface('advanced')
+
+
+@app.route("/query", methods=['POST', 'GET'])
+@decode_json_post_data
+def perform_query():
+    es_q = request.data or request.args
+    return jsonify(api.query(es_q))
 
 
 @app.route("/search")
