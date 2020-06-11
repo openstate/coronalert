@@ -1145,11 +1145,13 @@ def _render_interface(interface_name):
     layout = request.args.get('layout', 'base')
     layout_file = "%s.html" % (layout,)
     quick_facets_results = api.quick_facets()
+    processed_quick_facets_results = order_facets(
+        get_facets_from_results(quick_facets_results))
     interface_template = "%s.html" % (interface_name,)
+    actor_types = {b['object']['name']: b['object']['@id'] for b in processed_quick_facets_results['actor']['buckets']}
     return render_template(
         interface_template, layout_file=layout_file,
-        quick_facets_results=order_facets(
-            get_facets_from_results(quick_facets_results)))
+        quick_facets_results=processed_quick_facets_results, actor_types=actor_types)
 
 @app.route('/basic')
 def interface_basic():
