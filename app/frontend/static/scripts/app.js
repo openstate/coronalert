@@ -94,6 +94,15 @@ CurrentApp.init = function() {
     var actor_types = $(this).attr('data-actor-types').split(',');
     console.log('should do the following actor types:');
     console.log(actor_types);
+    var clauses = [];
+    actor_types.forEach(function (a) {
+      clauses.push({
+        'location': $('#search-results-types-'+a).attr('href'),
+        'attributedTo': CurrentApp.actor_types[$('#search-results-types-'+a).attr('title')]
+      });
+    });
+    console.log('clauses:');
+    console.dir(clauses);
     return false;
   });
 
