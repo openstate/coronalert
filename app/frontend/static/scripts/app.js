@@ -144,6 +144,7 @@ CurrentApp.init = function() {
 
   // search resuts types functionality
   $('#search-results-types li a').on('click', function (e) {
+    $('#content-search-results').html('<div class="spinner-border" role="status"><span class="sr-only">Loading...</span></div>');
     console.log('clicked!');
     $('#search-results-types li a').removeClass('active');
     $(this).addClass('active');
