@@ -9,6 +9,7 @@ from ocd_backend.extractors import HttpRequestMixin
 from ocd_backend.utils import json_encoder
 from ocd_backend.utils.azure import AzureTranslationMixin
 from ocd_backend.utils.misc import html_cleanup
+from ocd_backend.utils.voc import VocabularyMixin
 
 from ocd_ml.interestingness import featurize, class_labels
 
@@ -284,11 +285,9 @@ class AS2TranslationEnricher(BaseEnricher, AzureTranslationMixin, HttpRequestMix
         return enrichments
 
 
-class BinoasEnricher(BaseEnricher, HttpRequestMixin):
+class BinoasEnricher(BaseEnricher, HttpRequestMixin, VocabularyMixin):
     def enrich_item(self, enrichments, object_id, combined_index_doc, doc):
-        if settings.BINOAS_BASE_URL is None:
-            log.info('Binoas not configured, so skipping')
-            return enrichments
+        # log.info('Enrichments data: %s', enrichments)
 
         for item in combined_index_doc.get('item', {}).get('items', []):
             if item.get('@type', 'Note') not in settings.BINOAS_AS2_TYPES:
@@ -301,6 +300,14 @@ class BinoasEnricher(BaseEnricher, HttpRequestMixin):
                 log.info(
                     'Document has no date information, not enriching for binoas')
                 return enrichments
+
+            topics = combined_index_doc.get('percolations', {}).get(item.get('@id', ''), [])
+            for topic in topics:
+                log.info('Getting link obj for %s' % (topic,))
+                topic_obj = self.get_percolation(topic)
+                log.info(topic_obj['@id'])
+                item['tag'].append(topic_obj['@id'])
+
             # log.info('created: %s' % (item['created'],))
             amsterdam_tz = pytz.timezone(settings.BINOAS_TZ)
             current_dt = datetime.datetime.now(tz=amsterdam_tz)
@@ -317,6 +324,9 @@ class BinoasEnricher(BaseEnricher, HttpRequestMixin):
                     item['created'].isoformat()))
                 delay = current_dt - adjusted_dt
 
+            # if len(item.get('tag', [])) > 0:
+            #     log.info('sending to binoas: ' + str(item))
+
             #log.info('Delay: %s (%s vs %s)' % (delay, current_dt, adjusted_dt))
             if delay.total_seconds() > settings.BINOAS_ALLOWED_DELAY:
                 log.info('Document delayed for %s so we have seen it before' % (
@@ -329,7 +339,11 @@ class BinoasEnricher(BaseEnricher, HttpRequestMixin):
 
             r = {}
             resp = None
-            #log.info('sending to binoas: ' + str(item))
+
+            if settings.BINOAS_BASE_URL is None:
+                log.info('Binoas not configured, so skipping')
+                return enrichments
+
             try:
                 resp = self.http_session.post(
                     url, data=json_encoder.encode({
