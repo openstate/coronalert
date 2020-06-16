@@ -4,11 +4,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -29,11 +29,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -54,11 +54,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -79,11 +79,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -104,11 +104,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -129,11 +129,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -154,11 +154,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -179,11 +179,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -204,11 +204,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -229,11 +229,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -254,11 +254,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -279,11 +279,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -304,11 +304,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -329,11 +329,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -354,11 +354,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -379,11 +379,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -404,11 +404,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -429,11 +429,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -454,11 +454,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -479,11 +479,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -504,11 +504,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -529,11 +529,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -554,11 +554,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -579,11 +579,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -604,11 +604,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -629,11 +629,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -654,11 +654,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -679,11 +679,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -704,11 +704,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -729,11 +729,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -754,11 +754,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -779,11 +779,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -804,11 +804,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -829,11 +829,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -854,11 +854,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -879,11 +879,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -904,11 +904,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -929,11 +929,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -954,11 +954,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -979,11 +979,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -1004,11 +1004,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -1029,11 +1029,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -1054,11 +1054,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -1079,11 +1079,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -1104,11 +1104,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -1129,11 +1129,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -1154,11 +1154,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -1179,11 +1179,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -1204,11 +1204,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -1229,11 +1229,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -1254,11 +1254,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -1279,11 +1279,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -1304,11 +1304,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -1329,11 +1329,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -1354,11 +1354,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -1379,11 +1379,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -1404,11 +1404,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -1429,11 +1429,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -1454,11 +1454,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -1479,11 +1479,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -1504,11 +1504,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -1529,11 +1529,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -1554,11 +1554,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -1579,11 +1579,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -1604,11 +1604,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -1629,11 +1629,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -1654,11 +1654,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -1679,11 +1679,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -1704,11 +1704,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -1729,11 +1729,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -1754,11 +1754,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -1779,11 +1779,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -1804,11 +1804,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -1829,11 +1829,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -1854,11 +1854,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -1879,11 +1879,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -1904,11 +1904,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -1929,11 +1929,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -1954,11 +1954,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -1979,11 +1979,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -2004,11 +2004,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -2029,11 +2029,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -2054,11 +2054,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -2079,11 +2079,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -2104,11 +2104,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -2129,11 +2129,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -2154,11 +2154,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -2179,11 +2179,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -2204,11 +2204,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -2229,11 +2229,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -2254,11 +2254,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -2279,11 +2279,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -2304,11 +2304,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -2329,11 +2329,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -2354,11 +2354,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -2379,11 +2379,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -2404,11 +2404,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -2429,11 +2429,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -2454,11 +2454,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -2479,11 +2479,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -2504,11 +2504,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -2529,11 +2529,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -2554,11 +2554,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -2579,11 +2579,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -2604,11 +2604,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -2629,11 +2629,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -2654,11 +2654,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -2679,11 +2679,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -2704,11 +2704,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -2729,11 +2729,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -2754,11 +2754,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -2779,11 +2779,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -2804,11 +2804,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -2829,11 +2829,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -2854,11 +2854,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -2879,11 +2879,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -2904,11 +2904,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -2929,11 +2929,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -2954,11 +2954,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -2979,11 +2979,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -3004,11 +3004,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -3029,11 +3029,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -3054,11 +3054,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -3079,11 +3079,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -3104,11 +3104,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -3129,11 +3129,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -3154,11 +3154,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -3179,11 +3179,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -3204,11 +3204,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -3229,11 +3229,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -3254,11 +3254,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -3279,11 +3279,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -3304,11 +3304,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -3329,11 +3329,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -3354,11 +3354,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -3379,11 +3379,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -3404,11 +3404,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -3429,11 +3429,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -3454,11 +3454,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -3479,11 +3479,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -3504,11 +3504,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -3529,11 +3529,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -3554,11 +3554,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -3579,11 +3579,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -3604,11 +3604,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -3629,11 +3629,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -3654,11 +3654,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -3679,11 +3679,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -3704,11 +3704,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -3729,11 +3729,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -3754,11 +3754,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -3779,11 +3779,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -3804,11 +3804,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -3829,11 +3829,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -3854,11 +3854,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -3879,11 +3879,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -3904,11 +3904,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -3929,11 +3929,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -3954,11 +3954,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -3979,11 +3979,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -4004,11 +4004,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -4029,11 +4029,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -4054,11 +4054,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -4079,11 +4079,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -4104,11 +4104,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -4129,11 +4129,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -4154,11 +4154,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -4179,11 +4179,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -4204,11 +4204,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -4229,11 +4229,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -4254,11 +4254,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -4279,11 +4279,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -4304,11 +4304,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -4329,11 +4329,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -4354,11 +4354,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -4379,11 +4379,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -4404,11 +4404,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -4429,11 +4429,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -4454,11 +4454,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -4479,11 +4479,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -4504,11 +4504,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -4529,11 +4529,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -4554,11 +4554,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -4579,11 +4579,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
@@ -4604,11 +4604,11 @@
     "keep_index_on_update": true,
     "enrichers": [
       [
-        "ocd_backend.enrichers.BinoasEnricher",
+        "ocd_backend.enrichers.PercolatorEnricher",
         {}
       ],
       [
-        "ocd_backend.enrichers.PercolatorEnricher",
+        "ocd_backend.enrichers.BinoasEnricher",
         {}
       ]
     ],
