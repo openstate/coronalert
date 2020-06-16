@@ -1,0 +1,156 @@
+{% extends layout_file %}
+
+{% block lead %}
+{% endblock %}
+
+{% block og %}
+<meta property="og:title" content="{%trans query=query %}Recent political news about {{ query }}{%endtrans%}" />
+<meta property="og:type" content="article"/>
+<meta property="og:image" content="{{ url_for('static', filename='images/local-news-bg-2x.png', _external=True) }}" />
+<meta property="og:description" content="{%trans query=query %}Recent political news about {{ query }}{%endtrans%}" />
+{% endblock %}
+
+{% block search %}
+<form name="form-subscribe" id="form-subscribe">
+  <div class="form-row mt-4">
+    <div class="col mr-4 align-self-center">
+          <label for="exampleFormControlSelect1" class="">1. {%trans%}Select your municipality{%endtrans%}}</label>
+    </div>
+    <div class="col align-self-center">
+      <select id="form-subscribe-municipality" class="form-control" id="exampleFormControlSelect1">
+        {% for bucket in quick_facets_results.location.buckets|sort(attribute="object.nameMap.nl") %}
+          {% if not (bucket.object.nameMap[hl].startswith(_("Province")) or bucket.object.nameMap[hl].startswith(_("Safety regio"))) %}
+            <option value="{{ bucket.object["@id"] }}">{{ bucket.object.nameMap[hl] }}</option>
+          {% endif %}
+        {% endfor %}
+      </select>
+    </div>
+    <div class="col ml-4 align-self-center">
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+        <label class="form-check-label" for="defaultCheck1">
+          {%trans%}Include province{%endtrans%}
+        </label>
+      </div>
+    </div>
+  </div>
+
+  <!--
+  <div class="form-row mt-4">
+    <div class="col mr-4 align-self-center">
+      <label for="exampleFormControlInput1" class="">2. {%trans%}Specify a query{%endtrans%}</label>
+    </div>
+    <div class="col align-self-center">
+      <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="{%trans%}Street, park or activity{%endtrans%}...">
+    </div>
+    <div class="col ml-4 align-self-center">
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+        <label class="form-check-label" for="defaultCheck1">
+          {%trans%}Include safety region{%endtrans%}
+        </label>
+      </div>
+    </div>
+  </div>
+-->
+
+  <div class="form-row mt-4">
+    <div class="col mr-4 align-self-center">
+      <label for="exampleFormControlInput1" class="">2. {%trans%}Specify an email address{%endtrans%}</label>
+    </div>
+    <div class="col align-self-center">
+      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+    </div>
+    <div class="col ml-4 align-self-center">
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+        <label class="form-check-label" for="defaultCheck1">
+          {%trans%}Include safety region{%endtrans%}
+        </label>
+      </div>
+    </div>
+  </div>
+
+  <div class="form-row mt-4">
+    <div class="col align-self-center">
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+        <label class="form-check-label" for="defaultCheck1">
+          {%trans%}I accept the terms and conditions{%endtrans%}
+        </label>
+      </div>
+    </div>
+  </div>
+
+  <div class="form-row mt-4">
+    <div class="col-sm-10 form-subscribe-selected-options">
+      {%trans
+        municipality="Gemeente",
+        provincie="Provincie",
+        safetyregion="Veiligheidsregio" %}Receive mail from <span id="form-subscribe-show-municipality">{{ municipality }}</span>, as well as <span id=\"form-subscribe-show-province\">{{ provincie }}</span> and <span id="form-subscribe-show-safety-region">{{ safetyregion }}</span>{%endtrans%}
+    </div>
+    <div class="col">
+      <button type="submit" class="btn btn-primary">{%trans%}Submit{%endtrans%}</button>
+    </div>
+  </div>
+</form>
+
+  <div class="row">
+    <div class="col facets-quick mt-4">
+      <ul class="nav nav-pills" id="search-results-types">
+        <li class="nav-item">
+          <a class="nav-link w-100 align-items-center ml-4" id="search-results-types-municipality" data-location="" data-actor-types="municipality" href="#" title="{%trans%}Municipality{%endtrans%}" role="button">
+            {%trans%}Municipality{%endtrans%}
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link w-100 align-items-center ml-4" id="search-results-types-province" data-location="" data-actor-types="province" href="#" title="{%trans%}Province{%endtrans%}" role="button">
+            {%trans%}Province{%endtrans%}
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link w-100 align-items-center ml-4" id="search-results-types-safety-region" data-location="" data-actor-types="safety-region" href="#" title="{%trans%}Safety Region{%endtrans%}" role="button">
+            {%trans%}Safety Region{%endtrans%}
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active w-100  align-items-center ml-4" id="search-results-types-all" data-location="" data-actor-types="municipality,province,safety-region" href="#" title="{%trans%}All{%endtrans%}" role="button">
+            {%trans%}All{%endtrans%}
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+{%endblock%}
+
+{% block additional_scripts %}
+<script>
+console.log('hi js from basic search include');
+// console.dir({{ quick_facets_results.location.buckets |tojson }});
+var CurrentApp = window.CurrentApp || {};
+CurrentApp.places = {{ quick_facets_results.location.buckets |tojson }};
+CurrentApp.actor_types = {{ actor_types |tojson }};
+CurrentApp.percolations = {{ percolations |tojson }};
+window.CurrentApp = CurrentApp;
+</script>
+{% endblock %}
+
+{%block breadcrumb %}
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="/">{%trans%}Home{%endtrans%}</a></li>
+    <li class="breadcrumb-item active" aria-current="page">{%trans%}Check my hometown{%endtrans%}</li>
+  </ol>
+</nav>
+{%endblock%}
+
+{% block content %}
+
+<section id="content-search-results">
+  <div class="spinner-border" role="status">
+    <span class="sr-only">{%trans%}Loading{%endtrans%}...</span>
+  </div>
+</section>
+
+{% endblock %}

@@ -1,0 +1,41 @@
+{% extends layout_file %}
+
+{% block lead %}
+{% endblock %}
+
+{% block og %}
+<meta property="og:title" content="{%trans query=query %}Recent political news about {{ query }}{%endtrans%}" />
+<meta property="og:type" content="article"/>
+<meta property="og:image" content="{{ url_for('static', filename='images/local-news-bg-2x.png', _external=True) }}" />
+<meta property="og:description" content="{%trans query=query %}Recent political news about {{ query }}{%endtrans%}" />
+{% endblock %}
+
+{% block search %}
+<h1>Here be an advanced form</h1>
+{% endblock %}
+
+{% block additional_scripts %}
+<script>
+console.log('hi js from search include');
+
+var CurrentApp = window.CurrentApp || {};
+CurrentApp.places = {{ quick_facets_results.location.buckets |tojson }};
+</script>
+{% endblock %}
+
+{%block breadcrumb %}
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="/">{%trans%}Home{%endtrans%}</a></li>
+    <li class="breadcrumb-item active" aria-current="page">{%trans%}I am a journalist or researcher{%endtrans%}</li>
+  </ol>
+</nav>
+{%endblock%}
+
+{% block content %}
+
+<section id="content-search-results">
+  <h1>Here be results</h1>
+</section>
+
+{% endblock %}

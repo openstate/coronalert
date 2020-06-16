@@ -30,12 +30,24 @@
     <meta name="google-site-verification" content="YvPuaR2sNzCGEcQQIWhoDkN0HE6yD8Z3c3A4yRW-erY" />
 
     <link rel="stylesheet" href="{{ url_for('static', filename='styles/font-awesome.min.css') }}" />
-    <link rel="stylesheet" href="{{ url_for('static', filename='dist/dist/styles/poliscoops.css') }}" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='dist/dist/styles/app.css') }}" />
   </head>
   <body>
     <!--[if lte IE 9]>
       <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
+
+    <script>
+    var CurrentApp = window.CurrentApp || {};
+    CurrentApp.countries = {
+        raw: undefined,
+        id2name: {},
+        name2id: {}
+    };
+    CurrentApp.places = [];
+    CurrentApp.actor_types = [];
+    CurrentApp.percolations = {};
+    </script>
 
     <header>
       <nav class="navbar navbar-expand-xxl navbar-light container" style="background-color: #ffffff;" role="navigation">
@@ -72,9 +84,9 @@
   </header>
 
   <main>
-  {% block search %}
-  {% endblock %}
     <div class="container" role="main">
+      {% block search %}
+      {% endblock %}
       <div class="row">
         <div class="col-xs-12">
           {% block breadcrumb %}
@@ -263,11 +275,14 @@
     <!-- SCRIPTS -->
 
     {% block scripts %}
-      <script src="{{ url_for('static', filename='dist/dist/dist/scripts/poliscoops.js') }}"></script>
+      <script src="{{ url_for('static', filename='dist/dist/dist/scripts/app.js') }}"></script>
     {% endblock %}
     <script>
     var $SCRIPT_ROOT = {{ request.script_root|tojson|safe }};
     </script>
+
+    {% block additional_scripts %}
+    {% endblock %}
 
     <!-- Matomo -->
     <script type="text/javascript">

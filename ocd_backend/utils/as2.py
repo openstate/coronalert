@@ -2,6 +2,7 @@ from copy import deepcopy
 import datetime
 import sys
 from urlparse import urljoin
+import re
 
 from elasticsearch.helpers import BulkIndexError
 
@@ -31,13 +32,19 @@ class AS2ConverterMixin(object):
         language = actual_combined_index_data.get('language', 'nl')
         loc_as_str = actual_combined_index_data.get('location', u'NL')
         locations = []
-        for loc in loc_as_str.split(","):
+        locs = [l.strip() for l in loc_as_str.split(",")]
+        for loc in locs:
+            if not re.match('(Provincie|Veiligheidsregio)', loc):
+                loc_tags = [self.get_identifier('Place', l) for l in locs if l != loc]
+            else:
+                loc_tags = []
             location = {
-                "@id": self.get_identifier('Place', loc.strip()),
+                "@id": self.get_identifier('Place', loc),
                 "@type": "Place",
                 "nameMap": {
-                    language: loc.strip()
-                }
+                    language: loc
+                },
+                "tag": loc_tags
             }
             locations.append(location)
         generator_name = actual_combined_index_data.get('source', 'PoliScoops')

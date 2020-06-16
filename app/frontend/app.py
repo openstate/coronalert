@@ -15,6 +15,7 @@ import os
 from copy import deepcopy
 from operator import itemgetter, attrgetter
 from collections import OrderedDict
+from functools import wraps
 
 from html5lib.filters.base import Filter
 
@@ -195,6 +196,52 @@ SORTING = {
 }
 
 app.config['JSONIFY_PRETTYPRINT_REGULAR'] = True
+
+
+class CurrentAppError(Exception):
+    """API error class.
+
+    :param msg: the message that should be returned to the API user.
+    :param status_code: the HTTP status code of the response
+    """
+
+    def __init__(self, msg, status_code):
+        self.msg = msg
+        self.status_code = status_code
+
+    def __str__(self):
+        return repr(self.msg)
+
+    @staticmethod
+    def serialize_error(e):
+        return jsonify(dict(status='error', error=e.msg)), e.status_code
+
+
+def decode_json_post_data(fn):
+    """Decorator that parses POSTed JSON and attaches it to the request
+    object (:obj:`request.data`)."""
+
+    @wraps(fn)
+    def wrapped_function(*args, **kwargs):
+        if request.method == 'POST':
+            data = request.get_data(cache=False)
+            if not data:
+                raise CurrentAppError('No data was POSTed', 400)
+
+            try:
+                request_charset = request.mimetype_params.get('charset')
+                if request_charset is not None:
+                    data = json.loads(data, encoding=request_charset)
+                else:
+                    data = json.loads(data)
+            except:
+                raise CurrentAppError('Unable to parse POSTed JSON', 400)
+
+            request.data = data
+
+        return fn(*args, **kwargs)
+
+    return wrapped_function
 
 
 def is_cookie_set(cookie_name):
@@ -647,6 +694,79 @@ class BackendAPI(object):
     def sources(self):
         return requests.get('%s/sources' % (self.URL,), headers=self.HEADERS).json()
 
+    def query(self, es_query):
+        default_aggs = {
+            "date": {
+                'date_histogram': {
+                    'field': 'item.created',
+                    "order": {"_key": "asc"},
+                    "interval": "month"  # for now ...
+                }
+            },
+            "location": {
+                'terms': {
+                    'field': 'item.location.raw',
+                    "size": 10
+                }
+            },
+            "sources": {
+                'terms': {
+                    'field': 'item.generator.raw',
+                    "size": 10
+                }
+            },
+            "actor": {
+                'terms': {
+                    'field': 'item.attributedTo.raw',
+                    "size": 10
+                }
+            },
+            "type": {
+                'terms': {
+                    'field': 'item.@type.raw',
+                    "size": 10
+                }
+            },
+            "generator": {
+                'terms': {
+                    'field': 'item.generator.raw',
+                    "size": 10
+                }
+            },
+            "tag": {
+                'terms': {
+                    'field': 'item.tag.raw',
+                    "size": 10
+                }
+            },
+            "language": {
+                'terms': {
+                    'field': 'item.@language.raw',
+                    "size": 10
+                }
+            },
+        }
+
+        if "aggs" not in es_query:
+            es_query['aggs'] = default_aggs
+        plain_result = requests.post(
+            '%s/query' % (self.URL,),
+            headers=self.HEADERS,
+            data=json.dumps(es_query))
+        try:
+            result = plain_result.json()
+            # print >>sys.stderr, plain_result.content
+        except Exception as e:
+            print >>sys.stderr, "ERROR (%s): %s" % (e.__class__, e)
+            result = {
+                'hits': {
+                    'hits': [],
+                    'total': 0
+                }
+            }
+        result['query'] = es_query
+        return result
+
     def search(self, *args, **kwargs):
         results = self.bare_search(*args, **kwargs)
         print >>sys.stderr, "Got %s results bare search" % (
@@ -682,7 +802,7 @@ class BackendAPI(object):
                     "interval": "month"  # for now ...
                 },
                 "location": {
-                    "size": 10
+                    "size": kwargs.get('facets', {}).get('location', {}).get('size', 10)
                 },
                 "sources": {},
                 "actor": {},
@@ -774,7 +894,35 @@ class BackendAPI(object):
         return result
 
     def quick_facets(self, **args):
-        kwargs = {"size": 0, "page": 1}
+        kwargs = {
+            "facets": {
+                "date": {
+                    "order": {"_key": "asc"},
+                    "interval": "month"  # for now ...
+                },
+                "location": {
+                    "size": 10000
+                },
+                "sources": {},
+                "actor": {},
+                "type": {},
+                "generator": {},
+                "tag": {
+                    "size": 10
+                },
+                "language": {},
+                # "politicians": {"size": 100},
+                # "parties": {"size": 10000},
+                # "collection": {"size": 10000},
+                # "topics": {"size": 100},
+                # "polarity": {},
+                # "subjectivity": {},
+                # "interestingness": {}
+            },
+            "size": 0,
+            "page": 1,
+            "expansions": 3
+        }
         kwargs.update(args)
         return self.bare_search(**kwargs)
 
@@ -993,8 +1141,83 @@ def order_facets(facets):
     return facets
 
 
+def _render_interface(interface_name):
+    layout = request.args.get('layout', 'base')
+    layout_file = "%s.html" % (layout,)
+    quick_facets_results = api.quick_facets()
+    processed_quick_facets_results = order_facets(
+        get_facets_from_results(quick_facets_results))
+    interface_template = "%s.html" % (interface_name,)
+    actor_types = {b['object']['name']: b['object']['@id'] for b in processed_quick_facets_results['actor']['buckets']}
+    percolations = {p['name']: p['@id'] for p in api.percolations()['as:items']}
+    return render_template(
+        interface_template, layout_file=layout_file,
+        quick_facets_results=processed_quick_facets_results,
+        actor_types=actor_types, percolations=percolations)
+
+@app.route('/basic')
+def interface_basic():
+    return _render_interface('basic')
+
+
+@app.route('/advanced')
+def interface_advanced():
+    return _render_interface('advanced')
+
+
+@app.route("/query", methods=['POST', 'GET'])
+@decode_json_post_data
+def perform_query():
+    es_q = request.data
+    layout = request.args.get('layout', 'bare')
+    layout_file = "%s.html" % (layout,)
+    percolations = {p['name']: p['@id'] for p in api.percolations()['as:items']}
+    quick_facets_results = api.quick_facets()
+    locations = [urljoin(urljoin(AS2_NAMESPACE, 'Place/'), l) for l in  get_locations()]
+    search_params = {
+        'page': int(request.args.get('page', '1')),
+        'query': request.args.get('query', None)}
+
+    for facet, desc, is_displayed, is_filter, sub_attr in FACETS:
+        search_params[facet] = request.args.get(facet, None)
+    # if search_params['location'] is None:
+    #     search_params['location'] = locations
+
+    if search_params['tag'] is None:
+        search_params['tag'] = percolations.values()
+
+    sort_key = request.args.get('sort', 'relevancy')
+    if sort_key is not None:
+        try:
+            search_params.update(SORTING[sort_key])
+        except LookupError as e:
+            pass
+    results = api.query(es_q)
+    #results = api.search(**search_params)
+    try:
+        max_pages = int(math.floor(results['as:totalItems'] / PAGE_SIZE))
+        if (results['as:totalItems'] % PAGE_SIZE) > 0:
+            max_pages += 1
+    except LookupError:
+        max_pages = 0
+    return render_template(
+        'search_results.html', facets=FACETS, results=results,
+        result_facets=order_facets(get_facets_from_results(results)),
+        query=search_params['query'], page=search_params['page'],
+        max_pages=max_pages, search_params=search_params,
+        dt_now=datetime.datetime.now(), locations=locations,
+        sort_key=sort_key, layout_file=layout_file,
+        percolations=percolations,
+        quick_facets_results=order_facets(
+            get_facets_from_results(quick_facets_results)))
+
+#    return jsonify(api.query(es_q))
+
+
 @app.route("/search")
 def search():
+    layout = request.args.get('layout', 'base')
+    layout_file = "%s.html" % (layout,)
     percolations = {p['name']: p['@id'] for p in api.percolations()['as:items']}
     quick_facets_results = api.quick_facets()
     locations = [urljoin(urljoin(AS2_NAMESPACE, 'Place/'), l) for l in  get_locations()]
@@ -1029,7 +1252,7 @@ def search():
         query=search_params['query'], page=search_params['page'],
         max_pages=max_pages, search_params=search_params,
         dt_now=datetime.datetime.now(), locations=locations,
-        sort_key=sort_key,
+        sort_key=sort_key, layout_file=layout_file,
         quick_facets_results=order_facets(
             get_facets_from_results(quick_facets_results)))
 
