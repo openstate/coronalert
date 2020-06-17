@@ -11,13 +11,13 @@
 {% endblock %}
 
 {% block search %}
-<form name="form-subscribe" id="form-subscribe">
+<form action="{{ url_for('email_subscribe') }}" method="post" name="form-subscribe" id="form-subscribe">
   <div class="form-row mt-4">
     <div class="col mr-4 align-self-center">
-          <label for="exampleFormControlSelect1" class="">1. {%trans%}Select your municipality{%endtrans%}}</label>
+          <label for="formSubscribeMunicipality" class="">1. {%trans%}Select your municipality{%endtrans%}}</label>
     </div>
     <div class="col align-self-center">
-      <select id="form-subscribe-municipality" class="form-control" id="exampleFormControlSelect1">
+      <select id="form-subscribe-municipality" class="form-control" id="formSubscribeMunicipality" name="municipality">
         {% for bucket in quick_facets_results.location.buckets|sort(attribute="object.nameMap.nl") %}
           {% if not (bucket.object.nameMap[hl].startswith(_("Province")) or bucket.object.nameMap[hl].startswith(_("Safety regio"))) %}
             <option value="{{ bucket.object["@id"] }}">{{ bucket.object.nameMap[hl] }}</option>
@@ -27,8 +27,8 @@
     </div>
     <div class="col ml-4 align-self-center">
       <div class="form-check">
-        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-        <label class="form-check-label" for="defaultCheck1">
+        <input class="form-check-input" type="checkbox" value="" id="formSubscribeIncludeProvince" name="province">
+        <label class="form-check-label" for="formSubscribeIncludeProvince">
           {%trans%}Include province{%endtrans%}
         </label>
       </div>
@@ -56,15 +56,15 @@
 
   <div class="form-row mt-4">
     <div class="col mr-4 align-self-center">
-      <label for="exampleFormControlInput1" class="">2. {%trans%}Specify an email address{%endtrans%}</label>
+      <label for="formSubscribeQuery" class="">2. {%trans%}Specify an email address{%endtrans%}</label>
     </div>
     <div class="col align-self-center">
-      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+      <input type="email" class="form-control" id="formSubscribeQuery" name="query" placeholder="name@example.com">
     </div>
     <div class="col ml-4 align-self-center">
       <div class="form-check">
-        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-        <label class="form-check-label" for="defaultCheck1">
+        <input class="form-check-input" type="checkbox" value="" name="safety-region" id="formSubscribeIncludeSafetyRegion">
+        <label class="form-check-label" for="formSubscribeIncludeSafetyRegion">
           {%trans%}Include safety region{%endtrans%}
         </label>
       </div>
@@ -74,8 +74,8 @@
   <div class="form-row mt-4">
     <div class="col align-self-center">
       <div class="form-check">
-        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-        <label class="form-check-label" for="defaultCheck1">
+        <input class="form-check-input" type="checkbox" value="1" id="formSubscribAccept">
+        <label class="form-check-label" for="formSubscribAccept">
           {%trans%}I accept the terms and conditions{%endtrans%}
         </label>
       </div>

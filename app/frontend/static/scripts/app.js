@@ -139,6 +139,9 @@ CurrentApp.init = function() {
       $('#search-results-types-safety-region').attr('href', selected_place.object.tag[vidx]['@id']);
     }
 
+    $('#formSubscribeIncludeProvince').attr('value', selected_place.object.tag[pidx]['@id']);
+    $('#formSubscribeIncludeSafetyRegion').attr('value', selected_place.object.tag[vidx]['@id']);
+
     $('#search-results-types-all').click();
   });
 

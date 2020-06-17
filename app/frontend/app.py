@@ -36,6 +36,8 @@ from redis import StrictRedis
 from lxml import etree
 import pytz
 
+from .utils import BinoasElasticsearchRequestFactory
+
 # locale.setlocale(locale.LC_TIME, "nl_NL")
 
 app = Flask(__name__)
@@ -1333,68 +1335,31 @@ def put_topic(article_id):
 
 @app.route("/_email_subscribe", methods=['POST'])
 def email_subscribe():
-    # See https://github.com/openstate/poliflw/blob/master/app/frontend/static/scripts/app.js#L60
-    # actor is not registered in bones, hence use "tag"
-    possible_filters = {
-        'location': lambda x: {'terms': {'data.value.raw': [y for y in x.split(',') if not y.endswith('Place/')]}},
-        'actor': lambda x: {'term': {'data.value.raw': x if x.startswith(AS2_NAMESPACE) else x.lower()}}}  # country filter for location?
-    param2filter = {'location': 'location', 'actor': 'tag'}
-    active_filters = []
-    for f in possible_filters:
-        if request.form.get(f, None) is None:
-            continue
-        # filters as nested queries do not work for some reason ...
-        active_filters.append({
-            "nested": {
-                "path": "data",
-                "query": {
-                    "bool": {
-                        "must": [
-                            {"term": {"data.key": param2filter[f]}},
-                            possible_filters[f](request.form[f])
-                        ]
-                    }
-                }
-            }
-        })
-
-
-    # todo rl may be restricted to the original language...
-    # we should be able to put a notification on it ...
     hl,rl = get_languages()
-    #search_fields = ['title', 'description', 'data.value']
-    search_fields = ['nameMap.%s' % (rl,), 'contentMap.%s' % (rl,)]
+    percolations = {p['name']: p['@id'] for p in api.percolations()['as:items']}
+    quick_facets_results = api.quick_facets()
+    processed_quick_facets_results = order_facets(
+        get_facets_from_results(quick_facets_results))
+    actor_types = {b['object']['name']: b['object']['@id'] for b in processed_quick_facets_results['actor']['buckets']}
 
-    search_query = {
-        "nested": {
-            "path": "data",
-            "query": {
-                "bool": {
-                    "must": [
-                        {"terms":{"data.key":search_fields}},
-                        {"simple_query_string":{
-                            "fields": ["data.value"],
-                            "query": request.form.get('query', None),
-                            "default_operator": "and"
-                        }}
-                    ]
-                }
-            }
-        }
+    tag_and_locations = []
+    for fld in ['municipality', 'province', 'safety-region']:
+        val = request.form.get(fld, None)
+        if val is not None:
+            tag_and_locations.append({
+                'tag': actor_types[lazy_gettext(fld.title().replace('-', ' '))],
+                'location': val
+            })
+    options = {
+        'query': request.form.get('query', None),
+        'rl': rl,
+        'percolations': percolations.values()
     }
 
-    query = {
-        "query": {
-            "bool": {
-                "must": [search_query]
-            }
-        }
-    }
+    if len(tag_and_locations) > 0:
+        options['tag_location_pairs'] = tag_and_locations
 
-
-
-    if len(active_filters) > 0:
-        query['query']['bool']['must'] += active_filters
+    bq = BinoasElasticsearchRequestFactory(**options)
 
     frequency = request.form.get('interval', '1h')
     if frequency.strip() == '':
@@ -1405,13 +1370,14 @@ def email_subscribe():
         'email': request.form.get('email', None),
         'frequency': frequency,
         'description': request.form.get('query', None),
-        'query': query
+        'query': bq.build()
     }
-    # return jsonify(json.dumps(request_data))
-    result = requests.post(
-        'http://binoas.openstate.eu/subscriptions/new',
-        data=json.dumps(request_data)).json()
-    return render_template('subscribe.html', result=result)
+
+    return jsonify(request_data)
+    # result = requests.post(
+    #     'http://binoas.openstate.eu/subscriptions/new',
+    #     data=json.dumps(request_data)).json()
+    # return render_template('subscribe.html', result=result)
 
 
 @app.route("/unsubscribe", methods=['GET'])
