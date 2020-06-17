@@ -1345,6 +1345,7 @@ def email_subscribe():
     tag_and_locations = []
     for fld in ['municipality', 'province', 'safety-region']:
         val = request.form.get(fld, None)
+        typ = request.form.get('%s-actor-type' % (fld,), None)
         if val is not None:
             tag_and_locations.append({
                 'tag': actor_types[lazy_gettext(fld.title().replace('-', ' '))],

@@ -142,6 +142,23 @@ CurrentApp.init = function() {
     $('#formSubscribeIncludeProvince').attr('value', selected_place.object.tag[pidx]['@id']);
     $('#formSubscribeIncludeSafetyRegion').attr('value', selected_place.object.tag[vidx]['@id']);
 
+    var fields_to_names = {
+      'municipality': selected_place.object.nameMap.nl,
+      'province': selected_place.object.tag[pidx].nameMap.nl,
+      'safety-region': selected_place.object.tag[vidx].nameMap.nl
+    }
+
+    for (var f in fields_to_names) {
+      var parse = fields_to_names[f].split(' ');
+      var result = CurrentApp.actor_types_keys[0];
+      for (var t in CurrentApp.actor_types_keys) {
+        if (parse[0] == CurrentApp.actor_types_keys[t]) {
+          result = CurrentApp.actor_types_keys[t];
+        }
+      }
+      $('#form-subscribe-' + f + '-actor-type').attr("value", CurrentApp.actor_types[result]).attr('title', result);
+    }
+
     $('#search-results-types-all').click();
   });
 
