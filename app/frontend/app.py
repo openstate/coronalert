@@ -1362,7 +1362,7 @@ def email_subscribe():
 
     bq = BinoasElasticsearchRequestFactory(**options)
 
-    frequency = request.form.get('interval', '1h')
+    frequency = request.form.get('interval', '')
     if frequency.strip() == '':
         frequency = None
 
