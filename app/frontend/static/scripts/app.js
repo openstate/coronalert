@@ -157,6 +157,7 @@ CurrentApp.init = function() {
         }
       }
       $('#form-subscribe-' + f + '-actor-type').attr("value", CurrentApp.actor_types[result]).attr('title', result);
+      $('#form-subscribe-' + f + '-name').attr("value", fields_to_names[f]);
     }
 
     $('#search-results-types-all').click();

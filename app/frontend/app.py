@@ -1366,11 +1366,18 @@ def email_subscribe():
     if frequency.strip() == '':
         frequency = None
 
+    description = ''
+    if options['query'] is not None:
+        description = '%s in %s' % (
+            options['query'], request.form.get('municipality-name', None),)
+    else:
+        description = request.form.get('municipality-name', None)
+
     request_data = {
         'application': 'poliscoops',
         'email': request.form.get('email', None),
         'frequency': frequency,
-        'description': request.form.get('query', None),
+        'description': description,
         'query': bq.build()
     }
 
