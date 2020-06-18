@@ -127,6 +127,14 @@ CurrentApp.init = function() {
       selected_objects['municipality'] = CurrentApp.places.filter(function (i) {
         return i['object']['@id'] == sid;
       })[0];
+      for (var t in selected_objects['municipality'].object.tag) {
+        var ct = selected_objects['municipality'].object.tag[t];
+        if (ct.nameMap.nl.startsWith($('#search-results-types-province').attr('title')+' ')) {
+          selected_objects['province'] = ct;
+        } else {
+          selected_objects['safety-region'] = ct;
+        }
+      }
     } else {
       for (var s in selected_objects) {
         var sid = $('#form-subscribe-'+s).val();
