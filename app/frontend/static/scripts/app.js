@@ -145,13 +145,6 @@ CurrentApp.init = function() {
     }
     console.log('selected objects:');
     console.dir(selected_objects);
-    // TODO: figureout how to do automatic selection
-    var pidx = 0;
-    var vidx = 1;
-    if (!selected_place.object.tag[0].nameMap.nl.startsWith($('#search-results-types-province').attr('title')+' ')) {
-      pidx = 1;
-      vidx = 0;
-    }
 
     for(var s in selected_objects) {
       var current_selected_object = selected_objects[s];
@@ -161,12 +154,29 @@ CurrentApp.init = function() {
         }
         $('#form-subscribe-show-' + s).text(current_selected_object.nameMap.nl);
 
-        $('#search-results-types-'+s).attr('data-location', current_selected_object.nameMap.nl);
+        var name_parts = current_selected_object.nameMap.nl.split(' ');
+        var actor_type_index = CurrentApp.actor_types_keys.indexOf(name_parts[0]);
+        if (actor_type_index < 0) {
+          actor_type_index = 0;
+        }
+        var actor_type_label = CurrentApp.actor_types_keys[actor_type_index];
+        if (CurrentApp.mode == 'advanced') {
+          actor_type_label = current_selected_object.nameMap.nl;
+        }
+        $('#search-results-types-'+s).attr(
+          'data-location', current_selected_object.nameMap.nl
+        ).text(
+          actor_type_label
+        );
         $('#search-results-types-'+s).attr('href', current_selected_object['@id']);
+        $('#form-subscribe-' + s + '-actor-type').attr("value", CurrentApp.actor_types[actor_type_label]).attr('title', actor_type_label);
+        $('#form-subscribe-' + s + '-name').attr("value", current_selected_object.nameMap.nl);
       } else {
         $('#form-subscribe-show-' + s).text('');
         $('#search-results-types-'+s).attr('data-location', '');
         $('#search-results-types-'+s).attr('href', '');
+        $('#form-subscribe-' + s + '-actor-type').attr("value", "").attr('title', "");
+        $('#form-subscribe-' + s + '-name').attr("value", "");
       }
 
     }
@@ -181,24 +191,6 @@ CurrentApp.init = function() {
       $('#formSubscribeIncludeSafetyRegion').attr('value', selected_objects['safety-region']['@id']);
     } else {
       $('#formSubscribeIncludeSafetyRegion').attr('value', '');
-    }
-
-    var fields_to_names = {
-      'municipality': selected_place.object.nameMap.nl,
-      'province': selected_place.object.tag[pidx].nameMap.nl,
-      'safety-region': selected_place.object.tag[vidx].nameMap.nl
-    }
-
-    for (var f in fields_to_names) {
-      var parse = fields_to_names[f].split(' ');
-      var result = CurrentApp.actor_types_keys[0];
-      for (var t in CurrentApp.actor_types_keys) {
-        if (parse[0] == CurrentApp.actor_types_keys[t]) {
-          result = CurrentApp.actor_types_keys[t];
-        }
-      }
-      $('#form-subscribe-' + f + '-actor-type').attr("value", CurrentApp.actor_types[result]).attr('title', result);
-      $('#form-subscribe-' + f + '-name').attr("value", fields_to_names[f]);
     }
 
     $('#search-results-types-all').click();
