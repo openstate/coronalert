@@ -105,6 +105,16 @@ CurrentApp.init = function() {
     });
   });
 
+  $('#formSubscribeQuery').on('blur', function(e) {
+    console.log('query blur: should update results below now!');
+  }).on('keyup', function (e) {
+      clearTimeout(CurrentApp.queryTimer);
+      CurrentApp.queryTimer = setTimeout(function() {
+        console.log('query keyup delay: should update results below now for ' + $('#formSubscribeQuery').val());
+      }, CurrentApp.queryDelay); // Will do the ajax stuff after 1000 ms, or 1 s
+  });
+
+
   $('.form-subscribe-select-location').on('change', function (e) {
     console.log('search mode: ' + CurrentApp.mode);
     var selected_objects = {
