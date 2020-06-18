@@ -153,10 +153,16 @@ CurrentApp.init = function() {
       vidx = 0;
     }
 
-    $('#form-subscribe-show-municipality').text(selected_place.object.nameMap.nl);
-    $('#form-subscribe-show-province').text(selected_place.object.tag[pidx].nameMap.nl);
-    if (selected_place.object.tag.length > 1) {
-      $('#form-subscribe-show-safety-region').text(selected_place.object.tag[vidx].nameMap.nl);
+    for(var s in selected_objects) {
+      var current_selected_object = selected_objects[s];
+      if (typeof(selected_objects[s]) !== 'undefined') {
+        if (typeof(current_selected_object.object) !== 'undefined') {
+          current_selected_object = current_selected_object.object;
+        }
+        $('#form-subscribe-show-' + s).text(current_selected_object.nameMap.nl);
+      } else {
+        $('#form-subscribe-show-' + s).text('');
+      }
     }
 
     $('#search-results-types-municipality').attr('data-location', selected_place.object.nameMap.nl);
