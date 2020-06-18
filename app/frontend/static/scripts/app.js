@@ -160,26 +160,28 @@ CurrentApp.init = function() {
           current_selected_object = current_selected_object.object;
         }
         $('#form-subscribe-show-' + s).text(current_selected_object.nameMap.nl);
+
+        $('#search-results-types-'+s).attr('data-location', current_selected_object.nameMap.nl);
+        $('#search-results-types-'+s).attr('href', current_selected_object['@id']);
       } else {
         $('#form-subscribe-show-' + s).text('');
+        $('#search-results-types-'+s).attr('data-location', '');
+        $('#search-results-types-'+s).attr('href', '');
       }
+
     }
 
-    $('#search-results-types-municipality').attr('data-location', selected_place.object.nameMap.nl);
-
-    $('#search-results-types-province').attr('data-location', selected_place.object.tag[pidx].nameMap.nl);
-    if (selected_place.object.tag.length > 1) {
-      $('#search-results-types-safety-region').attr('data-location', selected_place.object.tag[vidx].nameMap.nl);
+    if (typeof(selected_objects['province']) !== 'undefined') {
+      $('#formSubscribeIncludeProvince').attr('value', selected_objects['province']['@id']);
+    } else {
+      $('#formSubscribeIncludeProvince').attr('value', '');
     }
 
-    $('#search-results-types-municipality').attr('href', selected_place.object['@id']);
-    $('#search-results-types-province').attr('href', selected_place.object.tag[pidx]['@id']);
-    if (selected_place.object.tag.length > 1) {
-      $('#search-results-types-safety-region').attr('href', selected_place.object.tag[vidx]['@id']);
+    if (typeof(selected_objects['safety-region']) !== 'undefined') {
+      $('#formSubscribeIncludeSafetyRegion').attr('value', selected_objects['safety-region']['@id']);
+    } else {
+      $('#formSubscribeIncludeSafetyRegion').attr('value', '');
     }
-
-    $('#formSubscribeIncludeProvince').attr('value', selected_place.object.tag[pidx]['@id']);
-    $('#formSubscribeIncludeSafetyRegion').attr('value', selected_place.object.tag[vidx]['@id']);
 
     var fields_to_names = {
       'municipality': selected_place.object.nameMap.nl,
