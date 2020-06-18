@@ -105,14 +105,39 @@ CurrentApp.init = function() {
     });
   });
 
-  $('#form-subscribe-municipality').on('change', function (e) {
-    var selected_place_id = $(this).val()
-    console.log('you selected another municipality: ' + selected_place_id);
+  $('.form-subscribe-select-location').on('change', function (e) {
+    console.log('search mode: ' + CurrentApp.mode);
+    var selected_objects = {
+      'municipality': undefined,
+      'province': undefined,
+      'safety-region': undefined
+    };
+    var selected_param = $(this).attr('name');
+    var selected_place_id = $(this).val();
+    console.log('you selected another ' + selected_param + ': ' + selected_place_id);
+    // TODO: rework this
     var selected_place = CurrentApp.places.filter(function (i) {
       return i['object']['@id'] == selected_place_id;
     })[0];
     console.log(selected_place);
 
+    if (CurrentApp.mode == "basic") {
+      var sid = $('#form-subscribe-municipality').val();
+      console.log('basic munucipality selected: ' + sid);
+      selected_objects['municipality'] = CurrentApp.places.filter(function (i) {
+        return i['object']['@id'] == sid;
+      })[0];
+    } else {
+      for (var s in selected_objects) {
+        var sid = $('#form-subscribe-'+s).val();
+        selected_objects[s] = CurrentApp.places.filter(function (i) {
+          return i['object']['@id'] == sid;
+        })[0];
+      }
+    }
+    console.log('selected objects:');
+    console.dir(selected_objects);
+    // TODO: figureout how to do automatic selection
     var pidx = 0;
     var vidx = 1;
     if (!selected_place.object.tag[0].nameMap.nl.startsWith($('#search-results-types-province').attr('title')+' ')) {

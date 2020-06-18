@@ -19,7 +19,7 @@
     <div class="col align-self-center">
       <input type="hidden" id="form-subscribe-municipality-name" name="municipality-name" value="" title="">
       <input type="hidden" id="form-subscribe-municipality-actor-type" name="municipality-actor-type" value="" title="">
-      <select id="form-subscribe-municipality" class="form-control" id="formSubscribeMunicipality" name="municipality">
+      <select id="form-subscribe-municipality" class="form-control form-subscribe-select-location" id="formSubscribeMunicipality" name="municipality">
         {% for bucket in quick_facets_results.location.buckets|sort(attribute="object.nameMap.nl") %}
           {% if not (bucket.object.nameMap[hl].startswith(_("Province")) or bucket.object.nameMap[hl].startswith(_("Safety regio"))) %}
             <option value="{{ bucket.object["@id"] }}">{{ bucket.object.nameMap[hl] }}</option>
@@ -140,6 +140,7 @@ CurrentApp.actor_types = {{ actor_types |tojson }};
 CurrentApp.actor_types_keys = {{ actor_types.keys() |sort |tojson }};
 CurrentApp.percolations = {{ percolations |tojson }};
 window.CurrentApp = CurrentApp;
+CurrentApp.mode = "basic";
 </script>
 {% endblock %}
 
