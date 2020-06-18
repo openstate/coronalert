@@ -107,10 +107,12 @@ CurrentApp.init = function() {
 
   $('#formSubscribeQuery').on('blur', function(e) {
     console.log('query blur: should update results below now!');
+    $('#form-subscribe-municipality').change();
   }).on('keyup', function (e) {
       clearTimeout(CurrentApp.queryTimer);
       CurrentApp.queryTimer = setTimeout(function() {
         console.log('query keyup delay: should update results below now for ' + $('#formSubscribeQuery').val());
+        $('#form-subscribe-municipality').change();
       }, CurrentApp.queryDelay); // Will do the ajax stuff after 1000 ms, or 1 s
   });
 
@@ -231,11 +233,25 @@ CurrentApp.init = function() {
     console.log('clauses:');
     // console.dir(clauses);
     var full_query = CurrentApp.generate_full_eq_query(clauses);
-    console.log('full query:');
+    var url_for_query = '/query';
+    console.log('full query before search query:');
+    console.dir(full_query);
+    var searchQuery = $('#formSubscribeQuery').val();
+    if ((typeof(searchQuery) !== 'undefined') && (searchQuery.trim() != '')) {
+      url_for_query = url_for_query + '?query=' + encodeURI(searchQuery.trim());
+      full_query.query.bool.must = [
+        {'simple_query_string': {
+            'query': searchQuery.trim(),
+            'default_operator': 'AND',
+            'fields': ['name', 'content', '*.nl', '*.en', '*.fr', '*.de']
+        }}
+      ]
+    }
+    console.log('full query after search query:');
     console.dir(full_query);
     $.ajax({
       type: 'POST',
-      url: '/query',
+      url: url_for_query,
       data: JSON.stringify(full_query), // or JSON.stringify ({name: 'jonas'}),
       success: function(data) { console.log('got data!'); $('#content-search-results').html(data); },
       contentType: "application/json",
