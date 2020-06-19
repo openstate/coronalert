@@ -107,13 +107,22 @@ CurrentApp.init = function() {
 
   $('#formSubscribeQuery').on('blur', function(e) {
     console.log('query blur: should update results below now!');
-    $('#form-subscribe-municipality').change();
+    if (CurrentApp.queryModified) {
+      $('#form-subscribe-municipality').change();
+    }
+    CurrentApp.queryModified = false;
+  }).on('focus', function (e) {
+    CurrentApp.queryModified = false;
   }).on('keyup', function (e) {
-      clearTimeout(CurrentApp.queryTimer);
-      CurrentApp.queryTimer = setTimeout(function() {
-        console.log('query keyup delay: should update results below now for ' + $('#formSubscribeQuery').val());
+    CurrentApp.queryModified = true;
+    clearTimeout(CurrentApp.queryTimer);
+    CurrentApp.queryTimer = setTimeout(function() {
+      console.log('query keyup delay: should update results below now for ' + $('#formSubscribeQuery').val());
+      if (CurrentApp.queryModified) {
         $('#form-subscribe-municipality').change();
-      }, CurrentApp.queryDelay); // Will do the ajax stuff after 1000 ms, or 1 s
+      }
+      CurrentApp.queryModified = false;
+    }, CurrentApp.queryDelay); // Will do the ajax stuff after 1000 ms, or 1 s
   });
 
 
