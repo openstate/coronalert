@@ -59,7 +59,12 @@ CurrentApp.generate_full_eq_query = function(queries) {
           "should": queries.map(function (q) { return q['query']; }),
           "minimum_should_match": 1
         }
-      }
+      },
+      "sort": [
+        { 'item.created': {
+          'order': 'desc'
+        }}
+      ]
     };
 
   } else {
