@@ -1374,18 +1374,18 @@ def email_subscribe():
         description = request.form.get('municipality-name', None)
 
     request_data = {
-        'application': 'poliscoops',
+        'application': 'coronalert',
         'email': request.form.get('email', None),
         'frequency': frequency,
         'description': description,
         'query': bq.build()
     }
 
-    return jsonify(request_data)
-    # result = requests.post(
-    #     'http://binoas.openstate.eu/subscriptions/new',
-    #     data=json.dumps(request_data)).json()
-    # return render_template('subscribe.html', result=result)
+    #return jsonify(request_data)
+    result = requests.post(
+        'http://binoas.openstate.eu/subscriptions/new',
+        data=json.dumps(request_data)).json()
+    return render_template('subscribe.html', result=result)
 
 
 @app.route("/unsubscribe", methods=['GET'])
