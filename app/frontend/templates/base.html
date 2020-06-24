@@ -63,15 +63,6 @@
         <div class="collapse navbar-collapse" id="navbarsExample04">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item">
-              <a class="nav-link" href="{{ url_for('search', hl=hl, rl=rl) }}">{%trans%}Search{%endtrans%}  <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="{{ url_for('languages', redirect=redirect, hl=hl, rl=rl) }}">{%trans%}Languages{%endtrans%}</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="{{ url_for('countries', redirect=redirect, hl=hl, rl=rl) }}">{%trans%}Countries{%endtrans%}</a>
-            </li>
-            <li class="nav-item">
               <a class="nav-link" href="{{ url_for('show_page', page_name='feedback', hl=hl, rl=rl) }}">{%trans%}Feedback{%endtrans%}</a>
             </li>
             <li class="nav-item">
@@ -80,8 +71,6 @@
           </ul>
         </div>
 
-        <a class="nav-link nav-link-selection nav-link-country-selection mr-2" href="{{ url_for('countries', redirect=redirect, hl=hl, rl=rl) }}"><i class="fa fa-2x fa-globe" aria-hidden="true"></i> [{{ selected_countries |length}}/{{ countries |length }}]</a>
-        <a class="nav-link nav-link-selection nav-link-language-selection" href="{{ url_for('languages', redirect=redirect, hl=hl, rl=rl) }}"><img src="/static/images/countries/{{ hl }}.svg" alt="{{ dict(interface_languages)[hl] }}" style="max-height: 26px;" class="mr-1" />{{ dict(interface_languages)[hl] }}</a>
       </nav>
 
   </header>
@@ -97,15 +86,6 @@
         </div>
       </div>
       {% block cookies_set_alert %}
-      {% if not cookie_countries_set %}
-      <div class="row">
-        <div class="col-xs-12 w-100">
-          <div class="alert alert-primary w-100 mt-3" role="alert">
-            {%trans url=url_for('countries', redirect=redirect, hl=hl, rl=rl) %}It looks like you have not selected any source countries. You can change this <a href="{{ url }}">here</a>.{%endtrans%}
-          </div>
-        </div>
-      </div>
-      {% endif %}
       {% endblock %}
     {% block content %}
     {% endblock %}
