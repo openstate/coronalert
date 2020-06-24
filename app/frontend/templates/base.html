@@ -75,15 +75,15 @@
   </header>
 
   <main>
+    <div class="breadcrumb-row w-100">
+        <div class="container">
+        {% block breadcrumb %}
+        {% endblock %}
+      </div>
+    </div>
     <div class="container" role="main">
       {% block search %}
       {% endblock %}
-      <div class="row">
-        <div class="col-xs-12">
-          {% block breadcrumb %}
-          {% endblock %}
-        </div>
-      </div>
       {% block cookies_set_alert %}
       {% endblock %}
     {% block content %}

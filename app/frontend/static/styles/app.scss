@@ -53,8 +53,8 @@ $nav-pills-link-active-bg: #FFFFFF;
 // @import "layouts/payment-table";
 
 // Typography
-$font-default: "Open Sans", sans-serif;
-$font-nav: 'Open Sans', sans-serif;
+$font-default: "Roboto", sans-serif;
+$font-nav: 'Roboto Slab', sans-serif;
 $color-default: #092D36;
 $color-bg-default:#EBF3F7;
 $color-bg-alt: white;
@@ -170,7 +170,7 @@ nav.navbar .nav-link:hover {
 }
 
 .jumbotron {
-  background: url(/static/images/local-news-bg-2x.png) no-repeat 0px -280px;
+  background: url(/static/images/AdobeStock_336052008@2x.png) no-repeat 0px 0px;
   border-radius: none;
 }
 
@@ -188,12 +188,13 @@ nav.navbar .nav-link:hover {
 }
 
 .lead-text {
-  color: white;
   font-family: $font-nav;
-  font-weight: 800;
-  font-size: 50px;
-  line-height: 55px;
-  float: left;
+  font-weight: 300;
+  font-size: 45px;
+  line-height: 59px;
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
 }
 
 #discover {
@@ -522,21 +523,26 @@ padding-top: 0.4em;
   }
 }
 
+.breadcrumb-row {
+  background: #C9E9FB;
+  min-height: 32px;
+}
+
 .breadcrumb {
   .breadcrumb-item {
-    color: #000055 !important;
+    color: $color-default !important;
     a {
-      color: #000055 !important;
+      color: $color-default !important;
     }
     .active {
-      color: #000055 !important;
+      color: $color-default !important;
     }
   }
-  background: #EBF3F7;
-  padding: 0.5em;
-  font-size: 10px;
-  line-height: 14px;
-  font-weight: 600;
+  background: transparent;
+  padding: 0;
+  font-size: 14px;
+  line-height: 32px;
+  font-weight: 300;
   border-radius: 0;
   margin-bottom: 0;
 }
