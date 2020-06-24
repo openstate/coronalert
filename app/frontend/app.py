@@ -253,7 +253,11 @@ def is_cookie_set(cookie_name):
 
 def get_languages():
     hl = request.args.get('hl', None) or request.cookies.get('hl', None) or DEFAULT_LANGUAGE
+    if hl not in INTERFACE_LANGUAGES:
+        hl = DEFAULT_LANGUAGE
     rl = request.args.get('rl', None) or request.cookies.get('rl', None)
+    if rl not in ARTICLE_LANGUAGES:
+        rl = None
     return hl, rl
 
 
