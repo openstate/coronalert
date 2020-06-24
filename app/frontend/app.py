@@ -1385,7 +1385,8 @@ def email_subscribe():
     result = requests.post(
         'http://binoas.openstate.eu/subscriptions/new',
         data=json.dumps(request_data)).json()
-    return render_template('subscribe.html', result=result)
+    return render_template(
+        'subscribe.html', orig_request=request_data, result=result)
 
 
 @app.route("/unsubscribe", methods=['GET'])
