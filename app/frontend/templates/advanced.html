@@ -10,6 +10,20 @@
 <meta property="og:description" content="{%trans query=query %}Recent political news about {{ query }}{%endtrans%}" />
 {% endblock %}
 
+{% block page_header %}
+<div class="jumbotron clearfix jumbotron-page d-flex align-items-center">
+  <h1 class="justify-content-center w-100">{%trans%}I am a journalist or researcher{%endtrans%}</h1>
+</div>
+{% endblock %}
+
+{% block page_sub_header %}
+<div class="container">
+  <div class="lead-text">
+    {%trans%}collect up-to-date <br>corona policy from your region{%endtrans%}
+  </div>
+</div>
+{% endblock %}
+
 {% block search %}
 <form action="{{ url_for('email_subscribe') }}" method="post" name="form-subscribe" id="form-subscribe">
   <div class="form-row mt-4">

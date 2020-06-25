@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-06-11 13:45+0000\n"
+"POT-Creation-Date: 2020-06-25 14:24+0000\n"
 "PO-Revision-Date: 2020-05-08 10:11+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: nl\n"
@@ -18,370 +18,369 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.8.0\n"
 
-#: app.py:72
+#: app.py:74
 msgid "Kind"
 msgstr "Soort"
 
-#: app.py:73
+#: app.py:75
 msgid "Origin"
 msgstr "Oorsprong"
 
-#: app.py:74
+#: app.py:76
 msgid "Date from"
 msgstr "Datum van"
 
-#: app.py:75
+#: app.py:77
 msgid "Date until"
 msgstr "Datum tot"
 
-#: app.py:76
+#: app.py:78
 msgid "Language"
 msgstr "Taal"
 
-#: app.py:77
+#: app.py:79
 msgid "Location"
 msgstr "Lokatie"
 
-#: app.py:78 templates/inner_result.html:53 templates/inner_result.html:54
+#: app.py:80 templates/inner_result.html:53 templates/inner_result.html:54
 #: templates/show.html:66
 msgid "Source"
 msgstr "Bron"
 
-#: app.py:80
+#: app.py:82
 msgid "Mentions"
 msgstr "Noemt"
 
-#: app.py:85
+#: app.py:87
 msgid "Created by"
 msgstr "Gemaakt door"
 
-#: app.py:87
+#: app.py:89
 msgid "Polarity"
 msgstr "Polariteit"
 
-#: app.py:88
+#: app.py:90
 msgid "Sentiment"
 msgstr "Sentiment"
 
-#: app.py:89
+#: app.py:91
 msgid "Interestingness"
 msgstr "Interessantheid"
 
-#: app.py:90
+#: app.py:92
 msgid "Topic"
 msgstr "Onderwerp"
 
-#: app.py:98
+#: app.py:100
 msgid "Low"
 msgstr "Laag"
 
-#: app.py:99
+#: app.py:101
 msgid "High"
 msgstr "Hoog"
 
-#: app.py:100
+#: app.py:102
 msgid "Party"
 msgstr "Partij"
 
-#: app.py:111
+#: app.py:113
 msgid "Direct"
 msgstr "Direkt"
 
-#: app.py:112
+#: app.py:114
 msgid "Daily"
 msgstr "Dagelijks"
 
-#: app.py:113
+#: app.py:115
 msgid "Weekly"
 msgstr "Wekelijks"
 
-#: app.py:119 app.py:158 app.py:176
+#: app.py:121 app.py:160 app.py:178
 msgid "Dutch"
 msgstr "Nederlands"
 
-#: app.py:122
+#: app.py:124
 msgid "Original language"
 msgstr "Oorspronkelijke taal"
 
-#: app.py:125
+#: app.py:127
 msgid "Austria"
 msgstr "Oostenrijk"
 
-#: app.py:126
+#: app.py:128
 msgid "Belgium"
 msgstr "Belgie"
 
-#: app.py:127
+#: app.py:129
 msgid "Bulgaria"
 msgstr "Bulgarije"
 
-#: app.py:128
+#: app.py:130
 msgid "Croatia"
 msgstr "Croatie"
 
-#: app.py:129
+#: app.py:131
 msgid "Cyprus"
 msgstr "Cyprus"
 
-#: app.py:130
+#: app.py:132
 msgid "Czech Republic"
 msgstr "Tsjechie"
 
-#: app.py:131
+#: app.py:133
 msgid "Denmark"
 msgstr "Denemarken"
 
-#: app.py:132
+#: app.py:134
 msgid "Estonia"
 msgstr "Estland"
 
-#: app.py:133
+#: app.py:135
 msgid "Finland"
 msgstr "Finland"
 
-#: app.py:134
+#: app.py:136
 msgid "France"
 msgstr "Frankrijk"
 
-#: app.py:135
+#: app.py:137
 msgid "Germany"
 msgstr "Duitsland"
 
-#: app.py:136
+#: app.py:138
 msgid "Greece"
 msgstr "Griekenland"
 
-#: app.py:137
+#: app.py:139
 msgid "Hungary"
 msgstr "Hongarije"
 
-#: app.py:138
+#: app.py:140
 msgid "Italy"
 msgstr "Italie"
 
-#: app.py:139
+#: app.py:141
 msgid "Ireland"
 msgstr "Ierland"
 
-#: app.py:140
+#: app.py:142
 msgid "Latvia"
 msgstr "Letland"
 
-#: app.py:141
+#: app.py:143
 msgid "Lithuania"
 msgstr "Litouwen"
 
-#: app.py:142
+#: app.py:144
 msgid "Luxembourg"
 msgstr "Luxemburg"
 
-#: app.py:143
+#: app.py:145
 msgid "Malta"
 msgstr "Malta"
 
-#: app.py:144
+#: app.py:146
 msgid "Netherlands"
 msgstr "Nederland"
 
-#: app.py:145
+#: app.py:147
 msgid "Poland"
 msgstr "Polen"
 
-#: app.py:146
+#: app.py:148
 msgid "Portugal"
 msgstr "Portugal"
 
-#: app.py:147
+#: app.py:149
 msgid "Romania"
 msgstr "Roemenie"
 
-#: app.py:148
+#: app.py:150
 msgid "Spain"
 msgstr "Spanje"
 
-#: app.py:149
+#: app.py:151
 msgid "Slovakia"
 msgstr "Slowakije"
 
-#: app.py:150
+#: app.py:152
 msgid "Slovenia"
 msgstr "Slovenie"
 
-#: app.py:151
+#: app.py:153
 msgid "Sweden"
 msgstr "Zweden"
 
-#: app.py:152
+#: app.py:154
 msgid "United Kingdom"
 msgstr "Verenigd Koninkrijk"
 
-#: app.py:153
+#: app.py:155
 msgid "Eurpean Union"
 msgstr "Europese Unie"
 
-#: app.py:157 app.py:167
+#: app.py:159 app.py:169
 msgid "German"
 msgstr "Frans"
 
-#: app.py:159
+#: app.py:161
 msgid "Bulgarian"
 msgstr "Bulgaars"
 
-#: app.py:160
+#: app.py:162
 msgid "Croatian"
 msgstr "Kroatisch"
 
-#: app.py:161 app.py:168
+#: app.py:163 app.py:170
 msgid "Greek"
 msgstr "Grieks"
 
-#: app.py:162
+#: app.py:164
 msgid "Czech"
 msgstr "Tsjechisch"
 
-#: app.py:163
+#: app.py:165
 msgid "Danish"
 msgstr "Deens"
 
-#: app.py:164
+#: app.py:166
 msgid "Estonian"
 msgstr "Ests"
 
-#: app.py:165
+#: app.py:167
 msgid "Finnish"
 msgstr "Fins"
 
-#: app.py:166
+#: app.py:168
 msgid "French"
 msgstr "Duits"
 
-#: app.py:169
+#: app.py:171
 msgid "Hungarian"
 msgstr "Hongaars"
 
-#: app.py:170
+#: app.py:172
 msgid "Italan"
 msgstr "Italiaans"
 
-#: app.py:171
+#: app.py:173
 msgid "Irish"
 msgstr "Iers"
 
-#: app.py:172
+#: app.py:174
 msgid "Latvian"
 msgstr "Lets"
 
-#: app.py:173
+#: app.py:175
 msgid "Lithuanian"
 msgstr "Litouws"
 
-#: app.py:174
+#: app.py:176
 msgid "Luxembourgish"
 msgstr "Luxemburgs"
 
-#: app.py:175
+#: app.py:177
 msgid "Maltese"
 msgstr "Maltees"
 
-#: app.py:177
+#: app.py:179
 msgid "Polish"
 msgstr "Pools"
 
-#: app.py:178
+#: app.py:180
 msgid "Portugese"
 msgstr "Portugees"
 
-#: app.py:179
+#: app.py:181
 msgid "Romanian"
 msgstr "Roemeens"
 
-#: app.py:180
+#: app.py:182
 msgid "Spanish"
 msgstr "Spaans"
 
-#: app.py:181
+#: app.py:183
 msgid "Slovakian"
 msgstr "Slowaaks"
 
-#: app.py:182
+#: app.py:184
 msgid "Slovenian"
 msgstr "Sloveens"
 
-#: app.py:183
+#: app.py:185
 msgid "Swedish"
 msgstr "Zweeds"
 
-#: app.py:184
+#: app.py:186
 msgid "Eurpean Unionish"
 msgstr "Eurpoees"
 
-#: app.py:185
+#: app.py:187
 msgid "English"
 msgstr "Engels"
 
-#: app.py:570
+#: app.py:576
 msgid "year"
 msgstr "jaar"
 
-#: app.py:570
+#: app.py:576
 msgid "years"
 msgstr "jaar"
 
-#: app.py:571
+#: app.py:577
 msgid "month"
 msgstr "maand"
 
-#: app.py:571
+#: app.py:577
 msgid "months"
 msgstr "maanden"
 
-#: app.py:572
+#: app.py:578
 msgid "week"
 msgstr "week"
 
-#: app.py:572
+#: app.py:578
 msgid "weeks"
 msgstr "weken"
 
-#: app.py:573
+#: app.py:579
 msgid "day"
 msgstr "dag"
 
-#: app.py:573
+#: app.py:579
 msgid "days"
 msgstr "dagen"
 
-#: app.py:574
+#: app.py:580
 msgid "hour"
 msgstr "uur"
 
-#: app.py:574
+#: app.py:580
 msgid "hours"
 msgstr "uur"
 
-#: app.py:575
+#: app.py:581
 msgid "minute"
 msgstr "minuut"
 
-#: app.py:575
+#: app.py:581
 msgid "minutes"
 msgstr "minuten"
 
-#: app.py:576
+#: app.py:582
 msgid "second"
 msgstr "seconde"
 
-#: app.py:576
+#: app.py:582
 msgid "seconds"
 msgstr "seconden"
 
 #: templates/about.de.html:1 templates/about.en.html:1
-#: templates/about.fr.html:1 templates/about.html:7 templates/base.html:53
-#: templates/base.html:73
+#: templates/about.fr.html:1 templates/about.html:7 templates/base.html:68
 msgid "About"
 msgstr "Over"
 
-#: templates/about.html:6 templates/advanced.html:29 templates/basic.html:140
+#: templates/about.html:6 templates/advanced.html:173 templates/basic.html:164
 #: templates/countries.html:6 templates/disclaimer.html:6
 #: templates/feedback.html:6 templates/languages.html:6
 #: templates/privacy.html:6 templates/search_results.html:20
@@ -395,155 +394,43 @@ msgstr "Home"
 msgid "Recent political news about %(query)s"
 msgstr "Recent politiek nieuws over %(query)s"
 
-#: templates/advanced.html:30 templates/index.html:18
+#: templates/advanced.html:15 templates/advanced.html:174
+#: templates/index.html:19
 msgid "I am a journalist or researcher"
 msgstr "Ik ben een journalist of onderzoeker"
 
-#: templates/base.html:7 templates/base.html:17 templates/base.html:18
-#: templates/base.html:25 templates/base.html:52 templates/show.html:5
-msgid "Poliscoops"
-msgstr "CoronAlert"
+#: templates/advanced.html:22 templates/base.html:88 templates/basic.html:22
+#: templates/index.html:5
+msgid "collect up-to-date <br>corona policy from your region"
+msgstr "verzamel up-to-date<br>corona beleid uit jouw regio"
 
-#: templates/base.html:26
-msgid "Local political news"
-msgstr ""
-
-#: templates/base.html:54
-msgid "Toggle navigation"
-msgstr "Toon/verberg navigatie"
-
-#: templates/base.html:55
-msgid "Menu"
-msgstr "Menu"
-
-#: templates/base.html:61 templates/search_results.html:21
-msgid "Search"
-msgstr "Zoek"
-
-#: templates/base.html:64 templates/languages.html:7
-msgid "Languages"
-msgstr "Talen"
-
-#: templates/base.html:67 templates/countries.html:7
-msgid "Countries"
-msgstr "Landen"
-
-#: templates/base.html:70 templates/feedback.en.html:3
-#: templates/feedback.html:7
-msgid "Feedback"
-msgstr "Feedback"
-
-#: templates/base.html:99
-#, python-format
-msgid ""
-"It looks like you have not selected any source countries. You can change "
-"this <a href=\"%(url)s\">here</a>."
-msgstr ""
-"Het lijkt alsof je nog geen landen hebt geselecteerd. Dit kan je<a "
-"href=\"%(url)s\">hier doen</a>."
-
-#: templates/base.html:115
-msgid "SIDN Fonds"
-msgstr ""
-
-#: templates/base.html:120
-msgid "DNI Fund"
-msgstr ""
-
-#: templates/base.html:126 templates/base.html:131
-msgid "NL Net"
-msgstr ""
-
-#: templates/base.html:136
-msgid "Open State Foundation"
-msgstr ""
-
-#: templates/base.html:144 templates/privacy.html:7
-msgid "Privacy"
-msgstr ""
-
-#: templates/base.html:149 templates/disclaimer.html:7
-msgid "Disclaimer"
-msgstr ""
-
-#: templates/base.html:176
-msgid "Collect &amp; Subscribe"
-msgstr "Verzamelen &amp; Abboneren"
-
-#: templates/base.html:185 templates/base.html:231
-#: templates/feedback.en.html:10
-msgid "Mail"
-msgstr "Mail"
-
-#: templates/base.html:188
-msgid "Select which of the content you will receive"
-msgstr "Selecteer de inhoud die je wil krijgen"
-
-#: templates/base.html:234
-msgid "Subscribe &amp; receive email for your selected topics."
-msgstr "Abboneer &amp; ontvang mail voor je onderwerpen"
-
-#: templates/base.html:241
-msgid "Interval"
-msgstr "Interval"
-
-#: templates/base.html:257 templates/feedback.en.html:20
-msgid "Email address"
-msgstr "Email adres"
-
-#: templates/base.html:260
-msgid ""
-"We will only use this information to send you the alerts you set for "
-"yourself. You can unsubscribe at any time using the link in the mail."
-msgstr ""
-"We zullen deze informatie gebruiken om je alerts te mailen die je "
-"zelfingesteld hebt. Je kan op elk moment opzeggen via de link in de mail."
-
-#: templates/base.html:266
-msgid "Subscribe"
-msgstr "Abbonneer"
-
-#: templates/base.html:267
-msgid "Cancel"
-msgstr "Annuleren"
-
-#: templates/basic.html:17
+#: templates/advanced.html:31 templates/basic.html:31
 msgid "Select your municipality"
 msgstr "Je gemeente"
 
-#: templates/basic.html:22 templates/basic.html:107 templates/basic.html:108
-msgid "Province"
-msgstr "Provincie"
-
-#: templates/basic.html:22
-msgid "Safety regio"
-msgstr "Veiligheidsregio"
-
-#: templates/basic.html:32
-msgid "Include province"
-msgstr "Ook van de provincie"
-
-#: templates/basic.html:41
+#: templates/advanced.html:56 templates/advanced.html:93
+#: templates/basic.html:59
 msgid "Specify a query"
 msgstr "Zoekopdracht"
 
-#: templates/basic.html:44
+#: templates/advanced.html:59 templates/advanced.html:96
+#: templates/basic.html:62
 msgid "Street, park or activity"
 msgstr "Straat, park of activiteit"
 
-#: templates/basic.html:50 templates/basic.html:68
+#: templates/advanced.html:65 templates/basic.html:68 templates/basic.html:88
 msgid "Include safety region"
 msgstr "Ook van de veiligheidsregio"
 
-#: templates/basic.html:59
+#: templates/advanced.html:74 templates/basic.html:77
 msgid "Specify an email address"
 msgstr "Email"
 
-#: templates/basic.html:79
+#: templates/advanced.html:108 templates/basic.html:99
 msgid "I accept the terms and conditions"
 msgstr "Ik accepteer de condities"
 
-#: templates/basic.html:87
+#: templates/advanced.html:116 templates/basic.html:107
 #, python-format
 msgid ""
 "Receive mail from <span id=\"form-subscribe-show-"
@@ -556,25 +443,137 @@ msgstr ""
 "subscribe-show-province\">%(provincie)s</span> en <span id=\"form-"
 "subscribe-show-safety-region\">%(safetyregion)s</span>"
 
-#: templates/basic.html:93 templates/feedback.en.html:32
+#: templates/advanced.html:122 templates/basic.html:113
+#: templates/feedback.en.html:32
 msgid "Submit"
 msgstr "Versturen"
 
-#: templates/basic.html:102 templates/basic.html:103
+#: templates/advanced.html:131 templates/advanced.html:132
+#: templates/basic.html:122 templates/basic.html:123
 msgid "Municipality"
 msgstr "Gemeente"
 
-#: templates/basic.html:112 templates/basic.html:113
+#: templates/advanced.html:136 templates/advanced.html:137
+#: templates/basic.html:38 templates/basic.html:127 templates/basic.html:128
+msgid "Province"
+msgstr "Provincie"
+
+#: templates/advanced.html:141 templates/advanced.html:142
+#: templates/basic.html:132 templates/basic.html:133
 msgid "Safety Region"
 msgstr "Veiligheidsregio"
 
-#: templates/basic.html:117 templates/basic.html:118
+#: templates/advanced.html:146 templates/advanced.html:147
+#: templates/basic.html:137 templates/basic.html:138
 msgid "All"
 msgstr "Alles"
 
-#: templates/basic.html:141 templates/index.html:21
+#: templates/advanced.html:183 templates/basic.html:174
+msgid "Loading"
+msgstr "Laden"
+
+#: templates/base.html:7 templates/base.html:17 templates/base.html:18
+#: templates/base.html:25 templates/base.html:57 templates/show.html:5
+msgid "Poliscoops"
+msgstr "CoronAlert"
+
+#: templates/base.html:26
+msgid "Local political news"
+msgstr ""
+
+#: templates/base.html:58
+msgid "Toggle navigation"
+msgstr "Toon/verberg navigatie"
+
+#: templates/base.html:59
+msgid "Menu"
+msgstr "Menu"
+
+#: templates/base.html:65 templates/feedback.en.html:3
+#: templates/feedback.html:7
+msgid "Feedback"
+msgstr "Feedback"
+
+#: templates/base.html:106
+msgid "SIDN Fonds"
+msgstr ""
+
+#: templates/base.html:111
+msgid "DNI Fund"
+msgstr ""
+
+#: templates/base.html:117 templates/base.html:122
+msgid "NL Net"
+msgstr ""
+
+#: templates/base.html:127
+msgid "Open State Foundation"
+msgstr ""
+
+#: templates/base.html:135 templates/privacy.html:7
+msgid "Privacy"
+msgstr ""
+
+#: templates/base.html:140 templates/disclaimer.html:7
+msgid "Disclaimer"
+msgstr ""
+
+#: templates/base.html:167
+msgid "Collect &amp; Subscribe"
+msgstr "Verzamelen &amp; Abboneren"
+
+#: templates/base.html:176 templates/base.html:222
+#: templates/feedback.en.html:10
+msgid "Mail"
+msgstr "Mail"
+
+#: templates/base.html:179
+msgid "Select which of the content you will receive"
+msgstr "Selecteer de inhoud die je wil krijgen"
+
+#: templates/base.html:225
+msgid "Subscribe &amp; receive email for your selected topics."
+msgstr "Abboneer &amp; ontvang mail voor je onderwerpen"
+
+#: templates/base.html:232
+msgid "Interval"
+msgstr "Interval"
+
+#: templates/base.html:248 templates/feedback.en.html:20
+msgid "Email address"
+msgstr "Email adres"
+
+#: templates/base.html:251
+msgid ""
+"We will only use this information to send you the alerts you set for "
+"yourself. You can unsubscribe at any time using the link in the mail."
+msgstr ""
+"We zullen deze informatie gebruiken om je alerts te mailen die je "
+"zelfingesteld hebt. Je kan op elk moment opzeggen via de link in de mail."
+
+#: templates/base.html:257
+msgid "Subscribe"
+msgstr "Abbonneer"
+
+#: templates/base.html:258
+msgid "Cancel"
+msgstr "Annuleren"
+
+#: templates/basic.html:15 templates/basic.html:165 templates/index.html:22
 msgid "Check my hometown"
 msgstr "Bekijk mijn gemeente"
+
+#: templates/basic.html:38
+msgid "Safety regio"
+msgstr "Veiligheidsregio"
+
+#: templates/basic.html:50
+msgid "Include province"
+msgstr "Ook van de provincie"
+
+#: templates/countries.html:7
+msgid "Countries"
+msgstr "Landen"
 
 #: templates/countries.html:17
 msgid "Source countries"
@@ -629,15 +628,7 @@ msgstr "Sorteer"
 msgid "Collect"
 msgstr "Verzamel"
 
-#: templates/index.html:9
-msgid "collect up-to-date"
-msgstr "verzamel up to date"
-
-#: templates/index.html:10
-msgid "corona policy from your region"
-msgstr "Coronabeleid in jouw regio"
-
-#: templates/index.html:51
+#: templates/index.html:54
 msgid "Discover more scoops"
 msgstr "Ontdek meer verhalen"
 
@@ -648,6 +639,10 @@ msgstr "Verifieer"
 #: templates/inner_result.html:59
 msgid "Read more"
 msgstr "Lees meer"
+
+#: templates/languages.html:7
+msgid "Languages"
+msgstr "Talen"
 
 #: templates/languages.html:17
 msgid "Set your language"
@@ -690,6 +685,10 @@ msgstr "Volgende"
 #: templates/results_as_list.html:62
 msgid "Unfortunately we were not able to find any documents matching your query."
 msgstr "Helaas vonden we geen artikelen die overeenkamen met je zoekopdracht."
+
+#: templates/search_results.html:21
+msgid "Search"
+msgstr "Zoek"
 
 #: templates/search_results.html:31
 msgid "Filters"
@@ -846,3 +845,18 @@ msgstr "Je abbonnement is succesvol opgezegd."
 
 #~ msgid "Find articles, parties, locations..."
 #~ msgstr "Vind artikelen, partijen, lokaties..."
+
+#~ msgid ""
+#~ "It looks like you have not "
+#~ "selected any source countries. You can"
+#~ " change this <a href=\"%(url)s\">here</a>."
+#~ msgstr ""
+#~ "Het lijkt alsof je nog geen landen"
+#~ " hebt geselecteerd. Dit kan je<a "
+#~ "href=\"%(url)s\">hier doen</a>."
+
+#~ msgid "collect up-to-date"
+#~ msgstr "verzamel up to date"
+
+#~ msgid "corona policy from your region"
+#~ msgstr "Coronabeleid in jouw regio"
