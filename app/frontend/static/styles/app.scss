@@ -169,9 +169,20 @@ nav.navbar .nav-link:hover {
     color: #0603a6!important;
 }
 
+.aside-index {
+  background: #E7EEF0;
+}
+
+.aside-interface {
+  background: #CFDDE0;
+}
+
 .jumbotron {
   background: url(/static/images/AdobeStock_336052008@2x.png) no-repeat 0px 0px;
-  border-radius: none;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  margin-bottom: 0;
 }
 
 .jumbotron-page {
@@ -198,8 +209,8 @@ nav.navbar .nav-link:hover {
   font-weight: 300;
   font-size: 45px;
   line-height: 59px;
-  margin-top: 2rem;
-  margin-bottom: 3rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 }
 
 #discover {

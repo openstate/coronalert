@@ -1,5 +1,7 @@
 {% extends 'base.html' %}
 
+{%block aside_class %}aside-index{%endblock%}
+
 {% block page_header %}
 <div class="lead-text d-flex justify-content-center">
   {%trans%}collect up-to-date <br>corona policy from your region{%endtrans%}
@@ -7,7 +9,7 @@
 {% endblock %}
 
 {% block page_sub_header %}
-<div class="row mt-4">
+<div class="row">
   <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
     <div class="jumbotron clearfix jumbotron-homepage">
 
