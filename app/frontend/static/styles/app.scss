@@ -174,6 +174,12 @@ nav.navbar .nav-link:hover {
   border-radius: none;
 }
 
+.jumbotron-page {
+    opacity: 0.7;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
 .jumbotron img {
   margin-bottom: 2em;
   width: 100%;
@@ -251,10 +257,11 @@ margin-bottom:50px;
 
 h1 {
   font-family: $font-nav;
-  font-size: 26px;
-  line-height:28px;
+  font-size: 45px;
+  line-height:59px;
   font-weight: 300;
-  color:#0603A6;
+  color: #ED1D24;
+  text-align: center;
 }
 
 h2 {
