@@ -186,7 +186,7 @@ nav.navbar .nav-link:hover {
 }
 
 .jumbotron-homepage {
- min-height: 432px !important;  
+ min-height: 432px !important;
 }
 
 .jumbotron-page {
@@ -236,12 +236,15 @@ margin-bottom:50px;
   font-family: $font-nav;
   font-weight: 800;
   font-size: 16px;
-  line-height: 22px;
+  line-height: 26px;
+  text-align: center;
+  padding: 1rem;
 }
 
 .btn-lg {
-    font-size: 32px;
-    line-height: 43px;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: left;
 }
 
 .btn-group-sm>.btn, .btn-sm {
@@ -256,13 +259,20 @@ margin-bottom:50px;
 
 .btn-primary {
   color: white;
-  background-color: #0603A6;
-  border-color: #0603A6;
-   border-radius: 15px 15px 0 0;
+  background-color: #0773A1;
+  border-color: #0773A1;
+   border-radius: 0;
+}
+
+.btn-secondary {
+    color: #0773A1;
+    background: white;
+    opacity: 0.95;
+    border-color: white;
 }
 
 .btn-group-lg>.btn, .btn-lg {
-    border-radius: 15px;
+    border-radius: 0;
 	text-transform: capitalize;
 }
 .btn-group-lg>.btn:hover, .btn-lg:hover {
