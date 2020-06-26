@@ -38,21 +38,6 @@
     {% include "inner_result.html" %}
   </div>
   <div class="content mb-4">
-    {% if rl and not result_object.contentMap[rl] %}
-    <div class="alert alert-primary" role="alert">
-      {%trans url=url_for('languages', redirect=redirect) %}This article is shown in the language in which it was written, since we do not have the translated version for unknown reasons. You can change language settings <a href="{{ url }}">here</a>.{%endtrans%}
-    </div>
-    {% endif %}
-    {% if not rl and result_object.contentMap[result_object['@language']] %}
-    <div class="alert alert-primary" role="alert">
-      {%trans url=url_for('languages', redirect=redirect) %}This article is shown in the language in which it was written. You can change this <a href="{{ url }}">here</a>.{%endtrans%}
-    </div>
-    {% endif %}
-    {% if not rl and not result_object.contentMap[result_object['@language']] %}
-    <div class="alert alert-primary" role="alert">
-      {%trans url=url_for('languages', redirect=redirect) %}This article is shown in english, since we do not have the version in the original language for unknown reasons. You can change language settings <a href="{{ url }}">here</a>.{%endtrans%}
-    </div>
-    {% endif %}
     <div class="byline-alt mt-4 mb-4">
       <span>{%trans%}Originallypublished on:{%endtrans%}</span><br>
       {{ result_object.created |correct_timezone |iso8601_to_str('full') }}

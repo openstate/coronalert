@@ -9,12 +9,6 @@
     <div class="tags-container byline-container">
       <ul class="tags list-inline">
         <li class="list-inline-item">
-          <a class="btn btn-big-icon btn-verification" href="#">
-            <img src="/static/images/icon-verification.svg" alt="{%trans%}Verify{%endtrans%}" class="img-responsive visible-xs-inline">
-            <span class="sr-only">{{ 'name' |as2_i18n_field(result_object.attributedTo, rl) }}</span>
-          </a>
-        </li>
-        <li class="list-inline-item">
           <a class="btn btn-sm btn-link" href="#">
             <i class="fa fa-clock-o" aria-hidden="true"></i> {{ result_object.created |timesince }}
           </a>
