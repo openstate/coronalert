@@ -30,7 +30,7 @@
 <form action="{{ url_for('email_subscribe') }}" method="post" name="form-subscribe" id="form-subscribe">
   <div class="form-row mt-4">
     <div class="col mr-4 align-self-center">
-          <label for="formSubscribeMunicipality" class="">1. {%trans%}Select your municipality{%endtrans%}}</label>
+          <label for="formSubscribeMunicipality" class="">1. {%trans%}Select your municipality{%endtrans%}</label>
     </div>
     <div class="col align-self-center">
       <input type="hidden" id="form-subscribe-municipality-name" name="municipality-name" value="" title="">
@@ -108,6 +108,10 @@
   </div>
 </form>
 {% endblock %}
+
+{% block sub_navigation %}
+{% include "sub_navigation.html" %}
+{% endblock%}
 
 {% block additional_scripts %}
 <script>

@@ -422,6 +422,27 @@ h3 {
   min-width: 300px;
 }
 
+.sub-navigation-row {
+  color: #082C36;
+  background: white;
+  padding: 1rem;
+
+  h2 {
+    padding: 0.5rem 0;
+    font-size: 36px;
+    line-height: 48px;
+    font-weight: 300;
+  }
+}
+
+.facets-quick-row {
+  color: #115868;
+  background: #E7EEF0;
+  padding: 1rem;
+  font-size: 26px;
+  line-height: 34px;
+}
+
 .search-box {
   background: url(/static/images/bar.svg) repeat-x bottom center / auto 20px white;
   padding: 20px;
@@ -554,15 +575,16 @@ padding-top: 0.4em;
 }
 
 .nav-link {
-  font-size: 13px;
-  line-height: 18px;
-  font-weight: 600;
-  color: #9EC3DA;
+  padding: 0.5rem 1rem 0.5rem 0;
 }
 
 .nav-item {
-  background-color: #EBF3F7;
 }
+
+.nav-item .active {
+  font-weight: 510;
+}
+
 
 /*.nav-pills .nav-link.active {
     background-color: #FFFFFF;
