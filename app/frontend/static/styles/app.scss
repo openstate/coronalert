@@ -78,8 +78,9 @@ header {
   height: 123px;
 }
 footer {
-    background: $color-bg-alt;
-    margin-bottom: 5em;
+  color: #ffffff;
+    background: #092D36;
+    margin-bottom: 2em;
 
 }
 
@@ -129,19 +130,21 @@ nav.navbar a.nav-link-selection {
 #footer-actions {
   padding-top: 2em;
   margin-bottom: 2em;
-  background: $color-bg-default;
   width: 100%;
 }
 
 #footer-actions a {
+  color: #ffffff;
   line-height: 18px;
+  margin-right: 3rem;
 }
 
 #footer-actions .list-inline-item:first-child { margin-right: 4em !important; }
 #footer-actions .list-inline-item:last-child { margin-left: 4em !important; }
 
 #footer-logos {
-  padding: 2em;
+  background: #ffffff;
+  padding: 2em 0;
 }
 #footer-logos ul {
   width: 100%;
