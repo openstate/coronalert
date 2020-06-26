@@ -390,9 +390,26 @@ h3 {
   color: white;
 }
 
+.searchable {
+  background: white;
+  padding: 1rem;
+  font-size: 22px;
+  line-height: 32px;
+
+  input {
+    font-size: 22px;
+    line-height: 32px;
+  }
+
+  select {
+    font-size: 22px;
+    line-height: 32px;
+  }
+}
+
 .search-box {
   background: url(/static/images/bar.svg) repeat-x bottom center / auto 20px white;
-    padding: 20px;
+  padding: 20px;
 }
 
 .search-box div.search-result h2 {

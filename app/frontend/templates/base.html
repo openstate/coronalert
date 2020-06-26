@@ -88,14 +88,18 @@
     {%trans%}collect up-to-date <br>corona policy from your region{%endtrans%}
   </div>
   {% endblock %}
+  <div class="searchable w-100">
+    <div class="container">
+    {% block search %}
+    {% endblock %}
+  </div>
+    {% block cookies_set_alert %}
+    {% endblock %}
+  </div>
 </aside>
 
   <main>
     <div class="container" role="main">
-      {% block search %}
-      {% endblock %}
-      {% block cookies_set_alert %}
-      {% endblock %}
     {% block content %}
     {% endblock %}
     </div>
