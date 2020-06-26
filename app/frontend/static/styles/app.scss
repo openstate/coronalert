@@ -438,6 +438,19 @@ h3 {
   }
 }
 
+.items-load-more {
+  background: #ffffff;
+  color: #092D36;
+  font-size: 22px;
+  line-height: 32px;
+  padding: 2rem 1rem;
+
+  a {
+    color: #092D36;
+    display: inline-block;
+  }
+}
+
 .facets-quick-row {
   color: #115868;
   background: #E7EEF0;

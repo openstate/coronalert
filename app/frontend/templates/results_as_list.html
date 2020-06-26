@@ -34,28 +34,11 @@
 
 {% if results.items %}
 
-<div>
-<nav id="pager" aria-label="{%trans%}Pagination{%endtrans%}">
-  <ul class="pagination justify-content-center mt-3 mt-xl-3">
-    {% if page <= 1 %}
-    <li class="page-item disabled">
-      <a href="#" class="page-link" rel="prev">{%trans%}Previous{%endtrans%}</a>
-    {% else %}
-    <li class="page-item">
-      <a href="{{ dict(page=(page - 1), hl=hl, tl=tl) |url_for_search_page(gov_slug) }}" class="page-link" rel="prev">{%trans%}Previous{%endtrans%}</a>
-    {% endif %}
-    </li>
-    {% if page >= max_pages %}
-    <li class="page-item disabled">
-      <a href="#" class="page-link" rel="next">{%trans%}Next{%endtrans%}</a>
-    {% else %}
-    <li class="page-item">
-      <a href="{{ dict(page=(page + 1), hl=hl, rl=rl) |url_for_search_page(gov_slug) }}" class="page-link" rel="next">{%trans%}Next{%endtrans%}</a>
-    {% endif %}
-    </li>
-  </ul>
-</nav>
+{% if page < max_pages %}
+<div class="items-load-more mt-4 mb-4">
+      <a href="{{ dict(page=(page + 1), hl=hl, rl=rl) |url_for_search_page(gov_slug) }}" class="w-100" rel="next">{%trans%}Next{%endtrans%} <i class="fa fa-chevron-down" style="float: right;"></i></a>
 </div>
+{% endif %}
 {% else %}
 <div class="row">
   <div class="col-xs-12">
