@@ -409,8 +409,19 @@ h3 {
 
 .form-subscribe-selected-options {
   background: #C9E9FB;
-  padding: 1rem;
+  padding: 1rem 2rem !important;
+  color: #0773A1;
 }
+
+.form-subscribe-selected-options-row {
+  background: #C9E9FB;
+  color: #0773A1;
+}
+
+#form-subscribe .col {
+  min-width: 300px;
+}
+
 .search-box {
   background: url(/static/images/bar.svg) repeat-x bottom center / auto 20px white;
   padding: 20px;

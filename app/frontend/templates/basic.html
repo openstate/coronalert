@@ -74,24 +74,24 @@
 
   <div class="form-row mt-4">
     <div class="col align-self-center">
-      <div class="form-check">
-        <input class="form-check-input" type="checkbox" value="1" id="formSubscribAccept" required>
-        <label class="form-check-label" for="formSubscribAccept">
+      <div class="custom-control custom-checkbox">
+        <input class="custom-control-input" type="checkbox" value="1" id="formSubscribAccept" required>
+        <label class="custom-control-label" for="formSubscribAccept">
           {%trans%}I accept the terms and conditions{%endtrans%}
         </label>
       </div>
     </div>
   </div>
 
-  <div class="form-row mt-4">
+  <div class="form-row mt-4 form-subscribe-selected-options-row">
     <div class="col-sm-10 form-subscribe-selected-options">
       {%trans
         municipality="Gemeente",
         provincie="Provincie",
         safetyregion="Veiligheidsregio" %}Receive mail from <span id="form-subscribe-show-municipality">{{ municipality }}</span>, as well as <span id=\"form-subscribe-show-province\">{{ provincie }}</span> and <span id="form-subscribe-show-safety-region">{{ safetyregion }}</span>{%endtrans%}
     </div>
-    <div class="col-sm-2">
-      <button type="submit" class="btn btn-primary">{%trans%}Submit{%endtrans%}</button>
+    <div class="col-sm-2 d-flex justify-content-end" style="padding-left: 0; padding-right: 0;">
+      <button type="submit" class="btn btn-primary" style="line-height: 32px;">{%trans%}Submit{%endtrans%} <i class="fa fa-chevron-right"></i></button>
     </div>
   </div>
 </form>
