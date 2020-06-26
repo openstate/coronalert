@@ -35,7 +35,7 @@
     <div class="col align-self-center">
       <input type="hidden" id="form-subscribe-municipality-name" name="municipality-name" value="" title="">
       <input type="hidden" id="form-subscribe-municipality-actor-type" name="municipality-actor-type" value="" title="">
-      <select id="form-subscribe-municipality" class="form-control form-subscribe-select-location" id="formSubscribeMunicipality" name="municipality">
+      <select id="form-subscribe-municipality" class="custom-select form-subscribe-select-location" id="formSubscribeMunicipality" name="municipality">
         {% for bucket in quick_facets_results.location.buckets|sort(attribute="object.nameMap.nl") %}
           <option value="{{ bucket.object["@id"] }}">{{ bucket.object.nameMap[hl] }}</option>
         {% endfor %}
@@ -44,7 +44,7 @@
     <div class="col ml-4 align-self-center">
       <input type="hidden" id="form-subscribe-province-name" name="province-name" value="" title="">
       <input type="hidden" id="form-subscribe-province-actor-type" name="province-actor-type" value="" title="">
-      <select id="form-subscribe-province" class="form-control form-subscribe-select-location" id="formSubscribeProvince" name="province">
+      <select id="form-subscribe-province" class="custom-select form-subscribe-select-location" id="formSubscribeProvince" name="province">
         <option value="">&dash;</option>
         {% for bucket in quick_facets_results.location.buckets|sort(attribute="object.nameMap.nl") %}
           <option value="{{ bucket.object["@id"] }}">{{ bucket.object.nameMap[hl] }}</option>
@@ -52,24 +52,6 @@
       </select>
     </div>
   </div>
-  <!--
-  <div class="form-row mt-4">
-    <div class="col mr-4 align-self-center">
-      <label for="exampleFormControlInput1" class="">2. {%trans%}Specify a query{%endtrans%}</label>
-    </div>
-    <div class="col align-self-center">
-      <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="{%trans%}Street, park or activity{%endtrans%}...">
-    </div>
-    <div class="col ml-4 align-self-center">
-      <div class="form-check">
-        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-        <label class="form-check-label" for="defaultCheck1">
-          {%trans%}Include safety region{%endtrans%}
-        </label>
-      </div>
-    </div>
-  </div>
--->
 
   <div class="form-row mt-4">
     <div class="col mr-4 align-self-center">
@@ -81,7 +63,7 @@
     <div class="col ml-4 align-self-center">
       <input type="hidden" id="form-subscribe-safety-region-name" name="safety-region-name" value="" title="">
       <input type="hidden" id="form-subscribe-safety-region-actor-type" name="safety-region-actor-type" value="" title="">
-      <select id="form-subscribe-safety-region" class="form-control form-subscribe-select-location" id="formSubscribeSafetyRegion" name="safety-region">
+      <select id="form-subscribe-safety-region" class="custom-select form-subscribe-select-location" id="formSubscribeSafetyRegion" name="safety-region">
         <option value="">&dash;</option>
         {% for bucket in quick_facets_results.location.buckets|sort(attribute="object.nameMap.nl") %}
           <option value="{{ bucket.object["@id"] }}">{{ bucket.object.nameMap[hl] }}</option>
@@ -104,55 +86,27 @@
 
   <div class="form-row mt-4">
     <div class="col align-self-center">
-      <div class="form-check">
-        <input class="form-check-input" type="checkbox" value="1" id="formSubscribAccept">
-        <label class="form-check-label" for="formSubscribAccept">
+      <div class="custom-control custom-checkbox">
+        <input class="custom-control-input" type="checkbox" value="1" id="formSubscribAccept" required>
+        <label class="custom-control-label" for="formSubscribAccept">
           {%trans%}I accept the terms and conditions{%endtrans%}
         </label>
       </div>
     </div>
   </div>
 
-  <div class="form-row mt-4">
+  <div class="form-row mt-4 form-subscribe-selected-options-row">
     <div class="col-sm-10 form-subscribe-selected-options">
       {%trans
         municipality="Gemeente",
         provincie="Provincie",
         safetyregion="Veiligheidsregio" %}Receive mail from <span id="form-subscribe-show-municipality">{{ municipality }}</span>, as well as <span id=\"form-subscribe-show-province\">{{ provincie }}</span> and <span id="form-subscribe-show-safety-region">{{ safetyregion }}</span>{%endtrans%}
     </div>
-    <div class="col">
-      <button type="submit" class="btn btn-primary">{%trans%}Submit{%endtrans%}</button>
+    <div class="col-sm-2 d-flex justify-content-end" style="padding-left: 0; padding-right: 0;">
+      <button type="submit" class="btn btn-primary" style="line-height: 32px;">{%trans%}Submit{%endtrans%} <i class="fa fa-chevron-right"></i></button>
     </div>
   </div>
 </form>
-
-  <div class="row">
-    <div class="col facets-quick mt-4">
-      <ul class="nav nav-pills" id="search-results-types">
-        <li class="nav-item">
-          <a class="nav-link w-100 align-items-center ml-4" id="search-results-types-municipality" data-location="" data-actor-types="municipality" href="#" title="{%trans%}Municipality{%endtrans%}" role="button">
-            {%trans%}Municipality{%endtrans%}
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link w-100 align-items-center ml-4" id="search-results-types-province" data-location="" data-actor-types="province" href="#" title="{%trans%}Province{%endtrans%}" role="button">
-            {%trans%}Province{%endtrans%}
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link w-100 align-items-center ml-4" id="search-results-types-safety-region" data-location="" data-actor-types="safety-region" href="#" title="{%trans%}Safety Region{%endtrans%}" role="button">
-            {%trans%}Safety Region{%endtrans%}
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active w-100  align-items-center ml-4" id="search-results-types-all" data-location="" data-actor-types="municipality,province,safety-region" href="#" title="{%trans%}All{%endtrans%}" role="button">
-            {%trans%}All{%endtrans%}
-          </a>
-        </li>
-      </ul>
-    </div>
-  </div>
-
 {% endblock %}
 
 {% block additional_scripts %}
