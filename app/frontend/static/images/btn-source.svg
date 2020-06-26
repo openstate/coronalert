@@ -1,9 +1,1 @@
-<svg id="Group_115" data-name="Group 115" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
-  <path id="Path_180" data-name="Path 180" d="M11.163,0H28.837A11.163,11.163,0,0,1,40,11.163V28.837A11.163,11.163,0,0,1,28.837,40H11.163A11.163,11.163,0,0,1,0,28.837V11.163A11.163,11.163,0,0,1,11.163,0Z" fill="#fff"/>
-  <g id="Icon_feather-external-link" data-name="Icon feather-external-link" transform="translate(13.79 7.241)">
-    <path id="Path_176" data-name="Path 176" d="M16.457,14.58v4.783a1.594,1.594,0,0,1-1.594,1.594H6.094A1.594,1.594,0,0,1,4.5,19.363V10.594A1.594,1.594,0,0,1,6.094,9h4.783" transform="translate(-4.5 -6.609)" fill="none" stroke="#0603a6" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-    <path id="Path_177" data-name="Path 177" d="M22.5,4.5h4.783V9.283" transform="translate(-12.934 -4.5)" fill="none" stroke="#0603a6" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-    <path id="Path_178" data-name="Path 178" d="M15,13.268,23.768,4.5" transform="translate(-9.42 -4.5)" fill="none" stroke="#0603a6" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-  </g>
-  <text id="source" transform="translate(8 34.138)" fill="#0603a6" font-size="8" font-family="OpenSans-Light, Open Sans" font-weight="300"><tspan x="0" y="0">source</tspan></text>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50"><defs><style>.a{fill:#fff;opacity:0.95;}.b{fill:#092d36;font-size:8px;font-family:Roboto-Regular, Roboto;}.c{fill:#115868;}</style></defs><g transform="translate(-96 -270)"><rect class="a" width="50" height="50" transform="translate(96 270)"/><text class="b" transform="translate(112.459 310.067)"><tspan x="0" y="0">bron</tspan></text><g transform="translate(113 279)"><path class="c" d="M714,418.233h-9.957v-9.957h5.377v-2h-7.377v13.957H716v-7.377h-2Z" transform="translate(-702.045 -403.886)"/><path class="c" d="M712.609,403.886v2h2.369l-7.061,7.061,1.414,1.414,7.061-7.061v2.368h2v-5.782Z" transform="translate(-702.045 -403.886)"/></g></g></svg>
