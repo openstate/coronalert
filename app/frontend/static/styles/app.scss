@@ -371,7 +371,7 @@ h3 {
 }
 
 .nav-filtering {
-  background: url(/static/images/bg-filter.png) repeat-x;
+  background: #C9E9FB;
   font-size: 16px;
   line-height: 18px;
   font-weight: 600;
@@ -387,7 +387,7 @@ h3 {
 }
 
 .nav-filtering a.nav-link {
-  color: white;
+  color: #0773A1;
 }
 
 .searchable {
@@ -438,7 +438,6 @@ h3 {
 .facets-quick-row {
   color: #115868;
   background: #E7EEF0;
-  padding: 1rem;
   font-size: 26px;
   line-height: 34px;
 }
@@ -575,7 +574,7 @@ padding-top: 0.4em;
 }
 
 .nav-link {
-  padding: 0.5rem 1rem 0.5rem 0;
+  padding: 1rem 2rem 1rem 0;
 }
 
 .nav-item {
@@ -583,6 +582,7 @@ padding-top: 0.4em;
 
 .nav-item .active {
   font-weight: 510;
+  border-top: 1px solid red;
 }
 
 
