@@ -14,6 +14,15 @@
 <meta property="og:description" content="{{ 'content' |as2_i18n_field(results['as:items'].0, rl) |html_title_cleanup(result) }}" />
 {% endblock %}
 
+{%block breadcrumb %}
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="/">{%trans%}Home{%endtrans%}</a></li>
+    <li class="breadcrumb-item active" aria-current="page">{{ 'name' |as2_i18n_field(results['as:items'][0], rl) }}</li>
+  </ol>
+</nav>
+{%endblock%}
+
 {% block content %}
 
 <!--politags container-->
@@ -35,21 +44,21 @@
     {% else %}
     {% set article_language = result_object['@language'] %}
     {% endif %}
+    {% set article_content = "yes" %}
     {% include "inner_result.html" %}
   </div>
   <div class="content mb-4">
     <div class="byline-alt mt-4 mb-4">
+      <div class="mr-4" style="display: inline-block;">
       <span>{%trans%}Originallypublished on:{%endtrans%}</span><br>
       {{ result_object.created |correct_timezone |iso8601_to_str('full') }}
+      </div>
       <!-- initial: {{ result_object.created }} -->
       <!-- corrected: {{ result_object.created |correct_timezone }} -->
-    </div>
-    <div lang="{{ article_language }}">
-    {{ 'content' |as2_i18n_field(result_object, rl) |html_cleanup(result_object) |pls_generate_article_template |safe }}
-    </div>
-    <div class="byline-alt mt-4">
-      <span>{%trans%}Source{%endtrans%}</span><br>
-      <a href="{{ result_object.url }}" target="_blank">{{ result_object.url |pls_hostname }}</a>
+      <div class="mr-4" style="display: inline-block;">
+        <span>{%trans%}Source{%endtrans%}</span><br>
+        <a href="{{ result_object.url }}" target="_blank">{{ result_object.url |pls_hostname }}</a>
+      </div>
     </div>
     <div class="byline-alt mt-4">
       <a class="mr-4" href="https://twitter.com/share?text={{ 'name' |as2_i18n_field(result_object, rl) |urlencode }}&url={{ request.url |urlencode}}">
