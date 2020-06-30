@@ -546,29 +546,34 @@ h3 {
 	text-decoration: none;
 }
 
+aside .searchable {
+  background: #C9E9FB;
+  padding: 2em;
+}
+
 .form-search {
-  color: white;
-  font-size: 26px;
-  line-height: 28px;
-  background: #9EC3DA;
+  color: #9EC3DA;
+  font-size: 22px;
+  line-height: 32px;
+  background: white;
   padding: 0.5em;
   input {
-    color: white !important;
+    color:  #0773A1 !important;
     background: inherit !important;
-    font-size: 26px;
-    line-height: 28px;
+    font-size: 22px;
+    line-height: 32px;
     border: 0;
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid #0773A1;
   }
 
   input::placeholder {
-    color: white;
+    color: #9EC3DA !important;
   }
 
   .btn {
-    color: white !important;
-    font-size: 26px;
-    line-height: 28px;
+    color: #0773A1 !important;
+    font-size: 22px;
+    line-height: 32px;
     border: 0;
   }
 }
