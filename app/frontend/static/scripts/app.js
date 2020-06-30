@@ -78,7 +78,50 @@ CurrentApp.generate_full_eq_query = function(queries, offset) {
 };
 
 CurrentApp.perform_search = function(page) {
-
+  /* START REFACTOR */
+  var actor_types = $('#search-results-types .active').attr('data-actor-types').split(',');
+  console.log('should do the following actor types:');
+  console.log(actor_types);
+  var clauses = [];
+  var percolations = [];
+  for (var p in CurrentApp.percolations) {
+    percolations.push(CurrentApp.percolations[p]);
+  }
+  actor_types.forEach(function (a) {
+    clauses.push(CurrentApp.generate_es_query({
+      'location': $('#search-results-types-'+a).attr('href'),
+      'attributedTo': CurrentApp.actor_types[$('#search-results-types-'+a).attr('title')],
+      'percolations': percolations
+    }));
+  });
+  console.log('clauses:');
+  // console.dir(clauses);
+  var full_query = CurrentApp.generate_full_eq_query(clauses);
+  var url_for_query = '/query';
+  console.log('full query before search query:');
+  console.dir(full_query);
+  var searchQuery = $('#formSubscribeQuery').val();
+  if ((typeof(searchQuery) !== 'undefined') && (searchQuery.trim() != '')) {
+    url_for_query = url_for_query + '?query=' + encodeURI(searchQuery.trim());
+    full_query.query.bool.must = [
+      {'simple_query_string': {
+          'query': searchQuery.trim(),
+          'default_operator': 'AND',
+          'fields': ['name', 'content', '*.nl', '*.en', '*.fr', '*.de']
+      }}
+    ]
+  }
+  console.log('full query after search query:');
+  console.dir(full_query);
+  $.ajax({
+    type: 'POST',
+    url: url_for_query,
+    data: JSON.stringify(full_query), // or JSON.stringify ({name: 'jonas'}),
+    success: function(data) { console.log('got data!'); $('#content-search-results').html(data); },
+    contentType: "application/json",
+    dataType: 'html'
+  });
+  /* END REFACTOR */
 };
 
 CurrentApp.init = function() {
@@ -236,48 +279,9 @@ CurrentApp.init = function() {
     $('#search-results-types li a').removeClass('active');
     $(this).addClass('active');
     e.preventDefault();
-    var actor_types = $(this).attr('data-actor-types').split(',');
-    console.log('should do the following actor types:');
-    console.log(actor_types);
-    var clauses = [];
-    var percolations = [];
-    for (var p in CurrentApp.percolations) {
-      percolations.push(CurrentApp.percolations[p]);
-    }
-    actor_types.forEach(function (a) {
-      clauses.push(CurrentApp.generate_es_query({
-        'location': $('#search-results-types-'+a).attr('href'),
-        'attributedTo': CurrentApp.actor_types[$('#search-results-types-'+a).attr('title')],
-        'percolations': percolations
-      }));
-    });
-    console.log('clauses:');
-    // console.dir(clauses);
-    var full_query = CurrentApp.generate_full_eq_query(clauses);
-    var url_for_query = '/query';
-    console.log('full query before search query:');
-    console.dir(full_query);
-    var searchQuery = $('#formSubscribeQuery').val();
-    if ((typeof(searchQuery) !== 'undefined') && (searchQuery.trim() != '')) {
-      url_for_query = url_for_query + '?query=' + encodeURI(searchQuery.trim());
-      full_query.query.bool.must = [
-        {'simple_query_string': {
-            'query': searchQuery.trim(),
-            'default_operator': 'AND',
-            'fields': ['name', 'content', '*.nl', '*.en', '*.fr', '*.de']
-        }}
-      ]
-    }
-    console.log('full query after search query:');
-    console.dir(full_query);
-    $.ajax({
-      type: 'POST',
-      url: url_for_query,
-      data: JSON.stringify(full_query), // or JSON.stringify ({name: 'jonas'}),
-      success: function(data) { console.log('got data!'); $('#content-search-results').html(data); },
-      contentType: "application/json",
-      dataType: 'html'
-    });
+
+    CurrentApp.perform_search(1);
+
     return false;
   });
 
