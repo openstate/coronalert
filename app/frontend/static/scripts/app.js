@@ -50,7 +50,7 @@ CurrentApp.generate_es_query = function(clause) {
   }
 };
 
-CurrentApp.generate_full_eq_query = function(queries) {
+CurrentApp.generate_full_eq_query = function(queries, offset) {
   var result = {};
   if (queries.length >1) {
     result = {
@@ -71,7 +71,14 @@ CurrentApp.generate_full_eq_query = function(queries) {
     result = queries[0];
   }
   result['size'] = 10;
+  if (typeof(offset) !== 'undefined') {
+    result['offset'] = offset;
+  }
   return result;
+};
+
+CurrentApp.perform_search = function(page) {
+
 };
 
 CurrentApp.init = function() {

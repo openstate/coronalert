@@ -110,7 +110,9 @@
 {% else %}
   {% set filter_bar_sort = "relevant" %}
 {% endif %}
-{% set filter_bar_show = "yes" %}
+{% if layout_file == "base.html" %}
+  {% set filter_bar_show = "yes" %}
+{% endif %}
 {% include "filter_bar.html" %}
 
 <section id="content-search-results">
