@@ -546,12 +546,13 @@ h3 {
 	text-decoration: none;
 }
 
-aside .searchable {
+.aside-base .searchable {
   background: #C9E9FB;
   padding: 2em;
+
 }
 
-.form-search {
+.aside-base .form-search {
   color: #9EC3DA;
   font-size: 22px;
   line-height: 32px;
@@ -574,6 +575,33 @@ aside .searchable {
     color: #0773A1 !important;
     font-size: 22px;
     line-height: 32px;
+    border: 0;
+  }
+}
+
+.form-search {
+  color: white;
+  font-size: 26px;
+  line-height: 28px;
+  background: #9EC3DA;
+  padding: 0.5em;
+  input {
+    color: white !important;
+    background: inherit !important;
+    font-size: 26px;
+    line-height: 28px;
+    border: 0;
+    border-bottom: 1px solid white;
+  }
+
+  input::placeholder {
+    color: white;
+  }
+
+  .btn {
+    color: white !important;
+    font-size: 26px;
+    line-height: 28px;
     border: 0;
   }
 }
