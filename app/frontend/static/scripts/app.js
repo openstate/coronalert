@@ -78,6 +78,11 @@ CurrentApp.generate_full_eq_query = function(queries, offset) {
 };
 
 CurrentApp.perform_search = function(page) {
+  // page starts at 1
+  var offset = 0;
+  if (typeof(page) !== 'undefined') {
+    offset = (page - 1) * 10;
+  }
   /* START REFACTOR */
   var actor_types = $('#search-results-types .active').attr('data-actor-types').split(',');
   console.log('should do the following actor types:');
@@ -117,7 +122,13 @@ CurrentApp.perform_search = function(page) {
     type: 'POST',
     url: url_for_query,
     data: JSON.stringify(full_query), // or JSON.stringify ({name: 'jonas'}),
-    success: function(data) { console.log('got data!'); $('#content-search-results').html(data); },
+    success: function(data) {
+      if (offset == 0) {
+        $('#content-search-results').empty();
+      }
+      console.log('got data!');
+      $('#content-search-results').append(data);
+    },
     contentType: "application/json",
     dataType: 'html'
   });
