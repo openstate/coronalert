@@ -78,6 +78,7 @@ CurrentApp.generate_full_eq_query = function(queries, offset) {
 };
 
 CurrentApp.perform_search = function(page) {
+  $('#content-search-results').append('<div class="spinner-border" role="status"><span class="sr-only">Loading...</span></div>');
   // page starts at 1
   var offset = 0;
   if (typeof(page) !== 'undefined') {
@@ -103,11 +104,14 @@ CurrentApp.perform_search = function(page) {
   // console.dir(clauses);
   var full_query = CurrentApp.generate_full_eq_query(clauses, offset);
   var url_for_query = '/query';
+  if (offset > 0) {
+    url_for_query += '?page=' + page;
+  }
   console.log('full query before search query:');
   console.dir(full_query);
   var searchQuery = $('#formSubscribeQuery').val();
   if ((typeof(searchQuery) !== 'undefined') && (searchQuery.trim() != '')) {
-    url_for_query = url_for_query + '?query=' + encodeURI(searchQuery.trim());
+    url_for_query = url_for_query + '&query=' + encodeURI(searchQuery.trim());
     full_query.query.bool.must = [
       {'simple_query_string': {
           'query': searchQuery.trim(),
@@ -126,8 +130,25 @@ CurrentApp.perform_search = function(page) {
       if (offset == 0) {
         $('#content-search-results').empty();
       }
-      console.log('got data!');
+      console.log('got search result data!');
+      $('.spinner-border').remove();
       $('#content-search-results').append(data);
+
+      // TODO: fix this :-)
+      console.log('next page link:');
+      console.log($('a[rel="next"]'));
+      $('a[rel="next"]').on('click', function(e) {
+        console.log('item load more pages link clicked!');
+
+        CurrentApp.perform_search($(this).attr('data-page'));
+
+        $(this).parent().remove();
+
+        e.preventDefault();
+
+        return false;
+      });
+
     },
     contentType: "application/json",
     dataType: 'html'
@@ -285,7 +306,7 @@ CurrentApp.init = function() {
 
   // search resuts types functionality
   $('#search-results-types li a').on('click', function (e) {
-    $('#content-search-results').html('<div class="spinner-border" role="status"><span class="sr-only">Loading...</span></div>');
+    $('#content-search-results').empty(); //html('<div class="spinner-border" role="status"><span class="sr-only">Loading...</span></div>');
     console.log('clicked!');
     $('#search-results-types li a').removeClass('active');
     $(this).addClass('active');
@@ -295,6 +316,7 @@ CurrentApp.init = function() {
 
     return false;
   });
+
 
   $('#form-subscribe-municipality').change();
 };
