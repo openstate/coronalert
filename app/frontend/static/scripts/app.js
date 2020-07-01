@@ -77,6 +77,40 @@ CurrentApp.generate_full_eq_query = function(queries, offset) {
   return result;
 };
 
+CurrentApp.live_paging = function() {
+  // TODO: fix this :-)
+  console.log('next page link:');
+  console.log($('a[rel="next"]'));
+  $('a[rel="next"]').on('click', function(e) {
+    e.preventDefault();
+    console.log('item load more pages link clicked!');
+
+    if (CurrentApp.mode != "search") {
+      CurrentApp.perform_search($(this).attr('data-page'));
+    } else {
+      $.ajax({
+        type: 'GET',
+        url: $(this).attr('href') + '&layout=bare',
+        success: function(data) {
+          console.log('got search mode result data!');
+          $('.spinner-border').remove();
+          $('#content-search-results').append(data);
+
+          CurrentApp.live_paging();
+        },
+        contentType: "application/json",
+        dataType: 'html'
+      });
+
+    }
+
+    $(this).parent().remove();
+
+
+    return false;
+  });
+};
+
 CurrentApp.perform_search = function(page) {
   $('#content-search-results').append('<div class="spinner-border" role="status"><span class="sr-only">Loading...</span></div>');
   // page starts at 1
@@ -134,21 +168,7 @@ CurrentApp.perform_search = function(page) {
       $('.spinner-border').remove();
       $('#content-search-results').append(data);
 
-      // TODO: fix this :-)
-      console.log('next page link:');
-      console.log($('a[rel="next"]'));
-      $('a[rel="next"]').on('click', function(e) {
-        console.log('item load more pages link clicked!');
-
-        CurrentApp.perform_search($(this).attr('data-page'));
-
-        $(this).parent().remove();
-
-        e.preventDefault();
-
-        return false;
-      });
-
+      CurrentApp.live_paging();
     },
     contentType: "application/json",
     dataType: 'html'
@@ -318,6 +338,7 @@ CurrentApp.init = function() {
   });
 
 
+  CurrentApp.live_paging();
   $('#form-subscribe-municipality').change();
 };
 
