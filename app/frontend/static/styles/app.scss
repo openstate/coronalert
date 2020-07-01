@@ -165,11 +165,11 @@ nav.navbar .nav-link {
   font-family: $font-nav;
   font-size: 28px;
   font-weight: 800;
-  color: #9EC3DA !important;
+  color: #0773A1 !important;
 }
 
 nav.navbar .nav-link:hover {
-    color: #0603a6!important;
+    color: #ED1D24 !important;
 }
 
 .aside-index {
@@ -244,6 +244,12 @@ margin-bottom:50px;
   padding: 1rem;
 }
 
+.btn:hover {
+  background: #ED1D24;
+  border: 1px solid #ED1D24;
+  color: white;
+}
+
 .btn-lg {
     font-size: 36px;
     line-height: 42px;
@@ -256,7 +262,7 @@ margin-bottom:50px;
 
 .btn-group-sm>.btn:hover, .btn-sm:hover {
 	text-decoration: none;
-    background: #0603a6;
+    background: #ED1D24;
 	color: #fff;
 }
 
@@ -276,10 +282,11 @@ margin-bottom:50px;
 
 .btn-group-lg>.btn, .btn-lg {
     border-radius: 0;
-	text-transform: capitalize;
+	text-transform: none;
 }
+
 .btn-group-lg>.btn:hover, .btn-lg:hover {
-    color:#9EC3DA;
+    color: white;
 }
 
 h1 {
@@ -478,7 +485,7 @@ h3 {
 }
 
 .search-result h2 a:hover {
-    color: #0603A6;
+    color: #ED1D24;
 	text-decoration: none;
 }
 
