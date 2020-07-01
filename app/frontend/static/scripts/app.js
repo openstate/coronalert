@@ -88,6 +88,7 @@ CurrentApp.live_paging = function() {
     if (CurrentApp.mode != "search") {
       CurrentApp.perform_search($(this).attr('data-page'));
     } else {
+      $('#content-search-results').append('<div class="spinner-border" role="status"><span class="sr-only">Loading...</span></div>');
       $.ajax({
         type: 'GET',
         url: $(this).attr('href') + '&layout=bare',
