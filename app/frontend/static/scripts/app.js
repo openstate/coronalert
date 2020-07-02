@@ -146,7 +146,11 @@ CurrentApp.perform_search = function(page) {
   console.dir(full_query);
   var searchQuery = $('#formSubscribeQuery').val();
   if ((typeof(searchQuery) !== 'undefined') && (searchQuery.trim() != '')) {
-    url_for_query = url_for_query + '&query=' + encodeURI(searchQuery.trim());
+    var cs = "?";
+    if (url_for_query.indexOf(cs) >= 0) {
+      cs = "&";
+    }
+    url_for_query = url_for_query + cs + 'query=' + encodeURI(searchQuery.trim());
     full_query.query.bool.must = [
       {'simple_query_string': {
           'query': searchQuery.trim(),
