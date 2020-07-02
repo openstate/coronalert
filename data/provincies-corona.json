@@ -1,0 +1,74 @@
+[
+  {
+    "collection": "Provincie",
+    "location": "Drenthe",
+    "file_url": "https://www.provincie.drenthe.nl/diversen/coronavirus/actueel/",
+    "type": "Nieuws"
+  },
+  {
+    "collection": "Provincie",
+    "location": "Flevoland",
+    "file_url": null,
+    "type": "Nieuws"
+  },
+  {
+    "collection": "Provincie",
+    "location": "Fryslân",
+    "file_url": null,
+    "type": "Nieuws"
+  },
+  {
+    "collection": "Provincie",
+    "location": "Gelderland",
+    "file_url": "https://www.gelderland.nl/Nieuwsoverzicht/COVID-19/COVID-19-Updates",
+    "type": "Nieuws"
+  },
+  {
+    "collection": "Provincie",
+    "location": "Groningen",
+    "file_url": null,
+    "type": "Nieuws"
+  },
+  {
+    "collection": "Provincie",
+    "location": "Limburg",
+    "file_url": null,
+    "type": "Nieuws"
+  },
+  {
+    "collection": "Provincie",
+    "location": "Noord-Brabant",
+    "file_url": "https://www.brabant.nl/subsites/corona/nieuws",
+    "type": "Nieuws"
+  },
+  {
+    "collection": "Provincie",
+    "location": "Noord-Holland",
+    "file_url": "https://www.noord-holland.nl/Actueel/Coronavirus/Nieuws_coronavirus",
+    "type": "Nieuws"
+  },
+  {
+    "collection": "Provincie",
+    "location": "Overijssel",
+    "file_url": null,
+    "type": "Nieuws"
+  },
+  {
+    "collection": "Provincie",
+    "location": "Utrecht",
+    "file_url": null,
+    "type": "Nieuws"
+  },
+  {
+    "collection": "Provincie",
+    "location": "Zeeland",
+    "file_url": null,
+    "type": "Nieuws"
+  },
+  {
+    "collection": "Provincie",
+    "location": "Zuid-Holland",
+    "file_url": null,
+    "type": "Nieuws"
+  }
+]

@@ -1,0 +1,152 @@
+[
+  {
+    "collection": "Veiligheidsregio",
+    "location": "Amsterdam-Amstelland",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Veiligheidsregio",
+    "location": "Brabant-Noord",
+    "file_url": "https://www.vrbn.nl/update-coronavirus/",
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Veiligheidsregio",
+    "location": "Brabant-Zuidoost",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Veiligheidsregio",
+    "location": "Drenthe",
+    "file_url": "https://www.vrd.nl/coronavirus-in-drenthe.html",
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Veiligheidsregio",
+    "location": "Flevoland",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Veiligheidsregio",
+    "location": "Fryslân",
+    "file_url": "https://www.veiligheidsregiofryslan.nl/coronavirus/",
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Veiligheidsregio",
+    "location": "Gelderland-Midden",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Veiligheidsregio",
+    "location": "Gelderland-Zuid",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Veiligheidsregio",
+    "location": "Gooi en Vechtstreek",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Veiligheidsregio",
+    "location": "Groningen",
+    "file_url": "https://www.veiligheidsregiogroningen.nl/wat_jij_kan_doen/tijdens_een_crisis/corona/wat_betekent_het_coronavirus_voor_groningen_",
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Veiligheidsregio",
+    "location": "Haaglanden",
+    "file_url": "https://haaglandenveilig.nl/informatie-over-het-coronavirus-covid-19",
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Veiligheidsregio",
+    "location": "Hollands-Midden",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Veiligheidsregio",
+    "location": "IJsselland",
+    "file_url": "https://www.vrijsselland.nl/coronavirus/",
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Veiligheidsregio",
+    "location": "Kennemerland",
+    "file_url": "https://www.vrk.nl/nl-NL/Coronavirus",
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Veiligheidsregio",
+    "location": "Limburg-Noord",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Veiligheidsregio",
+    "location": "Limburg-Zuid",
+    "file_url": "https://www.vrzl.nl/coronavirus",
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Veiligheidsregio",
+    "location": "Midden- en West-Brabant",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Veiligheidsregio",
+    "location": "Noord- en Oost-Gelderland",
+    "file_url": "https://www.vrmwb.nl/Nieuws/2020/02/27/Informatie-over-corona",
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Veiligheidsregio",
+    "location": "Noord-Holland-Noord",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Veiligheidsregio",
+    "location": "Rotterdam-Rijnmond",
+    "file_url": null,
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Veiligheidsregio",
+    "location": "Twente",
+    "file_url": "https://vrtwente.nl/corona/",
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Veiligheidsregio",
+    "location": "Utrecht",
+    "file_url": "https://www.vru.nl/coronavirus/informatie-voor-inwoners",
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Veiligheidsregio",
+    "location": "Zaanstreek-Waterland",
+    "file_url": "https://www.veiligheidsregiozaanstreekwaterland.nl/incidenten/incident/?tx_news_pi1%5Bnews%5D=1110&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Baction%5D=detail&cHash=8b49f50d654ceedcc0f2f618c305a1ea",
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Veiligheidsregio",
+    "location": "Zeeland",
+    "file_url": "https://www.zeelandveilig.nl/coronavirus",
+    "type": "Maatregelen"
+  },
+  {
+    "collection": "Veiligheidsregio",
+    "location": "Zuid-Holland-Zuid",
+    "file_url": null,
+    "type": "Maatregelen"
+  }
+]

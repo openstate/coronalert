@@ -1,0 +1,152 @@
+[
+  {
+    "collection": "Veiligheidsregio",
+    "location": "Amsterdam-Amstelland",
+    "file_url": "https://www.amsterdam.nl/veiligheidsregio/",
+    "type": "Nieuws"
+  },
+  {
+    "collection": "Veiligheidsregio",
+    "location": "Brabant-Noord",
+    "file_url": "https://www.vrbn.nl/organisatie/nieuws/nieuws-0/nieuws/",
+    "type": "Nieuws"
+  },
+  {
+    "collection": "Veiligheidsregio",
+    "location": "Brabant-Zuidoost",
+    "file_url": "https://www.vrbzo.nl/actueel/",
+    "type": "Nieuws"
+  },
+  {
+    "collection": "Veiligheidsregio",
+    "location": "Drenthe",
+    "file_url": "https://www.vrd.nl/actueel.html",
+    "type": "Nieuws"
+  },
+  {
+    "collection": "Veiligheidsregio",
+    "location": "Flevoland",
+    "file_url": "https://www.veiligheidsregioflevoland.nl/",
+    "type": "Nieuws"
+  },
+  {
+    "collection": "Veiligheidsregio",
+    "location": "Fryslân",
+    "file_url": "https://www.veiligheidsregiofryslan.nl/",
+    "type": "Nieuws"
+  },
+  {
+    "collection": "Veiligheidsregio",
+    "location": "Gelderland-Midden",
+    "file_url": "https://www.vggm.nl/vggm",
+    "type": "Nieuws"
+  },
+  {
+    "collection": "Veiligheidsregio",
+    "location": "Gelderland-Zuid",
+    "file_url": null,
+    "type": "Nieuws"
+  },
+  {
+    "collection": "Veiligheidsregio",
+    "location": "Gooi en Vechtstreek",
+    "file_url": "https://www.vrgooienvechtstreek.nl/actueel/",
+    "type": "Nieuws"
+  },
+  {
+    "collection": "Veiligheidsregio",
+    "location": "Groningen",
+    "file_url": "https://www.veiligheidsregiogroningen.nl/over_ons/nieuws/",
+    "type": "Nieuws"
+  },
+  {
+    "collection": "Veiligheidsregio",
+    "location": "Haaglanden",
+    "file_url": "https://www.vrh.nl/nieuws-verhalen",
+    "type": "Nieuws"
+  },
+  {
+    "collection": "Veiligheidsregio",
+    "location": "Hollands-Midden",
+    "file_url": "https://www.vrhm.nl/",
+    "type": "Nieuws"
+  },
+  {
+    "collection": "Veiligheidsregio",
+    "location": "IJsselland",
+    "file_url": "https://www.vrijsselland.nl/nieuws",
+    "type": "Nieuws"
+  },
+  {
+    "collection": "Veiligheidsregio",
+    "location": "Kennemerland",
+    "file_url": "https://www.vrk.nl/nl-NL/Nieuws",
+    "type": "Nieuws"
+  },
+  {
+    "collection": "Veiligheidsregio",
+    "location": "Limburg-Noord",
+    "file_url": "https://www.vrln.nl/nieuws",
+    "type": "Nieuws"
+  },
+  {
+    "collection": "Veiligheidsregio",
+    "location": "Limburg-Zuid",
+    "file_url": "https://vrzl.nl/nieuws",
+    "type": "Nieuws"
+  },
+  {
+    "collection": "Veiligheidsregio",
+    "location": "Midden- en West-Brabant",
+    "file_url": "https://www.vrmwb.nl/nieuws",
+    "type": "Nieuws"
+  },
+  {
+    "collection": "Veiligheidsregio",
+    "location": "Noord- en Oost-Gelderland",
+    "file_url": "https://www.vrmwb.nl/Nieuws",
+    "type": "Nieuws"
+  },
+  {
+    "collection": "Veiligheidsregio",
+    "location": "Noord-Holland-Noord",
+    "file_url": "https://www.vrnhn.nl/actueel",
+    "type": "Nieuws"
+  },
+  {
+    "collection": "Veiligheidsregio",
+    "location": "Rotterdam-Rijnmond",
+    "file_url": "https://vr-rr.nl/actueel/",
+    "type": "Nieuws"
+  },
+  {
+    "collection": "Veiligheidsregio",
+    "location": "Twente",
+    "file_url": "https://vrtwente.nl/actueel/",
+    "type": "Nieuws"
+  },
+  {
+    "collection": "Veiligheidsregio",
+    "location": "Utrecht",
+    "file_url": "https://www.vru.nl/nieuws",
+    "type": "Nieuws"
+  },
+  {
+    "collection": "Veiligheidsregio",
+    "location": "Zaanstreek-Waterland",
+    "file_url": "https://www.veiligheidsregiozaanstreekwaterland.nl/nieuws.html",
+    "type": "Nieuws"
+  },
+  {
+    "collection": "Veiligheidsregio",
+    "location": "Zeeland",
+    "file_url": "https://www.veiligheidsregiozeeland.nl/nieuws",
+    "type": "Nieuws"
+  },
+  {
+    "collection": "Veiligheidsregio",
+    "location": "Zuid-Holland-Zuid",
+    "file_url": "https://www.zhzveilig.nl/vrzhz/nieuws/",
+    "type": "Nieuws"
+  }
+]

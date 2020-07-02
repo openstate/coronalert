@@ -1,0 +1,152 @@
+[
+  {
+    "collection": "Veiligheidsregio",
+    "location": "Amsterdam-Amstelland",
+    "file_url": null,
+    "type": "Nieuws"
+  },
+  {
+    "collection": "Veiligheidsregio",
+    "location": "Brabant-Noord",
+    "file_url": "https://www.vrbn.nl/update-coronavirus/actueel/",
+    "type": "Nieuws"
+  },
+  {
+    "collection": "Veiligheidsregio",
+    "location": "Brabant-Zuidoost",
+    "file_url": null,
+    "type": "Nieuws"
+  },
+  {
+    "collection": "Veiligheidsregio",
+    "location": "Drenthe",
+    "file_url": "https://www.vrd.nl/coronavirus-in-drenthe/actuele-maatregelen.html",
+    "type": "Nieuws"
+  },
+  {
+    "collection": "Veiligheidsregio",
+    "location": "Flevoland",
+    "file_url": "https://www.veiligheidsregioflevoland.nl/actueel/corona/",
+    "type": "Nieuws"
+  },
+  {
+    "collection": "Veiligheidsregio",
+    "location": "Fryslân",
+    "file_url": "https://www.veiligheidsregiofryslan.nl/coronavirus/nieuwsberichten/",
+    "type": "Nieuws"
+  },
+  {
+    "collection": "Veiligheidsregio",
+    "location": "Gelderland-Midden",
+    "file_url": null,
+    "type": "Nieuws"
+  },
+  {
+    "collection": "Veiligheidsregio",
+    "location": "Gelderland-Zuid",
+    "file_url": null,
+    "type": "Nieuws"
+  },
+  {
+    "collection": "Veiligheidsregio",
+    "location": "Gooi en Vechtstreek",
+    "file_url": "https://www.vrgooienvechtstreek.nl/categorie/coronanieuws/",
+    "type": "Nieuws"
+  },
+  {
+    "collection": "Veiligheidsregio",
+    "location": "Groningen",
+    "file_url": null,
+    "type": "Nieuws"
+  },
+  {
+    "collection": "Veiligheidsregio",
+    "location": "Haaglanden",
+    "file_url": null,
+    "type": "Nieuws"
+  },
+  {
+    "collection": "Veiligheidsregio",
+    "location": "Hollands-Midden",
+    "file_url": null,
+    "type": "Nieuws"
+  },
+  {
+    "collection": "Veiligheidsregio",
+    "location": "IJsselland",
+    "file_url": "https://www.vrijsselland.nl/nieuwsoverzicht-coronavirus/",
+    "type": "Nieuws"
+  },
+  {
+    "collection": "Veiligheidsregio",
+    "location": "Kennemerland",
+    "file_url": "https://www.vrk.nl/Nieuws/2020/03/31/Update-coronavirus",
+    "type": "Nieuws"
+  },
+  {
+    "collection": "Veiligheidsregio",
+    "location": "Limburg-Noord",
+    "file_url": "https://vrln.nl/nieuws/coronavirus",
+    "type": "Nieuws"
+  },
+  {
+    "collection": "Veiligheidsregio",
+    "location": "Limburg-Zuid",
+    "file_url": null,
+    "type": "Nieuws"
+  },
+  {
+    "collection": "Veiligheidsregio",
+    "location": "Midden- en West-Brabant",
+    "file_url": null,
+    "type": "Nieuws"
+  },
+  {
+    "collection": "Veiligheidsregio",
+    "location": "Noord- en Oost-Gelderland",
+    "file_url": null,
+    "type": "Nieuws"
+  },
+  {
+    "collection": "Veiligheidsregio",
+    "location": "Noord-Holland-Noord",
+    "file_url": null,
+    "type": "Nieuws"
+  },
+  {
+    "collection": "Veiligheidsregio",
+    "location": "Rotterdam-Rijnmond",
+    "file_url": null,
+    "type": "Nieuws"
+  },
+  {
+    "collection": "Veiligheidsregio",
+    "location": "Twente",
+    "file_url": null,
+    "type": "Nieuws"
+  },
+  {
+    "collection": "Veiligheidsregio",
+    "location": "Utrecht",
+    "file_url": null,
+    "type": "Nieuws"
+  },
+  {
+    "collection": "Veiligheidsregio",
+    "location": "Zaanstreek-Waterland",
+    "file_url": null,
+    "type": "Nieuws"
+  },
+  {
+    "collection": "Veiligheidsregio",
+    "location": "Zeeland",
+    "file_url": "https://www.zeelandveilig.nl/meldingen/zeeuwse-maatregelen-coronavirus",
+    "type": "Nieuws"
+  },
+  {
+    "collection": "Veiligheidsregio",
+    "location": "Zuid-Holland-Zuid",
+    "file_url": "https://www.zhzveilig.nl/vrzhz/nieuws-coronavirus/",
+    "type": "Nieuws"
+  }
+]
