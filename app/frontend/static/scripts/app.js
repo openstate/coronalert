@@ -174,6 +174,8 @@ CurrentApp.perform_search = function(page) {
       $('#content-search-results').append(data);
 
       CurrentApp.live_paging();
+
+      $('.toast').toast('show');
     },
     contentType: "application/json",
     dataType: 'html'
@@ -345,6 +347,9 @@ CurrentApp.init = function() {
 
   CurrentApp.live_paging();
   $('#form-subscribe-municipality').change();
+
+  $('.toast').toast({autohide: false});
+  console.log('toasted!');
 };
 
 $(function() {
