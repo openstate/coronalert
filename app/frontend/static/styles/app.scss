@@ -98,7 +98,7 @@ footer {
 
 .toast {
   position: absolute;
-  top: 500px;
+  top: 700px;
   right: 30px;
 }
 /*---mobile menu - svg attached ---*/
@@ -213,6 +213,11 @@ nav.navbar .nav-link:hover {
   height: 16px;
   margin: 0;
   float: left;
+}
+
+.lead-container {
+  font-size: 22px;
+  line-height: 32px;
 }
 
 .lead-text {
