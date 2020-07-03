@@ -15,7 +15,7 @@
     "index_name": "gemeente",
     "collection": "Gemeente",
     "loader": "ocd_backend.loaders.AS2Loader",
-    "id": "gemeente_leeuwarden-veiligheidsregio-frysl-acirc-n-provincie-friesland_3",
+    "id": "gemeente_leeuwarden-veiligheidsregio-fryslan-provincie-friesland_3",
     "transformer": "ocd_backend.transformers.BaseTransformer",
     "file_url": "https://www.leeuwarden.nl/nl/coronavirus-covid-19",
     "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
@@ -840,7 +840,7 @@
     "index_name": "gemeente",
     "collection": "Gemeente",
     "loader": "ocd_backend.loaders.AS2Loader",
-    "id": "gemeente_smallingerland-veiligheidsregio-frysl-acirc-n-provincie-friesland_3",
+    "id": "gemeente_smallingerland-veiligheidsregio-fryslan-provincie-friesland_3",
     "transformer": "ocd_backend.transformers.BaseTransformer",
     "file_url": "https://www.smallingerland.nl/Nieuwsarchief/Coronavirus",
     "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
@@ -1015,7 +1015,7 @@
     "index_name": "gemeente",
     "collection": "Gemeente",
     "loader": "ocd_backend.loaders.AS2Loader",
-    "id": "gemeente_de-fryske-marren-veiligheidsregio-frysl-acirc-n-provincie-friesland_3",
+    "id": "gemeente_de-fryske-marren-veiligheidsregio-fryslan-provincie-friesland_3",
     "transformer": "ocd_backend.transformers.BaseTransformer",
     "file_url": "https://www.defryskemarren.nl/publicaties/actuele-informatie-coronavirus_45695/",
     "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
@@ -1065,7 +1065,7 @@
     "index_name": "gemeente",
     "collection": "Gemeente",
     "loader": "ocd_backend.loaders.AS2Loader",
-    "id": "gemeente_heerenveen-veiligheidsregio-frysl-acirc-n-provincie-friesland_3",
+    "id": "gemeente_heerenveen-veiligheidsregio-fryslan-provincie-friesland_3",
     "transformer": "ocd_backend.transformers.BaseTransformer",
     "file_url": "https://www.heerenveen.nl/actueel/informatie-over-het-coronavirus/",
     "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
@@ -1490,7 +1490,7 @@
     "index_name": "gemeente",
     "collection": "Gemeente",
     "loader": "ocd_backend.loaders.AS2Loader",
-    "id": "gemeente_achtkarspelen-veiligheidsregio-frysl-acirc-n-provincie-friesland_3",
+    "id": "gemeente_achtkarspelen-veiligheidsregio-fryslan-provincie-friesland_3",
     "transformer": "ocd_backend.transformers.BaseTransformer",
     "file_url": "https://www.achtkarspelen.nl/inwoners-achtkarspelen/corona_48044/",
     "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
@@ -1565,7 +1565,7 @@
     "index_name": "gemeente",
     "collection": "Gemeente",
     "loader": "ocd_backend.loaders.AS2Loader",
-    "id": "gemeente_ameland-veiligheidsregio-frysl-acirc-n-provincie-friesland_3",
+    "id": "gemeente_ameland-veiligheidsregio-fryslan-provincie-friesland_3",
     "transformer": "ocd_backend.transformers.BaseTransformer",
     "file_url": "https://www.ameland.nl/ameland-actueel/coronavirus_46095/",
     "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
@@ -3096,6 +3096,3131 @@
     "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
     "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
     "location": "Hilvarenbeek, Veiligheidsregio Midden- en West-Brabant, Provincie Noord-Brabant",
+    "hidden": false,
+    "type": "Maatregelen"
+  },
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ]
+    ],
+    "index_name": "gemeente",
+    "collection": "Gemeente",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "gemeente_hoeksche-waard-veiligheidsregio-zuid-holland-zuid-provincie-zuid-holland_3",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "https://www.gemeentehw.nl/informatie-coronavirus/",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "Hoeksche Waard, Veiligheidsregio Zuid-Holland-Zuid, Provincie Zuid-Holland",
+    "hidden": false,
+    "type": "Maatregelen"
+  },
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ]
+    ],
+    "index_name": "gemeente",
+    "collection": "Gemeente",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "gemeente_hof-van-twente-veiligheidsregio-twente-provincie-overijssel_3",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "https://www.hofvantwente.nl/actueel/informatie-over-het-coronavirus.html",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "Hof van Twente, Veiligheidsregio Twente, Provincie Overijssel",
+    "hidden": false,
+    "type": "Maatregelen"
+  },
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ]
+    ],
+    "index_name": "gemeente",
+    "collection": "Gemeente",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "gemeente_het-hogeland-veiligheidsregio-groningen-provincie-groningen_3",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "https://hethogeland.nl/coronavirus",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "Het Hogeland, Veiligheidsregio Groningen, Provincie Groningen",
+    "hidden": false,
+    "type": "Maatregelen"
+  },
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ]
+    ],
+    "index_name": "gemeente",
+    "collection": "Gemeente",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "gemeente_horst-aan-de-maas-veiligheidsregio-limburg-noord-provincie-limburg_3",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "https://www.horstaandemaas.nl/informatie-coronavirus",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "Horst aan de Maas, Veiligheidsregio Limburg-Noord, Provincie Limburg",
+    "hidden": false,
+    "type": "Maatregelen"
+  },
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ]
+    ],
+    "index_name": "gemeente",
+    "collection": "Gemeente",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "gemeente_huizen-veiligheidsregio-gooi-en-vechtstreek-provincie-noord-holland_3",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "https://www.huizen.nl/inwoner/coronavirus_43566/",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "Huizen, Veiligheidsregio Gooi en Vechtstreek, Provincie Noord-Holland",
+    "hidden": false,
+    "type": "Maatregelen"
+  },
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ]
+    ],
+    "index_name": "gemeente",
+    "collection": "Gemeente",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "gemeente_hulst-veiligheidsregio-zeeland-provincie-zeeland_3",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "https://www.gemeentehulst.nl/Inwoners/Homepage_elementen/Top_6/Informatie_Coronavirus/Coronavirus",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "Hulst, Veiligheidsregio Zeeland, Provincie Zeeland",
+    "hidden": false,
+    "type": "Maatregelen"
+  },
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ]
+    ],
+    "index_name": "gemeente",
+    "collection": "Gemeente",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "gemeente_ijsselstein-veiligheidsregio-utrecht-provincie-utrecht_3",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "https://www.ijsselstein.nl/mozard/!suite86.scherm0325?mPag=6840",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "IJsselstein, Veiligheidsregio Utrecht, Provincie Utrecht",
+    "hidden": false,
+    "type": "Maatregelen"
+  },
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ]
+    ],
+    "index_name": "gemeente",
+    "collection": "Gemeente",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "gemeente_kaag-en-braassem-veiligheidsregio-hollands-midden-provincie-zuid-holland_3",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "https://www.kaagenbraassem.nl/Inwoners_en_ondernemers/Actueel/Nieuws/Gevolgen_Coronavirus",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "Kaag en Braassem, Veiligheidsregio Hollands-Midden, Provincie Zuid-Holland",
+    "hidden": false,
+    "type": "Maatregelen"
+  },
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ]
+    ],
+    "index_name": "gemeente",
+    "collection": "Gemeente",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "gemeente_kapelle-veiligheidsregio-zeeland-provincie-zeeland_3",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "https://www.kapelle.nl/home/coronavirus_45198/",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "Kapelle, Veiligheidsregio Zeeland, Provincie Zeeland",
+    "hidden": false,
+    "type": "Maatregelen"
+  },
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ]
+    ],
+    "index_name": "gemeente",
+    "collection": "Gemeente",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "gemeente_koggenland-veiligheidsregio-noord-holland-noord-provincie-noord-holland_3",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "https://www.koggenland.nl/inwoners-en-ondernemers/informatie-over-het-coronavirus_44394/",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "Koggenland, Veiligheidsregio Noord-Holland-Noord, Provincie Noord-Holland",
+    "hidden": false,
+    "type": "Maatregelen"
+  },
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ]
+    ],
+    "index_name": "gemeente",
+    "collection": "Gemeente",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "gemeente_krimpen-aan-den-ijssel-veiligheidsregio-rotterdam-rijnmond-provincie-zuid-holland_3",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "https://www.krimpenaandenijssel.nl/corona",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "Krimpen aan den IJssel, Veiligheidsregio Rotterdam-Rijnmond, Provincie Zuid-Holland",
+    "hidden": false,
+    "type": "Maatregelen"
+  },
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ]
+    ],
+    "index_name": "gemeente",
+    "collection": "Gemeente",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "gemeente_landerd-veiligheidsregio-brabant-noord-provincie-noord-brabant_3",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "https://www.landerd.nl/inwoners-en-ondernemers/coronavirus/",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "Landerd, Veiligheidsregio Brabant-Noord, Provincie Noord-Brabant",
+    "hidden": false,
+    "type": "Maatregelen"
+  },
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ]
+    ],
+    "index_name": "gemeente",
+    "collection": "Gemeente",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "gemeente_langedijk-veiligheidsregio-noord-holland-noord-provincie-noord-holland_3",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "https://www.gemeentelangedijk.nl/coronawijzer/lokale_maatregelen",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "Langedijk, Veiligheidsregio Noord-Holland-Noord, Provincie Noord-Holland",
+    "hidden": false,
+    "type": "Maatregelen"
+  },
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ]
+    ],
+    "index_name": "gemeente",
+    "collection": "Gemeente",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "gemeente_laren-veiligheidsregio-gooi-en-vechtstreek-provincie-noord-holland_3",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "https://www.laren.nl/Corona",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "Laren, Veiligheidsregio Gooi en Vechtstreek, Provincie Noord-Holland",
+    "hidden": false,
+    "type": "Maatregelen"
+  },
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ]
+    ],
+    "index_name": "gemeente",
+    "collection": "Gemeente",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "gemeente_leiderdorp-veiligheidsregio-hollands-midden-provincie-zuid-holland_3",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "https://www.leiderdorp.nl/inwoner/veiligheid/coronavirus/",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "Leiderdorp, Veiligheidsregio Hollands-Midden, Provincie Zuid-Holland",
+    "hidden": false,
+    "type": "Maatregelen"
+  },
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ]
+    ],
+    "index_name": "gemeente",
+    "collection": "Gemeente",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "gemeente_leudal-veiligheidsregio-limburg-noord-provincie-limburg_3",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "https://www.leudal.nl/coronavirus",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "Leudal, Veiligheidsregio Limburg-Noord, Provincie Limburg",
+    "hidden": false,
+    "type": "Maatregelen"
+  },
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ]
+    ],
+    "index_name": "gemeente",
+    "collection": "Gemeente",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "gemeente_leusden-veiligheidsregio-utrecht-provincie-utrecht_3",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "https://www.leusden.nl/coronavirus.html",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "Leusden, Veiligheidsregio Utrecht, Provincie Utrecht",
+    "hidden": false,
+    "type": "Maatregelen"
+  },
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ]
+    ],
+    "index_name": "gemeente",
+    "collection": "Gemeente",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "gemeente_lisse-veiligheidsregio-hollands-midden-provincie-zuid-holland_3",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "https://www.lisse.nl/nieuws/nieuwsbericht/artikel/detail/News/actuele-informatie-over-het-coronavirus-828.html",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "Lisse, Veiligheidsregio Hollands-Midden, Provincie Zuid-Holland",
+    "hidden": false,
+    "type": "Maatregelen"
+  },
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ]
+    ],
+    "index_name": "gemeente",
+    "collection": "Gemeente",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "gemeente_loon-op-zand-veiligheidsregio-midden-en-west-brabant-provincie-noord-brabant_3",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "https://www.loonopzand.nl/coronavirus/",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "Loon op Zand, Veiligheidsregio Midden- en West-Brabant, Provincie Noord-Brabant",
+    "hidden": false,
+    "type": "Maatregelen"
+  },
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ]
+    ],
+    "index_name": "gemeente",
+    "collection": "Gemeente",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "gemeente_loppersum-veiligheidsregio-groningen-provincie-groningen_3",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "https://www.loppersum.nl/bestuur-organisatie/coronavirus-informatie_43476/",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "Loppersum, Veiligheidsregio Groningen, Provincie Groningen",
+    "hidden": false,
+    "type": "Maatregelen"
+  },
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ]
+    ],
+    "index_name": "gemeente",
+    "collection": "Gemeente",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "gemeente_losser-veiligheidsregio-twente-provincie-overijssel_3",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "https://www.losser.nl/Inwoners/Informatie_over_het_coronavirus",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "Losser, Veiligheidsregio Twente, Provincie Overijssel",
+    "hidden": false,
+    "type": "Maatregelen"
+  },
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ]
+    ],
+    "index_name": "gemeente",
+    "collection": "Gemeente",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "gemeente_maasdriel-veiligheidsregio-gelderland-zuid-provincie-gelderland_3",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "https://www.maasdriel.nl/inwoner-en-ondernemer/het-coronavirus-/",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "Maasdriel, Veiligheidsregio Gelderland-Zuid, Provincie Gelderland",
+    "hidden": false,
+    "type": "Maatregelen"
+  },
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ]
+    ],
+    "index_name": "gemeente",
+    "collection": "Gemeente",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "gemeente_maasgouw-veiligheidsregio-limburg-noord-provincie-limburg_3",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "https://www.gemeentemaasgouw.nl/wonen-leven/coronavirus_44379/",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "Maasgouw, Veiligheidsregio Limburg-Noord, Provincie Limburg",
+    "hidden": false,
+    "type": "Maatregelen"
+  },
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ]
+    ],
+    "index_name": "gemeente",
+    "collection": "Gemeente",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "gemeente_maassluis-veiligheidsregio-rotterdam-rijnmond-provincie-zuid-holland_3",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "https://www.maassluis.nl/over-maassluis/maatregelen-coronavirus_46803?pk_campaign=Redirects&pk_kwd=coronavirus",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "Maassluis, Veiligheidsregio Rotterdam-Rijnmond, Provincie Zuid-Holland",
+    "hidden": false,
+    "type": "Maatregelen"
+  },
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ]
+    ],
+    "index_name": "gemeente",
+    "collection": "Gemeente",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "gemeente_medemblik-veiligheidsregio-noord-holland-noord-provincie-noord-holland_3",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "https://www.medemblik.nl/over-medemblik/coronavirus",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "Medemblik, Veiligheidsregio Noord-Holland-Noord, Provincie Noord-Holland",
+    "hidden": false,
+    "type": "Maatregelen"
+  },
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ]
+    ],
+    "index_name": "gemeente",
+    "collection": "Gemeente",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "gemeente_meerssen-veiligheidsregio-limburg-zuid-provincie-limburg_3",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "https://www.meerssen.nl/coronavirus/",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "Meerssen, Veiligheidsregio Limburg-Zuid, Provincie Limburg",
+    "hidden": false,
+    "type": "Maatregelen"
+  },
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ]
+    ],
+    "index_name": "gemeente",
+    "collection": "Gemeente",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "gemeente_midden-delfland-veiligheidsregio-haaglanden-provincie-zuid-holland_3",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "https://www.middendelfland.nl/voor-inwoners/coronavirus_44001/",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "Midden-Delfland, Veiligheidsregio Haaglanden, Provincie Zuid-Holland",
+    "hidden": false,
+    "type": "Maatregelen"
+  },
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ]
+    ],
+    "index_name": "gemeente",
+    "collection": "Gemeente",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "gemeente_midden-drenthe-veiligheidsregio-drenthe-provincie-drenthe_3",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "https://www.middendrenthe.nl/website/!suite86.scherm0325?mPag=8527&mNch=m89555fuvz",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "Midden-Drenthe, Veiligheidsregio Drenthe, Provincie Drenthe",
+    "hidden": false,
+    "type": "Maatregelen"
+  },
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ]
+    ],
+    "index_name": "gemeente",
+    "collection": "Gemeente",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "gemeente_midden-groningen-veiligheidsregio-groningen-provincie-groningen_3",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "https://www.midden-groningen.nl/inwoner/publicatie/coronavirus",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "Midden-Groningen, Veiligheidsregio Groningen, Provincie Groningen",
+    "hidden": false,
+    "type": "Maatregelen"
+  },
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ]
+    ],
+    "index_name": "gemeente",
+    "collection": "Gemeente",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "gemeente_mill-en-sint-hubert-veiligheidsregio-brabant-noord-provincie-noord-brabant_3",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "https://www.gemeente-mill.nl/corona",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "Mill en Sint Hubert, Veiligheidsregio Brabant-Noord, Provincie Noord-Brabant",
+    "hidden": false,
+    "type": "Maatregelen"
+  },
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ]
+    ],
+    "index_name": "gemeente",
+    "collection": "Gemeente",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "gemeente_moerdijk-veiligheidsregio-midden-en-west-brabant-provincie-noord-brabant_3",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "https://www.moerdijk.nl/coronavirus",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "Moerdijk, Veiligheidsregio Midden- en West-Brabant, Provincie Noord-Brabant",
+    "hidden": false,
+    "type": "Maatregelen"
+  },
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ]
+    ],
+    "index_name": "gemeente",
+    "collection": "Gemeente",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "gemeente_montferland-veiligheidsregio-noord-en-oost-gelderland-provincie-gelderland_3",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "https://www.montferland.info/alles-over-het-coronavirus-covid-19",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "Montferland, Veiligheidsregio Noord- en Oost-Gelderland, Provincie Gelderland",
+    "hidden": false,
+    "type": "Maatregelen"
+  },
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ]
+    ],
+    "index_name": "gemeente",
+    "collection": "Gemeente",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "gemeente_montfoort-veiligheidsregio-utrecht-provincie-utrecht_3",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "https://www.montfoort.nl/mozard/!suite05.scherm1070?mNwb=18948&mNwc=82",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "Montfoort, Veiligheidsregio Utrecht, Provincie Utrecht",
+    "hidden": false,
+    "type": "Maatregelen"
+  },
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ]
+    ],
+    "index_name": "gemeente",
+    "collection": "Gemeente",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "gemeente_mook-en-middelaar-veiligheidsregio-limburg-noord-provincie-limburg_3",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "https://www.mookenmiddelaar.nl/actueel/coronavirus_42920/",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "Mook en Middelaar, Veiligheidsregio Limburg-Noord, Provincie Limburg",
+    "hidden": false,
+    "type": "Maatregelen"
+  },
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ]
+    ],
+    "index_name": "gemeente",
+    "collection": "Gemeente",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "gemeente_neder-betuwe-veiligheidsregio-gelderland-zuid-provincie-gelderland_3",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "https://www.nederbetuwe.nl/Inwoners/corona_nb",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "Neder-Betuwe, Veiligheidsregio Gelderland-Zuid, Provincie Gelderland",
+    "hidden": false,
+    "type": "Maatregelen"
+  },
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ]
+    ],
+    "index_name": "gemeente",
+    "collection": "Gemeente",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "gemeente_nederweert-veiligheidsregio-limburg-noord-provincie-limburg_3",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "https://www.nederweert.nl/inwoners/actueel-in-nederweert_42953/item/informatie-over-het-corona-virus_128857.html",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "Nederweert, Veiligheidsregio Limburg-Noord, Provincie Limburg",
+    "hidden": false,
+    "type": "Maatregelen"
+  },
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ]
+    ],
+    "index_name": "gemeente",
+    "collection": "Gemeente",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "gemeente_nijkerk-veiligheidsregio-gelderland-midden-provincie-gelderland_3",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "https://www.nijkerk.eu/inwoners/coronavirus-covid-19_43787/",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "Nijkerk, Veiligheidsregio Gelderland-Midden, Provincie Gelderland",
+    "hidden": false,
+    "type": "Maatregelen"
+  },
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ]
+    ],
+    "index_name": "gemeente",
+    "collection": "Gemeente",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "gemeente_noord-beveland-veiligheidsregio-zeeland-provincie-zeeland_3",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "https://www.noord-beveland.nl/home/corona_43535/",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "Noord-Beveland, Veiligheidsregio Zeeland, Provincie Zeeland",
+    "hidden": false,
+    "type": "Maatregelen"
+  },
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ]
+    ],
+    "index_name": "gemeente",
+    "collection": "Gemeente",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "gemeente_noordenveld-veiligheidsregio-drenthe-provincie-drenthe_3",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "https://noordenveld.nl/corona",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "Noordenveld, Veiligheidsregio Drenthe, Provincie Drenthe",
+    "hidden": false,
+    "type": "Maatregelen"
+  },
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ]
+    ],
+    "index_name": "gemeente",
+    "collection": "Gemeente",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "gemeente_noordwijk-veiligheidsregio-hollands-midden-provincie-zuid-holland_3",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "https://www.noordwijk.nl/Inwoners_ondernemers/Coronavirus_informatie",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "Noordwijk, Veiligheidsregio Hollands-Midden, Provincie Zuid-Holland",
+    "hidden": false,
+    "type": "Maatregelen"
+  },
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ]
+    ],
+    "index_name": "gemeente",
+    "collection": "Gemeente",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "gemeente_nunspeet-veiligheidsregio-noord-en-oost-gelderland-provincie-gelderland_3",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "https://www.nunspeet.nl/informatie-over-het-coronavirus",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "Nunspeet, Veiligheidsregio Noord- en Oost-Gelderland, Provincie Gelderland",
+    "hidden": false,
+    "type": "Maatregelen"
+  },
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ]
+    ],
+    "index_name": "gemeente",
+    "collection": "Gemeente",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "gemeente_oegstgeest-veiligheidsregio-hollands-midden-provincie-zuid-holland_3",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "https://www.oegstgeest.nl/gemeente/inwoners/actueel/coronavirus-covid-19/",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "Oegstgeest, Veiligheidsregio Hollands-Midden, Provincie Zuid-Holland",
+    "hidden": false,
+    "type": "Maatregelen"
+  },
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ]
+    ],
+    "index_name": "gemeente",
+    "collection": "Gemeente",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "gemeente_oirschot-veiligheidsregio-brabant-zuidoost-provincie-noord-brabant_3",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "https://www.oirschot.nl/coronavirus?origin=/coronavirus-nieuw-advies-voor-inwoners-noord-brabant-09-03-2020",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "Oirschot, Veiligheidsregio Brabant-Zuidoost, Provincie Noord-Brabant",
+    "hidden": false,
+    "type": "Maatregelen"
+  },
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ]
+    ],
+    "index_name": "gemeente",
+    "collection": "Gemeente",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "gemeente_oisterwijk-veiligheidsregio-midden-en-west-brabant-provincie-noord-brabant_3",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "https://oisterwijk.nl/coronavirus.html",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "Oisterwijk, Veiligheidsregio Midden- en West-Brabant, Provincie Noord-Brabant",
+    "hidden": false,
+    "type": "Maatregelen"
+  },
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ]
+    ],
+    "index_name": "gemeente",
+    "collection": "Gemeente",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "gemeente_oldambt-veiligheidsregio-groningen-provincie-groningen_3",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "https://www.gemeente-oldambt.nl/vragen-over-corona",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "Oldambt, Veiligheidsregio Groningen, Provincie Groningen",
+    "hidden": false,
+    "type": "Maatregelen"
+  },
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ]
+    ],
+    "index_name": "gemeente",
+    "collection": "Gemeente",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "gemeente_oldebroek-veiligheidsregio-noord-en-oost-gelderland-provincie-gelderland_3",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "https://www.oldebroek.nl/Bestuur_en_organisatie/Actueel/Coronavirus/Informatie_over_het_coronavirus",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "Oldebroek, Veiligheidsregio Noord- en Oost-Gelderland, Provincie Gelderland",
+    "hidden": false,
+    "type": "Maatregelen"
+  },
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ]
+    ],
+    "index_name": "gemeente",
+    "collection": "Gemeente",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "gemeente_oldenzaal-veiligheidsregio-twente-provincie-overijssel_3",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "https://www.oldenzaal.nl/coronavirus",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "Oldenzaal, Veiligheidsregio Twente, Provincie Overijssel",
+    "hidden": false,
+    "type": "Maatregelen"
+  },
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ]
+    ],
+    "index_name": "gemeente",
+    "collection": "Gemeente",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "gemeente_olst-wijhe-veiligheidsregio-ijsselland-provincie-overijssel_3",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "https://www.olst-wijhe.nl/coronavirus",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "Olst-Wijhe, Veiligheidsregio IJsselland, Provincie Overijssel",
+    "hidden": false,
+    "type": "Maatregelen"
+  },
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ]
+    ],
+    "index_name": "gemeente",
+    "collection": "Gemeente",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "gemeente_ommen-veiligheidsregio-ijsselland-provincie-overijssel_3",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "https://www.ommen.nl/corona.html",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "Ommen, Veiligheidsregio IJsselland, Provincie Overijssel",
+    "hidden": false,
+    "type": "Maatregelen"
+  },
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ]
+    ],
+    "index_name": "gemeente",
+    "collection": "Gemeente",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "gemeente_oost-gelre-veiligheidsregio-noord-en-oost-gelderland-provincie-gelderland_3",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "https://www.oostgelre.nl/coronavirus",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "Oost Gelre, Veiligheidsregio Noord- en Oost-Gelderland, Provincie Gelderland",
+    "hidden": false,
+    "type": "Maatregelen"
+  },
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ]
+    ],
+    "index_name": "gemeente",
+    "collection": "Gemeente",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "gemeente_ooststellingwerf-veiligheidsregio-fryslan-provincie-friesland_3",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "https://www.ooststellingwerf.nl/corona",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "Ooststellingwerf, Veiligheidsregio Fryslân, Provincie Friesland",
+    "hidden": false,
+    "type": "Maatregelen"
+  },
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ]
+    ],
+    "index_name": "gemeente",
+    "collection": "Gemeente",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "gemeente_oostzaan-veiligheidsregio-zaanstreek-waterland-provincie-noord-holland_3",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "https://www.ooststellingwerf.nl/nieuws",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "Oostzaan, Veiligheidsregio Zaanstreek-Waterland, Provincie Noord-Holland",
+    "hidden": false,
+    "type": "Maatregelen"
+  },
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ]
+    ],
+    "index_name": "gemeente",
+    "collection": "Gemeente",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "gemeente_opmeer-veiligheidsregio-noord-holland-noord-provincie-noord-holland_3",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "https://www.opmeer.nl/inwoners-en-het-coronavirus",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "Opmeer, Veiligheidsregio Noord-Holland-Noord, Provincie Noord-Holland",
+    "hidden": false,
+    "type": "Maatregelen"
+  },
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ]
+    ],
+    "index_name": "gemeente",
+    "collection": "Gemeente",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "gemeente_opsterland-veiligheidsregio-fryslan-provincie-friesland_3",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "https://www.opsterland.nl/Inwoners/Corona",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "Opsterland, Veiligheidsregio Fryslân, Provincie Friesland",
+    "hidden": false,
+    "type": "Maatregelen"
+  },
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ]
+    ],
+    "index_name": "gemeente",
+    "collection": "Gemeente",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "gemeente_oude-ijsselstreek-veiligheidsregio-noord-en-oost-gelderland-provincie-gelderland_3",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "https://www.oude-ijsselstreek.nl/corona",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "Oude IJsselstreek, Veiligheidsregio Noord- en Oost-Gelderland, Provincie Gelderland",
+    "hidden": false,
+    "type": "Maatregelen"
+  },
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ]
+    ],
+    "index_name": "gemeente",
+    "collection": "Gemeente",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "gemeente_oudewater-veiligheidsregio-utrecht-provincie-utrecht_3",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "https://www.oudewater.nl/inwoners/liveblog-coronavirus-oudewater",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "Oudewater, Veiligheidsregio Utrecht, Provincie Utrecht",
+    "hidden": false,
+    "type": "Maatregelen"
+  },
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ]
+    ],
+    "index_name": "gemeente",
+    "collection": "Gemeente",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "gemeente_peel-en-maas-veiligheidsregio-limburg-noord-provincie-limburg_3",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "https://www.peelenmaas.nl/inwoners-en-ondernemers/nieuws-en-actualiteiten/coronavirus/",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "Peel en Maas, Veiligheidsregio Limburg-Noord, Provincie Limburg",
+    "hidden": false,
+    "type": "Maatregelen"
+  },
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ]
+    ],
+    "index_name": "gemeente",
+    "collection": "Gemeente",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "gemeente_pijnacker-nootdorp-veiligheidsregio-haaglanden-provincie-zuid-holland_3",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "https://www.pijnacker-nootdorp.nl/artikelen/dossier-coronavirus-covid-19.htm",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "Pijnacker-Nootdorp, Veiligheidsregio Haaglanden, Provincie Zuid-Holland",
+    "hidden": false,
+    "type": "Maatregelen"
+  },
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ]
+    ],
+    "index_name": "gemeente",
+    "collection": "Gemeente",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "gemeente_putten-veiligheidsregio-noord-en-oost-gelderland-provincie-gelderland_3",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "https://www.putten.nl/Inwoners/Actueel/Nieuws/Coronavirus",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "Putten, Veiligheidsregio Noord- en Oost-Gelderland, Provincie Gelderland",
+    "hidden": false,
+    "type": "Maatregelen"
+  },
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ]
+    ],
+    "index_name": "gemeente",
+    "collection": "Gemeente",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "gemeente_raalte-veiligheidsregio-ijsselland-provincie-overijssel_3",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "https://www.raalte.nl/informatie-over-coronavirus",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "Raalte, Veiligheidsregio IJsselland, Provincie Overijssel",
+    "hidden": false,
+    "type": "Maatregelen"
+  },
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ]
+    ],
+    "index_name": "gemeente",
+    "collection": "Gemeente",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "gemeente_reimerswaal-veiligheidsregio-zeeland-provincie-zeeland_3",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "https://www.reimerswaal.nl/home/coronavirus_43130/",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "Reimerswaal, Veiligheidsregio Zeeland, Provincie Zeeland",
+    "hidden": false,
+    "type": "Maatregelen"
+  },
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ]
+    ],
+    "index_name": "gemeente",
+    "collection": "Gemeente",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "gemeente_renkum-veiligheidsregio-gelderland-midden-provincie-gelderland_3",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "https://www.renkum.nl/Bestuur/Actueel/Coronavirus",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "Renkum, Veiligheidsregio Gelderland-Midden, Provincie Gelderland",
+    "hidden": false,
+    "type": "Maatregelen"
+  },
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ]
+    ],
+    "index_name": "gemeente",
+    "collection": "Gemeente",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "gemeente_renswoude-veiligheidsregio-utrecht-provincie-utrecht_3",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "https://www.renswoude.nl/inwoners/corona_42051/",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "Renswoude, Veiligheidsregio Utrecht, Provincie Utrecht",
+    "hidden": false,
+    "type": "Maatregelen"
+  },
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ]
+    ],
+    "index_name": "gemeente",
+    "collection": "Gemeente",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "gemeente_reusel-de-mierden-veiligheidsregio-brabant-zuidoost-provincie-noord-brabant_3",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "https://www.reuseldemierden.nl/inwoners-en-ondernemers/actuele-informatie-over-het-coronavirus-covid-19_43986/",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "Reusel-De Mierden, Veiligheidsregio Brabant-Zuidoost, Provincie Noord-Brabant",
+    "hidden": false,
+    "type": "Maatregelen"
+  },
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ]
+    ],
+    "index_name": "gemeente",
+    "collection": "Gemeente",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "gemeente_rheden-veiligheidsregio-gelderland-midden-provincie-gelderland_3",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "https://www.rheden.nl/Inwoners/Nieuws/Alles_over_het_coronavirus",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "Rheden, Veiligheidsregio Gelderland-Midden, Provincie Gelderland",
+    "hidden": false,
+    "type": "Maatregelen"
+  },
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ]
+    ],
+    "index_name": "gemeente",
+    "collection": "Gemeente",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "gemeente_roerdalen-veiligheidsregio-limburg-noord-provincie-limburg_3",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "https://www.roerdalen.nl/corona",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "Roerdalen, Veiligheidsregio Limburg-Noord, Provincie Limburg",
+    "hidden": false,
+    "type": "Maatregelen"
+  },
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ]
+    ],
+    "index_name": "gemeente",
+    "collection": "Gemeente",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "gemeente_de-ronde-venen-veiligheidsregio-utrecht-provincie-utrecht_3",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "https://gemeente.derondevenen.nl/Bestuur_en_organisatie/Actueel/Nieuws/Archief_Nieuwsberichten/Nieuwsberichten_2020/Informatie_over_het_coronavirus/Nieuws_over_het_coronavirus",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "De Ronde Venen, Veiligheidsregio Utrecht, Provincie Utrecht",
+    "hidden": false,
+    "type": "Maatregelen"
+  },
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ]
+    ],
+    "index_name": "gemeente",
+    "collection": "Gemeente",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "gemeente_rozendaal-veiligheidsregio-gelderland-midden-provincie-gelderland_3",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "https://www.rozendaal.nl/Inwoners/Nieuws/Alles_over_het_coronavirus",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "Rozendaal, Veiligheidsregio Gelderland-Midden, Provincie Gelderland",
+    "hidden": false,
+    "type": "Maatregelen"
+  },
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ]
+    ],
+    "index_name": "gemeente",
+    "collection": "Gemeente",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "gemeente_scherpenzeel-veiligheidsregio-gelderland-midden-provincie-gelderland_3",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "https://www.scherpenzeel.nl/coronavirus/nieuws_43097/item/actueel-nieuws-over-maatregelen-tegen-coronavirus_126991.html",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "Scherpenzeel, Veiligheidsregio Gelderland-Midden, Provincie Gelderland",
+    "hidden": false,
+    "type": "Maatregelen"
+  },
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ]
+    ],
+    "index_name": "gemeente",
+    "collection": "Gemeente",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "gemeente_schiermonnikoog-veiligheidsregio-fryslan-provincie-friesland_3",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "https://www.schiermonnikoog.nl/home-schiermonnikoog/informatie-over-corona_46160/",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "Schiermonnikoog, Veiligheidsregio Fryslân, Provincie Friesland",
+    "hidden": false,
+    "type": "Maatregelen"
+  },
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ]
+    ],
+    "index_name": "gemeente",
+    "collection": "Gemeente",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "gemeente_simpelveld-veiligheidsregio-limburg-zuid-provincie-limburg_3",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "https://www.simpelveld.nl/portal/coronavirus_3731/",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "Simpelveld, Veiligheidsregio Limburg-Zuid, Provincie Limburg",
+    "hidden": false,
+    "type": "Maatregelen"
+  },
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ]
+    ],
+    "index_name": "gemeente",
+    "collection": "Gemeente",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "gemeente_sint-anthonis-veiligheidsregio-brabant-noord-provincie-noord-brabant_3",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "https://www.sintanthonis.nl/inwoners/informatie-coronavirus_42317/",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "Sint Anthonis, Veiligheidsregio Brabant-Noord, Provincie Noord-Brabant",
+    "hidden": false,
+    "type": "Maatregelen"
+  },
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ]
+    ],
+    "index_name": "gemeente",
+    "collection": "Gemeente",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "gemeente_sliedrecht-veiligheidsregio-zuid-holland-zuid-provincie-zuid-holland_3",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "https://www.sliedrecht.nl/Nieuws_bekendmakingen/Nieuws/Nieuwsarchief/2020/Informatie_over_het_coronavirus",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "Sliedrecht, Veiligheidsregio Zuid-Holland-Zuid, Provincie Zuid-Holland",
+    "hidden": false,
+    "type": "Maatregelen"
+  },
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ]
+    ],
+    "index_name": "gemeente",
+    "collection": "Gemeente",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "gemeente_sluis-veiligheidsregio-zeeland-provincie-zeeland_3",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "https://www.gemeentesluis.nl/Bestuur_en_Organisatie/Nieuws/Nieuwsdossier_Coronavirus",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "Sluis, Veiligheidsregio Zeeland, Provincie Zeeland",
+    "hidden": false,
+    "type": "Maatregelen"
+  },
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ]
+    ],
+    "index_name": "gemeente",
+    "collection": "Gemeente",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "gemeente_someren-veiligheidsregio-brabant-zuidoost-provincie-noord-brabant_3",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "https://www.someren.nl/wonen/coronavirus-covid-19.html",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "Someren, Veiligheidsregio Brabant-Zuidoost, Provincie Noord-Brabant",
+    "hidden": false,
+    "type": "Maatregelen"
+  },
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ]
+    ],
+    "index_name": "gemeente",
+    "collection": "Gemeente",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "gemeente_son-en-breugel-veiligheidsregio-brabant-zuidoost-provincie-noord-brabant_3",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "https://www.sonenbreugel.nl/update-maatregelen-coronavirus",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "Son en Breugel, Veiligheidsregio Brabant-Zuidoost, Provincie Noord-Brabant",
+    "hidden": false,
+    "type": "Maatregelen"
+  },
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ]
+    ],
+    "index_name": "gemeente",
+    "collection": "Gemeente",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "gemeente_staphorst-veiligheidsregio-ijsselland-provincie-overijssel_3",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "https://www.staphorst.nl/inwoners/coronavirus_44805/",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "Staphorst, Veiligheidsregio IJsselland, Provincie Overijssel",
+    "hidden": false,
+    "type": "Maatregelen"
+  },
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ]
+    ],
+    "index_name": "gemeente",
+    "collection": "Gemeente",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "gemeente_stede-broec-veiligheidsregio-noord-holland-noord-provincie-noord-holland_3",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "https://www.stedebroec.nl/coronavirus",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "Stede Broec, Veiligheidsregio Noord-Holland-Noord, Provincie Noord-Holland",
+    "hidden": false,
+    "type": "Maatregelen"
+  },
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ]
+    ],
+    "index_name": "gemeente",
+    "collection": "Gemeente",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "gemeente_steenwijkerland-veiligheidsregio-ijsselland-provincie-overijssel_3",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "https://www.steenwijkerland.nl/Over_Steenwijkerland/Nieuws/Actualiteiten/Coronavirus",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "Steenwijkerland, Veiligheidsregio IJsselland, Provincie Overijssel",
+    "hidden": false,
+    "type": "Maatregelen"
+  },
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ]
+    ],
+    "index_name": "gemeente",
+    "collection": "Gemeente",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "gemeente_stein-veiligheidsregio-limburg-zuid-provincie-limburg_3",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "https://www.gemeentestein.nl/corona",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "Stein, Veiligheidsregio Limburg-Zuid, Provincie Limburg",
+    "hidden": false,
+    "type": "Maatregelen"
+  },
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ]
+    ],
+    "index_name": "gemeente",
+    "collection": "Gemeente",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "gemeente_terschelling-veiligheidsregio-fryslan-provincie-friesland_3",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "https://www.terschelling.nl/t-actueel/informatie-coronavirus_46116/item/informatie-coronavirus-voor-gasten_52889.html",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "Terschelling, Veiligheidsregio Fryslân, Provincie Friesland",
+    "hidden": false,
+    "type": "Maatregelen"
+  },
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ]
+    ],
+    "index_name": "gemeente",
+    "collection": "Gemeente",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "gemeente_texel-veiligheidsregio-noord-holland-noord-provincie-noord-holland_3",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "https://www.texel.nl/mozard/!suite86.scherm0325?mPag=5951",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "Texel, Veiligheidsregio Noord-Holland-Noord, Provincie Noord-Holland",
+    "hidden": false,
+    "type": "Maatregelen"
+  },
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ]
+    ],
+    "index_name": "gemeente",
+    "collection": "Gemeente",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "gemeente_teylingen-veiligheidsregio-hollands-midden-provincie-zuid-holland_3",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "https://www.teylingen.nl/nieuws/nieuwsbericht/artikel/detail/News/actuele-informatie-over-het-coronavirus-829.html",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "Teylingen, Veiligheidsregio Hollands-Midden, Provincie Zuid-Holland",
+    "hidden": false,
+    "type": "Maatregelen"
+  },
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ]
+    ],
+    "index_name": "gemeente",
+    "collection": "Gemeente",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "gemeente_tubbergen-veiligheidsregio-twente-provincie-overijssel_3",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "https://www.tubbergen.nl/informatie-coronavirus",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "Tubbergen, Veiligheidsregio Twente, Provincie Overijssel",
+    "hidden": false,
+    "type": "Maatregelen"
+  },
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ]
+    ],
+    "index_name": "gemeente",
+    "collection": "Gemeente",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "gemeente_twenterand-veiligheidsregio-twente-provincie-overijssel_3",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "https://www.twenterand.nl/coronavirus",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "Twenterand, Veiligheidsregio Twente, Provincie Overijssel",
+    "hidden": false,
+    "type": "Maatregelen"
+  },
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ]
+    ],
+    "index_name": "gemeente",
+    "collection": "Gemeente",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "gemeente_tynaarlo-veiligheidsregio-drenthe-provincie-drenthe_3",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "https://www.tynaarlo.nl/coronavirus",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "Tynaarlo, Veiligheidsregio Drenthe, Provincie Drenthe",
+    "hidden": false,
+    "type": "Maatregelen"
+  },
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ]
+    ],
+    "index_name": "gemeente",
+    "collection": "Gemeente",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "gemeente_tytsjerksteradiel-veiligheidsregio-fryslan-provincie-friesland_3",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "https://www.t-diel.nl/inwoners-t-diel/corona_48047/",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "Tytsjerksteradiel, Veiligheidsregio Fryslân, Provincie Friesland",
+    "hidden": false,
+    "type": "Maatregelen"
+  },
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ]
+    ],
+    "index_name": "gemeente",
+    "collection": "Gemeente",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "gemeente_uden-veiligheidsregio-brabant-noord-provincie-noord-brabant_3",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "https://www.uden.nl/inwoners/coronavirus/",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "Uden, Veiligheidsregio Brabant-Noord, Provincie Noord-Brabant",
+    "hidden": false,
+    "type": "Maatregelen"
+  },
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ]
+    ],
+    "index_name": "gemeente",
+    "collection": "Gemeente",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "gemeente_uitgeest-veiligheidsregio-kennemerland-provincie-noord-holland_3",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "https://www.uitgeest.nl/index.php?id=4496&MP=4496-4498",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "Uitgeest, Veiligheidsregio Kennemerland, Provincie Noord-Holland",
+    "hidden": false,
+    "type": "Maatregelen"
+  },
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ]
+    ],
+    "index_name": "gemeente",
+    "collection": "Gemeente",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "gemeente_vaals-veiligheidsregio-limburg-zuid-provincie-limburg_3",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "https://www.vaals.nl/actueel/coronavirus/",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "Vaals, Veiligheidsregio Limburg-Zuid, Provincie Limburg",
+    "hidden": false,
+    "type": "Maatregelen"
+  },
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ]
+    ],
+    "index_name": "gemeente",
+    "collection": "Gemeente",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "gemeente_valkenburg-aan-de-geul-veiligheidsregio-limburg-zuid-provincie-limburg_3",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "http://www.valkenburg.nl/actueel/informatie-over-het-coronavirus_42141/",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "Valkenburg aan de Geul, Veiligheidsregio Limburg-Zuid, Provincie Limburg",
+    "hidden": false,
+    "type": "Maatregelen"
+  },
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ]
+    ],
+    "index_name": "gemeente",
+    "collection": "Gemeente",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "gemeente_veendam-veiligheidsregio-groningen-provincie-groningen_3",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "https://www.veendam.nl/Corona",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "Veendam, Veiligheidsregio Groningen, Provincie Groningen",
+    "hidden": false,
+    "type": "Maatregelen"
+  },
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ]
+    ],
+    "index_name": "gemeente",
+    "collection": "Gemeente",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "gemeente_veere-veiligheidsregio-zeeland-provincie-zeeland_3",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "https://www.veere.nl/coronavirus?origin=/coronavirus-0",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "Veere, Veiligheidsregio Zeeland, Provincie Zeeland",
+    "hidden": false,
+    "type": "Maatregelen"
+  },
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ]
+    ],
+    "index_name": "gemeente",
+    "collection": "Gemeente",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "gemeente_venray-veiligheidsregio-limburg-noord-provincie-limburg_3",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "https://www.venray.nl/informatie-coronavirus",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "Venray, Veiligheidsregio Limburg-Noord, Provincie Limburg",
+    "hidden": false,
+    "type": "Maatregelen"
+  },
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ]
+    ],
+    "index_name": "gemeente",
+    "collection": "Gemeente",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "gemeente_vijfheerenlanden-veiligheidsregio-utrecht-provincie-utrecht_3",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "https://www.vijfheerenlanden.nl/Inwoners/Inwonersnieuws/Coronavirus",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "Vijfheerenlanden, Veiligheidsregio Utrecht, Provincie Utrecht",
+    "hidden": false,
+    "type": "Maatregelen"
+  },
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ]
+    ],
+    "index_name": "gemeente",
+    "collection": "Gemeente",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "gemeente_voerendaal-veiligheidsregio-limburg-zuid-provincie-limburg_3",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "https://www.voerendaal.nl/over-voerendaal/veiligheid/coronavirus.html",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "Voerendaal, Veiligheidsregio Limburg-Zuid, Provincie Limburg",
+    "hidden": false,
+    "type": "Maatregelen"
+  },
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ]
+    ],
+    "index_name": "gemeente",
+    "collection": "Gemeente",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "gemeente_voorschoten-veiligheidsregio-hollands-midden-provincie-zuid-holland_3",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "https://www.voorschoten.nl/inwoners-voorschoten/informatie-coronavirus-inwoners_45741/",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "Voorschoten, Veiligheidsregio Hollands-Midden, Provincie Zuid-Holland",
+    "hidden": false,
+    "type": "Maatregelen"
+  },
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ]
+    ],
+    "index_name": "gemeente",
+    "collection": "Gemeente",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "gemeente_voorst-veiligheidsregio-noord-en-oost-gelderland-provincie-gelderland_3",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "https://www.voorst.nl/coronavirus",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "Voorst, Veiligheidsregio Noord- en Oost-Gelderland, Provincie Gelderland",
+    "hidden": false,
+    "type": "Maatregelen"
+  },
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ]
+    ],
+    "index_name": "gemeente",
+    "collection": "Gemeente",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "gemeente_vught-veiligheidsregio-brabant-noord-provincie-noord-brabant_3",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "https://vught.nl/coronavirus",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "Vught, Veiligheidsregio Brabant-Noord, Provincie Noord-Brabant",
+    "hidden": false,
+    "type": "Maatregelen"
+  },
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ]
+    ],
+    "index_name": "gemeente",
+    "collection": "Gemeente",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "gemeente_waalre-veiligheidsregio-brabant-zuidoost-provincie-noord-brabant_3",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "https://www.waalre.nl/corona",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "Waalre, Veiligheidsregio Brabant-Zuidoost, Provincie Noord-Brabant",
+    "hidden": false,
+    "type": "Maatregelen"
+  },
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ]
+    ],
+    "index_name": "gemeente",
+    "collection": "Gemeente",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "gemeente_waddinxveen-veiligheidsregio-hollands-midden-provincie-zuid-holland_3",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "https://www.waddinxveen.nl/nieuws-over-coronavirus",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "Waddinxveen, Veiligheidsregio Hollands-Midden, Provincie Zuid-Holland",
+    "hidden": false,
+    "type": "Maatregelen"
+  },
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ]
+    ],
+    "index_name": "gemeente",
+    "collection": "Gemeente",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "gemeente_wageningen-veiligheidsregio-gelderland-midden-provincie-gelderland_3",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "https://www.wageningen.nl/Coronavirus",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "Wageningen, Veiligheidsregio Gelderland-Midden, Provincie Gelderland",
+    "hidden": false,
+    "type": "Maatregelen"
+  },
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ]
+    ],
+    "index_name": "gemeente",
+    "collection": "Gemeente",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "gemeente_wassenaar-veiligheidsregio-haaglanden-provincie-zuid-holland_3",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "https://www.wassenaar.nl/inwoners-wassenaar/informatie-coronavirus-voor-inwoners_45744/",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "Wassenaar, Veiligheidsregio Haaglanden, Provincie Zuid-Holland",
+    "hidden": false,
+    "type": "Maatregelen"
+  },
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ]
+    ],
+    "index_name": "gemeente",
+    "collection": "Gemeente",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "gemeente_waterland-veiligheidsregio-zaanstreek-waterland-provincie-noord-holland_3",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "https://www.waterland.nl/overzicht_corona",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "Waterland, Veiligheidsregio Zaanstreek-Waterland, Provincie Noord-Holland",
+    "hidden": false,
+    "type": "Maatregelen"
+  },
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ]
+    ],
+    "index_name": "gemeente",
+    "collection": "Gemeente",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "gemeente_west-betuwe-veiligheidsregio-gelderland-zuid-provincie-gelderland_3",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "https://www.westbetuwe.nl/informatie-over-het-coronavirus",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "West Betuwe, Veiligheidsregio Gelderland-Zuid, Provincie Gelderland",
+    "hidden": false,
+    "type": "Maatregelen"
+  },
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ]
+    ],
+    "index_name": "gemeente",
+    "collection": "Gemeente",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "gemeente_west-maas-en-waal-veiligheidsregio-gelderland-zuid-provincie-gelderland_3",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "https://www.westmaasenwaal.nl/corona",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "West Maas en Waal, Veiligheidsregio Gelderland-Zuid, Provincie Gelderland",
+    "hidden": false,
+    "type": "Maatregelen"
+  },
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ]
+    ],
+    "index_name": "gemeente",
+    "collection": "Gemeente",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "gemeente_westerkwartier-veiligheidsregio-groningen-provincie-groningen_3",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "https://www.westerkwartier.nl/bestuur-organisatie/corona_41427/",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "Westerkwartier, Veiligheidsregio Groningen, Provincie Groningen",
+    "hidden": false,
+    "type": "Maatregelen"
+  },
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ]
+    ],
+    "index_name": "gemeente",
+    "collection": "Gemeente",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "gemeente_westervoort-veiligheidsregio-gelderland-midden-provincie-gelderland_3",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "https://www.westervoort.nl/coronavirus-0",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "Westervoort, Veiligheidsregio Gelderland-Midden, Provincie Gelderland",
+    "hidden": false,
+    "type": "Maatregelen"
+  },
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ]
+    ],
+    "index_name": "gemeente",
+    "collection": "Gemeente",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "gemeente_westerwolde-veiligheidsregio-groningen-provincie-groningen_3",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "https://www.westerwolde.nl/corona",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "Westerwolde, Veiligheidsregio Groningen, Provincie Groningen",
+    "hidden": false,
+    "type": "Maatregelen"
+  },
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ]
+    ],
+    "index_name": "gemeente",
+    "collection": "Gemeente",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "gemeente_weststellingwerf-veiligheidsregio-fryslan-provincie-friesland_3",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "https://www.weststellingwerf.nl/home/coronavirus_42560/",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "Weststellingwerf, Veiligheidsregio Fryslân, Provincie Friesland",
+    "hidden": false,
+    "type": "Maatregelen"
+  },
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ]
+    ],
+    "index_name": "gemeente",
+    "collection": "Gemeente",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "gemeente_westvoorne-veiligheidsregio-rotterdam-rijnmond-provincie-zuid-holland_3",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "https://www.westvoorne.nl/portal/coronavirus_44958/",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "Westvoorne, Veiligheidsregio Rotterdam-Rijnmond, Provincie Zuid-Holland",
+    "hidden": false,
+    "type": "Maatregelen"
+  },
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ]
+    ],
+    "index_name": "gemeente",
+    "collection": "Gemeente",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "gemeente_wierden-veiligheidsregio-twente-provincie-overijssel_3",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "https://www.wierden.nl/in-en-over-wierden/corona_43247/",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "Wierden, Veiligheidsregio Twente, Provincie Overijssel",
+    "hidden": false,
+    "type": "Maatregelen"
+  },
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ]
+    ],
+    "index_name": "gemeente",
+    "collection": "Gemeente",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "gemeente_wijchen-veiligheidsregio-gelderland-zuid-provincie-gelderland_3",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "https://www.wijchen.nl/corona",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "Wijchen, Veiligheidsregio Gelderland-Zuid, Provincie Gelderland",
+    "hidden": false,
+    "type": "Maatregelen"
+  },
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ]
+    ],
+    "index_name": "gemeente",
+    "collection": "Gemeente",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "gemeente_winterswijk-veiligheidsregio-noord-en-oost-gelderland-provincie-gelderland_3",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "https://www.winterswijk.nl/Inwoners_Ondernemers/Actueel/Coronavirus",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "Winterswijk, Veiligheidsregio Noord- en Oost-Gelderland, Provincie Gelderland",
+    "hidden": false,
+    "type": "Maatregelen"
+  },
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ]
+    ],
+    "index_name": "gemeente",
+    "collection": "Gemeente",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "gemeente_de-wolden-veiligheidsregio-drenthe-provincie-drenthe_3",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "https://www.dewolden.nl/dossiers/informatie-coronavirus",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "De Wolden, Veiligheidsregio Drenthe, Provincie Drenthe",
+    "hidden": false,
+    "type": "Maatregelen"
+  },
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ]
+    ],
+    "index_name": "gemeente",
+    "collection": "Gemeente",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "gemeente_wormerland-veiligheidsregio-zaanstreek-waterland-provincie-noord-holland_3",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "https://www.wormerland.nl/mozard/!suite86.scherm0325?mPag=3587",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "Wormerland, Veiligheidsregio Zaanstreek-Waterland, Provincie Noord-Holland",
+    "hidden": false,
+    "type": "Maatregelen"
+  },
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ]
+    ],
+    "index_name": "gemeente",
+    "collection": "Gemeente",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "gemeente_woudenberg-veiligheidsregio-utrecht-provincie-utrecht_3",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "https://www.woudenberg.nl/coronavirus",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "Woudenberg, Veiligheidsregio Utrecht, Provincie Utrecht",
+    "hidden": false,
+    "type": "Maatregelen"
+  },
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ]
+    ],
+    "index_name": "gemeente",
+    "collection": "Gemeente",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "gemeente_zaltbommel-veiligheidsregio-gelderland-zuid-provincie-gelderland_3",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "https://www.zaltbommel.nl/inwoner-en-ondernemer/nieuws/coronavirus/index",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "Zaltbommel, Veiligheidsregio Gelderland-Zuid, Provincie Gelderland",
+    "hidden": false,
+    "type": "Maatregelen"
+  },
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ]
+    ],
+    "index_name": "gemeente",
+    "collection": "Gemeente",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "gemeente_zandvoort-veiligheidsregio-kennemerland-provincie-noord-holland_3",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "https://www.zandvoort.nl/corona/",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "Zandvoort, Veiligheidsregio Kennemerland, Provincie Noord-Holland",
+    "hidden": false,
+    "type": "Maatregelen"
+  },
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ]
+    ],
+    "index_name": "gemeente",
+    "collection": "Gemeente",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "gemeente_zeewolde-veiligheidsregio-flevoland-provincie-flevoland_3",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "https://www.zeewolde.nl/coronavirus",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "Zeewolde, Veiligheidsregio Flevoland, Provincie Flevoland",
+    "hidden": false,
+    "type": "Maatregelen"
+  },
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ]
+    ],
+    "index_name": "gemeente",
+    "collection": "Gemeente",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "gemeente_zevenaar-veiligheidsregio-gelderland-midden-provincie-gelderland_3",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "https://www.zevenaar.nl/algemene-informatie-over-het-covid-19-virus-0",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "Zevenaar, Veiligheidsregio Gelderland-Midden, Provincie Gelderland",
+    "hidden": false,
+    "type": "Maatregelen"
+  },
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ]
+    ],
+    "index_name": "gemeente",
+    "collection": "Gemeente",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "gemeente_zoeterwoude-veiligheidsregio-hollands-midden-provincie-zuid-holland_3",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "https://www.zoeterwoude.nl/home/maatregelen-en-gevolgen-coronavirus_42984/",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "Zoeterwoude, Veiligheidsregio Hollands-Midden, Provincie Zuid-Holland",
+    "hidden": false,
+    "type": "Maatregelen"
+  },
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ]
+    ],
+    "index_name": "gemeente",
+    "collection": "Gemeente",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "gemeente_zuidplas-veiligheidsregio-hollands-midden-provincie-zuid-holland_3",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "https://www.zuidplas.nl/coronavirus",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "Zuidplas, Veiligheidsregio Hollands-Midden, Provincie Zuid-Holland",
+    "hidden": false,
+    "type": "Maatregelen"
+  },
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ]
+    ],
+    "index_name": "gemeente",
+    "collection": "Gemeente",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "gemeente_zundert-veiligheidsregio-midden-en-west-brabant-provincie-noord-brabant_3",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "https://www.zundert.nl/corona",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "Zundert, Veiligheidsregio Midden- en West-Brabant, Provincie Noord-Brabant",
+    "hidden": false,
+    "type": "Maatregelen"
+  },
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ]
+    ],
+    "index_name": "gemeente",
+    "collection": "Gemeente",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "gemeente_zwartewaterland-veiligheidsregio-ijsselland-provincie-overijssel_3",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "https://www.zwartewaterland.nl/corona",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "Zwartewaterland, Veiligheidsregio IJsselland, Provincie Overijssel",
     "hidden": false,
     "type": "Maatregelen"
   }
