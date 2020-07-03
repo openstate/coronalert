@@ -52,6 +52,8 @@
       <input type="hidden" id="form-subscribe-municipality-actor-type" name="municipality-actor-type" value="" title="">
       <select id="form-subscribe-municipality" class="custom-select form-subscribe-select-location" id="formSubscribeMunicipality" name="municipality">
         {% for bucket in quick_facets_results.location.buckets|sort(attribute="object.nameMap.nl") %}
+          {% set xbrl = _("Province") %}
+          <!-- xbrl: {{ xbrl }} -->
           {% if not (bucket.object.nameMap[hl].startswith(_("Province")) or bucket.object.nameMap[hl].startswith(_("Safety regio"))) %}
             <option value="{{ bucket.object["@id"] }}">{{ bucket.object.nameMap[hl] }}</option>
           {% endif %}
