@@ -398,7 +398,7 @@ msgstr "Recent politiek nieuws over %(query)s"
 #: templates/advanced.html:17 templates/advanced.html:150
 #: templates/index.html:23
 msgid "I am a journalist or researcher"
-msgstr "Ik ben een journalist/onderzoeker"
+msgstr "Ik ben een journalist / onderzoeker"
 
 #: templates/advanced.html:24 templates/base.html:93 templates/basic.html:24
 #: templates/index.html:7
