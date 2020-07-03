@@ -96,6 +96,11 @@ footer {
     border-radius: 0;
 }
 
+.toast {
+  position: absolute;
+  top: 500px;
+  right: 30px;
+}
 /*---mobile menu - svg attached ---*/
 .navbar-light .navbar-toggler-icon {
     background-image: url(/static/images/icon-feather-menu.svg);
