@@ -398,12 +398,12 @@ msgstr "Recent politiek nieuws over %(query)s"
 #: templates/advanced.html:17 templates/advanced.html:134
 #: templates/index.html:18
 msgid "I am a journalist or researcher"
-msgstr "Ik ben een journalist of onderzoeker"
+msgstr "Ik ben een journalist/onderzoeker"
 
 #: templates/advanced.html:24 templates/base.html:93 templates/basic.html:24
 #: templates/index.html:7
 msgid "collect up-to-date <br>corona policy from your region"
-msgstr "verzamel up-to-date<br>corona beleid uit jouw regio"
+msgstr "Blijf op de hoogte van alle<br>coronamaatregelen in jouw regio."
 
 #: templates/advanced.html:33 templates/basic.html:49
 msgid "Select your municipality"
@@ -534,7 +534,7 @@ msgstr "Annuleren"
 
 #: templates/basic.html:17 templates/basic.html:138 templates/index.html:22
 msgid "Check my hometown"
-msgstr "Bekijk mijn gemeente"
+msgstr "Bekijk mijn eigen woonplaats"
 
 #: templates/basic.html:34
 msgid "Now"

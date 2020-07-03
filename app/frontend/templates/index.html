@@ -8,6 +8,11 @@
 </div>
 {% endblock %}
 
+{% block search_header %}
+{% endblock %}
+  {% block search_footer %}
+  {% endblock %}
+
 {% block page_sub_header %}
 <div class="row">
   <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
@@ -25,12 +30,17 @@
     </div>
   </div>
 </div>
+<div class="sub-navigation-row">
+  <div class="container">
+    <h2>{%trans%}Latest news{%endtrans%}</h2>
+  </div>
+</div>
 {% endblock %}
 
 {% block content %}
 <div class="row">
   <div id="discover" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-    <div class="search-box clearfix">
+    <div class="clearfix">
       {% set filter_bar_homepage = True %}
       {% set filter_bar_relevance_link = url_for('search',sort='relevancy', hl=hl, rl=rl) %}
       {% set filter_bar_recent_link = url_for('search',sort='recency', hl=hl, rl=rl) %}

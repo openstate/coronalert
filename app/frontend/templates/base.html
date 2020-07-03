@@ -94,11 +94,15 @@
     </div>
   </div>
   {% endblock %}
+  {% block search_header %}
   <div class="searchable w-100">
     <div class="container">
+  {% endblock %}
     {% block search %}
     {% endblock %}
+{% block search_footer %}
   </div>
+{% endblock%}
   {% block sub_navigation %}
   {% endblock%}
     {% block cookies_set_alert %}
