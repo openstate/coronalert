@@ -632,7 +632,7 @@ msgstr "Laatste nieuws"
 
 #: templates/index.html:67
 msgid "Discover more scoops"
-msgstr "Ontdek meer verhalen"
+msgstr "Bekijk meer Corona nieuws"
 
 #: templates/inner_result.html:53
 msgid "Read more"
