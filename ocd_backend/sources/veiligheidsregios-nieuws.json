@@ -20,7 +20,7 @@
     "file_url": "https://www.amsterdam.nl/veiligheidsregio/",
     "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
     "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
-    "location": "Amsterdam-Amstelland",
+    "location": "Veiligheidsregio Amsterdam-Amstelland",
     "hidden": false,
     "type": "Nieuws"
   },
@@ -45,7 +45,7 @@
     "file_url": "https://www.vrbn.nl/organisatie/nieuws/nieuws-0/nieuws/",
     "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
     "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
-    "location": "Brabant-Noord",
+    "location": "Veiligheidsregio Brabant-Noord",
     "hidden": false,
     "type": "Nieuws"
   },
@@ -70,7 +70,7 @@
     "file_url": "https://www.vrbzo.nl/actueel/",
     "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
     "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
-    "location": "Brabant-Zuidoost",
+    "location": "Veiligheidsregio Brabant-Zuidoost",
     "hidden": false,
     "type": "Nieuws"
   },
@@ -95,7 +95,7 @@
     "file_url": "https://www.vrd.nl/actueel.html",
     "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
     "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
-    "location": "Drenthe",
+    "location": "Veiligheidsregio Drenthe",
     "hidden": false,
     "type": "Nieuws"
   },
@@ -120,7 +120,7 @@
     "file_url": "https://www.veiligheidsregioflevoland.nl/",
     "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
     "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
-    "location": "Flevoland",
+    "location": "Veiligheidsregio Flevoland",
     "hidden": false,
     "type": "Nieuws"
   },
@@ -145,7 +145,7 @@
     "file_url": "https://www.veiligheidsregiofryslan.nl/",
     "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
     "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
-    "location": "Fryslân",
+    "location": "Veiligheidsregio Fryslân",
     "hidden": false,
     "type": "Nieuws"
   },
@@ -170,7 +170,7 @@
     "file_url": "https://www.vggm.nl/vggm",
     "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
     "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
-    "location": "Gelderland-Midden",
+    "location": "Veiligheidsregio Gelderland-Midden",
     "hidden": false,
     "type": "Nieuws"
   },
@@ -195,7 +195,7 @@
     "file_url": "https://www.vrgz.nl/nieuws/",
     "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
     "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
-    "location": "Gelderland-Zuid",
+    "location": "Veiligheidsregio Gelderland-Zuid",
     "hidden": false,
     "type": "Nieuws"
   },
@@ -220,7 +220,7 @@
     "file_url": "https://www.vrgooienvechtstreek.nl/actueel/",
     "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
     "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
-    "location": "Gooi en Vechtstreek",
+    "location": "Veiligheidsregio Gooi en Vechtstreek",
     "hidden": false,
     "type": "Nieuws"
   },
@@ -245,7 +245,7 @@
     "file_url": "https://www.veiligheidsregiogroningen.nl/over_ons/nieuws/",
     "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
     "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
-    "location": "Groningen",
+    "location": "Veiligheidsregio Groningen",
     "hidden": false,
     "type": "Nieuws"
   },
@@ -270,7 +270,7 @@
     "file_url": "https://www.vrh.nl/nieuws-verhalen",
     "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
     "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
-    "location": "Haaglanden",
+    "location": "Veiligheidsregio Haaglanden",
     "hidden": false,
     "type": "Nieuws"
   },
@@ -295,7 +295,7 @@
     "file_url": "https://www.vrhm.nl/",
     "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
     "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
-    "location": "Hollands-Midden",
+    "location": "Veiligheidsregio Hollands-Midden",
     "hidden": false,
     "type": "Nieuws"
   },
@@ -320,7 +320,7 @@
     "file_url": "https://www.vrijsselland.nl/nieuws",
     "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
     "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
-    "location": "IJsselland",
+    "location": "Veiligheidsregio IJsselland",
     "hidden": false,
     "type": "Nieuws"
   },
@@ -345,7 +345,7 @@
     "file_url": "https://www.vrk.nl/nl-NL/Nieuws",
     "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
     "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
-    "location": "Kennemerland",
+    "location": "Veiligheidsregio Kennemerland",
     "hidden": false,
     "type": "Nieuws"
   },
@@ -370,7 +370,7 @@
     "file_url": "https://www.vrln.nl/nieuws",
     "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
     "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
-    "location": "Limburg-Noord",
+    "location": "Veiligheidsregio Limburg-Noord",
     "hidden": false,
     "type": "Nieuws"
   },
@@ -395,7 +395,7 @@
     "file_url": "https://vrzl.nl/nieuws",
     "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
     "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
-    "location": "Limburg-Zuid",
+    "location": "Veiligheidsregio Limburg-Zuid",
     "hidden": false,
     "type": "Nieuws"
   },
@@ -420,7 +420,7 @@
     "file_url": "https://www.vrmwb.nl/nieuws",
     "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
     "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
-    "location": "Midden- en West-Brabant",
+    "location": "Veiligheidsregio Midden- en West-Brabant",
     "hidden": false,
     "type": "Nieuws"
   },
@@ -445,7 +445,7 @@
     "file_url": "https://www.vrmwb.nl/Nieuws",
     "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
     "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
-    "location": "Noord- en Oost-Gelderland",
+    "location": "Veiligheidsregio Noord- en Oost-Gelderland",
     "hidden": false,
     "type": "Nieuws"
   },
@@ -470,7 +470,7 @@
     "file_url": "https://www.vrnhn.nl/actueel",
     "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
     "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
-    "location": "Noord-Holland-Noord",
+    "location": "Veiligheidsregio Noord-Holland-Noord",
     "hidden": false,
     "type": "Nieuws"
   },
@@ -495,7 +495,7 @@
     "file_url": "https://vr-rr.nl/actueel/",
     "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
     "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
-    "location": "Rotterdam-Rijnmond",
+    "location": "Veiligheidsregio Rotterdam-Rijnmond",
     "hidden": false,
     "type": "Nieuws"
   },
@@ -520,7 +520,7 @@
     "file_url": "https://vrtwente.nl/actueel/",
     "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
     "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
-    "location": "Twente",
+    "location": "Veiligheidsregio Twente",
     "hidden": false,
     "type": "Nieuws"
   },
@@ -545,7 +545,7 @@
     "file_url": "https://www.vru.nl/nieuws",
     "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
     "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
-    "location": "Utrecht",
+    "location": "Veiligheidsregio Utrecht",
     "hidden": false,
     "type": "Nieuws"
   },
@@ -570,7 +570,7 @@
     "file_url": "https://www.veiligheidsregiozaanstreekwaterland.nl/nieuws.html",
     "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
     "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
-    "location": "Zaanstreek-Waterland",
+    "location": "Veiligheidsregio Zaanstreek-Waterland",
     "hidden": false,
     "type": "Nieuws"
   },
@@ -595,7 +595,7 @@
     "file_url": "https://www.veiligheidsregiozeeland.nl/nieuws",
     "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
     "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
-    "location": "Zeeland",
+    "location": "Veiligheidsregio Zeeland",
     "hidden": false,
     "type": "Nieuws"
   },
@@ -620,7 +620,7 @@
     "file_url": "https://www.zhzveilig.nl/vrzhz/nieuws/",
     "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
     "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
-    "location": "Zuid-Holland-Zuid",
+    "location": "Veiligheidsregio Zuid-Holland-Zuid",
     "hidden": false,
     "type": "Nieuws"
   }

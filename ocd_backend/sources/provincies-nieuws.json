@@ -20,7 +20,7 @@
     "file_url": "https://www.provincie.drenthe.nl/actueel/nieuwsberichten/",
     "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
     "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
-    "location": "Drenthe",
+    "location": "Provincie Drenthe",
     "hidden": false,
     "type": "Nieuws"
   },
@@ -45,7 +45,7 @@
     "file_url": "https://www.flevoland.nl/nieuwsoverzicht",
     "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
     "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
-    "location": "Flevoland",
+    "location": "Provincie Flevoland",
     "hidden": false,
     "type": "Nieuws"
   },
@@ -70,7 +70,7 @@
     "file_url": "https://www.fryslan.frl/home/nieuws_3166/",
     "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
     "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
-    "location": "Fryslân",
+    "location": "Provincie Fryslân",
     "hidden": false,
     "type": "Nieuws"
   },
@@ -95,7 +95,7 @@
     "file_url": "https://www.gelderland.nl/Nieuwsoverzicht",
     "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
     "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
-    "location": "Gelderland",
+    "location": "Provincie Gelderland",
     "hidden": false,
     "type": "Nieuws"
   },
@@ -120,7 +120,7 @@
     "file_url": "https://www.provinciegroningen.nl/actueel/nieuws/",
     "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
     "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
-    "location": "Groningen",
+    "location": "Provincie Groningen",
     "hidden": false,
     "type": "Nieuws"
   },
@@ -145,7 +145,7 @@
     "file_url": "https://www.limburg.nl/actueel/nieuws/",
     "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
     "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
-    "location": "Limburg",
+    "location": "Provincie Limburg",
     "hidden": false,
     "type": "Nieuws"
   },
@@ -170,7 +170,7 @@
     "file_url": "https://www.brabant.nl/actueel/nieuws",
     "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
     "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
-    "location": "Noord-Brabant",
+    "location": "Provincie Noord-Brabant",
     "hidden": false,
     "type": "Nieuws"
   },
@@ -195,7 +195,7 @@
     "file_url": "https://www.noord-holland.nl/Actueel/Nieuws",
     "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
     "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
-    "location": "Noord-Holland",
+    "location": "Provincie Noord-Holland",
     "hidden": false,
     "type": "Nieuws"
   },
@@ -220,7 +220,7 @@
     "file_url": "https://www.overijssel.nl/actueel/nieuws/",
     "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
     "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
-    "location": "Overijssel",
+    "location": "Provincie Overijssel",
     "hidden": false,
     "type": "Nieuws"
   },
@@ -245,7 +245,7 @@
     "file_url": "https://www.provincie-utrecht.nl/actueel/nieuws",
     "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
     "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
-    "location": "Utrecht",
+    "location": "Provincie Utrecht",
     "hidden": false,
     "type": "Nieuws"
   },
@@ -270,7 +270,7 @@
     "file_url": "https://www.zeeland.nl/actueel",
     "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
     "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
-    "location": "Zeeland",
+    "location": "Provincie Zeeland",
     "hidden": false,
     "type": "Nieuws"
   },
@@ -295,7 +295,7 @@
     "file_url": "https://www.zuid-holland.nl/actueel/nieuws/",
     "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
     "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
-    "location": "Zuid-Holland",
+    "location": "Provincie Zuid-Holland",
     "hidden": false,
     "type": "Nieuws"
   }

@@ -20,7 +20,7 @@
     "file_url": "https://www.vrbn.nl/update-coronavirus/",
     "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
     "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
-    "location": "Brabant-Noord",
+    "location": "Veiligheidsregio Brabant-Noord",
     "hidden": false,
     "type": "Maatregelen"
   },
@@ -45,7 +45,7 @@
     "file_url": "https://www.vrd.nl/coronavirus-in-drenthe.html",
     "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
     "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
-    "location": "Drenthe",
+    "location": "Veiligheidsregio Drenthe",
     "hidden": false,
     "type": "Maatregelen"
   },
@@ -70,7 +70,7 @@
     "file_url": "https://www.veiligheidsregiofryslan.nl/coronavirus/",
     "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
     "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
-    "location": "Fryslân",
+    "location": "Veiligheidsregio Fryslân",
     "hidden": false,
     "type": "Maatregelen"
   },
@@ -95,7 +95,7 @@
     "file_url": "https://www.veiligheidsregiogroningen.nl/wat_jij_kan_doen/tijdens_een_crisis/corona/wat_betekent_het_coronavirus_voor_groningen_",
     "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
     "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
-    "location": "Groningen",
+    "location": "Veiligheidsregio Groningen",
     "hidden": false,
     "type": "Maatregelen"
   },
@@ -120,7 +120,7 @@
     "file_url": "https://haaglandenveilig.nl/informatie-over-het-coronavirus-covid-19",
     "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
     "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
-    "location": "Haaglanden",
+    "location": "Veiligheidsregio Haaglanden",
     "hidden": false,
     "type": "Maatregelen"
   },
@@ -145,7 +145,7 @@
     "file_url": "https://www.vrijsselland.nl/coronavirus/",
     "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
     "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
-    "location": "IJsselland",
+    "location": "Veiligheidsregio IJsselland",
     "hidden": false,
     "type": "Maatregelen"
   },
@@ -170,7 +170,7 @@
     "file_url": "https://www.vrk.nl/nl-NL/Coronavirus",
     "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
     "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
-    "location": "Kennemerland",
+    "location": "Veiligheidsregio Kennemerland",
     "hidden": false,
     "type": "Maatregelen"
   },
@@ -195,7 +195,7 @@
     "file_url": "https://www.vrzl.nl/coronavirus",
     "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
     "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
-    "location": "Limburg-Zuid",
+    "location": "Veiligheidsregio Limburg-Zuid",
     "hidden": false,
     "type": "Maatregelen"
   },
@@ -220,7 +220,7 @@
     "file_url": "https://www.vrmwb.nl/Nieuws/2020/02/27/Informatie-over-corona",
     "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
     "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
-    "location": "Noord- en Oost-Gelderland",
+    "location": "Veiligheidsregio Noord- en Oost-Gelderland",
     "hidden": false,
     "type": "Maatregelen"
   },
@@ -245,7 +245,7 @@
     "file_url": "https://vrtwente.nl/corona/",
     "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
     "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
-    "location": "Twente",
+    "location": "Veiligheidsregio Twente",
     "hidden": false,
     "type": "Maatregelen"
   },
@@ -270,7 +270,7 @@
     "file_url": "https://www.vru.nl/coronavirus/informatie-voor-inwoners",
     "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
     "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
-    "location": "Utrecht",
+    "location": "Veiligheidsregio Utrecht",
     "hidden": false,
     "type": "Maatregelen"
   },
@@ -295,7 +295,7 @@
     "file_url": "https://www.veiligheidsregiozaanstreekwaterland.nl/incidenten/incident/?tx_news_pi1%5Bnews%5D=1110&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Baction%5D=detail&cHash=8b49f50d654ceedcc0f2f618c305a1ea",
     "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
     "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
-    "location": "Zaanstreek-Waterland",
+    "location": "Veiligheidsregio Zaanstreek-Waterland",
     "hidden": false,
     "type": "Maatregelen"
   },
@@ -320,7 +320,7 @@
     "file_url": "https://www.zeelandveilig.nl/coronavirus",
     "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
     "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
-    "location": "Zeeland",
+    "location": "Veiligheidsregio Zeeland",
     "hidden": false,
     "type": "Maatregelen"
   }

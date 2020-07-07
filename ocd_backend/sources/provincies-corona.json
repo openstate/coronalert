@@ -20,7 +20,7 @@
     "file_url": "https://www.provincie.drenthe.nl/diversen/coronavirus/actueel/",
     "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
     "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
-    "location": "Drenthe",
+    "location": "Provincie Drenthe",
     "hidden": false,
     "type": "Nieuws"
   },
@@ -45,7 +45,7 @@
     "file_url": "https://www.gelderland.nl/Nieuwsoverzicht/COVID-19/COVID-19-Updates",
     "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
     "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
-    "location": "Gelderland",
+    "location": "Provincie Gelderland",
     "hidden": false,
     "type": "Nieuws"
   },
@@ -70,7 +70,7 @@
     "file_url": "https://www.brabant.nl/subsites/corona/nieuws",
     "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
     "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
-    "location": "Noord-Brabant",
+    "location": "Provincie Noord-Brabant",
     "hidden": false,
     "type": "Nieuws"
   },
@@ -95,7 +95,7 @@
     "file_url": "https://www.noord-holland.nl/Actueel/Coronavirus/Nieuws_coronavirus",
     "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
     "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
-    "location": "Noord-Holland",
+    "location": "Provincie Noord-Holland",
     "hidden": false,
     "type": "Nieuws"
   }

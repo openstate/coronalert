@@ -20,7 +20,7 @@
     "file_url": "https://www.vrbn.nl/update-coronavirus/actueel/",
     "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
     "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
-    "location": "Brabant-Noord",
+    "location": "Veiligheidsregio Brabant-Noord",
     "hidden": false,
     "type": "Nieuws"
   },
@@ -45,7 +45,7 @@
     "file_url": "https://www.vrd.nl/coronavirus-in-drenthe/actuele-maatregelen.html",
     "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
     "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
-    "location": "Drenthe",
+    "location": "Veiligheidsregio Drenthe",
     "hidden": false,
     "type": "Nieuws"
   },
@@ -70,7 +70,7 @@
     "file_url": "https://www.veiligheidsregioflevoland.nl/actueel/corona/",
     "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
     "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
-    "location": "Flevoland",
+    "location": "Veiligheidsregio Flevoland",
     "hidden": false,
     "type": "Nieuws"
   },
@@ -95,7 +95,7 @@
     "file_url": "https://www.veiligheidsregiofryslan.nl/coronavirus/nieuwsberichten/",
     "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
     "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
-    "location": "Fryslân",
+    "location": "Veiligheidsregio Fryslân",
     "hidden": false,
     "type": "Nieuws"
   },
@@ -120,7 +120,7 @@
     "file_url": "https://www.vrgooienvechtstreek.nl/categorie/coronanieuws/",
     "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
     "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
-    "location": "Gooi en Vechtstreek",
+    "location": "Veiligheidsregio Gooi en Vechtstreek",
     "hidden": false,
     "type": "Nieuws"
   },
@@ -145,7 +145,7 @@
     "file_url": "https://www.vrijsselland.nl/nieuwsoverzicht-coronavirus/",
     "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
     "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
-    "location": "IJsselland",
+    "location": "Veiligheidsregio IJsselland",
     "hidden": false,
     "type": "Nieuws"
   },
@@ -170,7 +170,7 @@
     "file_url": "https://www.vrk.nl/Nieuws/2020/03/31/Update-coronavirus",
     "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
     "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
-    "location": "Kennemerland",
+    "location": "Veiligheidsregio Kennemerland",
     "hidden": false,
     "type": "Nieuws"
   },
@@ -195,7 +195,7 @@
     "file_url": "https://vrln.nl/nieuws/coronavirus",
     "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
     "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
-    "location": "Limburg-Noord",
+    "location": "Veiligheidsregio Limburg-Noord",
     "hidden": false,
     "type": "Nieuws"
   },
@@ -220,7 +220,7 @@
     "file_url": "https://www.zeelandveilig.nl/meldingen/zeeuwse-maatregelen-coronavirus",
     "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
     "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
-    "location": "Zeeland",
+    "location": "Veiligheidsregio Zeeland",
     "hidden": false,
     "type": "Nieuws"
   },
@@ -245,7 +245,7 @@
     "file_url": "https://www.zhzveilig.nl/vrzhz/nieuws-coronavirus/",
     "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
     "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
-    "location": "Zuid-Holland-Zuid",
+    "location": "Veiligheidsregio Zuid-Holland-Zuid",
     "hidden": false,
     "type": "Nieuws"
   }
