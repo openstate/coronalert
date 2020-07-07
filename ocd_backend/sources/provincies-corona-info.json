@@ -1,0 +1,302 @@
+[
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ]
+    ],
+    "index_name": "provincie",
+    "collection": "Provincie",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "provincie_drenthe_3",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "https://www.provincie.drenthe.nl/diversen/coronavirus/",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "Drenthe",
+    "hidden": false,
+    "type": "Maatregelen"
+  },
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ]
+    ],
+    "index_name": "provincie",
+    "collection": "Provincie",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "provincie_flevoland_3",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "https://www.flevoland.nl/dossiers/coronacrisis",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "Flevoland",
+    "hidden": false,
+    "type": "Maatregelen"
+  },
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ]
+    ],
+    "index_name": "provincie",
+    "collection": "Provincie",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "provincie_fryslan_3",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "https://www.fryslan.frl/home/coronavirus-covid-19_44322/",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "Fryslân",
+    "hidden": false,
+    "type": "Maatregelen"
+  },
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ]
+    ],
+    "index_name": "provincie",
+    "collection": "Provincie",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "provincie_gelderland_3",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "https://www.gelderland.nl/Nieuwsoverzicht/COVID-19",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "Gelderland",
+    "hidden": false,
+    "type": "Maatregelen"
+  },
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ]
+    ],
+    "index_name": "provincie",
+    "collection": "Provincie",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "provincie_groningen_3",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "https://www.provinciegroningen.nl/actueel/dossiers/coronacrisis/",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "Groningen",
+    "hidden": false,
+    "type": "Maatregelen"
+  },
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ]
+    ],
+    "index_name": "provincie",
+    "collection": "Provincie",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "provincie_limburg_3",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "https://www.limburg.nl/thema/corona-limburg-0/",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "Limburg",
+    "hidden": false,
+    "type": "Maatregelen"
+  },
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ]
+    ],
+    "index_name": "provincie",
+    "collection": "Provincie",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "provincie_noord-brabant_3",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "https://www.brabant.nl/subsites/corona",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "Noord-Brabant",
+    "hidden": false,
+    "type": "Maatregelen"
+  },
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ]
+    ],
+    "index_name": "provincie",
+    "collection": "Provincie",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "provincie_noord-holland_3",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "https://www.noord-holland.nl/Actueel/Coronavirus",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "Noord-Holland",
+    "hidden": false,
+    "type": "Maatregelen"
+  },
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ]
+    ],
+    "index_name": "provincie",
+    "collection": "Provincie",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "provincie_overijssel_3",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "https://www.overijssel.nl/actueel/corona-virus-overijssel/",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "Overijssel",
+    "hidden": false,
+    "type": "Maatregelen"
+  },
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ]
+    ],
+    "index_name": "provincie",
+    "collection": "Provincie",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "provincie_utrecht_3",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "https://www.provincie-utrecht.nl/corona",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "Utrecht",
+    "hidden": false,
+    "type": "Maatregelen"
+  },
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ]
+    ],
+    "index_name": "provincie",
+    "collection": "Provincie",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "provincie_zeeland_3",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "https://www.zeeland.nl/vragen-over-corona",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "Zeeland",
+    "hidden": false,
+    "type": "Maatregelen"
+  },
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ]
+    ],
+    "index_name": "provincie",
+    "collection": "Provincie",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "provincie_zuid-holland_3",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "https://www.zuid-holland.nl/actueel/coronavirus/",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "Zuid-Holland",
+    "hidden": false,
+    "type": "Maatregelen"
+  }
+]

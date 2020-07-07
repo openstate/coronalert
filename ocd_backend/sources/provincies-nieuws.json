@@ -1,0 +1,302 @@
+[
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ]
+    ],
+    "index_name": "provincie",
+    "collection": "Provincie",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "provincie_drenthe_1",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "https://www.provincie.drenthe.nl/actueel/nieuwsberichten/",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "Drenthe",
+    "hidden": false,
+    "type": "Nieuws"
+  },
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ]
+    ],
+    "index_name": "provincie",
+    "collection": "Provincie",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "provincie_flevoland_1",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "https://www.flevoland.nl/nieuwsoverzicht",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "Flevoland",
+    "hidden": false,
+    "type": "Nieuws"
+  },
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ]
+    ],
+    "index_name": "provincie",
+    "collection": "Provincie",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "provincie_fryslan_1",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "https://www.fryslan.frl/home/nieuws_3166/",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "Fryslân",
+    "hidden": false,
+    "type": "Nieuws"
+  },
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ]
+    ],
+    "index_name": "provincie",
+    "collection": "Provincie",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "provincie_gelderland_1",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "https://www.gelderland.nl/Nieuwsoverzicht",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "Gelderland",
+    "hidden": false,
+    "type": "Nieuws"
+  },
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ]
+    ],
+    "index_name": "provincie",
+    "collection": "Provincie",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "provincie_groningen_1",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "https://www.provinciegroningen.nl/actueel/nieuws/",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "Groningen",
+    "hidden": false,
+    "type": "Nieuws"
+  },
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ]
+    ],
+    "index_name": "provincie",
+    "collection": "Provincie",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "provincie_limburg_1",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "https://www.limburg.nl/actueel/nieuws/",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "Limburg",
+    "hidden": false,
+    "type": "Nieuws"
+  },
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ]
+    ],
+    "index_name": "provincie",
+    "collection": "Provincie",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "provincie_noord-brabant_1",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "https://www.brabant.nl/actueel/nieuws",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "Noord-Brabant",
+    "hidden": false,
+    "type": "Nieuws"
+  },
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ]
+    ],
+    "index_name": "provincie",
+    "collection": "Provincie",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "provincie_noord-holland_1",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "https://www.noord-holland.nl/Actueel/Nieuws",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "Noord-Holland",
+    "hidden": false,
+    "type": "Nieuws"
+  },
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ]
+    ],
+    "index_name": "provincie",
+    "collection": "Provincie",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "provincie_overijssel_1",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "https://www.overijssel.nl/actueel/nieuws/",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "Overijssel",
+    "hidden": false,
+    "type": "Nieuws"
+  },
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ]
+    ],
+    "index_name": "provincie",
+    "collection": "Provincie",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "provincie_utrecht_1",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "https://www.provincie-utrecht.nl/actueel/nieuws",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "Utrecht",
+    "hidden": false,
+    "type": "Nieuws"
+  },
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ]
+    ],
+    "index_name": "provincie",
+    "collection": "Provincie",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "provincie_zeeland_1",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "https://www.zeeland.nl/actueel",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "Zeeland",
+    "hidden": false,
+    "type": "Nieuws"
+  },
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ]
+    ],
+    "index_name": "provincie",
+    "collection": "Provincie",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "provincie_zuid-holland_1",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "https://www.zuid-holland.nl/actueel/nieuws/",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "Zuid-Holland",
+    "hidden": false,
+    "type": "Nieuws"
+  }
+]

@@ -1,0 +1,252 @@
+[
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ]
+    ],
+    "index_name": "veiligheidsregio",
+    "collection": "Veiligheidsregio",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "veiligheidsregio_brabant-noord_2",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "https://www.vrbn.nl/update-coronavirus/actueel/",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "Brabant-Noord",
+    "hidden": false,
+    "type": "Nieuws"
+  },
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ]
+    ],
+    "index_name": "veiligheidsregio",
+    "collection": "Veiligheidsregio",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "veiligheidsregio_drenthe_2",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "https://www.vrd.nl/coronavirus-in-drenthe/actuele-maatregelen.html",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "Drenthe",
+    "hidden": false,
+    "type": "Nieuws"
+  },
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ]
+    ],
+    "index_name": "veiligheidsregio",
+    "collection": "Veiligheidsregio",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "veiligheidsregio_flevoland_2",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "https://www.veiligheidsregioflevoland.nl/actueel/corona/",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "Flevoland",
+    "hidden": false,
+    "type": "Nieuws"
+  },
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ]
+    ],
+    "index_name": "veiligheidsregio",
+    "collection": "Veiligheidsregio",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "veiligheidsregio_fryslan_2",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "https://www.veiligheidsregiofryslan.nl/coronavirus/nieuwsberichten/",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "Fryslân",
+    "hidden": false,
+    "type": "Nieuws"
+  },
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ]
+    ],
+    "index_name": "veiligheidsregio",
+    "collection": "Veiligheidsregio",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "veiligheidsregio_gooi-en-vechtstreek_2",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "https://www.vrgooienvechtstreek.nl/categorie/coronanieuws/",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "Gooi en Vechtstreek",
+    "hidden": false,
+    "type": "Nieuws"
+  },
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ]
+    ],
+    "index_name": "veiligheidsregio",
+    "collection": "Veiligheidsregio",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "veiligheidsregio_ijsselland_2",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "https://www.vrijsselland.nl/nieuwsoverzicht-coronavirus/",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "IJsselland",
+    "hidden": false,
+    "type": "Nieuws"
+  },
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ]
+    ],
+    "index_name": "veiligheidsregio",
+    "collection": "Veiligheidsregio",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "veiligheidsregio_kennemerland_2",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "https://www.vrk.nl/Nieuws/2020/03/31/Update-coronavirus",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "Kennemerland",
+    "hidden": false,
+    "type": "Nieuws"
+  },
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ]
+    ],
+    "index_name": "veiligheidsregio",
+    "collection": "Veiligheidsregio",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "veiligheidsregio_limburg-noord_2",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "https://vrln.nl/nieuws/coronavirus",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "Limburg-Noord",
+    "hidden": false,
+    "type": "Nieuws"
+  },
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ]
+    ],
+    "index_name": "veiligheidsregio",
+    "collection": "Veiligheidsregio",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "veiligheidsregio_zeeland_2",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "https://www.zeelandveilig.nl/meldingen/zeeuwse-maatregelen-coronavirus",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "Zeeland",
+    "hidden": false,
+    "type": "Nieuws"
+  },
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ]
+    ],
+    "index_name": "veiligheidsregio",
+    "collection": "Veiligheidsregio",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "veiligheidsregio_zuid-holland-zuid_2",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "https://www.zhzveilig.nl/vrzhz/nieuws-coronavirus/",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "Zuid-Holland-Zuid",
+    "hidden": false,
+    "type": "Nieuws"
+  }
+]

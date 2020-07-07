@@ -1,0 +1,327 @@
+[
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ]
+    ],
+    "index_name": "veiligheidsregio",
+    "collection": "Veiligheidsregio",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "veiligheidsregio_brabant-noord_3",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "https://www.vrbn.nl/update-coronavirus/",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "Brabant-Noord",
+    "hidden": false,
+    "type": "Maatregelen"
+  },
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ]
+    ],
+    "index_name": "veiligheidsregio",
+    "collection": "Veiligheidsregio",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "veiligheidsregio_drenthe_3",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "https://www.vrd.nl/coronavirus-in-drenthe.html",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "Drenthe",
+    "hidden": false,
+    "type": "Maatregelen"
+  },
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ]
+    ],
+    "index_name": "veiligheidsregio",
+    "collection": "Veiligheidsregio",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "veiligheidsregio_fryslan_3",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "https://www.veiligheidsregiofryslan.nl/coronavirus/",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "Fryslân",
+    "hidden": false,
+    "type": "Maatregelen"
+  },
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ]
+    ],
+    "index_name": "veiligheidsregio",
+    "collection": "Veiligheidsregio",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "veiligheidsregio_groningen_3",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "https://www.veiligheidsregiogroningen.nl/wat_jij_kan_doen/tijdens_een_crisis/corona/wat_betekent_het_coronavirus_voor_groningen_",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "Groningen",
+    "hidden": false,
+    "type": "Maatregelen"
+  },
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ]
+    ],
+    "index_name": "veiligheidsregio",
+    "collection": "Veiligheidsregio",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "veiligheidsregio_haaglanden_3",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "https://haaglandenveilig.nl/informatie-over-het-coronavirus-covid-19",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "Haaglanden",
+    "hidden": false,
+    "type": "Maatregelen"
+  },
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ]
+    ],
+    "index_name": "veiligheidsregio",
+    "collection": "Veiligheidsregio",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "veiligheidsregio_ijsselland_3",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "https://www.vrijsselland.nl/coronavirus/",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "IJsselland",
+    "hidden": false,
+    "type": "Maatregelen"
+  },
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ]
+    ],
+    "index_name": "veiligheidsregio",
+    "collection": "Veiligheidsregio",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "veiligheidsregio_kennemerland_3",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "https://www.vrk.nl/nl-NL/Coronavirus",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "Kennemerland",
+    "hidden": false,
+    "type": "Maatregelen"
+  },
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ]
+    ],
+    "index_name": "veiligheidsregio",
+    "collection": "Veiligheidsregio",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "veiligheidsregio_limburg-zuid_3",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "https://www.vrzl.nl/coronavirus",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "Limburg-Zuid",
+    "hidden": false,
+    "type": "Maatregelen"
+  },
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ]
+    ],
+    "index_name": "veiligheidsregio",
+    "collection": "Veiligheidsregio",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "veiligheidsregio_noord-en-oost-gelderland_3",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "https://www.vrmwb.nl/Nieuws/2020/02/27/Informatie-over-corona",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "Noord- en Oost-Gelderland",
+    "hidden": false,
+    "type": "Maatregelen"
+  },
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ]
+    ],
+    "index_name": "veiligheidsregio",
+    "collection": "Veiligheidsregio",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "veiligheidsregio_twente_3",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "https://vrtwente.nl/corona/",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "Twente",
+    "hidden": false,
+    "type": "Maatregelen"
+  },
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ]
+    ],
+    "index_name": "veiligheidsregio",
+    "collection": "Veiligheidsregio",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "veiligheidsregio_utrecht_3",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "https://www.vru.nl/coronavirus/informatie-voor-inwoners",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "Utrecht",
+    "hidden": false,
+    "type": "Maatregelen"
+  },
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ]
+    ],
+    "index_name": "veiligheidsregio",
+    "collection": "Veiligheidsregio",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "veiligheidsregio_zaanstreek-waterland_3",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "https://www.veiligheidsregiozaanstreekwaterland.nl/incidenten/incident/?tx_news_pi1%5Bnews%5D=1110&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Baction%5D=detail&cHash=8b49f50d654ceedcc0f2f618c305a1ea",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "Zaanstreek-Waterland",
+    "hidden": false,
+    "type": "Maatregelen"
+  },
+  {
+    "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor",
+    "keep_index_on_update": true,
+    "enrichers": [
+      [
+        "ocd_backend.enrichers.PercolatorEnricher",
+        {}
+      ],
+      [
+        "ocd_backend.enrichers.BinoasEnricher",
+        {}
+      ]
+    ],
+    "index_name": "veiligheidsregio",
+    "collection": "Veiligheidsregio",
+    "loader": "ocd_backend.loaders.AS2Loader",
+    "id": "veiligheidsregio_zeeland_3",
+    "transformer": "ocd_backend.transformers.BaseTransformer",
+    "file_url": "https://www.zeelandveilig.nl/coronavirus",
+    "item": "ocd_backend.items.html.HTMLWithContentOnPageItem",
+    "cleanup": "ocd_backend.tasks.CleanupElasticsearch",
+    "location": "Zeeland",
+    "hidden": false,
+    "type": "Maatregelen"
+  }
+]
