@@ -586,8 +586,8 @@ msgid "Help"
 msgstr "Help"
 
 #: templates/feedback.en.html:5
-msgid "Help us if we missed something or if you have a suggestion"
-msgstr "Help ons als je iets mist of een suggestie hebt"
+msgid "Help us if we missed something or if you have a suggestion."
+msgstr "Help ons als je iets mist of een suggestie hebt."
 
 #: templates/feedback.en.html:13
 msgid ""
