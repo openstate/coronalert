@@ -72,7 +72,7 @@ RESOLVER_BASE_URL = 'https://api.poliflw.nl/v0/resolve'
 RESOLVER_URL_INDEX = 'alt_resolver'
 
 # The User-Agent that is used when retrieving data from external sources
-USER_AGENT = 'Poliscoops API/0.1 (+https://poliscoops.eu/)'
+USER_AGENT = 'CoronAlert API/0.1 (+https://www.coronalert.nl/)'
 
 # URL where of the API instance that should be used for management commands
 # Should include API version and a trailing slash.

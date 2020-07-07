@@ -1,4 +1,4 @@
-Poliscoops API install notes
+CoronAlert API install notes
 ######################################
 
 .. contents::
@@ -9,9 +9,9 @@ Installation instructions
 Install using Docker
 ------------
 
-Using `Docker Compose <https://docs.docker.com/compose/install/>`_ is by far the easiest way to spin up a development environment and get started with contributing to Poliscoops. The following has been tested to work with Docker 1.0.1 and up.
+Using `Docker Compose <https://docs.docker.com/compose/install/>`_ is by far the easiest way to spin up a development environment and get started with contributing to CoronAlert. The following has been tested to work with Docker 1.0.1 and up.
 
-1. Clone the Poliscoops git repository::
+1. Clone the CoronAlert git repository::
 
    $ git clone https://github.com/openstate/poliscoops.git
    $ cd poliflw/docker
@@ -65,7 +65,7 @@ Usage
 
 Some quick notes on how to use the PoliFLW API
 
-Running an Poliscoops extractor
+Running an CoronAlert extractor
 ------------
 
 1. Make the necessary changes to the 'sources' settings file (``ocd_backend/sources.json``). For example, fill out any API keys you might need for specific APIs.

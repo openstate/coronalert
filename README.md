@@ -29,7 +29,7 @@ See this guide to [install the CoronAlert API](https://github.com/openstate/coro
 
 ## Documentation
 
-The documentation of the Poliscoops API can be found at [docs.coronalert.nl](http://docs.coronalert.nl/).
+The documentation of the CoronAlert API can be found at [docs.coronalert.nl](http://docs.coronalert.nl/).
 
 We use [Sphinx](http://sphinx-doc.org/) to create the documentation. The source files are included in this repo under the `docs` directory.  
 
