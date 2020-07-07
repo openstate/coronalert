@@ -53,8 +53,8 @@
     CurrentApp.mode = "index";
     </script>
 
-    <header class="d-flex align-items-center">
-      <nav class="navbar navbar-expand-xxl navbar-light container" style="background-color: #ffffff;" role="navigation">
+    <header class="">
+      <nav class="navbar navbar-expand-xxl navbar-light container" style="background-color: #ffffff; z-index: 50000'" role="navigation">
         <a class="navbar-brand" href="/"><img src="{{ url_for('static', filename='images/logo-desktop.svg') }}" alt="{%trans%}Poliscoops{%endtrans%}" style="width: 200px;" /></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="{%trans%}Toggle navigation{%endtrans%}">
           <span class="navbar-toggler-icon"></span> {%trans%}Menu{%endtrans%}
