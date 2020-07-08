@@ -10,7 +10,7 @@ from ocd_backend.extractors import HttpRequestMixin
 from ocd_backend.items import BaseItem
 from ocd_backend.utils.html import HTMLContentExtractionMixin
 from ocd_backend.utils.voc import VocabularyMixin
-
+from ocd_backend.utils.misc import save_html_page
 
 class HTMLPageItem(BaseItem, HttpRequestMixin, VocabularyMixin):
     def _get_orig_link(self):
@@ -94,6 +94,8 @@ class HTMLPageItem(BaseItem, HttpRequestMixin, VocabularyMixin):
         # only continue if we got the page
         if r.status_code < 200 or r.status_code >= 300:
             return combined_index_data
+
+        save_html_page(r)
 
         try:
             html = etree.HTML(r.content)

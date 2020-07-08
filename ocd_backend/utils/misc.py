@@ -1,13 +1,33 @@
 import datetime
-import json
-import re
+import hashlib
 import glob
+import json
+import os
+import os.path
+import re
+
 import translitcodec
 
 from elasticsearch.helpers import scan, bulk
 import bleach
 from bleach.sanitizer import Cleaner
 from html5lib.filters.base import Filter
+
+import requests
+from lxml import etree
+
+from ocd_backend.settings import HTML_PATH
+
+def get_html_page_hash(html_page_url):
+    return hashlib.sha224(html_page_url).hexdigest()
+
+def get_html_page_path(html_page_url):
+    return os.path.join(HTML_PATH, '%s.html' % (get_html_page_hash(html_page_url,)))
+
+def save_html_page(requests_response):
+    with open(get_html_page_path(requests_response.url), 'w') as out_file:
+        out_file.write(requests_response.text)
+
 
 def reindex(client, source_index, target_index, target_client=None, chunk_size=500, scroll='5m', transformation_callable=None):
     """

@@ -87,6 +87,9 @@ PDF_MAX_MEDIABOX_PIXELS = 5000000
 # The path of the directory used to store linkmaps
 LINKMAP_PATH = os.path.join(ROOT_PATH, 'data/linkmaps')
 
+# The path of the directory used to store linkmaps
+HTML_PATH = os.path.join(ROOT_PATH, 'data/html')
+
 # Activitystram 2.0 objects types
 AS2_NAMESPACE = u'https://www.coronalert.nl/ns/voc/1.0/'
 AS2_OBJECTS = [
