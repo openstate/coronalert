@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-07-03 14:51+0000\n"
+"POT-Creation-Date: 2020-07-08 15:14+0000\n"
 "PO-Revision-Date: 2020-04-06 14:50+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: fr\n"
@@ -375,12 +375,11 @@ msgstr ""
 msgid "seconds"
 msgstr ""
 
-#: templates/about.de.html:1 templates/about.en.html:1
-#: templates/about.fr.html:1 templates/about.html:7 templates/base.html:72
+#: templates/about.en.html:1 templates/about.html:7 templates/base.html:72
 msgid "About"
 msgstr "Sur"
 
-#: templates/about.html:6 templates/advanced.html:149 templates/basic.html:137
+#: templates/about.html:6 templates/advanced.html:167 templates/basic.html:137
 #: templates/countries.html:6 templates/disclaimer.html:6
 #: templates/feedback.html:6 templates/languages.html:6
 #: templates/privacy.html:6 templates/search_results.html:20
@@ -395,7 +394,7 @@ msgstr ""
 msgid "Recent political news about %(query)s"
 msgstr "Nouvelles politiques récentes sur %(query)s"
 
-#: templates/advanced.html:17 templates/advanced.html:150
+#: templates/advanced.html:17 templates/advanced.html:168
 #: templates/index.html:23
 msgid "I am a journalist or researcher"
 msgstr ""
@@ -423,27 +422,28 @@ msgstr ""
 msgid "You can see a preview of the results below"
 msgstr ""
 
-#: templates/advanced.html:49 templates/basic.html:49
-msgid "Select your municipality"
+#: templates/advanced.html:49
+msgid "Select your municipalities"
 msgstr ""
 
-#: templates/advanced.html:74 templates/basic.html:74
+#: templates/advanced.html:100 templates/basic.html:74
 msgid "Specify an email address"
 msgstr ""
 
-#: templates/advanced.html:93
+#: templates/advanced.html:111
 msgid "Specify a query"
 msgstr ""
 
-#: templates/advanced.html:96 templates/search.html:13 templates/search.html:14
+#: templates/advanced.html:114 templates/search.html:13
+#: templates/search.html:14
 msgid "Street, park or activity"
 msgstr ""
 
-#: templates/advanced.html:108 templates/basic.html:96
+#: templates/advanced.html:126 templates/basic.html:96
 msgid "I accept the terms and conditions"
 msgstr ""
 
-#: templates/advanced.html:116 templates/basic.html:104
+#: templates/advanced.html:134 templates/basic.html:104
 #, python-format
 msgid ""
 "Receive mail from <span id=\"form-subscribe-show-"
@@ -452,12 +452,12 @@ msgid ""
 "subscribe-show-safety-region\">%(safetyregion)s</span>"
 msgstr ""
 
-#: templates/advanced.html:122 templates/basic.html:110
+#: templates/advanced.html:140 templates/basic.html:110
 #: templates/feedback.en.html:32
 msgid "Submit"
 msgstr "Soumettre"
 
-#: templates/advanced.html:159 templates/basic.html:147
+#: templates/advanced.html:177 templates/basic.html:147
 msgid "Loading"
 msgstr ""
 
@@ -547,6 +547,10 @@ msgstr ""
 
 #: templates/basic.html:26
 msgid "This is the basic lead intro"
+msgstr ""
+
+#: templates/basic.html:49
+msgid "Select your municipality"
 msgstr ""
 
 #: templates/basic.html:56 templates/sub_navigation.html:15
