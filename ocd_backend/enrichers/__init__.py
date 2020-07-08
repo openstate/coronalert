@@ -320,8 +320,11 @@ class BinoasEnricher(BaseEnricher, HttpRequestMixin, VocabularyMixin):
                 delay = current_dt - item['created']
             else:
                 # adjust for amsterdam time
-                adjusted_dt = iso8601.parse_date('%s+02:00' % (
-                    item['created'].isoformat()))
+                if item['created'] is not None:
+                    adjusted_dt = iso8601.parse_date('%s+02:00' % (
+                        item['created'].isoformat()))
+                else:
+                    adjusted_dt = current_dt
                 delay = current_dt - adjusted_dt
 
             # if len(item.get('tag', [])) > 0:
