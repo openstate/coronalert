@@ -69,5 +69,7 @@ log/*.pid
 ocd_backend/sources/*-facebook.json
 **/parties/*.png
 data/linkmaps/
+data/html/
+ocd_backend/data/html
 ocd_backend/data/linkmaps
 app/frontend/static/node_modules

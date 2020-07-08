@@ -148,7 +148,7 @@ class HTMLWithContentOnPageItem(HTMLPageItem, HTMLContentExtractionMixin):
     def _extract_date(self, html=None):
         parsed_granularity = 12
         date_str = None
-        for meta_term in ['DCTERMS.modified', 'dcterms:modified']:
+        for meta_term in ['DCTERMS.available', 'dcterms:available']:
             if not date_str:
                 date_str = u''.join(
                     html.xpath('//meta[@name="%s"]/@content' % (meta_term,)))
