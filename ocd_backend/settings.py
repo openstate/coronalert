@@ -143,6 +143,7 @@ BINOAS_APPLICATION = 'coronalert'
 BINOAS_AS2_TYPES = ['Note']
 BINOAS_TZ = 'Europe/Amsterdam'
 BINOAS_ALLOWED_DELAY = 21600.0
+BINOAS_MINIMUM_DELAY = 30.0
 
 ENRICHER_PERCOLATOR_AS2_TYPES = ['Note']
 ENRICHER_PERCOLATOR_BASE_HREF = 'https://www.coronalert.nl/topic'  # no trailing slash

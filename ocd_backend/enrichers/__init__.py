@@ -327,9 +327,13 @@ class BinoasEnricher(BaseEnricher, HttpRequestMixin, VocabularyMixin):
             # if len(item.get('tag', [])) > 0:
             #     log.info('sending to binoas: ' + str(item))
 
-            #log.info('Delay: %s (%s vs %s)' % (delay, current_dt, adjusted_dt))
+            log.info('Delay: %s (%s vs %s)' % (delay, current_dt, adjusted_dt))
             if delay.total_seconds() > settings.BINOAS_ALLOWED_DELAY:
                 log.info('Document delayed for %s so we have seen it before' % (
+                    str(delay),))
+                return enrichments
+            if delay.total_seconds() < settings.BINOAS_MINIMUM_DELAY:
+                log.info('Document published too short ago (%s) so we will skip it' % (
                     str(delay),))
                 return enrichments
 
