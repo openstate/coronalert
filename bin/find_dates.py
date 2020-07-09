@@ -34,7 +34,7 @@ def extract_date_from_meta(html):
 def extract_iso8601_date(contents):
     parsed_granularity = 12
     parsed_date = None
-    matches = re.search(r'(\d{4}-\d{2}\\d{2}T\d{2}:\d{2}:\d{2})', contents)
+    matches = re.search(r'(\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2})', contents)
     if matches is not None:
         try:
             parsed_date = iso8601.parse_date(matches.group(1))
