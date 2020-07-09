@@ -11,6 +11,8 @@ from ocd_backend.items import BaseItem
 from ocd_backend.utils.html import HTMLContentExtractionMixin
 from ocd_backend.utils.voc import VocabularyMixin
 from ocd_backend.utils.misc import save_html_page
+from ocd_backend.utils.date import extract_date
+
 
 class HTMLPageItem(BaseItem, HttpRequestMixin, VocabularyMixin):
     def _get_orig_link(self):
@@ -40,7 +42,7 @@ class HTMLPageItem(BaseItem, HttpRequestMixin, VocabularyMixin):
         return u''.join(html.xpath(
             self.source_definition['title_xpath']))
 
-    def _extract_date(self, html=None):
+    def _extract_date(self, html, content):
         parsed_date = None
         parsed_granularity = None
 
@@ -109,7 +111,8 @@ class HTMLPageItem(BaseItem, HttpRequestMixin, VocabularyMixin):
 
         combined_index_data['title'] = self._extract_title(html)
 
-        combined_index_data['date'], combined_index_data['date_granularity'] = self._extract_date(html)
+        combined_index_data['date'], combined_index_data['date_granularity'] = self._extract_date(
+            html, r.content)
 
         if self.source_definition.get('location', None) is not None:
             combined_index_data['location'] = unicode(self.source_definition[
@@ -145,15 +148,5 @@ class HTMLWithContentOnPageItem(HTMLPageItem, HTMLContentExtractionMixin):
         else:
             return u''.join(html.xpath('//title//text()'))
 
-    def _extract_date(self, html=None):
-        parsed_granularity = 12
-        date_str = None
-        for meta_term in ['DCTERMS.available', 'dcterms:available']:
-            if not date_str:
-                date_str = u''.join(
-                    html.xpath('//meta[@name="%s"]/@content' % (meta_term,)))
-        try:
-            parsed_date = iso8601.parse_date(date_str)
-        except iso8601.ParseError:
-            parsed_date = datetime.now()
-        return parsed_date, parsed_granularity
+    def _extract_date(self, html, content):
+        return extract_date(html, content)

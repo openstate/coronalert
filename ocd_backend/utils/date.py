@@ -11,8 +11,6 @@ import datetime
 from lxml import etree
 import iso8601
 
-sys.path.insert(0, '.')
-
 from ocd_backend.settings import HTML_PATH
 
 def extract_date_from_meta(html):
@@ -93,15 +91,3 @@ def extract_date(html, contents):
         parsed_date, parsed_granularity = extract_text_date(contents)
 
     return parsed_date, parsed_granularity
-
-def main(argv):
-    for h in glob(os.path.join(HTML_PATH, '*.html')):
-        with open(h, 'r') as in_file:
-            contents = in_file.read()
-        html = etree.HTML(contents)
-        d, g = extract_date(html, contents)
-        print("%s: %s / %s" % (h, g, d,))
-    return 0
-
-if __name__ == '__main__':
-    sys.exit(main(sys.argv))
