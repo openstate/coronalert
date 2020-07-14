@@ -1029,7 +1029,9 @@ api = BackendAPI()
 
 @app.route("/")
 def main():
-    results = api.search(**{"size": 6, "page": 1})
+    percolations = {p['name']: p['@id'] for p in api.percolations()['as:items']}
+    results = api.search(**{
+        "size": 6, "page": 1, "tag": percolations.values()})
     return render_template(
         'index.html',
         results=results,
