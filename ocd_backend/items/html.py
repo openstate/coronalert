@@ -132,7 +132,11 @@ class HTMLPageItem(BaseItem, HttpRequestMixin, VocabularyMixin):
 
 class HTMLWithContentOnPageItem(HTMLPageItem, HTMLContentExtractionMixin):
     def _extract_content(self, html=None, encoding=None):
-        return self.extract_content(etree.tostring(html), encoding)
+        html_str = etree.tostring(html)
+        result = self.extract_content(html_str, encoding)
+        if not result:
+            result = re.sub('\s+', ' ', html_cleanup(html_str))
+        return result
 
     def _extract_title(self, html=None):
         title_meta = {
