@@ -98,8 +98,12 @@ def main(argv):
     for h in glob(os.path.join(HTML_PATH, '*.html')):
         with open(h, 'r') as in_file:
             contents = in_file.read()
-        html = etree.HTML(contents)
-        d, g = extract_date(html, contents)
+        try:
+            html = etree.HTML(contents)
+            d, g = extract_date(html, contents)
+        except Exception:
+            g = 0
+            d = None
         print("%s: %s / %s" % (h, g, d,))
     return 0
 
