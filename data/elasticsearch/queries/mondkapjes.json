@@ -1,0 +1,10 @@
+{
+  "query": {
+    "simple_query_string" : {
+        "query": "monkapje* | mondmasker*",
+        "analyzer": "snowball",
+        "fields": ["item.nameMap.nl^2","item.contentMap.nl"],
+        "default_operator": "or"
+    }
+  }
+}
