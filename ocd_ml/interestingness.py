@@ -4,8 +4,6 @@ import bleach
 from bleach.sanitizer import Cleaner
 from html5lib.filters.base import Filter
 
-from ocd_backend.utils.misc import html_cleanup
-
 from ocd_backend.log import get_source_logger
 
 log = get_source_logger('interestingness')

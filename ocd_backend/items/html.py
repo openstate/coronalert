@@ -10,7 +10,7 @@ from ocd_backend.extractors import HttpRequestMixin
 from ocd_backend.items import BaseItem
 from ocd_backend.utils.html import HTMLContentExtractionMixin
 from ocd_backend.utils.voc import VocabularyMixin
-from ocd_backend.utils.misc import save_html_page
+from ocd_backend.utils.misc import (save_html_page, html_cleanup)
 from ocd_backend.utils.date import extract_date
 
 
