@@ -1,29 +1,29 @@
 version: "2.1"
 services:
   nginx:
-    ports:
-      - "80:80"
+#    ports:
+#      - "80:80"
     volumes:
       - ./nginx-dev/:/etc/nginx/
-    restart: "no"
+#    restart: "no"
   backend:
     mem_limit: 1g
-    restart: "no"
+#    restart: "no"
   frontend:
     build:
       context: ../ocd_frontend
       dockerfile: Dockerfile-frontend-dev
-    restart: "no"
+#    restart: "no"
   redis:
-    mem_limit: 1g
-    restart: "no"
+    mem_limit: 4g
+#    restart: "no"
   elasticsearch:
     mem_limit: 1g
-    restart: "no"
+#    restart: "no"
   app:
     build:
       context: ../app
       dockerfile: Dockerfile-app-dev
-    restart: "no"
+#    restart: "no"
   node:
     restart: "no"
