@@ -692,6 +692,9 @@ def do_pls_location(s):
     return result
 
 
+app.jinja_env.tests['startswith'] = lambda value, other : value.startswith(other)
+app.jinja_env.tests['equalto'] = lambda value, other : value == other
+
 class BackendAPI(object):
     URL = 'http://nginx/v0'
     #URL = 'https://api.coronalert.nl/v0'
@@ -1035,6 +1038,7 @@ def main():
     return render_template(
         'index.html',
         results=results,
+        facets_from_results=get_facets_from_results(results),
         facets=FACETS,
         visible_facets=[f for f in FACETS if f[2]])
 
