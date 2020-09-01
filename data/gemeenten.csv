@@ -108,6 +108,7 @@ Gemeentecode,GemeentecodeGM,Gemeentenaam,Provinciecode,ProvinciecodePV,Provincie
 0513,GM0513,Gouda,28,PV28,Zuid-Holland
 0786,GM0786,Grave,30,PV30,Noord-Brabant
 0518,GM0518,'s-Gravenhage,28,PV28,Zuid-Holland
+0518,GM0518,Den Haag,28,PV28,Zuid-Holland
 0014,GM0014,Groningen,20,PV20,Groningen
 1729,GM1729,Gulpen-Wittem,31,PV31,Limburg
 0158,GM0158,Haaksbergen,23,PV23,Overijssel
@@ -135,6 +136,7 @@ Gemeentecode,GemeentecodeGM,Gemeentenaam,Provinciecode,ProvinciecodePV,Provincie
 0531,GM0531,Hendrik-Ido-Ambacht,28,PV28,Zuid-Holland
 0164,GM0164,Hengelo,23,PV23,Overijssel
 0796,GM0796,'s-Hertogenbosch,30,PV30,Noord-Brabant
+0796,GM0796,Den Bosch,30,PV30,Noord-Brabant
 0252,GM0252,Heumen,25,PV25,Gelderland
 0797,GM0797,Heusden,30,PV30,Noord-Brabant
 0534,GM0534,Hillegom,28,PV28,Zuid-Holland

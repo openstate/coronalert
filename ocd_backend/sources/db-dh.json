@@ -1,0 +1,34 @@
+[
+    {
+        "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor", 
+        "keep_index_on_update": true, 
+        "enrichers": [], 
+        "index_name": "gemeente", 
+        "collection": "Gemeente", 
+        "loader": "ocd_backend.loaders.AS2Loader", 
+        "id": "gemeente_den-haag-veiligheidsregio-haaglanden-provincie-zuid-holland_1", 
+        "transformer": "ocd_backend.transformers.BaseTransformer", 
+        "file_url": "https://www.denhaag.nl/nl/bestuur-en-organisatie/coronavirus-1.htm", 
+        "item": "ocd_backend.items.html.HTMLWithContentOnPageItem", 
+        "cleanup": "ocd_backend.tasks.CleanupElasticsearch", 
+        "location": "Den Haag,Veiligheidsregio Haaglanden,Provincie Zuid-Holland", 
+        "hidden": false, 
+        "type": "Nieuws"
+    }, 
+    {
+        "extractor": "ocd_backend.extractors.linkmap.LinkmapExtractor", 
+        "keep_index_on_update": true, 
+        "enrichers": [], 
+        "index_name": "gemeente", 
+        "collection": "Gemeente", 
+        "loader": "ocd_backend.loaders.AS2Loader", 
+        "id": "gemeente_den-bosch-veiligheidsregio-brabant-noord-provincie-noord-brabant_1", 
+        "transformer": "ocd_backend.transformers.BaseTransformer", 
+        "file_url": "https://www.s-hertogenbosch.nl/corona.html", 
+        "item": "ocd_backend.items.html.HTMLWithContentOnPageItem", 
+        "cleanup": "ocd_backend.tasks.CleanupElasticsearch", 
+        "location": "Den Bosch,Veiligheidsregio Brabant-Noord,Provincie Noord-Brabant", 
+        "hidden": false, 
+        "type": "Nieuws"
+    }
+]

@@ -1,0 +1,14 @@
+[
+  {
+    "collection": "Gemeente",
+    "location": "Den Haag,Veiligheidsregio Haaglanden,Provincie Zuid-Holland",
+    "file_url": "https://www.denhaag.nl/nl/bestuur-en-organisatie/coronavirus-1.htm",
+    "type": "Nieuws"
+  },
+  {
+    "collection": "Gemeente",
+    "location": "Den Bosch,Veiligheidsregio Brabant-Noord,Provincie Noord-Brabant",
+    "file_url": "https://www.s-hertogenbosch.nl/corona.html",
+    "type": "Nieuws"
+  }
+]
