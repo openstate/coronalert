@@ -654,18 +654,19 @@ h3 {
 
 
 .counter-documents-count {
+  color: #082C36;
   font-size: 54px;
   line-height: 29px;
 }
 
 .counter-documents-count-total {
-  color: #0773A1;
+/*  color: #0773A1;*/
   font-size: 22px;
   line-height: 29px;
 }
 
 .counter-documents-description {
-  color: #0773A1;
+/*  color: #0773A1;*/
   display: block;
   font-size: 22px;
   line-height: 32px;
@@ -686,6 +687,14 @@ h3 {
 }
 
 .counter-documents li:last-child { border-right: 0px none; }
+
+.counter-documents-this-month {
+  color: #ED1D24;
+}
+
+.counter-documents-municipality {
+  color: #0773A1;
+}
 
 #form-search-fp .form-search {
   color: $color-default;

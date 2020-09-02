@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-07-08 15:14+0000\n"
+"POT-Creation-Date: 2020-09-02 13:56+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -621,11 +621,29 @@ msgstr ""
 msgid "Collect"
 msgstr ""
 
-#: templates/index.html:35 templates/sub_navigation.html:3
+#: templates/index.html:35
+msgid "Current COVID-19 figures"
+msgstr ""
+
+#: templates/index.html:49 templates/index.html:60 templates/index.html:72
+#, python-format
+msgid "%(total)s in total"
+msgstr ""
+
+#: templates/index.html:52 templates/index.html:63
+#, python-format
+msgid "Messages from %(location)s"
+msgstr ""
+
+#: templates/index.html:75
+msgid "Messages this month"
+msgstr ""
+
+#: templates/index.html:84 templates/sub_navigation.html:3
 msgid "Latest news"
 msgstr ""
 
-#: templates/index.html:67
+#: templates/index.html:116
 msgid "Discover more scoops"
 msgstr ""
 

@@ -41,7 +41,7 @@
   <ul class="counter-documents list-inline d-flex justify-content-between">
     {% set o1 = top_municipalities |random %}
     {% set o2 = top_others |random %}
-    <li class="list-inline-item">
+    <li class="list-inline-item counter-documents-municipality">
       <span class="counter-documents-count">
         {{ o1.doc_count }}
       </span>
@@ -52,7 +52,7 @@
         {%trans location=o1.object.nameMap.nl %}Messages from {{ location }}{%endtrans%}
       </span>
     </li>
-    <li class="list-inline-item">
+    <li class="list-inline-item counter-documents-other">
       <span class="counter-documents-count">
         {{ o2.doc_count }}
       </span>
@@ -63,7 +63,7 @@
         {%trans location=o2.object.nameMap.nl %}Messages from {{ location }}{%endtrans%}
       </span>
     </li>
-    <li class="list-inline-item">
+    <li class="list-inline-item counter-documents-this-month">
       <span class="counter-documents-count">
         {% set last_month = facets_from_results.date.buckets |last %}
         {{ last_month.doc_count }}
