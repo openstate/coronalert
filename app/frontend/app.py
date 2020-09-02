@@ -1039,6 +1039,7 @@ def main():
         'index.html',
         results=results,
         facets_from_results=get_facets_from_results(results),
+        current_dt=datetime.datetime.now().isoformat(),
         facets=FACETS,
         visible_facets=[f for f in FACETS if f[2]])
 

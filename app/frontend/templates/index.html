@@ -30,7 +30,13 @@
     </div>
   </div>
 </div>
-<div class="sub-navigation-rowr counter-documents-container">
+<div class="sub-navigation-row">
+  <div class="container">
+    <span>{%trans%}Current COVID-19 figures{%endtrans%}:</span>
+    {{ current_dt |correct_timezone |iso8601_to_str('full') }}
+  </div>
+</div>
+<div class="sub-navigation-row counter-documents-container">
   <div class="container">
   <ul class="counter-documents list-inline d-flex justify-content-between">
     {% set o1 = facets_from_results.location.buckets |random %}
