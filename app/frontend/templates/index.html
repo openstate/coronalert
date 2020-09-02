@@ -65,19 +65,17 @@
     </li>
     <li class="list-inline-item">
       <span class="counter-documents-count">
-        {{ o2.doc_count }}
+        {% set last_month = facets_from_results.date.buckets |last %}
+        {{ last_month.doc_count }}
       </span>
       <span class="counter-documents-count-total">
         ({%trans total=results['as:totalItems'] %}{{ total}} in total{%endtrans%})
       </span>
       <span class="counter-documents-description">
-        {%trans location=o2.object.nameMap.nl %}Messages from {{ location }}{%endtrans%}
+        {%trans location=o2.object.nameMap.nl %}Messages this month{%endtrans%}
       </span>
     </li>
   </ul>
-  </div>
-  <div class="container">
-    <pre>{{ facets_from_results |pprint }}</pre>
   </div>
 </div>
 
