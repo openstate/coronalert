@@ -1034,7 +1034,7 @@ api = BackendAPI()
 def main():
     percolations = {p['name']: p['@id'] for p in api.percolations()['as:items']}
     results = api.search(**{
-        "size": 6, "page": 1, "tag": percolations.values()})
+        "size": 6, "page": 1, "tag": percolations.values(), "facets": {"location": {"size": 100}}})
     facets_from_results = get_facets_from_results(results)
     top_municipalities = [o for o in facets_from_results['location']['buckets'] if not re.match('(Provincie|Veiligheidsregio)', o['object']['nameMap']['nl'])]
     top_others = [o for o in facets_from_results['location']['buckets'] if re.match('(Provincie|Veiligheidsregio)', o['object']['nameMap']['nl'])]
