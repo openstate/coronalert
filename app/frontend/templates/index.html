@@ -38,10 +38,10 @@
 </div>
 <div class="sub-navigation-row counter-documents-container">
   <div class="container">
-  <ul class="counter-documents list-inline d-flex justify-content-between">
+  <div class="row counter-documents d-flex justify-content-between">
     {% set o1 = top_municipalities |random %}
     {% set o2 = top_others |random %}
-    <li class="list-inline-item counter-documents-municipality">
+    <div class="col counter-documents-municipality">
       <span class="counter-documents-count">
         {{ o1.doc_count }}
       </span>
@@ -51,8 +51,8 @@
       <span class="counter-documents-description">
         {%trans location=o1.object.nameMap.nl %}Messages from {{ location }}{%endtrans%}
       </span>
-    </li>
-    <li class="list-inline-item counter-documents-other">
+    </div>
+    <div class="col counter-documents-other">
       <span class="counter-documents-count">
         {{ o2.doc_count }}
       </span>
@@ -62,8 +62,8 @@
       <span class="counter-documents-description">
         {%trans location=o2.object.nameMap.nl %}Messages from {{ location }}{%endtrans%}
       </span>
-    </li>
-    <li class="list-inline-item counter-documents-this-month">
+    </div>
+    <div class="col counter-documents-this-month">
       <span class="counter-documents-count">
         {% set last_month = facets_from_results.date.buckets |last %}
         {{ last_month.doc_count }}
@@ -74,8 +74,8 @@
       <span class="counter-documents-description">
         {%trans location=o2.object.nameMap.nl %}Messages this month{%endtrans%}
       </span>
-    </li>
-  </ul>
+    </div>
+  </div>
   </div>
 </div>
 
