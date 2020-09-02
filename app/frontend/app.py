@@ -1035,10 +1035,15 @@ def main():
     percolations = {p['name']: p['@id'] for p in api.percolations()['as:items']}
     results = api.search(**{
         "size": 6, "page": 1, "tag": percolations.values()})
+    facets_from_results = get_facets_from_results(results)
+    top_municipalities = [o for o in facets_from_results['location']['buckets'] if not re.match('(Provincie|Veiligheidsregio)', o['object']['nameMap']['nl'])]
+    top_others = [o for o in facets_from_results['location']['buckets'] if re.match('(Provincie|Veiligheidsregio)', o['object']['nameMap']['nl'])]
     return render_template(
         'index.html',
         results=results,
-        facets_from_results=get_facets_from_results(results),
+        facets_from_results=facets_from_results,
+        top_municipalities=top_municipalities,
+        top_others=top_others,
         current_dt=datetime.datetime.now().isoformat(),
         facets=FACETS,
         visible_facets=[f for f in FACETS if f[2]])
