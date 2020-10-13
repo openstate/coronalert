@@ -34,6 +34,12 @@ def normalize_url(base_url, link):
     u = urlparse(urljoin(base_url, link))
     return u.geturl().replace('#' + u.fragment, '')
 
+def is_readable_link(l):
+    return not (
+        l.endswith('.pdf') or
+        l.endswith('.jpg')
+    )
+
 def build_linkmap(news_page_url, html):
     """
     Builds a link map from HTML parse by etree.
@@ -46,7 +52,7 @@ def build_linkmap(news_page_url, html):
             'url': news_page_url,
             'file': get_news_page_url_path(news_page_url)
         },
-        'links': links,
+        'links': [l for l in links links if is_readable_link(l)],
         'yielded': []
     }
 
