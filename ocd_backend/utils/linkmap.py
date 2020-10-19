@@ -52,7 +52,7 @@ def build_linkmap(news_page_url, html):
             'url': news_page_url,
             'file': get_news_page_url_path(news_page_url)
         },
-        'links': [l for l in links links if is_readable_link(l)],
+        'links': [l for l in links if is_readable_link(l)],
         'yielded': []
     }
 
