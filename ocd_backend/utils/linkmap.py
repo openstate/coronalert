@@ -35,7 +35,7 @@ def normalize_url(base_url, link):
     return u.geturl().replace('#' + u.fragment, '')
 
 def is_readable_link(l):
-    return True
+    return not l.endswith('.pdf')
 
 def build_linkmap(news_page_url, html):
     """
