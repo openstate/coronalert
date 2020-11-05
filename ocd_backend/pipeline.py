@@ -97,11 +97,11 @@ def setup_pipeline(source_definition):
             )
 
             item_chain.delay()
-    except:
-        logger.error('An exception has occured in the "{extractor}" extractor. '
+    except Exception as e:
+        logger.error('An exception has occured in the "{extractor}" extractor: {exception}.'
                      'Setting status of run identifier "{run_identifier}" to '
                      '"error".'
-                     .format(index=new_index_name,
+                     .format(index=new_index_name, exception=e,
                              run_identifier=params['run_identifier'],
                              extractor=source_definition['extractor']))
 
