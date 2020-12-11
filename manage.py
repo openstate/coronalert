@@ -9,6 +9,7 @@ import requests
 import sys
 import time
 from urlparse import urljoin
+import re
 
 import click
 from click.core import Command
@@ -16,6 +17,8 @@ from click.decorators import _make_command
 
 from elasticsearch import helpers as es_helpers
 from elasticsearch.exceptions import RequestError, ConflictError
+
+import requests
 
 from ocd_backend.es import elasticsearch as es
 from ocd_backend.pipeline import setup_pipeline
@@ -367,6 +370,26 @@ def available_indices():
     return available
 
 
+@command('check_sources')
+@click.option('--sources_config', '-s', default=SOURCES_CONFIG_FILE)
+def extract_check_sources(sources_config):
+    """
+    Check http fetch results from a list of available sources (preconfigured pipelines).
+
+    :param sources_config: Path to file containing pipeline definitions. Defaults to the value of ``settings.SOURCES_CONFIG_FILE``
+    """
+    sources = load_sources_config(sources_config)
+
+    for source in sources:
+        if 'file_url' not in source:
+            continue
+        if not re.match('https?://', source['file_url']):
+            continue
+
+        resp = requests.get(source['file_url'], timeout=10)
+        click.echo('%s - %s' % (resp.statuscode, source['file_url'],))
+
+
 @command('list_sources')
 @click.option('--sources_config', '-s', default=SOURCES_CONFIG_FILE)
 def extract_list_sources(sources_config):
@@ -677,6 +700,7 @@ elasticsearch.add_command(delete_indexes)
 elasticsearch.add_command(available_indices)
 
 extract.add_command(extract_list_sources)
+extract.add_command(extract_check_sources)
 extract.add_command(extract_start)
 
 
